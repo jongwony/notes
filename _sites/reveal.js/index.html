@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>네트워크 프로그래밍</h1><br>
+					<h5>비동기 전략 슈팅 게임</h5>
+					<p>
+						<small>Created by <a href="#">Jongwon</a></small>
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>신기술이 나오면 게임부터 적용된다</h2><br>
+
+						<p class="fragment current-visible">
+							 <small class="fragment grow">by <a href="#1">수업 중</a></small>
+						</p>
+					</section>
+
+					<section>
+						<h2>게임을 만드는 것이</h2>
+						<p class="fragment">나에게는 <span style="color:#f00">도전</span></p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2><a href="https://youtu.be/RIkuF9wxzhk">웜즈</a>를 만들고 싶다</h2>
+					</section>
+					<section>
+						<h1>PASCAL?</h1>
+					</section>
+				</section>
+
+				<section>
+					<h2>개발환경</h2>
+					<p><span class="fragment">Unity</span>&nbsp; &nbsp; <span class="fragment">C#</span></p>
+					<p class="fragment">
+						네트워크?
+					</p>
+				</section>
+
+				<section>
+							<p>
+								네트워크 토폴로지
+							</p>
+							<img width="600" height="400" data-src="./network-topology.jpg" >
+				</section>
+
+				<section data-background="#dddddd">
+				 <section>
+					 <p>
+					 게임 전체의 프로세스
+				 	</p>
+				 <img width="700" height="500" src="./setup-process.jpg" alt="" />
+				 </section>
+				 <section>
+				<img width="600" height="650" src="./matching-server.jpg" alt="" />
+				 </section>
+
+				 <section>
+				 	<p>방장이 세션을 시작하면</p>
+					<p class="fragment"><span class="fragment highlight-blue grow">HOST</span>가 되어 게임서버를 시작하고</p>
+					<p class="fragment">그 게임서버에 방에 참가한 사람 모두 접속한다.</p>
+				 </section>
+				</section>
+
+				<section data-background="#dddddd">
+					<section>
+						<p>
+							매칭이 끝났으면
+						</p>
+						<p>
+							플레이어에게 캐릭터를 할당한다.
+						</p>
+					</section>
+
+					<section>
+							<img width="600" height="650" src="./global_local_id.jpg" alt="" />
+					</section>
+				</section>
+
+				<section data-background="#dddddd">
+					<section>
+						<h2>캐릭터 이동 디자인</h2>
+						<p class="fragment">
+							<strong style="color:#f00">UDP송신</strong>을 이용한다.
+						</p>
+						<p class="fragment">
+							일정 주기로 좌표를 모든 단말에게 전달하는 방식
+						</p>
+					</section>
+					<section>
+						<h2>		캐릭터 좌표 보간법</h2>
+						<ol class="fragment">
+							<li>선형 보간</li>
+							<li class="fragment highlight-blue">
+								스플라인 보간
+							</li>
+							<li>라그랑주 보간</li>
+							<li>에르미트 보간</li>
+						</ol>
+					</section>
+					<section>
+						<h3>Spline interpolation</h3>
+						<img width="640" height="480" data-src="./spline-interpolation.jpg" >
+						<small>
+							<strong style="color:#f00">곡선의 방정식</strong>으로 부터 송신되지 못한 점 사이를 메우는 작업
+						</small>
+					</section>
+				</section>
+
+				<section data-background="#dddddd">
+					<section>
+						<h2>투사체 전달 디자인</h2>
+						<h3 class="fragment">보간법의 문제</h3>
+						<ul>
+							<li class="fragment">통신 지연</li>
+							<li class="fragment">프레임 차이</li>
+							<li class="fragment">보간 연산</li>
+						</ul>
+					</section>
+					<section>
+						<h2>네트워크 게임에 있어</h2>
+						<h2><span style="color:#f00">불가피</span>한 요소</h2>
+						<p class="fragment">
+							외관상의 불일치와 타협하면서 <br><span class="fragment grow" style="color:#00f">사용자 입장에서 쾌적</span>하게 동기화 한다.
+						</p>
+					</section>
+					<section>
+						<p>투사체 전달로 발생한 지연시간</p>
+						<img width="800" height="480" src="./projectile-design.jpg" alt="" />
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>네트워크 라이브러리를 만들자</h2>
+					 <p class="fragment grow">send</p> <p class="fragment grow">recv</p>
+
+						<p class="fragment" style="color:#f00">
+							<strong>1:1 통신</strong>
+						</p>
+					</section>
+					<section>
+						<p>
+							1:1 통신이 가능한 연결들을 인스턴스로 묶어서
+						</p>
+						<p class="fragment">
+							<span style="color:#aa0">Transport</span>클래스를 만든다.
+						</p>
+						<p class="fragment">
+							<span style="color:#aa0">Transport</span>클래스들을 묶어
+						</p>
+						<p class="fragment">
+							여러 사람들과 통신할 수 있는 <span style="color:#0aa">Session</span>을 만든다.
+						</p>
+						<br>
+						<p class="fragment">
+						 게임 애플리케이션이 <span style="color:#f00">Socket</span>에 접근하기 위한 <strong style="color:#aaa">다리</strong>역할
+						</p>
+						<p class="fragment">
+							마치 OSI 7 Layer 처럼
+						</p>
+					</section>
+					<section>
+							<p>
+								N:N 통신이 가능한 Session 모델
+							</p>
+							<img width="640" height="480" src="./session.jpg" alt="" />
+					</section>
+				</section>
+
+				<section>
+					<section>
+					 <p>
+					 	패킷 전달
+					</p>
+					<img src="./thread-queue.jpg" alt="" />
+					</section>
+					<section data-markdown>
+						<script type="text/templete">
+							#### 패킷 클래스
+
+								public class CustomPacket : IPacket<CustomStruct>{
+									CustomStruct packet;
+
+									// Serialize, Deserialize Constructor
+									public CustomPacket(CustomStruct data){ ... }
+									public CustomPacket(byte[] data){ ... }
+
+									// Inherit from Interface
+									public PacketId GetPacketId(){ ... }
+									public CustomStruct GetPacket(){ ... }
+									public byte[] GetData(){ ... }
+
+									// Unique inner packet class
+									class CustomSerializer : Serializer{
+										public bool Serialize(CustomStruct packet){ ... }
+										public bool Deserialize(ref CustomStruct element){ ... }
+									}
+								}
+
+						</script>
+					</section>
+				</section>
+
+				<section>
+					<p>	오류 처리 </p>
+					<img width="640" height="480" src="./error.png" alt="" />
+				</section>
+
+				<section>
+					<h1>감사합니다.</h1>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
