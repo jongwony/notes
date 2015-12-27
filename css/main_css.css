@@ -1,0 +1,10 @@
+---
+# Jekyll reads the file
+---
+
+@import "main";
+
+.content {
+	width: 80%;
+	margin: 0 auto;
+}

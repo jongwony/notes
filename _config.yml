@@ -1,1 +1,12 @@
-markdown: rdiscount
+title: LemonBerry
+
+markdown: redcarpet
+
+permalink: /posts/:year/:month/:day/:title/
+paginate_path: /posts/page/:num
+
+paginate: 10
+
+sass:
+	sass_dir: _sass
+	style: compressed
