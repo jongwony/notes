@@ -4,7 +4,26 @@
 
 @import "main";
 
-.content {
+html{
+	direction: ltr;
+}
+
+body{
+	background-color: #dddddd;
+	color: #747474;
+}
+
+h1{
+	text-align: center;
+	color: #FAF5E1;
+	text-shadow: 1px 1px 2px black, 0 0 20px yellow, 0 0 5px darkblue;
+}
+
+.mystyle {
+	background-color: #f4f4f3;
+	border: 1px solid black;
+	box-shadow: 10px 10px 5px grey;
 	width: 80%;
-	margin: 0 auto;
+	margin: 50px auto;
+	padding: 20px;
 }
