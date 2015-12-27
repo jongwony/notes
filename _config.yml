@@ -1,12 +1,7 @@
 title: LemonBerry
 
-markdown: redcarpet
-
-permalink: /posts/:year/:month/:day/:title/
-paginate_path: /posts/page/:num
-
-paginate: 10
+markdown: rdiscount
 
 sass:
-	sass_dir: _sass
-	style: compressed
+ sass_dir: _sass
+ style: compressed
