@@ -9,14 +9,14 @@ html{
 }
 
 body{
-	background-color: #dddddd;
+	background-color: #FAF5E1;
 	color: #747474;
-	line-height: 25px;
+	line-height: 30px;
 }
 
 h1{
 	text-align: center;
-	color: #FAF5E1;
+	color: #F4F4F3;
 	text-shadow: 1px 1px 2px black, 0 0 20px yellow, 0 0 5px darkblue;
 }
 
