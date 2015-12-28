@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2015-11-15
+title: Ruby install
 ---
 
 **{{ page.title }}**
@@ -27,5 +27,4 @@ title: 2015-11-15
 
 ###	Markdown utility
 * GitBook	: Markdown으로 ebook을 만들 수 있다고 한다.
-* Swipe		: Makrdown으로 multimedia presentation을 만들 수 있다. 
-
+* Swipe		: Makrdown으로 multimedia presentation을 만들 수 있다.
