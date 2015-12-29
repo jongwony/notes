@@ -10,7 +10,8 @@ html{
 
 body{
 	background-image: url("http://lastone9182.github.io/image/lemonberry_main.png");
-	background-position: right bottom;
+	background-position: left top;
+	background-attachment: absolute;
 	margin: 20px;
 	background-color: #FAF5E1;
 	color: #747474;
