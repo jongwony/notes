@@ -9,6 +9,9 @@ html{
 }
 
 body{
+	background-image: url("lemonberry_main.png");
+	background-position: right bottom;
+	margin: 20px;
 	background-color: #FAF5E1;
 	color: #747474;
 	line-height: 30px;
