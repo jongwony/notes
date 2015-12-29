@@ -3,9 +3,6 @@ layout: post
 title: Ruby install
 ---
 
-**{{ page.title }}**
-
-
 ### 루비2.2 패키지 설치
 * apt-add-repository ppa:brightbox/ruby-ng
 * apt-get update
