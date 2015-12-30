@@ -27,8 +27,8 @@ h1{
 .mystyle {
 	background-color: #f4f4f3;
 	box-shadow: 10px 10px 5px grey;
-	max-width: 80%;
-	margin: 0 auto auto 50px;
+	width: 80%;
+	margin: 0 auto 50px auto;
 	padding: 0;
 }
 
@@ -46,11 +46,9 @@ h1{
 
 
 .nav {
-	position: absolute;
-	max-width: 80%;
-	margin-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
+	position: fixed;
+	width: 80%;
+	margin: 50px auto 0 auto;
 	padding: 0;
 }
 
@@ -91,5 +89,5 @@ h1{
 #strawberry {
 	width: 50px;
 	height: 23px;
-	background: url("image/lemonberry.png") 50px 0;
+	background: url("image/lemonberry.png") -50px 0;
 }
