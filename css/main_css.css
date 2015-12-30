@@ -35,7 +35,7 @@ h1{
 }
 
 .mystyle p {
-	padding-left: 20px;
+	padding: 5px 20px;
 }
 
 .mystyle p:hover{
