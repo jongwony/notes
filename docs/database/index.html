@@ -21,9 +21,10 @@ title: LemonBerry Blog
 
 {% for post in site.my_database %}
 
-    <p>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </p>
+<p>
+  {{ post.date | date: "%B %e, %Y" }}
+<a href="{{ post.url }}">{{ post.title }}</a>
+</p>
 
 {% endfor %}
 
