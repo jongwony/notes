@@ -12,7 +12,7 @@ defaults:
   -
     scope:
       path:"docs/database"
-      type: database
+      type:"database"
     values:
       layout: post
 
