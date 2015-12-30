@@ -31,3 +31,39 @@ h1{
 	margin: 50px auto;
 	padding: 20px;
 }
+
+.nav ul {
+	list-style-type: none;
+	margin: 20px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #D5DDC7;
+}
+
+.nav li{
+	float: left;
+}
+
+.nav li a {
+  display: inline-block;
+	color: #333333;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	background-color: #E9FAE1;
+}
+
+#lemon {
+	width: 100px;
+	height: 63px;
+	background: url("http://lastone9182.github.io/image/lemonberry.png") 0 0;
+}
+
+#strawberry {
+	width: 100px;
+	height: 63px;
+	background: url("image/lemonberry.png") 100px 0;
+}
