@@ -5,14 +5,14 @@ markdown: kramdown
 
 
 collections:
-  - database
+  - my_database
 
 
 defaults:
   -
     scope:
-      path:""
-      type:"database"
+      path: ""
+      type: my_database
     values:
       layout: post
 
