@@ -36,7 +36,7 @@ h1{
 .nav {
 	width: 80%;
 	margin: 50px auto;
-	padding: 20px;
+	padding: 0;
 	border: 1px solid black;
 	box-shadow: 10px 10px 5px grey;
 }
