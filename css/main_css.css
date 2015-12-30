@@ -14,7 +14,7 @@ body{
 	background-position: right bottom;
 	background-attachment: fixed;
 	background-color: #FAF5E1;
-	color: #747474;
+	color: #333333;
 	line-height: 30px;
 }
 
@@ -28,17 +28,19 @@ h1{
 	background-color: #f4f4f3;
 	border: 1px solid black;
 	box-shadow: 10px 10px 5px grey;
-	width: 80%;
-	margin: 50px auto;
-	padding: 20px;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	padding: 0;
 }
 
 .nav {
-	width: 80%;
-	margin: 50px auto;
+	max-width: 80%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0;
-	border: 1px solid black;
-	box-shadow: 10px 10px 5px grey;
 }
 
 .nav ul {
@@ -67,12 +69,12 @@ h1{
 
 #lemon {
 	width: 100px;
-	height: 63px;
+	height: 33px;
 	background: url("http://lastone9182.github.io/image/lemonberry.png") 0 0;
 }
 
 #strawberry {
 	width: 100px;
-	height: 63px;
+	height: 33px;
 	background: url("image/lemonberry.png") 200px 0;
 }

@@ -11,7 +11,7 @@ title: LemonBerry Blog
     <li><a href="/" id="lemon"></a></li>
     <li><a href="/docs/">Document</a></li>
     <ul style="float:right;list-style-type:none;">
-      <li><a href="#" id="strawberry"></a></li>
+      <li><a href="#">X</a></li>
     </ul>
   </ul>
 
@@ -22,7 +22,9 @@ title: LemonBerry Blog
 
 {% for post in site.posts %}
 
-    {{ post.date | date: "%B %e, %Y" }}
+    <p>
+      {{ post.date | date: "%B %e, %Y" }}
+    </p>
     <a href="{{ post.url }}">{{ post.title }}</a>
     <br>
 
