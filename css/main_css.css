@@ -29,7 +29,7 @@ h1{
 	box-shadow: 10px 10px 5px grey;
 	width: 80%;
 	margin: 0 auto 50px auto;
-	padding: 20px;
+	padding: 20px 0;
 }
 
 .mystyle p {
