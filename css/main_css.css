@@ -29,7 +29,7 @@ h1{
 	box-shadow: 10px 10px 5px grey;
 	width: 80%;
 	margin: 0 auto 50px auto;
-	padding: 30px 0;
+	padding: 20px;
 }
 
 .mystyle p {
@@ -48,7 +48,7 @@ h1{
 .nav {
 	width: 80%;
 	margin: 50px auto;
-	padding: 0;
+	padding: 0 20px;
 }
 
 .nav ul {
@@ -86,7 +86,7 @@ h1{
 }
 
 #strawberry {
-	width: 40px;
+	width: 30px;
 	height: 22px;
-	background: url("http://lastone9182.github.io/image/lemonberry.png") -60px 0;
+	background: url("http://lastone9182.github.io/image/lemonberry.png") -70px 0;
 }
