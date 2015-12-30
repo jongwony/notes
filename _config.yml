@@ -18,7 +18,8 @@ defaults:
 
 
 collections:
-  database:
+  my_database:
+    title: "db"
     output: true
 
 
