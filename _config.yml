@@ -11,7 +11,7 @@ collections:
 defaults:
   -
     scope:
-      path:"docs/database"
+      path:""
       type:"database"
     values:
       layout: post
