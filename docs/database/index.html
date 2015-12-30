@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LemonBerry Blog
+title: Database
 ---
 
 <h1>{{ page.title }}</h1>
@@ -22,8 +22,7 @@ title: LemonBerry Blog
 {% for post in site.my_database %}
 
 <p>
-  {{ post.date | date: "%B %e, %Y" }}
-<a href="{{ post.url }}">{{ post.title }}</a>
+<a href="http://lastone9182.github.io/{{ post.path }}">{{ post.title }}</a>
 </p>
 
 {% endfor %}
