@@ -17,10 +17,9 @@ title: LemonBerry Blog
 
 </div>
 
-
 <div class="mystyle">
 
-{% for post in site.posts %}
+{% for post in site.database %}
 
     <p>
       {{ post.date | date: "%B %e, %Y" }}

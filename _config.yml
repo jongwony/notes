@@ -1,6 +1,26 @@
 title: LemonBerry
 
-markdown: rdiscount
+
+markdown: kramdown
+
+
+collections:
+  - database
+
+
+defaults:
+  -
+    scope:
+      path:"docs/database"
+      type: database
+    values:
+      layout: post
+
+
+collections:
+  database:
+    output: true
+
 
 sass:
  sass_dir: _sass
