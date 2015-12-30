@@ -35,6 +35,14 @@ h1{
 	padding: 0;
 }
 
+.mystyle p {
+	padding: 20px;
+}
+
+.mystyle p:hover{
+		background-color: #E9FAE1;
+}
+
 .nav {
 	max-width: 80%;
 	margin-top: 50px;
@@ -68,13 +76,13 @@ h1{
 }
 
 #lemon {
-	width: 100px;
-	height: 33px;
+	width: 50px;
+	height: 100%;
 	background: url("http://lastone9182.github.io/image/lemonberry.png") 0 0;
 }
 
 #strawberry {
-	width: 100px;
-	height: 33px;
-	background: url("image/lemonberry.png") 200px 0;
+	width: 50px;
+	height: 100%;
+	background: url("image/lemonberry.png") 50px 0;
 }
