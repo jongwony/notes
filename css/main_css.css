@@ -32,7 +32,7 @@ h1{
 	padding: 20px;
 }
 
-.nav {
+.nav ul {
 	list-style-type: none;
 	width: 80%;
 	margin: 50px auto;
