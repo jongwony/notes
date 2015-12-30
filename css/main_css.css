@@ -26,7 +26,6 @@ h1{
 
 .mystyle {
 	background-color: #f4f4f3;
-	border: 1px solid black;
 	box-shadow: 10px 10px 5px grey;
 	max-width: 80%;
 	margin-left: auto;
@@ -36,14 +35,15 @@ h1{
 }
 
 .mystyle p {
-	padding: 20px;
+	padding-left: 20px;
 }
 
-.mystyle p:hover{
+.mystyle p:hover, .mystyle p:active{
 		background-color: #E9FAE1;
 }
 
 .nav {
+	position: fixed;
 	max-width: 80%;
 	margin-top: 50px;
 	margin-left: auto;
@@ -56,7 +56,7 @@ h1{
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
-	background-color: #D5DDC7;
+	background-color: #E9FAE1;
 }
 
 .nav li{
@@ -71,18 +71,18 @@ h1{
 	text-decoration: none;
 }
 
-.nav li a:hover {
-	background-color: #E9FAE1;
+.nav li a:hover, .nav li a:active {
+	background-color: #D5DDC7;
 }
 
 #lemon {
 	width: 50px;
-	height: 100%;
+	height: 25px;
 	background: url("http://lastone9182.github.io/image/lemonberry.png") 0 0;
 }
 
 #strawberry {
 	width: 50px;
-	height: 100%;
+	height: 25px;
 	background: url("image/lemonberry.png") 50px 0;
 }
