@@ -33,14 +33,19 @@ h1{
 	padding: 20px;
 }
 
-.nav ul {
-	border: 1px solid black;
-	box-shadow: 10px 10px 5px grey;
-	list-style-type: none;
+.nav {
 	width: 80%;
 	margin: 50px auto;
 	padding: 20px;
+	border: 1px solid black;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.nav ul {
+	list-style-type: none;
 	overflow: hidden;
+	margin: 0;
+	padding: 0;
 	background-color: #D5DDC7;
 }
 
