@@ -28,9 +28,7 @@ h1{
 	background-color: #f4f4f3;
 	box-shadow: 10px 10px 5px grey;
 	max-width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50px;
+	margin: 0 auto auto 50px;
 	padding: 0;
 }
 
@@ -48,7 +46,7 @@ h1{
 
 
 .nav {
-	position: fixed;
+	position: absolute;
 	max-width: 80%;
 	margin-top: 50px;
 	margin-left: auto;
