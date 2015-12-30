@@ -29,11 +29,11 @@ h1{
 	box-shadow: 10px 10px 5px grey;
 	width: 80%;
 	margin: 0 auto 50px auto;
-	padding: 20px 0;
+	padding: 0;
 }
 
 .mystyle p {
-	padding: 0;
+	padding: 10px 20px;
 }
 
 .mystyle p:hover{
