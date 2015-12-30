@@ -21,6 +21,8 @@ body{
 h1{
 	text-align: center;
 	color: #F4F4F3;
+	margin: 20px;
+	cursor: default;
 	text-shadow: 1px 1px 2px black, 0 0 20px yellow, 0 0 5px darkblue;
 }
 
@@ -86,7 +88,7 @@ h1{
 }
 
 #strawberry {
-	width: 30px;
+	width: 25px;
 	height: 22px;
 	background: url("http://lastone9182.github.io/image/lemonberry.png") -70px 0;
 }
