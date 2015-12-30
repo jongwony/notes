@@ -46,7 +46,6 @@ h1{
 
 
 .nav {
-	position: fixed;
 	width: 80%;
 	margin: 50px auto;
 	padding: 0;
@@ -89,5 +88,5 @@ h1{
 #strawberry {
 	width: 50px;
 	height: 22px;
-	background: url("http://lastone9182.github.io/image/lemonberry.png") 50px 0;
+	background: url("http://lastone9182.github.io/image/lemonberry.png") -55px 0;
 }
