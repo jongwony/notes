@@ -34,10 +34,12 @@ h1{
 }
 
 .nav ul {
+	border: 1px solid black;
+	box-shadow: 10px 10px 5px grey;
 	list-style-type: none;
 	width: 80%;
 	margin: 50px auto;
-	padding: 0;
+	padding: 20px;
 	overflow: hidden;
 	background-color: #D5DDC7;
 }
