@@ -32,7 +32,7 @@ h1{
 	padding: 20px;
 }
 
-.nav ul {
+.nav {
 	list-style-type: none;
 	width: 80%;
 	margin: 50px auto;
@@ -66,5 +66,5 @@ h1{
 #strawberry {
 	width: 100px;
 	height: 63px;
-	background: url("image/lemonberry.png") 120px 0;
+	background: url("image/lemonberry.png") 150px 0;
 }
