@@ -48,14 +48,14 @@ h1{
 .nav {
 	width: 80%;
 	margin: 50px auto;
-	padding: 0 20px;
+	padding: 0;
 }
 
 .nav ul {
 	list-style-type: none;
 	overflow: hidden;
 	margin: 0;
-	padding: 0;
+	padding: 0 20px;
 	background-color: #E9FAE1;
 }
 
