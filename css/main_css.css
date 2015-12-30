@@ -82,12 +82,12 @@ h1{
 
 #lemon {
 	width: 50px;
-	height: 23px;
+	height: 22px;
 	background: url("http://lastone9182.github.io/image/lemonberry.png") 0 0;
 }
 
 #strawberry {
 	width: 50px;
-	height: 23px;
-	background: url("image/lemonberry.png") -50px 0;
+	height: 22px;
+	background: url("http://lastone9182.github.io/image/lemonberry.png") 50px 0;
 }
