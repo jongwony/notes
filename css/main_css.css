@@ -149,7 +149,6 @@ body{
 
 .home {
 	float: right;
-	display: inline-block;
 	position: relative;
 }
 
@@ -159,7 +158,6 @@ body{
 	cursor: pointer;
 	text-shadow: 1px 1px 2px black, 0 0 10px red, 0 0 5px hotpink;
 	font-weight: 900;
-	display: inline-block;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
