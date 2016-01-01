@@ -90,7 +90,7 @@ h1{
 	color: blue;
 }
 
-.pagination #previous {
+.pagination #previous span::before{
 	content: '≪';
 	position: absolute;
 	opacity: 0;
@@ -98,16 +98,16 @@ h1{
 	transition: 0.5s;
 }
 
-.pagination #previous span:hover {
+.pagination #previous:hover span {
 	padding-left: 20px;
 }
 
-.pagination #previous span::before {
+.pagination #previous:hover span::before {
 	opacity: 1;
 	left: 0;
 }
 
-.pagination #next {
+.pagination #next span::after {
 	content: '≫';
 	position: absolute;
 	opacity: 0;
@@ -115,11 +115,11 @@ h1{
 	transition: 0.5s;
 }
 
-.pagination #next span:hover {
+.pagination #next:hover span {
 	padding-right: 20px;
 }
 
-.pagination #next span::after {
+.pagination #next:hover span::after {
 	opacity: 1;
 	right: 0;
 }
