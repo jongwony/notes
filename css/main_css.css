@@ -99,7 +99,7 @@ h1{
 	content: '≪';
 	position: absolute;
 	opacity: 0;
-	left: 20px;
+	left: -20px;
 	transition: 0.5s;
 }
 
@@ -116,7 +116,7 @@ h1{
 	content: '≫';
 	position: absolute;
 	opacity: 0;
-	right: 20px;
+	right: -20px;
 	transition: 0.5s;
 }
 
