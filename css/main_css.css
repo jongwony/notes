@@ -94,15 +94,15 @@ h1{
 	content: '≪';
 	position: absolute;
 	opacity: 0;
-	right: 10px;
+	left: 20px;
 	transition: 0.5s;
 }
 
-.pagination a:hover {
-	padding-right: 10px;
+.pagination #previous span:hover {
+	padding-left: 20px;
 }
 
-.pagination #previous span:after {
+.pagination #previous span::before {
 	opacity: 1;
 	left: 0;
 }
@@ -111,11 +111,15 @@ h1{
 	content: '≫';
 	position: absolute;
 	opacity: 0;
-	right: 10px;
+	right: 20px;
 	transition: 0.5s;
 }
 
-.pagination #next span:after {
+.pagination #next span:hover {
+	padding-right: 20px;
+}
+
+.pagination #next span::after {
 	opacity: 1;
 	right: 0;
 }
