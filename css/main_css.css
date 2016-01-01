@@ -93,7 +93,7 @@ h1{
 .pagination #previous span::before{
 	content: '≪';
 	position: absolute;
-	opacity: 0;
+	opacity: 1;
 	left: 20px;
 	transition: 0.5s;
 }
@@ -110,7 +110,7 @@ h1{
 .pagination #next span::after {
 	content: '≫';
 	position: absolute;
-	opacity: 0;
+	opacity: 1;
 	right: 20px;
 	transition: 0.5s;
 }
