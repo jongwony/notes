@@ -25,3 +25,7 @@ collections:
 sass:
  sass_dir: _sass
  style: compressed
+
+
+paginate: 3
+paginate_path: "/page:num/"
