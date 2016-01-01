@@ -28,6 +28,7 @@ body{
 }
 
 .mystyle {
+	border-radius: 30px 15px;
 	background-color: #f4f4f3;
 	box-shadow: 10px 10px 5px grey;
 	width: 80%;
