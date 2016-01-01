@@ -6,6 +6,7 @@ markdown: kramdown
 
 collections:
   - my_database
+  - my_codingthematrix
 
 
 defaults:
@@ -15,10 +16,18 @@ defaults:
       type: my_database
     values:
       layout: post
+  -
+    scope:
+      path: ""
+      type: my_codingthematrix
+    values:
+      layout: post
 
 
 collections:
   my_database:
+    output: true
+  my_codingthematrix:
     output: true
 
 
