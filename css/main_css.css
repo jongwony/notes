@@ -18,7 +18,8 @@ body{
 	line-height: 30px;
 }
 
-h1{
+.title {
+	float: left;
 	text-align: center;
 	color: #F4F4F3;
 	margin: 20px;
@@ -69,7 +70,7 @@ h1{
 	overflow: hidden;
 	margin: 0;
 	padding: 0 20px;
-	background-color: #E9FAE1;
+	/* background-color: #E9FAE1; */
 }
 
 .nav li{
@@ -85,6 +86,7 @@ h1{
 }
 
 .nav li a:hover{
+	transition: 0.5s;
 	background-color: #D5DDC7;
 }
 
