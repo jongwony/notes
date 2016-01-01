@@ -60,6 +60,7 @@ body{
 }
 
 .nav {
+	border-radius: 30px 15px;
 	width: 80%;
 	margin: 50px auto;
 	padding: 0;
