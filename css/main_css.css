@@ -62,14 +62,12 @@ body{
 
 .nav {
 	width: 80%;
-	margin: 50px auto;
 	padding: 0;
-	border: 1px solid black;
 }
 
 .nav ul {
 	list-style-type: none;
-	margin: 0;
+	margin: 50px;
 	padding: 0 20px;
 	background-color: #E9FAE1;
 }
