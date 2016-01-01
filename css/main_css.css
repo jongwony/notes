@@ -70,10 +70,13 @@ body{
 	list-style-type: none;
 	margin: 0;
 	padding: 0 20px;
-	/* background-color: #E9FAE1; */
+	background-color: #E9FAE1; 
 }
 
-/*
+.nav li {
+  float: right;
+}
+
 .nav li a {
 	color: #F4F4F3;
 	text-shadow: 1px 1px 2px black, 0 0 10px red, 0 0 5px hotpink;
@@ -93,7 +96,7 @@ body{
 .nav li a:active{
 	background-color: #D5DDC7;
 }
-*/
+
 
 .pagination {
 	color: #747474;
@@ -145,37 +148,6 @@ body{
 
 .pagination a:active {
 	color: blue;
-}
-
-.home {
-	float: right;
-	position: relative;
-}
-
-.dropdown {
-	float: right;
-	color: #F4F4F3;
-	cursor: pointer;
-	text-shadow: 1px 1px 2px black, 0 0 10px red, 0 0 5px hotpink;
-	font-weight: 900;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	position: relative;
-}
-
-.dropdown-content {
-	display: none;
-	position: absolute;
-	transition: 0.5s;
-	background-color: #D5DDC7;
-	border-radius: 15px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown:hover .dropdown-content {
-	display: block;
-	transition: 0.5s;
 }
 
 #lemon {
