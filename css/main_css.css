@@ -75,7 +75,6 @@ body{
 .nav ul {
 	list-style-type: none;
 	padding: 0 20px;
-	background-color: #E9FAE1;
 }
 
 nav li {
@@ -139,10 +138,14 @@ nav li {
 	right: 0;
 }
 
-.dropsown-content a {
+.dropdown-content a:link {
 	color: #F4F4F3;
 	text-align: right;
 	padding: 14px 16px;
+}
+
+.dropdown-content a:hover {
+	color: hotpink;
 }
 
 .dropdown:hover .dropdown-content {
