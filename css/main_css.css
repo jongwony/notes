@@ -36,16 +36,27 @@ h1{
 
 .mystyle p {
 	padding: 0 40px;
+	position: relative;
+	transition: 0.5s;
 }
 
-.mystyle p:hover{
+.mystyle p::before {
+	content: '≫';
+	position: absolute;
+	opacity: 0;
+	left: -20px;
+	transition: 0.5s;
+}
+
+.mystyle p:hover {
 		background-color: #E9FAE1;
+		padding-left: 20px;
 }
 
-.mystyle p:active{
-		background-color: #E9FAE1;
+.mystyle p::after {
+	opacity: 1;
+	left: 0;
 }
-
 
 .nav {
 	width: 80%;
