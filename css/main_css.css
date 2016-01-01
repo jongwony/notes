@@ -53,7 +53,7 @@ h1{
 		padding-left: 60px;
 }
 
-.mystyle p::after {
+.mystyle p::before {
 	opacity: 1;
 	left: 0;
 }
