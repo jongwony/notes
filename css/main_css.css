@@ -68,12 +68,12 @@ body{
 
 .nav ul {
 	list-style-type: none;
-	/*overflow: hidden;*/
 	margin: 0;
 	padding: 0 20px;
 	/* background-color: #E9FAE1; */
 }
 
+/*
 .nav li a {
 	color: #F4F4F3;
 	text-shadow: 1px 1px 2px black, 0 0 10px red, 0 0 5px hotpink;
@@ -93,6 +93,7 @@ body{
 .nav li a:active{
 	background-color: #D5DDC7;
 }
+*/
 
 .pagination {
 	color: #747474;
