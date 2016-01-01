@@ -53,7 +53,7 @@ h1{
 		padding-left: 60px;
 }
 
-.mystyle p::before {
+.mystyle p:hover::before {
 	opacity: 1;
 	left: 0;
 }
