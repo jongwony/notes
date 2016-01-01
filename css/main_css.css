@@ -124,7 +124,6 @@ nav li {
 	padding: 14px 16px;
 	text-decoration: none;
 	position: relative;
-	transition: 1s;
 }
 
 .dropdown-content {
@@ -136,7 +135,6 @@ nav li {
 	background-color: rgba(200,100,0,0.2);
 	box-shadow: 0px 8px 16px 0px rgba(200, 100, 0, 0.5);
 	z-index: 1;
-	transition: 1s;
 	right: 0;
 }
 
@@ -147,7 +145,7 @@ nav li {
 
 .dropdown-content a:hover {
 	color: hotpink;
-	transition: 1s;
+	transition: 0.5s;
 }
 
 .dropdown:hover .dropdown-content {
