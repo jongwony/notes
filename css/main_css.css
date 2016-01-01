@@ -75,17 +75,17 @@ body{
 	/* background-color: #E9FAE1; */
 }
 
-/*
+
 .nav li{
 	float: right;
 }
-*/
+
 
 .nav li a {
 	color: #F4F4F3;
 	text-shadow: 1px 1px 2px black, 0 0 10px red, 0 0 5px hotpink;
 	font-weight: 900;
-  /*display: inline-block; */
+  display: inline-block; 
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
