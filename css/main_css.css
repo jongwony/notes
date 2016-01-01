@@ -48,7 +48,7 @@ body{
 }
 
 .mystyle p::before {
-	content: '≫';
+	/* content: '≫'; */
 	position: absolute;
 	opacity: 0;
 	left: 20px;
