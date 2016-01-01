@@ -44,7 +44,7 @@ h1{
 	content: '≫';
 	position: absolute;
 	opacity: 0;
-	left: 40px;
+	left: 20px;
 	transition: 0.5s;
 }
 
@@ -55,7 +55,7 @@ h1{
 
 .mystyle p:hover::before {
 	opacity: 1;
-	left: 0;
+	left: 40px;
 }
 
 .nav {
