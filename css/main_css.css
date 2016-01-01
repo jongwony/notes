@@ -124,7 +124,7 @@ nav li {
 	padding: 14px 16px;
 	text-decoration: none;
 	position: relative;
-	transition: 0.5s;
+	transition: display 1s;
 }
 
 .dropdown-content {
@@ -136,9 +136,8 @@ nav li {
 	background-color: rgba(200,100,0,0.2);
 	box-shadow: 0px 8px 16px 0px rgba(200, 100, 0, 0.5);
 	z-index: 1;
-	transition: height 1s;
+	transition: display 1s;
 	right: 0;
-	height: 0;
 }
 
 .dropdown-content a {
@@ -152,7 +151,6 @@ nav li {
 
 .dropdown:hover .dropdown-content {
 	display: block;
-	height: 100%;
 }
 
 
