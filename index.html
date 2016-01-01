@@ -34,13 +34,13 @@ title: LemonBerry Blog
 <div class="pagination">
 
   {% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path }}">이전</a>
+  <a href="{{ paginator.previous_page_path }}" id="previous">이전</a>
   {% else %}
   <span>이전</span>
   {% endif %}
   <span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path }}">다음</a>
+  <a href="{{ paginator.next_page_path }}" id="next">다음</a>
   {% else %}
   <span>다음</span>
   {% endif %}

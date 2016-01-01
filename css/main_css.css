@@ -81,6 +81,54 @@ h1{
 	background-color: #D5DDC7;
 }
 
+.pagination {
+	color: #747474;
+	text-align: center;
+}
+
+.pagination a:visited {
+	color: blue;
+}
+
+.pagination #previous {
+	content: '≪';
+	position: absolute;
+	opacity: 0;
+	left: 10px;
+	transition: 0.5s;
+}
+
+.pagination #previous a:hover {
+	padding-left: 10px;
+}
+
+.pagination #previous span:after {
+	opacity: 1;
+	left: 0;
+}
+
+.pagination #next {
+	content: '≫';
+	position: absolute;
+	opacity: 0;
+	right: 10px;
+	transition: 0.5s;
+}
+
+.pagination #next a:hover {
+	padding-right: 10px;
+}
+
+.pagination #next span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.pagination a:active {
+	color: blue;
+}
+
+
 #lemon {
 	width: 40px;
 	height: 22px;
