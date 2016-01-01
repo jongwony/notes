@@ -88,7 +88,8 @@ body{
 
 .nav li a:hover{
 	transition: 0.5s;
-	background-color: #D5DDC7;
+	background-color: #E9FAE1;
+	border-radius: 30px 15px;
 }
 
 .nav li a:active{
