@@ -10,20 +10,12 @@ html{
 }
 
 body{
-	background-image: url("http://lastone9182.github.io/image/lemonberry_main.png");
+	background-image: url("//lastone9182.github.io/image/lemonberry_main.png");
 	background-position: right bottom;
 	background-attachment: fixed;
 	background-color: #FAF5E1;
 	color: #333333;
 	line-height: 30px;
-}
-
-p {
-	padding: 0 40px;
-}
-
-p:hover {
-	background-color: #E9FAE1;
 }
 
 img {
@@ -48,10 +40,6 @@ img {
 	float: right;
 }
 
-hr {
-	margin: 40px;
-}
-
 .mystyle {
 	clear: both;
 	border-radius: 30px;
@@ -60,6 +48,14 @@ hr {
 	width: 80%;
 	margin: 0 auto 50px auto;
 	padding: 20px 0;
+}
+
+.mystyle hr, .mystyle p{
+	margin: 0 40px;
+}
+
+.mystyle p:hover {
+	background-color: #E9FAE1;
 }
 
 .mystyle #animlist {
