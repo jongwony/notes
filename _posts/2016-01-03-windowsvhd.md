@@ -64,12 +64,11 @@ BCDEDIT명령을 이용하여 바꿀 수 있습니다.
 bcdedit
 ```
 
-```shell
-$dev
-```
 ```ruby
-print ax;
+a=24;
+print a;
 ```
+
 ```perl
 $_=24; print;
 ```
