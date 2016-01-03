@@ -27,8 +27,9 @@ p:hover {
 }
 
 img {
-	background-position: center;
-	background-size: contain;
+	border-radius: 15px;
+	overflow: auto;
+	box-shadow: 10px 10px 5px grey;
 }
 
 .title {
