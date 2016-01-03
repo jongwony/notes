@@ -37,7 +37,7 @@ size는 MB단위이며 뒤에 [type=expandable]은 디스크를 동적으로 사
 [가상디스크가 미리 만들어진 경우]
 
 ```
-[select vdisk file="{PATH}\\{custom name}.vhd"]  
+[select vdisk file="{PATH}\{custom name}.vhd"]  
 ```
 
 VHD파일이 선택 되었으면 연결(마운트)합니다.
