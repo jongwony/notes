@@ -73,6 +73,10 @@ print a;
 $_=24; print;
 ```
 
+```html
+<script src="cdnjs.cloudflare.com/ajax/libs/mathjax/2.5.3/MathJax.js?config=TeX-AMS-MML_SVG"></script>
+```
+
 ![bcdedit](/image/cmd_bcdedit.png)
 
 **identifier가** VHD환경에서 접속하셨다면 {current}를, 다른 환경이라면 systemroot항목이 \\로 시작하면 해당 항목이 가상디스크입니다.
