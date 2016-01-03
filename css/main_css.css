@@ -54,6 +54,10 @@ img {
 	margin: 0 40px;
 }
 
+.mystyle ul {
+	list-style-position: inside;
+}
+
 .mystyle p:hover {
 	background-color: #E9FAE1;
 }
