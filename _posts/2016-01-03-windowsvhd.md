@@ -29,7 +29,7 @@ size는 MB단위이며 뒤에 [type=expandable]은 디스크를 동적으로 사
 
 디스크 파일을 만든 순간 vhd파일이 선택된 상태가 됩니다.
 
-![vhd_create_inWindows](/image/vhd_create_inWindows.png)
+![vhd_create_inWindows](/image/vhd_create_inWindow.png)
 
 물론 위와 같이 윈도우에서 VHD파일을 만들고 VHD파일을 선택하셔도 됩니다. 이런 경우에는 VHD파일을 따로 선택해주기만 하면 됩니다.
 ```
@@ -62,7 +62,7 @@ BCDEDIT명령을 이용하여 바꿀 수 있습니다.
 >bcdedit
 
 ```
-![bcdedit](/image/bcdedit.png)
+![bcdedit](/image/cmd_bcdedit.png)
 
 **identifier가** VHD환경에서 접속하셨다면 {current}를, 다른 환경이라면 systemroot항목이 \\로 시작하면 해당 항목이 가상디스크입니다.
 
