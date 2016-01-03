@@ -50,8 +50,13 @@ img {
 	padding: 20px 0;
 }
 
-.mystyle hr, .mystyle p, .mystyle li{
-	padding: 20px 40px;
+.mystyle li, .mystyle p {
+	padding: 1em;
+	margin: 0;
+}
+
+.mystyle hr {
+	margin: 0 1em;
 }
 
 .mystyle ul {
