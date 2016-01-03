@@ -86,6 +86,7 @@ img {
 .mystyle #animlist:hover {
 	background-color: #E9FAE1;
 	padding-left: 1em;
+	left: 1em;
 }
 
 /*
