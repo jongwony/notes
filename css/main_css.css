@@ -245,12 +245,12 @@ img {
     background-color: #272822;
     color: #f8f8f2;
     line-height: 1;
-  	margin-bottom: 40px;
+  	margin: 40px;
+		opacity: 0.7;
   }
 
   .highlight code {
-    font-size: .9rem;
-		opacity: 0.7;
+    font-size: 0.9rem;
   }
 
   .highlight .c {
