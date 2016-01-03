@@ -64,6 +64,7 @@ img {
 }
 
 .mystyle p:hover {
+	transition: 0.5s;
 	background-color: #E9FAE1;
 }
 
@@ -85,7 +86,8 @@ img {
 
 .mystyle #animlist:hover {
 	background-color: #E9FAE1;
-	padding-left: 1em;
+	padding-left: 2em;
+	transition: 0.5s;
 }
 
 
