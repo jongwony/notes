@@ -73,23 +73,27 @@ img {
 	transition: 0.5s;
 }
 
+/*
 .mystyle #animlist::before {
-	/* content: '≫'; */
+	 content: '≫';
 	position: absolute;
 	opacity: 0;
 	left: 20px;
 	transition: 0.5s;
 }
+*/
 
 .mystyle #animlist:hover {
 	background-color: #E9FAE1;
-	padding-left: 60px;
+	padding-left: 1em;
 }
 
+/*
 .mystyle #animlist:hover::before {
 	opacity: 1;
 	left: 40px;
 }
+*/
 
 .nav {
 	width: 80%;
