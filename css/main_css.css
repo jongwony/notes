@@ -27,7 +27,7 @@ p:hover {
 }
 
 img {
-	background-size: cover;
+	background-size: auto;
 }
 
 .title {
