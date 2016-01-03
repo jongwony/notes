@@ -30,7 +30,8 @@ img {
 	border-radius: 15px;
 	width: 80%;
 	height: auto;
-	background-position: center;
+	display: block;
+	margin: auto;
 }
 
 .title {
@@ -50,7 +51,7 @@ img {
 	clear: both;
 	border-radius: 30px;
 	background-color: #f4f4f3;
-	box-shadow: 0px 8px 16px 0px rgba(200, 100, 0, 0.5);
+	box-shadow: 5px 5px 20px 5px rgba(200, 70, 0, 0.2);
 	width: 80%;
 	margin: 0 auto 50px auto;
 	padding: 20px 0;
