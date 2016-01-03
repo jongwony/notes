@@ -41,13 +41,13 @@ body{
 	padding: 20px 0;
 }
 
-.mystyle p {
+.mystyle #animlist {
 	padding: 0 40px;
 	position: relative;
 	transition: 0.5s;
 }
 
-.mystyle p::before {
+.mystyle #animlist::before {
 	/* content: '≫'; */
 	position: absolute;
 	opacity: 0;
@@ -55,12 +55,12 @@ body{
 	transition: 0.5s;
 }
 
-.mystyle p:hover {
+.mystyle #animlist:hover {
 	background-color: #E9FAE1;
 	padding-left: 60px;
 }
 
-.mystyle p:hover::before {
+.mystyle #animlist:hover::before {
 	opacity: 1;
 	left: 40px;
 }
@@ -229,8 +229,8 @@ body{
 }
 
 .highlight code {
-  font-size: 1.2rem;
-	opacity: 80%;
+  font-size: 0.9rem;
+	opacity: 0.7;
 }
 
 .highlight .c {
