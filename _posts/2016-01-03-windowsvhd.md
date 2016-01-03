@@ -64,6 +64,16 @@ BCDEDIT명령을 이용하여 바꿀 수 있습니다.
 bcdedit
 ```
 
+```shell
+$dev
+```
+```ruby
+print ax;
+```
+```perl
+$_=24; print;
+```
+
 ![bcdedit](/image/cmd_bcdedit.png)
 
 **identifier가** VHD환경에서 접속하셨다면 {current}를, 다른 환경이라면 systemroot항목이 \\로 시작하면 해당 항목이 가상디스크입니다.
