@@ -28,8 +28,8 @@ p:hover {
 
 img {
 	border-radius: 15px;
-	overflow: auto;
-	box-shadow: 10px 10px 5px grey;
+	width: 80%;
+	height: auto;
 }
 
 .title {
@@ -49,7 +49,7 @@ img {
 	clear: both;
 	border-radius: 30px 15px;
 	background-color: #f4f4f3;
-	box-shadow: 10px 10px 5px grey;
+	box-shadow: 10px 10px 5px rgba(255, 255, 0, 0.5);
 	width: 80%;
 	margin: 0 auto 50px auto;
 	padding: 20px 0;
