@@ -220,16 +220,17 @@ body{
 /* highlight */
 
 .highlight {
-  padding: 30px;
+  padding: 20px;
   border-radius: 6px;
   background-color: #272822;
   color: #f8f8f2;
   line-height: 1;
-	margin-bottom: 20px;
+	margin: 20px;
 }
 
 .highlight code {
-  font-size: .7rem;
+  font-size: 1.2rem;
+	opacity: 80%;
 }
 
 .highlight .c {
