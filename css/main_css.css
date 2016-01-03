@@ -18,6 +18,14 @@ body{
 	line-height: 30px;
 }
 
+p {
+	padding: 0 40px;
+}
+
+p:hover {
+	background-color: #E9FAE1;
+}
+
 .title {
 	float: left;
 	text-align: center;
@@ -217,20 +225,20 @@ body{
 	background: url("http://lastone9182.github.io/image/lemonberry.png") -70px 0;
 }
 
-/* highlight */
+/* ---highlight--- */
 
 .highlight {
-  padding: 20px;
+  padding: 0 20px;
   border-radius: 6px;
   background-color: #272822;
   color: #f8f8f2;
   line-height: 1;
-	margin: 20px;
+	margin: 40px;
 }
 
 .highlight code {
-  font-size: 0.9rem;
-	opacity: 0.7;
+  font-size: 0.8rem;
+	opacity: 0.5;
 }
 
 .highlight .c {
