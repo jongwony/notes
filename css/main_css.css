@@ -26,6 +26,10 @@ p:hover {
 	background-color: #E9FAE1;
 }
 
+img {
+	background-size: contain;
+}
+
 .title {
 	float: left;
 	text-align: center;

@@ -17,10 +17,9 @@ USB으로 부팅 한 뒤 [Shift+F10]을 누르면 다음과 같은 화면이 나
 
 ![Windows_usb_boot](/image/Windows_usb_boot.png)
 
-VHD파일은 DISKPART에서 만듭니다.
+VHD파일은 **DISKPART** 에서 만듭니다.
 
 ```
-diskpart
 create vdisk file="{PATH}\{custom name}.vhd" maximum={size} [type=expandable]
 ```
 
