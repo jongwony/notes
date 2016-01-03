@@ -48,6 +48,10 @@ img {
 	float: right;
 }
 
+hr {
+	margin: 40px;
+}
+
 .mystyle {
 	clear: both;
 	border-radius: 30px;
