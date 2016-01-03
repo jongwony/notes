@@ -19,8 +19,8 @@ USB으로 부팅 한 뒤 [Shift+F10]을 누르면 다음과 같은 화면이 나
 
 VHD파일은 DISKPART에서 만듭니다.
 ```
->diskpart
->create vdisk file="{PATH}\{custom name}.vhd" maximum={size} [type=expandable]
+diskpart
+create vdisk file="{PATH}\{custom name}.vhd" maximum={size} [type=expandable]
 
 ```
 디스크 파일을 원하는 경로{PATH} 에 {custom name}.vhd로 만드시면 됩니다.
@@ -32,15 +32,16 @@ size는 MB단위이며 뒤에 [type=expandable]은 디스크를 동적으로 사
 ![vhd_create_inWindows](/image/vhd_create_inWindow.png)
 
 물론 위와 같이 윈도우에서 VHD파일을 만들고 VHD파일을 선택하셔도 됩니다. 이런 경우에는 VHD파일을 따로 선택해주기만 하면 됩니다.
-```
+
 [가상디스크가 미리 만들어진 경우]
->[select vdisk file="{PATH}\\{custom name}.vhd"]  
+```
+[select vdisk file="{PATH}\\{custom name}.vhd"]  
 
 ```
 
 VHD파일이 선택 되었으면 연결(마운트)합니다.
 ```
->attach vdisk
+attach vdisk
 
 ```
 
@@ -59,7 +60,7 @@ BCDEDIT명령을 이용하여 바꿀 수 있습니다.
 운영체제 선택화면에서 **로고가 아닌 창 모양이** VHD로 부팅될 것입니다.
 클릭하시고 해당 운영체제의 설치를 마무리한 후 **관리자 명령프롬프트를** 실행합니다.
 ```
->bcdedit
+bcdedit
 
 ```
 ![bcdedit](/image/cmd_bcdedit.png)
@@ -69,7 +70,7 @@ BCDEDIT명령을 이용하여 바꿀 수 있습니다.
 BCDEDIT명령으로 해당항목의 DESCRIPTION을 변경할 것입니다.
 
 ```
->bcdedit /set { identifier } description " 변경할 이름 "
+bcdedit /set { identifier } description " 변경할 이름 "
 
 ```
 변경 후 재부팅하시면 결과가 반영된 것을 확인하실 수 있습니다.
