@@ -7,12 +7,13 @@ layout: post
 * Windows 7 이상의 환경이어야 합니다.
 * [부팅 USB](http://www.microsoft.com/en-us/software-download/windows10)를 준비합니다.
 
-
+- - -
 저의 경우는 부모 운영체제 하나에 여러개의 vhd파일을 넣어 사용합니다.
 
 장점 : 문제가 생겼을 시 vhd파일만 깔끔하게 지우면 된다.
 
 단점 : 운영체제를 선택해야하므로 부팅시간이 조금 더 걸린다.
+- - -
 
 USB으로 부팅 한 뒤 [Shift+F10]을 누르면 다음과 같은 화면이 나타납니다.
 
