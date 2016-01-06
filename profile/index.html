@@ -3,8 +3,12 @@ layout: default
 title: Introducing
 ---
 
-{% for post in site.my_profile %}
+<div class="intro">
 
-  {{ post.content }}
+  {% for post in site.my_profile %}
 
-{% endfor %}
+    {{ post.content }}
+
+  {% endfor %}
+  
+</div>

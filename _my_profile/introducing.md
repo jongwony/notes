@@ -3,15 +3,36 @@ title: Introducing
 layout: post
 ---
 
-- - -
+![프로필]()
 
-1991년 9월 13일생
-
-- - -
-
-수학과 컴퓨터 공학을 배우는 아이가
-쓰기 시작하는 자서전
+Your PLACE is where your DREAMS are.
 
 - - -
 
-**Email:** [lastone9182@gmail.com](lastone9182@gmail.com)
+## Jongwon
+
+[Github](//github.com/lastone9182) |       [lastone9182@gmail.com](lastone9182@gmail.com)
+
+- - -
+
+정해진 틀 안에서 예술을 추구한다.
+
+- - -
+
+## Major
+
+Mathematics & Computer Science | *KONKUK UNIVERSITY*
+
+- - -
+
+## Interest
+
+**DATABASE**
+
+Fusion Mathematics
+
+- - -
+
+## Skills
+
+C, Java, Unity 3D(C#), (Oracle, Python, Perl)

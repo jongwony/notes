@@ -59,6 +59,25 @@ img {
 	float: right;
 }
 
+.intro {
+	text-align: center;
+}
+
+.intro h2 {
+	font-weight: 900;
+	line-height: 1.2em;
+	font-size: 36px;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	opacity: 0.8
+	margin: 3.2em 1em;
+	padding: 0;
+}
+
 	/* nav 항목이 늘어날때마다 수정 */
 @media screen and (min-width: 480px) {
 
@@ -78,10 +97,6 @@ img {
 .mystyle li, .mystyle p {
 	padding: 1em 2em;
 	margin: 0;
-}
-
-.mystyle hr {
-	margin: 0 1em;
 }
 
 .mystyle ul {
