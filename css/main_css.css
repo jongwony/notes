@@ -28,7 +28,6 @@ img {
 }
 
 .title {
-	float: left;
 	text-align: center;
 	color: #F4F4F3;
 	cursor: default;
@@ -53,7 +52,7 @@ img {
 @media screen and (min-width: 480px) {
 
 	.title {
-		float: none;
+		float: left;
 	}
 
 	.mystyle {
