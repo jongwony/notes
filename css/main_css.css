@@ -97,6 +97,7 @@ img {
 	/*padding: 0 40px;*/
 	position: relative;
 	transition: 0.5s;
+	padding: 0 1em;
 }
 
 
@@ -111,14 +112,14 @@ img {
 
 .mystyle #animlist:hover {
 	background-color: #E9FAE1;
-	padding-left: 2em;
+	padding-left: 3em;
 	transition: 0.5s;
 }
 
 
 .mystyle #animlist:hover::before {
 	opacity: 1;
-	left: 1em;
+	left: 2em;
 }
 
 
