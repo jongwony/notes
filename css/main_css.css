@@ -60,7 +60,7 @@ img {
 }
 
 	/* nav 항목이 늘어날때마다 수정 */
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 766px) {
 
 	.title {
 		float: left;
@@ -97,7 +97,6 @@ img {
 	/*padding: 0 40px;*/
 	position: relative;
 	transition: 0.5s;
-	padding: 0 1em;
 }
 
 
