@@ -10,9 +10,9 @@ html{
 }
 
 body{
-	background-image: url("//lastone9182.github.io/image/lemonberry_main.png");
+	/*background-image: url("//lastone9182.github.io/image/lemonberry_main.png");
 	background-position: right bottom;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
 	background-color: #FAF5E1;
 	color: #333333;
 	line-height: 30px;
@@ -31,7 +31,6 @@ img {
 	float: left;
 	text-align: center;
 	color: #F4F4F3;
-	margin: 10px;
 	cursor: default;
 	text-shadow: 1px 1px 2px black, 0 0 20px yellow, 0 0 5px darkblue;
 }
@@ -45,10 +44,18 @@ img {
 	border-radius: 30px;
 	background-color: #f4f4f3;
 	box-shadow: 5px 5px 20px 5px rgba(200, 70, 0, 0.2);
-	width: 80%;
-	margin: 0 auto 50px auto;
+	width: 100%;
+	/*margin: 0 auto 50px auto; */
 	padding: 20px 0;
 }
+
+@media screen and (min-width: 480px) {
+	.mystyle {
+		width: 480px;
+		margin: auto;
+	}
+}
+
 
 .mystyle li, .mystyle p {
 	padding: 1em;
@@ -106,7 +113,7 @@ img {
 
 .nav ul {
 	list-style-type: none;
-	padding: 0 20px;
+	padding-left: 0;
 }
 
 .nav li {
