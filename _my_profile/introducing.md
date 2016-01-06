@@ -11,7 +11,7 @@ Your PLACE is where your DREAMS are.
 
 ## Jongwon
 
-[Github](//github.com/lastone9182) |       [lastone9182@gmail.com](lastone9182@gmail.com)
+[Github](//github.com/lastone9182) | [lastone9182@gmail.com](lastone9182@gmail.com)
 
 - - -
 
@@ -28,7 +28,6 @@ Mathematics & Computer Science | *KONKUK UNIVERSITY*
 ## Interest
 
 **DATABASE**
-
 Fusion Mathematics
 
 - - -
