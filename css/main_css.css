@@ -64,7 +64,7 @@ img {
 
 	.title {
 		float: left;
-		padding-left: 40px;
+		padding: 0 20px;
 	}
 
 	.mystyle {
@@ -76,7 +76,7 @@ img {
 }
 
 .mystyle li, .mystyle p {
-	padding: 1em;
+	padding: 1em 2em;
 	margin: 0;
 }
 
@@ -136,6 +136,7 @@ img {
 }
 
 .nav li {
+	margin: 6px 0;
 	text-decoration: none;
 }
 
@@ -185,6 +186,7 @@ img {
 }
 
 .dropdown-content {
+	margin: 12px 0;
 	display: none;
 	padding: 14px 16px;
 	position:absolute;
