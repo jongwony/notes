@@ -51,11 +51,17 @@ img {
 }
 
 @media screen and (min-width: 480px) {
+
+	.title {
+		clear: both;
+	}
+
 	.mystyle {
 		min-width: 480px;
 		width: 80%;
 		margin: auto;
 	}
+
 }
 
 
@@ -155,6 +161,7 @@ img {
 */
 
 .dropdown {
+	margin-top: 16px;
 	cursor: pointer;
 	float: right;
 	color: #F4F4F3;
