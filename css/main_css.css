@@ -161,7 +161,7 @@ img {
 */
 
 .dropdown {
-	margin-top: 16px;
+	margin: 12px 0;
 	cursor: pointer;
 	float: right;
 	color: #F4F4F3;
