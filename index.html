@@ -3,11 +3,6 @@ layout: default
 title: LemonBerry Blog
 ---
 
-{% include navigation.html %}
-
-
-<div class="mystyle">
-
 <!-- paginated posts -->
 {% for post in paginator.posts %}
 
@@ -32,8 +27,5 @@ title: LemonBerry Blog
   {% else %}
   <span>다음</span>
   {% endif %}
-
-</div>
-
 
 </div>
