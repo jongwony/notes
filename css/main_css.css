@@ -41,6 +41,7 @@ img {
 
 .mystyle {
 	clear: both;
+	display: block;
 	border-radius: 30px;
 	background-color: #f4f4f3;
 	box-shadow: 5px 5px 20px 5px rgba(200, 70, 0, 0.2);
@@ -51,7 +52,7 @@ img {
 
 @media screen and (min-width: 480px) {
 	.mystyle {
-		width: 60%;
+		min-width: 480px;
 		margin: auto;
 	}
 }
