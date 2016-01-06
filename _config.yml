@@ -32,12 +32,20 @@ defaults:
       type: my_codingthematrix
     values:
       layout: post
+  -
+    scope:
+      path: ""
+      type: my_profile
+    values:
+      layout: post
 
 
 collections:
   my_database:
     output: true
   my_codingthematrix:
+    output: true
+  my_profile:
     output: true
 
 

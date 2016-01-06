@@ -1,0 +1,13 @@
+---
+layout: default
+title: Introducing
+---
+
+{% include navigation.html %}
+
+<div class="mystyle">
+{% for post in site.my_profile %}
+  {{ post.content }}
+{% endfor %}
+
+</div>
