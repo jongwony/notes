@@ -3,17 +3,13 @@ title: Introducing
 layout: post
 ---
 
-Your PLACE is where your DREAMS are.
+Your *PLACE* is where your *DREAMS* are.
 
 - - -
 
 ## Jongwon
 
 [Github](//github.com/lastone9182) | [lastone9182@gmail.com](lastone9182@gmail.com)
-
-- - -
-
-정해진 틀 안에서 예술을 추구한다.
 
 - - -
 
@@ -25,10 +21,17 @@ Mathematics & Computer Science | *KONKUK UNIVERSITY*
 
 ## Interest
 
-**DATABASE** | Fusion Mathematics
+**Oracle Database** | Fusion Mathematics | Strawberry Blast
 
 - - -
 
 ## Skills
 
 C, Java, Unity 3D(C#), (Oracle, Python, Perl)
+
+- - -
+
+## Others
+
+[Hobby](//www.youtube.com/channel/UCddQOuoYBVq_7vtpD22Fccg) |
+[Facebook](//www.facebook.com/jongwon.choi.7509)
