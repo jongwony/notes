@@ -3,7 +3,7 @@ title: Introducing
 layout: post
 ---
 
-![프로필]()
+![프로필](/image/Profile.svg)
 
 Your PLACE is where your DREAMS are.
 
@@ -27,8 +27,7 @@ Mathematics & Computer Science | *KONKUK UNIVERSITY*
 
 ## Interest
 
-**DATABASE**
-Fusion Mathematics
+**DATABASE** | Fusion Mathematics
 
 - - -
 
