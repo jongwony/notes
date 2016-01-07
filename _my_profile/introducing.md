@@ -3,7 +3,7 @@ title: Introducing
 layout: post
 ---
 
-Your *PLACE* is where your *DREAMS* are.
+Your **PLACE** is where your **DREAMS** are.
 
 - - -
 
