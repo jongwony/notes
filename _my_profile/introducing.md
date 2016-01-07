@@ -21,7 +21,7 @@ Mathematics & Computer Science | *KONKUK UNIVERSITY*
 
 ## Interest
 
-**Oracle Database** | Fusion Mathematics | Strawberry Blast
+**Oracle Database** | Fusion Mathematics | <small>strawberry blast</small>
 
 - - -
 
