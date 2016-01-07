@@ -9,7 +9,7 @@ Your *PLACE* is where your *DREAMS* are.
 
 ## Jongwon
 
-[Github](//github.com/lastone9182) | <a href="//github.com/mailto:%6c%61%73%74%6f%6e%65%39%31%38%32@%67%6d%61%69%6c.%63%6f%6d">lastone9182@gmail.com</a>
+[Github](//github.com/lastone9182) | <a href="mailto:lastone9182@gmail.com">lastone9182@gmail.com</a>
 
 - - -
 
