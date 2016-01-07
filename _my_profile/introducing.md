@@ -3,6 +3,8 @@ title: Introducing
 layout: post
 ---
 
+![profile.png](/image/profile.png)
+
 Your PLACE is where your DREAMS are.
 
 - - -
