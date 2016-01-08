@@ -57,7 +57,8 @@ iframe {
 	border-radius: 30px;
 	background-color: #f4f4f3;
 	box-shadow: 5px 5px 20px 5px rgba(200, 70, 0, 0.2);
-	width: 98%;
+	width: 95%;
+	margin: auto;
 	/*margin: 0 auto 50px auto; */
 	padding: 3.2em 0;
 }
@@ -99,7 +100,6 @@ hr {
 	.mystyle {
 		min-width: 480px;
 		width: 80%;
-		margin: auto;
 	}
 
 }
