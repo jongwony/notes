@@ -252,10 +252,13 @@ hr {
 .blast-content {
 	display: none;
 	position: absolute;
-	min-width: 240px;
 	border-radius: 15px;
 	box-shadow: 0px 8px 16px 0px rgba(200, 100, 0, 0.5);
 	z-index: 1;
+}
+
+#blast {
+	position: relative;
 }
 
 #blast:hover .blast-content {

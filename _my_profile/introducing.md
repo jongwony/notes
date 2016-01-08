@@ -29,7 +29,7 @@ Mathematics & Computer Science | *KONKUK UNIVERSITY*
 
 **Oracle Database** | Fusion Mathematics |
  <small id="blast">strawberry blast
- <img class="blast-content" width="120px" height="115px" src="/image/Strawberry_Citrus_Fruit_Blast.jpg" /></small>
+ <img class="blast-content" width="199px" height="190px" src="/image/Strawberry_Citrus_Fruit_Blast.jpg" /></small>
 - - -
 
 ## Skills
