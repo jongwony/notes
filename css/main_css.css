@@ -18,7 +18,7 @@ body{
 	line-height: 30px;
 }
 
-img {
+img, iframe {
 	border-radius: 15px;
 	width: 80%;
 	height: auto;
