@@ -34,6 +34,10 @@ iframe {
 	margin: auto;
 }
 
+a {
+	text-decoration: none;
+}
+
 .copyright {
 	text-align: center;
 	margin: 16px auto;
