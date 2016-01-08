@@ -38,6 +38,4 @@ CSS 샘플과 여러 Java script 기능을 단순히 링크로 import하여 사�
 <!--apply example-->
 <h1 class="animated infinite tada">Hello!</h1>
 ```
-<br>
-
-<h1 style="text-align:center;" class="animated infinite tada">Hello!</h1>
+<h1 style="text-align:center;margin:20px;" class="animated infinite tada">Hello!</h1>
