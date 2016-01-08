@@ -9,7 +9,13 @@ Your **PLACE** is where your **DREAMS** are.
 
 ## Jongwon
 
-[Github](//github.com/lastone9182) | <a href="mailto:lastone9182@gmail.com">lastone9182@gmail.com</a>
+[GitHub](//github.com/lastone9182) | <a href="mailto:lastone9182@gmail.com">lastone9182@gmail.com</a>
+
+- - -
+
+## With...
+
+[Girl Friend](//www.instagram.com/uj31587/)
 
 - - -
 
