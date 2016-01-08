@@ -28,7 +28,8 @@ Mathematics & Computer Science | *KONKUK UNIVERSITY*
 ## Interest
 
 **Oracle Database** | Fusion Mathematics |
- [<small>strawberry blast</small>](//www.baskinrobbins.com/content/baskinrobbins/en/products/icecream/specialties.html?filter=beverages)
+ <small id="blast">strawberry
+ <img class="blast-content" src="/image/Strawberry_Citrus_Fruit_Blast.jpg" /> blast</small>(https://www.baskinrobbins.com/content/dam/baskinrobbins/Product%20Images/Beverages,%20Mix-Ins,%20Novelties,%20Parfaits,%20Quarts%20and%20Sundaes/Beverages/Strawberry_Citrus_Fruit_Blast_BV338w.jpg)
 
 - - -
 

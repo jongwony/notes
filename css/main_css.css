@@ -249,6 +249,19 @@ hr {
 	display: block;
 }
 
+.blast-content {
+	display: none;
+	position: absolute;
+	min-width: 240px;
+	border-radius: 15px;
+	box-shadow: 0px 8px 16px 0px rgba(200, 100, 0, 0.5);
+	z-index: 1;
+}
+
+#blast:hover .blast-content {
+	transition: 0.5s;
+	display:block;
+}
 
 .pagination {
 	color: #747474;
