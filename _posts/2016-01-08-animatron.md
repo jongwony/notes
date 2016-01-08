@@ -3,18 +3,9 @@ title: 애니메이션을 웹으로!
 layout: post
 ---
 
-<script language="javascript" type="text/javascript">
+<iframe style="height:320px" src="//www.youtube.com/embed/8SoKASkCuuw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
-function ratio(obj){
-  var width = obj.contentWindow.document.body.width;
-  obj.style.height = width*3/7 + 'px';
-}
-
-</script>
-
-<iframe onload="ratio(this)" src="//www.youtube.com/embed/8SoKASkCuuw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-
-<a style="text-align:center;padding-top:0">[Tutorial](//www.animatron.com/tutorial)</a>
+<a href="//www.animatron.com/tutorial" style="text-align:center;padding-top:0">Tutorial</a>
 
 웹으로 애니메이션을 만들 수 있습니다!
 
