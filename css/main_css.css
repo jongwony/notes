@@ -38,6 +38,15 @@ a {
 	text-decoration: none;
 }
 
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	color: violet;
+	transition: 0.5s;
+}
+
 .copyright {
 	text-align: center;
 	margin: 16px auto;
