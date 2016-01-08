@@ -6,14 +6,14 @@ layout: post
 <script language="javascript" type="text/javascript">
 
 function front(obj){
-  obj.style.height = obj.style.width*3/7 + 'px';
+  obj.style.height = obj.contentWindow.document.body.scrollHeight*3/7 + 'px';
 }
 
 </script>
 
 <iframe onload="front(this)" style="height:20%" src="//www.youtube.com/embed/8SoKASkCuuw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
-<span style="text-align:center;">[Tutorial](//www.animatron.com/tutorial)</span>
+<p style="text-align:center;padding-top:0">[Tutorial](//www.animatron.com/tutorial)</p>
 
 웹으로 애니메이션을 만들 수 있습니다!
 
