@@ -5,7 +5,8 @@ layout: post
 
 <iframe style="height:320px" src="//www.youtube.com/embed/8SoKASkCuuw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
-<a href="//www.animatron.com/tutorial" style="text-align:center;padding-top:0">Tutorial</a>
+<div style="text-align: center;">[Tutorial](//www.animatron.com/tutorial)</div>
+
 
 웹으로 애니메이션을 만들 수 있습니다!
 
