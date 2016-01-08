@@ -5,15 +5,16 @@ layout: post
 
 <script language="javascript" type="text/javascript">
 
-function front(obj){
-  obj.style.height = obj.contentWindow.document.body.scrollHeight*3/7 + 'px';
+function ratio(obj){
+  var width = obj.contentWindow.document.body.width;
+  obj.style.height = width*3/7 + 'px';
 }
 
 </script>
 
-<iframe onload="front(this)" style="height:20%" src="//www.youtube.com/embed/8SoKASkCuuw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe onload="ratio(this)" src="//www.youtube.com/embed/8SoKASkCuuw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
-<p style="text-align:center;padding-top:0">[Tutorial](//www.animatron.com/tutorial)</p>
+<a style="text-align:center;padding-top:0">[Tutorial](//www.animatron.com/tutorial)</a>
 
 웹으로 애니메이션을 만들 수 있습니다!
 
