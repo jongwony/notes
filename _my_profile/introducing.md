@@ -15,7 +15,7 @@ Your **PLACE** is where your **DREAMS** are.
 
 ## With...
 
-[Girl Friend](//www.instagram.com/uj31587/) <span class="animated infinite pulse" style="color:red">💕</span>
+[Girl Friend](//www.instagram.com/uj31587/) <span class="animated infinite pulse" style="color:red; cursor:none;">💕</span>
 
 - - -
 
