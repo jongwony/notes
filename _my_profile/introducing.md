@@ -21,7 +21,8 @@ Mathematics & Computer Science | *KONKUK UNIVERSITY*
 
 ## Interest
 
-**Oracle Database** | Fusion Mathematics | <small>strawberry blast</small>
+**Oracle Database** | Fusion Mathematics |
+ [<small>strawberry blast</small>](//www.baskinrobbins.com/content/baskinrobbins/en/products/icecream/specialties.html?filter=beverages)
 
 - - -
 
