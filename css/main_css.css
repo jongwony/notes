@@ -259,6 +259,7 @@ hr {
 
 #blast {
 	position: relative;
+	display: inline-block;
 }
 
 #blast:hover .blast-content {
