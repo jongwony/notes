@@ -3,9 +3,9 @@ title: 애니메이션을 웹으로!
 layout: post
 ---
 
-<iframe src="//www.youtube.com/embed/8SoKASkCuuw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe style="height:20%" src="//www.youtube.com/embed/8SoKASkCuuw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
-[Tutorial](//www.animatron.com/tutorial)
+<span style="text-align:center;">[Tutorial](//www.animatron.com/tutorial)</span>
 
 웹으로 애니메이션을 만들 수 있습니다!
 
@@ -13,7 +13,7 @@ gif파일과 video파일로(무료의 경우 400px, 10fps, 10초 제한, 워터�
 
 만들 수 있고 결제를 하면 HTML소스로도 export가능하다고 합니다.
 
-<small>그냥 만드는 과정을 반디캠 같은걸로 찍으면 될 거 같은데...</small>
+<small>(그냥 만드는 과정을 반디캠 같은걸로 찍으면 될 거 같은데...)</small>
 
 쓰기 나름이겠죠?
 
@@ -34,5 +34,6 @@ CSS 샘플과 여러 Java script 기능을 단순히 링크로 import하여 사�
 <!--apply example-->
 <h1 class="animated infinite tada">Hello!</h1>
 ```
+<br>
 
 <h1 style="text-align:center;" class="animated infinite tada">Hello!</h1>
