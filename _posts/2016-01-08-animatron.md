@@ -3,7 +3,7 @@ title: 애니메이션을 웹으로!
 layout: post
 ---
 
-<iframe style="height:320px" src="//www.youtube.com/embed/8SoKASkCuuw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe src="//www.youtube.com/embed/8SoKASkCuuw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 <div style="text-align:center;margin-bottom:20px;">
 <a href="//www.animatron.com/tutorial">
