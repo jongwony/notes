@@ -85,11 +85,11 @@ a:hover {
 }
 
 .intro h2 {
-	margin-left: 0;
+	margin: 1.2em 0;
 }
 
 h2 {
-	margin-left: 1.2em;
+	margin: 1.2em;
 }
 
 hr {
