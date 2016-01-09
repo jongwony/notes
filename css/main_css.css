@@ -88,13 +88,12 @@ a:hover {
 	font-weight: 900;
 	line-height: 1.2em;
 	font-size: 1.5em;
-	margin: 0;
 }
 
 h2 {
 	font-weight: 900;
 	font-size: 1.5em;
-	margin: 1.2em;
+	margin-left: 1.2em;
 }
 
 hr {
