@@ -85,14 +85,10 @@ a:hover {
 }
 
 .intro h2 {
-	font-weight: 900;
-	line-height: 1.2em;
-	font-size: 1.5em;
+	margin-left: 0;
 }
 
 h2 {
-	font-weight: 900;
-	font-size: 1.5em;
 	margin-left: 1.2em;
 }
 
