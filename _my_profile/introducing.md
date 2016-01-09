@@ -29,8 +29,7 @@ Mathematics & Computer Science | *KONKUK UNIVERSITY*
 
 **Oracle Database**
  | [Numberphile](//www.youtube.com/channel/UCoxcjq-8xIDTYp3uz647V5A)
- | [Computerphile](//www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
- <small id="blast">strawberry blast
+ | [Computerphile](//www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA) |  <small id="blast">strawberry blast
  <img class="blast-content" width="199px" height="190px" src="/image/Strawberry_Citrus_Fruit_Blast.jpg" /></small>
 - - -
 
