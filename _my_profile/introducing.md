@@ -15,7 +15,7 @@ Your **PLACE** is where your **DREAMS** are.
 
 ## With...
 
-[Girl Friend](//www.instagram.com/uj31587/)<span class="animated infinite pulse" style="color:red; cursor:none;">💕</span>
+[Girl Friend](//www.instagram.com/uj31587/)<span class="animated infinite pulse" style="color:red; cursor:none;"> 💕 </span>
 
 - - -
 
@@ -27,7 +27,9 @@ Mathematics & Computer Science | *KONKUK UNIVERSITY*
 
 ## Interest
 
-**Oracle Database** | Fusion Mathematics |
+**Oracle Database**
+ | [Numberphile](//www.youtube.com/channel/UCoxcjq-8xIDTYp3uz647V5A)
+ | [Computerphile](//www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
  <small id="blast">strawberry blast
  <img class="blast-content" width="199px" height="190px" src="/image/Strawberry_Citrus_Fruit_Blast.jpg" /></small>
 - - -

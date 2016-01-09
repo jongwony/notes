@@ -123,7 +123,7 @@ hr {
 }
 
 .mystyle ul {
-	list-style-position: inside;
+	list-style-position: outside;
 }
 
 .mystyle p:hover {
@@ -242,6 +242,7 @@ hr {
 
 .dropdown-content a:hover {
 	color: violet;
+	box-shadow: 0px 8px 16px 0px rgba(243, 243, 242, 0.5);
 	transition: 0.5s;
 }
 
@@ -263,7 +264,6 @@ hr {
 }
 
 #blast:hover .blast-content {
-	transition: 0.5s;
 	display:block;
 }
 
