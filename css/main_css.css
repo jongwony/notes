@@ -84,11 +84,17 @@ a:hover {
 	text-align: center;
 }
 
-h2 {
+.intro h2 {
 	font-weight: 900;
 	line-height: 1.2em;
 	font-size: 1.5em;
-	margin: 2em;
+	margin: 0;
+}
+
+h2 {
+	font-weight: 900;
+	font-size: 1.5em;
+	margin: 1.2em;
 }
 
 hr {
@@ -129,7 +135,7 @@ hr {
 }
 
 .mystyle ul {
-	list-style-position: outside;
+	list-style-position: inside;
 }
 
 .mystyle p:hover {
