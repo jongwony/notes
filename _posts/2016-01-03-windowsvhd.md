@@ -5,6 +5,7 @@ layout: post
 
 
 * Windows 7 이상의 환경이어야 합니다.
+
 * [부팅 USB](http://www.microsoft.com/en-us/software-download/windows10)를 준비합니다.
 
 - - -
