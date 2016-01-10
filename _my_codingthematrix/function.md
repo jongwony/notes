@@ -49,7 +49,7 @@ $$ 함수 \subsetneq 프로시저 $$
 
 하지만 두 번째 계산 문제는 역상의 결과는 가정에 의해 존재하지만 유일한지는 알 수 없습니다.
 
-전사함수\\( (onto function) \\) 일 수도 있으니까요.
+전사함수\\( (onto\ function) \\) 일 수도 있으니까요.
 
 <div class="def">
   함수 \( f : D \longrightarrow F \)에서 모든 \(x, y \in  D\)에 대해
