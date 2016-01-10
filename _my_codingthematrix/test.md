@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Test
+title: 함수
 ---
 
-test!
+## 함수
+
+Coding the Matrix 책에서 설명하는 함수를 공식적으로 설명하는 문장은 다음과 같습니다.
+
+$$함수는 쌍(a,b) 들의 집합이며, 이때 각 쌍의 첫 번째 원소는 모두 다르다.$$
