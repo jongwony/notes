@@ -117,10 +117,6 @@ hr {
 		width: 80%;
 	}
 
-	.mystyle li {
-		padding: 1em 0;
-	}
-
 }
 
 .mystyle p {
@@ -133,11 +129,12 @@ hr {
 	margin: 0;
 }
 
-/*
+
 .mystyle ul {
+	padding: 0;
 	list-style-position: inside;
 }
-*/
+
 
 .mystyle p:hover {
 	transition: 0.5s;
