@@ -133,9 +133,11 @@ hr {
 	margin: 0;
 }
 
+/*
 .mystyle ul {
 	list-style-position: inside;
 }
+*/
 
 .mystyle p:hover {
 	transition: 0.5s;
