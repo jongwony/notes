@@ -64,7 +64,7 @@ Coding the Matrix에서 사용하는 프로그래밍 언어 파이썬에서는 �
 컴프리헨션은 for-loop 없이 **집합, 리스트, 딕셔너리** 등의 각 원소에 대한 계산을 쉽게 표현할 수 있게 해줍니다. 수학에서 집합을 정의하는 방식과 매우 비슷합니다.
 
 예를 하나 들어보겠습니다.
-$$ \{ 2x | x \in \{1, 2, 3\} \} $$
+$$ \lbrace 2x\ |\ x \in \lbrace1, 2, 3\rbrace \rbrace $$
 
 이를 파이썬 컴프리헨션으로 나타내면
 
@@ -109,4 +109,4 @@ $$ \{ 2x | x \in \{1, 2, 3\} \} $$
 def twice(x): return 2*x
 ```
 
-$$ twice : \mathds{R} \longrightarrow \mathds\{R\} $$ 표기와 매우 흡사한 것을 알 수 있습니다.
+$$ twice : X \longrightarrow 2X $$ 표기와 매우 흡사한 것을 알 수 있습니다.
