@@ -339,6 +339,17 @@ hr {
 }
 
 
+.def {
+	padding: 5px 20px;
+	border-radius: 6px;
+	background-color: #D5DDC7;
+	color: #272822;
+	line-height: 1;
+	margin: 1em;
+	opacity: 0.7;
+	font-size: 0.9rem;
+	letter-spacing: 1px;
+}
 
 
   /* highlight */
