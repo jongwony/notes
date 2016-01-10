@@ -117,6 +117,10 @@ hr {
 		width: 80%;
 	}
 
+	.mystyle li {
+		padding: 1em 0;
+	}
+
 }
 
 .mystyle p {
