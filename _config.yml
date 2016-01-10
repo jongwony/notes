@@ -11,8 +11,7 @@ redcarpet:
     "strikethrough",
     "space_after_headers",
     "with_toc_data",
-    "fenced_code_blocks",
-    "no_intra_emphasis"
+    "fenced_code_blocks"
   ]
 
 collections:
