@@ -54,7 +54,7 @@ $$ 함수 \subsetneq 프로시저 $$
 <div class="def">
   함수 \( f : D \longrightarrow F \)에서 모든 \(x, y \in  D\)에 대해
   \( f(x) = f(y) \Rightarrow x = y\) 이면 단사함수라 한다.
-
+<br>
   모든\( z\in F\)에 대해,\( f(x)=z\)을 만족하는\( x \in D\)가 존재하는 함수 \(f\)를 전사함수라 한다.
 </div>
 
