@@ -348,7 +348,7 @@ hr {
 	border-radius: 6px;
 	background-color: #D5DDC7;
 	color: #272822;
-	line-height: 1;
+	line-height: 1px;
 	margin: 1em;
 	opacity: 0.7;
 	font-size: 0.9rem;
@@ -363,7 +363,7 @@ hr {
     border-radius: 6px;
     background-color: #272822;
     color: #f8f8f2;
-    line-height: 1;
+    line-height: 1px;
   	margin: 1em;
 		opacity: 0.7;
   }
