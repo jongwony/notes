@@ -41,337 +41,205 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
+					<h2>비전공자가 바라본</h2>
+					<img src="image/dockerlogo.png" alt="docker_logo" />
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>Created by <a href="//lastone9182.github.io/">Jongwon</a></small>
 					</p>
 				</section>
 
 				<section>
-					<h2>Hello There</h2>
-					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-					</p>
+					<section>
+						<h2>Docker?</h2>
+						<p>
+							2013년 3월 출시된 <strong style="color:cyan;">오픈소스 컨테이너</strong>
+						</p>
+					</section>
+					<section>
+						<img src="image/large_cop.png" alt="" />
+						<p>
+							Google cloud Platform, AWS, Microsoft Azure등의
+						</p>
+						<p>
+							<strong style="color:cyan;">클라우드 서비스</strong>에서 공식 지원
+						</p>
+					</section>
 				</section>
 
 				<!-- Example of nested vertical slides -->
 				<section>
 					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+						<h2>Container란</h2>
+						<p>1982년에 이미 나온 리눅스 커널의 기술 중 하나로 <br>대표적인 것이 Docker</p>
+						<p>Unix(Solaris, HPX) 운영체제에도 포함되어 있음</p>
 					</section>
 					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
-
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
-
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-					</section>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
-
-				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
+						<p>그동안 Virtualization, Partitioning 기술로 <br>빛을 보지 못하다가</p>
 						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
+							2013년 구글의 Docker 프로젝트가 <br>Container 기술을 이용하면서 각광을 받기 시작
 						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+						<p>
+							실제로 Google의 모든 서버 시스템은 <br>컨테이너 형태로 운영하고 있다
+						</p>
 					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
-					</section>
-					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-						<h2>... and GIFs!</h2>
+					<section>
+						<p>런타임(실행 환경)방식에 의존하는 애플리케이션들이
+							 <br>하나의 <strong style="color:cyan">패키지</strong> 형태로 묶여있는 것</p>
+						<p>
+							운영체제에서는 하나의 커다란 프로세스로 보일 뿐
+						</p>
 					</section>
 				</section>
 
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
+				<section>
+					<section>
+						<h2>비슷하지만 다르다!</h2>
+						<p><strong style="color:yellow">가상화</strong>와 <strong style="color:cyan">컨테이너</strong></p>
+					</section>
+					<section data-transition="fade">
+						<h2>추상화의 대상이 다름</h2>
+						<img src="image/cloud_service_1.png" alt="cloud_service_1" />
+					</section>
+					<section data-transition="none">
+						<h2>추상화의 대상이 다름</h2>
+						<img src="image/cloud_service_2.png" alt="virtualization" />
+					</section>
+					<section data-transition="none">
+						<h2>추상화의 대상이 다름</h2>
+						<img src="image/cloud_service_3.png" alt="container" />
+					</section>
+					<section>
+							<img width="430" height="400" src="image/virtualization.png" alt="" />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<img width="430" height="400" src="image/docker_container.png" alt="" />
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>컨테이너의 특징</h2>
+						<p>
+							하드웨어를 추상화하지 않기 때문에 <br>
+							<strong style="color:cyan">메모리 접근, 파일 시스템 접근, 네트워크 전송 속도</strong>가 <br>
+							가상화에 비해 빠름
+						</p>
+					</section>
+					<section>
+						<p>
+							<strong style="color:red">리눅스 커널</strong>만 있으면 <strong style="color:cyan">언제, 어디서든</strong> 실행
+						</p>
+						<small>커널 버전, HOST 배포판 <strong>관계없음!</strong></small><br>
+						<small>HOST에서 실행되면 Container에서도 실행됨!</small>
+					</section>
+					<section>
+						<h2>단점</h2>
+						<p>
+							보안상으로 취약점이 있음 <small>이미지의 신뢰성이 없음</small>
+						</p>
+						<p>
+							특정 OS만의 고유한 기능은 사용할 수 없음
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<p>Docker란 Container 기술을 쉽고 가볍게 사용하기 위한 <br>자동화 툴</p>
 					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code class="hljs">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
-
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code class="hljs" data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
+						<strong style="color:cyan">이미지 생성</strong>과 <strong style="color:cyan">배포</strong>에 특화
 					</p>
 				</section>
 
 				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+					<section>
+						<h2>Docker 설치</h2>
+						<p>
+							<a href="//docs.docker.com/engine/installation/">각 OS별 설치</a>
+						</p>
+					</section>
+					<section>
+						<h2>Windows에도 설치가능!</h2>
+						<img src="image/docker_install_inWindows.png" alt="" />
+					</section>
 				</section>
 
 				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+					<section>
+						<p>
+							Oracle이 설치되어 있는 우분투의 이미지가 담긴 <br>컨테이너를 Windows에 설치된 Docker로 시연해 보겠습니다.
+						</p>
+						<small>이거 될까요?</small>
+					</section>
+					<section>
+						<p>
+							명령어는 docker --help로 알 수 있습니다.<br>
+							GitHub와 비슷합니다.
+						</p>
+						<pre><code class="hljs">docker search oracle</code></pre>
+						<img src="image/docker_search_oracle.png" alt="" />
+					</section>
+					<section>
+						<p>
+							Docker Repository에서 이미지 가져오기
+						</p>
+						<pre><code class="hljs">docker pull unameless/oracle-xe-11g</code></pre>
+						<img src="image/docker_oracle_download.png" alt="" />
+					</section>
+					<section>
+						<p>
+							가져온 이미지 확인
+						</p>
+						<pre><code class="hljs">docker images</code></pre>
+						<img src="image/docker_images.png" alt="" />
+					</section>
+					<section>
+						<p>
+							컨테이너 생성
+						</p>
+						<small>docker run --help로 run 명령어에 관한 옵션을 볼 수 있습니다.</small>
+						<pre><code class="hljs">docker run -i -t --name oracle -p 49160:22 -p 49161:1521 wnameless/oracle-xe-11g /bin/bash</code></pre>
+						<img src="image/docker_run_oracle.png" alt="" />
+						<small><a href="//github.com/wnameless/docker-oracle-xe-11g">wnameless/oracle-xe-11g</a> 참조</small>
+					</section>
+					<section>
+						<p>
+							sqlplus를 실행하여 접속할 경우<br>
+							다음과 같은 오류가 납니다.
+						</p>
+						<pre><code>
+sqlplus
+Enter user-name: SYSTEM
+Enter password: oracle
+						</code></pre>
+						<img src="image/docker_oracle_error.png" alt="" />
+					</section>
+					<section>
+						<p>
+							Docker는 운영체제를 추상화합니다.
+						</p>
+						<p>
+							<a href="//en.wikipedia.org/wiki/MinGW">MINGW64</a>는 윈도우로 포팅한 <br>
+							GNU 소프트웨어 도구모음입니다.<br>
+							결국 커널은 윈도우라는 이야기입니다.
+						</p>
+					</section>
+					<section>
+						<p>
+							오라클을 실행하려면 <br>sysctl.conf에서 커널 수정작업을 해야합니다.
+						</p>
+						<p>
+							Docker 컨테이너 내에서 <br>호스트의 <strong style="color:cyan">공유메모리 설정</strong>을 할 수 없으므로 <br>오류가 나는 것입니다.
+						</p>
+						<small>결론은 리눅스에서</small>
+					</section>
 				</section>
 
 				<section>
-					<h2>Global State</h2>
+					<h2>Reference</h2>
 					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
+						<a href="//www.slideshare.net/pyrasis/docker-fordummies-44424016">Docker for dummies</a>
 					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
 					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
-					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
-					</ul>
-				</section>
-
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+						<a href="//docs.docker.com/">Docker docs</a>
 					</p>
 				</section>
 
