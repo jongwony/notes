@@ -12,10 +12,6 @@
 .post-list {
     margin-left: 0;
     list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
 }
 
 .post-meta {
@@ -25,18 +21,6 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
-    h2 {
-        font-size: 32px;
-    }
-
-    h3 {
-        font-size: 26px;
-    }
-
-    h4 {
-        font-size: 20px;
-    }
 }
 
 
