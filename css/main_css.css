@@ -2,8 +2,6 @@
 # Jekyll reads the file
 ---
 
-@import "main";
-
 html{
 	direction: ltr;
 	box-sizing: border-box;
@@ -13,7 +11,7 @@ body{
 	/*background-image: url("//lastone9182.github.io/image/lemonberry_main.png");
 	background-position: right bottom;
 	background-attachment: fixed;*/
-	background-color: #DADADA;
+	background-color: #F4F4F3;
 	color: #333333;
 	line-height: 30px;
 }
@@ -69,7 +67,6 @@ a:hover {
 	display: block;
 	border-radius: 30px;
 	background-color: #f4f4f3;
-	box-shadow: 5px 5px 20px 5px rgba(200, 70, 0, 0.2);
 	width: 95%;
 	margin: auto;
 	padding: 1.2em 0;
