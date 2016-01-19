@@ -34,6 +34,7 @@ iframe {
 
 a {
 	text-decoration: none;
+	color: #F4F4F3;
 }
 
 a:visited {
@@ -223,6 +224,7 @@ hr {
 	padding: 14px 16px;
 	text-decoration: none;
 	position: relative;
+	color: #F4F4F3;
 }
 
 .dropdown-content {
