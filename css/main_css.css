@@ -53,9 +53,8 @@ a:hover {
 
 .title {
 	text-align: center;
-	color: #F4F4F3;
 	cursor: default;
-	text-shadow: 1px 1px 2px black, 0 0 20px yellow, 0 0 5px darkblue;
+	text-shadow: 1px 1px 2px black, 0 0 20px #FAF5E1, 0 0 5px darkblue;
 }
 
 .home {
@@ -66,7 +65,6 @@ a:hover {
 	clear: both;
 	display: block;
 	border-radius: 30px;
-	background-color: #f4f4f3;
 	width: 95%;
 	margin: auto;
 	padding: 1.2em 0;
@@ -218,7 +216,6 @@ hr {
 .dropdown {
 	margin: 12px 0;
 	cursor: pointer;
-	color: #F4F4F3;
 	text-shadow: 1px 1px 2px black, 0 0 10px red, 0 0 5px hotpink;
 	font-weight: 900;
 	display: inline-block;
@@ -242,7 +239,6 @@ hr {
 }
 
 .dropdown-content a {
-	color: #F4F4F3;
 	text-decoration: none;
 }
 
