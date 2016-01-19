@@ -3,7 +3,9 @@ layout: default
 title: Jongwon
 ---
 
+
 <!-- paginated posts -->
+<!--
 {% for post in paginator.posts %}
 
     <p id="animlist">
@@ -12,6 +14,19 @@ title: Jongwon
     </p>
 
 {% endfor %}
+-->
+
+<ul class="post-list">
+  {% for post in paginator.posts %}
+    <li id="animlist">
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
+  {% endfor %}
+</ul>
 
 <!-- Pagination links -->
 <div class="pagination">
