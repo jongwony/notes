@@ -340,8 +340,8 @@ hr {
 .def {
 	padding: 20px;
 	border-radius: 6px;
-	background-color: #D5DDC7;
-	color: #272822;
+	background-image: linear-gradient(to bottom, #7e6d42 0%, #5c4e35 100%);
+	color: #F8F8F2;
 	line-height: 2;
 	margin: 1em;
 	opacity: 0.7;
@@ -353,7 +353,7 @@ hr {
 	padding: 20px;
 	border-radius: 6px;
 	background-image: linear-gradient(to bottom, #9e2812 0%, #6f0d0d 100%);
-	color: #FFF;
+	color: #F8F8F2;
 	line-height: 2;
 	margin: 1em;
 	opacity: 0.7;
