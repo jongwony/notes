@@ -340,6 +340,7 @@ hr {
 .def {
 	padding: 20px;
 	border-radius: 6px;
+	background-color: #7e6d42;
 	background-image: linear-gradient(to bottom, #7e6d42 0%, #5c4e35 100%);
 	color: #FFF;
 	line-height: 2;
@@ -352,6 +353,7 @@ hr {
 .warn {
 	padding: 20px;
 	border-radius: 6px;
+	background-color: #9e2812;
 	background-image: linear-gradient(to bottom, #9e2812 0%, #6f0d0d 100%);
 	color: #FFF;
 	line-height: 2;
