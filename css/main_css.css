@@ -18,7 +18,7 @@ body{
 
 img {
 	border-radius: 15px;
-	width: 80%;
+	width: 95%;
 	height: auto;
 	display: block;
 	margin: auto;
@@ -110,6 +110,10 @@ hr {
 	.mystyle {
 		min-width: 480px;
 		width: 80%;
+	}
+
+	img {
+		width: 60%;
 	}
 
 }
