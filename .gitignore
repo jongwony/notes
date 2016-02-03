@@ -1,3 +1,5 @@
 # Static site output
 _site
-~$*
+
+# MS Word temp file
+~*
