@@ -1,5 +1,8 @@
 # Static site output
 _site
 
+# Drafts
+_draft
+
 # MS Word temp file
 ~*
