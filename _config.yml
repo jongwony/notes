@@ -1,18 +1,20 @@
 title: Jongwon
 
+markdown: kramdown
 
-markdown: redcarpet
-redcarpet:
-  extensions: [
-    "tables",
-    "footnotes",
-    "underline",
-    "autolink",
-    "strikethrough",
-    "space_after_headers",
-    "with_toc_data",
-    "fenced_code_blocks"
-  ]
+### after May 1st 2016 "redcarpet" markdown engine is not supported
+#markdown: redcarpet
+#redcarpet:
+#  extensions: [
+#    "tables",
+#    "footnotes",
+#    "underline",
+#    "autolink",
+#    "strikethrough",
+#    "space_after_headers",
+#    "with_toc_data",
+#    "fenced_code_blocks"
+#  ]
 
 collections:
   - my_database
