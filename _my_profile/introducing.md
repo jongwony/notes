@@ -9,7 +9,7 @@ Your **PLACE** is where your **DREAMS** are.
 
 ## Jongwon
 
-[GitHub](//github.com/lastone9182) | <a href="mailto:lastone9182@gmail.com">lastone9182@gmail.com</a>
+[GitHub](//github.com/lastone9182) \| <a href="mailto:lastone9182@gmail.com">lastone9182@gmail.com</a>
 
 - - -
 
@@ -21,7 +21,7 @@ Your **PLACE** is where your **DREAMS** are.
 
 ## Major
 
-Mathematics & Computer Science | *KONKUK UNIVERSITY*
+Mathematics & Computer Science \| *KONKUK UNIVERSITY*
 
 - - -
 
@@ -31,6 +31,7 @@ Mathematics & Computer Science | *KONKUK UNIVERSITY*
  | [Numberphile](//www.youtube.com/channel/UCoxcjq-8xIDTYp3uz647V5A)
  | [Computerphile](//www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA) |  <small id="blast">strawberry blast
  <img class="blast-content" width="199px" height="190px" src="/image/Strawberry_Citrus_Fruit_Blast.jpg" /></small>
+
 - - -
 
 ## Skills
