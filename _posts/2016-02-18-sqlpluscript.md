@@ -9,9 +9,9 @@ Oracle 데이터베이스를 이용할 때 주로 SQL Developer를 많이 씁니
 
 콘솔 환경에서의 SQL이란 적막하기 그지없습니다.
 
- ```
- SQL>
- ```
+```
+SQL>
+```
 
 SPOOL이라는 SQL*Plus 명령어는 이 명령을 내린 시점부터 콘솔에 쓰여진 모든 내용을 로그로 저장하는데
 
@@ -87,9 +87,9 @@ exit
 
 <div class="def">
 
-위 스크립트가 저장된 파일을 SQL*Plus가 처음 실행되는 경로로 복사합니다.
+위 스크립트가 저장된 파일을 SQL*Plus가 처음 실행되는 경로로 복사합니다.<br><br>
 
-!pwd로 확인 할 수 있습니다.
+!pwd로 확인 할 수 있습니다.<br><br>
 
 sqlplus로 적용할 세션에 접속한 후
 위 스크립트를 실행해 주면 됩니다.
@@ -113,7 +113,7 @@ sqlplus hr
 
 <div class="warn">
 
-sqlplus /nolog 로 접속할 때는 실행되지 않습니다.
+sqlplus /nolog 로 접속할 때는 실행되지 않습니다.<br><br>
 
 위 스크립트는 SPOOL작업을 한 쿼리결과를 단순히 glogin.sql에 APPEND 작업만 한 것입니다. 중복실행에 유의하세요.
 
