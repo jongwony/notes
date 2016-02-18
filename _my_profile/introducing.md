@@ -36,7 +36,9 @@ Mathematics & Computer Science \| *KONKUK UNIVERSITY*
 
 ## Skills
 
-C, Java, Unity 3D(C#), (Oracle, Python, Perl)
+Linear Algebra
+
+C, Java, Unity 3D(C#), Oracle, Python, Perl
 
 - - -
 
