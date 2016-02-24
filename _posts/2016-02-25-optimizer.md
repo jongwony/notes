@@ -1,0 +1,9 @@
+---
+layout: post
+title: 네트워크 프로그래밍 발표자료
+---
+
+<p>
+<a href="//lastone9182.github.io/reveal.js/optimizer.html">PPT</a> |
+<a href="/file/optimizer_presentation.pdf" download>PDF</a>
+</p>

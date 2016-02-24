@@ -43,6 +43,9 @@
 
 				<section>
 					<h1>Query Optimizer</h1>
+					<p>
+						<small>Created by <a href="#">Jongwon</a></small>
+					</p>
 				</section>
 
 				<section>
@@ -52,7 +55,7 @@
 					</section>
 
 					<section>
-						<h3>SQL Parsing</h3>
+						<h2>SQL Parsing</h2>
 					<p>
 						<small>
 								구문분석이라고 하며<br>
@@ -116,15 +119,46 @@
 						</p>
 					</section>
 
-					<section>
-						<p>Displaying the Execution plan</p>
-						<img style="width:70%" src="image/optimizer/executionplanexample.png" alt="" />
+					<section data-markdown>
+							<script type="text/template">
+								Displaying the Execution plan
+
+								SH(Sales History) 스키마에서 실행
+								```sql
+								SELECT prod_category, AVG(amount_sold)
+								FROM sales s, products p
+								WHERE p.prod_id = s.prod_id
+								GROUP BY prod_category;
+								```
+								<img style="width:70%" src="image/optimizer/executionplanexample.png" alt="" />
+							</script>
+
 					</section>
 
 					<section>
 						<h4>autotrace 켜기</h4>
 						<small>오라클 설치시 기본적으로 설치 되어 있지만 Disable되어있다.</small>
 						<img src="image/optimizer/autotraceoff.png" alt="" />
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							#### autotrace 켜기
+
+							```sql
+							CONN / as sysdba
+
+							@?/sqlplus/admin/plustrce.sql
+
+							GRANT plustrace to HR
+
+							CONN hr
+
+							@?/rdbms/admin/utlxplan.sql
+
+							SET autotrace on
+							```
+						</script>
 					</section>
 
 					<section>
@@ -160,301 +194,199 @@
 				</section>
 
 				<section>
+
 					<section>
-						<h4>Cost란?</h4>
+						<h2>Cost란?</h2>
 						<p style="font-size:24px">
 							Query에 의해 사용된 IO, CPU, 네트워크 리소스를 점유한 정도를 가지고 <br>
 							Oracle Optimizer가 정한 리소스 사용 기준으로,<br>
-							Oracle Optimizer가 리소스를 가장 적다고 산정되는 Execution plan을 선택합니다.
+							리소스가 가장 적다고 산정되는 Execution plan을 선택합니다.
 						</p>
 					</section>
+
 					<section>
 						<h4>Optimizer가 Execution plan을 결정하는 요소</h4>
-						<ul style="font-size:24px">
-							<li>Cardinality        : 각 Operation을 수행 시 반환되는 행의 수</li>
-							<li>Access method      : 데이터가 접근하는 방법 TABLE SCAN, INDEX ACCESS</li>
-							<li>Join method        : 테이블을 조인 시 사용되는 메소드 (e.g., hash, sort-merge, etc.)</li>
-							<li>Join type          : 조인의 유형 (e.g., outer, anti, semi, etc.)</li>
-							<li>Join order         : 각 테이블이 조인되는 순서</li>
-							<li>Partition pruning  : </li>
-							<li>Parallel Execution : 각 Operation이 병렬적으로 실행되었는가</li>
-						</ul>
+						<table>
+							<thead>
+								<tr>
+									<th>
+										Component
+									</th>
+									<th>
+										Description
+									</th>
+								</tr>
+							</thead>
+							<tbody style="font-size:24px">
+								<tr>
+									<td>
+										Cardinality
+									</td>
+									<td>
+										각 Operation을 수행 시 반환되는 행의 수
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Access method
+									</td>
+									<td>
+										데이터가 각 테이블 또는 인덱스에 접근하는 방법
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Join method
+									</td>
+									<td>
+										테이블을 조인 시 사용되는 메소드(e.g., hash, sort-merge, etc.)
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Join type
+									</td>
+									<td>
+										조인의 유형 (e.g., outer, anti, semi, etc.)
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Join order
+									</td>
+									<td>
+										각 테이블이 조인되는 순서
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Partition pruning
+									</td>
+									<td>
+										테이블이나 인덱스가 더 작은 조각으로 쪼개질 수 있는가 <br>(Pstart Pstop 항목)
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Parallel Execution
+									</td>
+									<td>
+										각 Operation이 병렬적으로 실행되었는가
+									</td>
+								</tr>
+							</tbody>
+						</table>
 					</section>
+
 				</section>
 
 				<section>
-					<h4>statistics</h4>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
+					<section>
+						<h2>Statistics</h2>
+						<p>
+							Data Dictionary에 저장된 데이터의 모임 <br>
+							USER_TAB_STATISTICS에 접근하여 볼 수 있다.
+						</p>
+						<img src="image/optimizer/statistics.png" alt="" />
 					</section>
 					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
+						<h2>Statistics</h2>
+						<table>
+							<thead>
+								<tr>
+									<th>Statistic Name</th>
+									<th>Description</th>
+								</tr>
+							</thead>
+							<tbody style="font-size:24px">
+								<tr>
+									<td>recursive calls</td>
+									<td>유저와 시스템 레벨에서 모두 생성된 재귀 호출 수. </td>
+								</tr>
+								<tr>
+									<td>db block gets</td>
+									<td>현재 블록이 요청된 횟수</td>
+								</tr>
+								<tr>
+									<td>consistent gets</td>
+									<td>요청된 블록을 일관적으로 읽은 횟수</td>
+								</tr>
+								<tr>
+									<td>
+										physical reads
+									</td>
+									<td>
+										디스크로부터 읽은 총 데이터 블록 수
+									</td>
+								</tr>
+								<tr>
+									<td>
+										redo size
+									</td>
+									<td>
+										바이트로 생성된 리두의 총량
+									</td>
+								</tr>
+								<tr>
+									<td>
+										bytes sent via SQL*Net to client
+									</td>
+									<td>
+										포그라운드 프로세스에서 클라이언트로 전송된 총 바이트 수
+									</td>
+								</tr>
+								<tr>
+									<td>
+										bytes received via SQL*Net from client
+									</td>
+									<td>
+										Oracle Net을 통해 클라이언트로부터 받은 총 바이트 수
+									</td>
+								</tr>
+								<tr>
+									<td>
+										SQL*Net roundtrips to/from client
+									</td>
+									<td>
+										클라이언트로부터 주고 받은 Oracle Net의 모든 메시지들의 수
+									</td>
+								</tr>
+								<tr>
+									<td>
+										sorts (memory)
+									</td>
+									<td>
+										어떠한 디스크 쓰기도 처리하지 않아 완전히 메모리에서만 처리한 sort operation의 수
+									</td>
+								</tr>
+								<tr>
+									<td>
+										sorts (disk)
+									</td>
+									<td>
+										한번이라도 디스크 쓰기를 요구한 sort operation의 수
+									</td>
+								</tr>
+								<tr>
+									<td>rows processed</td>
+									<td>작업 중에 처리 된 행의 수</td>
+								</tr>
+							</tbody>
+						</table>
 					</section>
 				</section>
 
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
 
 				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
-					</section>
-					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-						<h2>... and GIFs!</h2>
-					</section>
-				</section>
-
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code class="hljs">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
-
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code class="hljs" data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Marvelous List</h2>
+					<h2>reference</h2>
 					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
+						<li><a href="/file/optimizer_explain_plan.pdf">[PDF] The Oracle Optimizer Explain the Explain Plan</a></li>
+						<li><a href="/file/optimizer_statistics.pdf">[PDF] Understanding Optimizer Statistics</a></li>
+						<li><a href="https://docs.oracle.com/database/121/TGSQL/tgsql_sqlproc.htm#TGSQL178">About SQL Processing</a></li>
+						<li><a href="http://docs.oracle.com/cd/B28359_01/server.111/b28274/optimops.htm">The Query Optimizer</a></li>
+						<li><a href="http://docs.oracle.com/cd/B19306_01/server.102/b14211/ex_plan.htm#i25909">Using EXPLAIN PLAN</a></li>
+						<li><a href="https://docs.oracle.com/cd/B10500_01/server.920/a96533/autotrac.htm">Using Autotrace in SQL*Plus</a></li>
 					</ul>
-				</section>
-
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
-					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
-					</ul>
-				</section>
-
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
 				</section>
 
 			</div>
