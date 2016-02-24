@@ -123,8 +123,8 @@
 							<script type="text/template">
 								Displaying the Execution plan
 
-								SH(Sales History) 스키마에서 실행
 								```sql
+								-- SH(Sales History) Schema
 								SELECT prod_category, AVG(amount_sold)
 								FROM sales s, products p
 								WHERE p.prod_id = s.prod_id
