@@ -74,37 +74,55 @@
 						<div class="caption" style="float:both;">
 							<img src="image/index/index_access.gif" alt="" />
 							<br><small>Oracle Index access </small><br>
-							<small>인덱스를 통해 검색한다.</small>
+							<small>Index를 통해 검색한다.</small>
 						</div>
 					</section>
+
 					<section>
-						<h4>이런 상황에서는 인덱스를 만드는게 좋습니다.</h2>
-						<ul>
-							<li>인덱스화 된 컬럼이 자주 쿼리되고 테이블 전체의 작은 부분(2~4%)을 반환할 때</li>
-							<li>컬럼 또는 인덱스화 된 컬럼에 Referential integrity constraint가 걸려 있을 때</li>
+						<h2>INDEX 생성 지침</h2>
+						<small><ul>
+							<li>인덱스화 된 컬럼이 자주 쿼리되고 테이블 전체의 작은 부분(2~4%)을 반환할 때</li><br>
+							<li>컬럼 또는 인덱스화 된 컬럼에 Referential integrity constraint가 걸려 있을 때</li><br>
 							<li>Unique key constraint가 테이블에 걸려있고 이를 인덱스화 할 때</li>
-						</ul>
+						</ul></small>
 					</section>
 				</section>
 
 				<section>
-					<section>
-						<h2>Index의 종류</h2>
-						<ul>
-							<li>B*Tree Indexes</li>
-							<li>Bitmap Indexes</li>
-							<li>Function-Based Indexes</li>
-							<li>Application Domain Indexes</li>
-						</ul>
-					</section>
+					<h2>Index의 종류</h2>
+					<small><ul>
+						<li>B*Tree Indexes</li><br>
+						<li>Bitmap Indexes</li><br>
+						<li>Function-Based Indexes</li><br>
+						<li>Application Domain Indexes</li>
+					</ul></small>
+				</section>
+
+				<section>
 					<section>
 						<h2>B*Tree Index</h2>
-						<img src="image/index/btree.gif" alt="" />
 						<p>
-							<small>Binary Trees가 아닌 <a href="//en.wikipedia.org/wiki/B-tree">Balanced Trees</a></small><br>
+							<small>Binary Trees가 아닌 Balanced Trees</small><br>
 							<small>책 뒷면의 색인과 비슷한 방법</small><br>
-							<small><strong style="color:cyan">ROWID</strong>라는 주소로 테이블의 한 행만을 식별</small>
+							<small><strong style="color:cyan">ROWID</strong>를 <strong style="color:yellow">KEY</strong> 값과 함께 저장하는 인덱스 구조</small>
 						</p>
+					</section>
+					<section>
+						<h2>Balanced Trees</h2>
+						<a href="//en.wikipedia.org/wiki/B-tree"><img src="image/index/btree.gif" alt="" /></a>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## KEY
+
+							```sql
+							CREATE INDEX emp_test_idx ON employees(employee_id);
+							                                          ↑ KEY
+							```
+
+							<small>**column** 또는 **expressions** 들의 집합</small><br>
+							<small>논리적인 개념으로 Index와는 다르다.</small>
+						</script>
 					</section>
 					<section>
 						<h2>ROWID</h2>
@@ -123,13 +141,68 @@
 					</section>
 					<section>
 						<h2><a href="//docs.oracle.com/cd/E11882_01/server.112/e40540/indexiot.htm#CNCPT721">B*Tree Index subtypes</a></h2>
-						<ul>
-							<li>Index-organized tables</li>
-							<li>Reverse key Indexes</li>
-							<li>Descending Indexes</li>
+						<small><ul>
+							<li>Index-organized tables</li><br>
+							<li>Reverse key Indexes</li><br>
+							<li>Descending Indexes</li><br>
 							<li>B*tree cluster Indexes</li>
-						</ul>
+						</ul></small>
 					</section>
+				</section>
+
+				<section>
+					<h2>bitmap index</h2>
+					<p>
+						<small>키 값에 중복이 없고, 키 값 별로 하나의 비트맵 레코드를 갖는다.</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Function Based Index (FBI)</h2>
+				</section>
+
+				<section>
+					<h2>index scan의 종류</h2>
+					<small><ul>
+						<li>Index Range Scan</li><br>
+						<li>Index Full Scan</li><br>
+						<li>Index Fast Full Scan</li><br>
+						<li>Index Unique Scan</li><br>
+						<li>Index Skip Scan</li>
+					</ul></small>
+				</section>
+
+				<section>
+					<h2>왜 Index가 사용되지 않았나</h2>
+						<small><ul>
+							<li>Optimizer가 인덱스를 사용하기에 효율적이지 않다고 판단할 경우</li><br>
+							<li>Function Based Index를 사용하지 않고 인덱스 컬럼을 조건절에서 가공할 경우</li><br>
+							<li>is (not) null 조건이나 < > 비교를 사용할 경우</li><br>
+							<li>Column에 산술 연산자(mathematical operation)를 사용했을 경우</li><br>
+							<li>Column에 연결 연산자(concatenate)를 사용했을 경우</li><br>
+							<li>데이터 타입의 묵시적(implicit) 형변환</li><br>
+							<li>'OR' 문장을 쓴 경우 드물게 인덱스 사용이 불가능</li><br>
+						</ul></small>
+						<p>
+							<small>예외가 있을 수 있고, 정상적으로 인덱스 사용이 불가능할 뿐 </small><br>
+							<small>사용자체가 불가능한 것은 <u>아니다.</u></small>
+						</p>
+
+				</section>
+
+				<section>
+					<h2>Index 조회</h2>
+					<p>
+						<small>Data Dictionary로 조회 할 수 있다.</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>descend order</h2>
+				</section>
+
+				<section>
+
 				</section>
 
 			</div>
