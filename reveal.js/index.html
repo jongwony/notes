@@ -93,8 +93,7 @@
 					<small><ul>
 						<li>B*Tree Indexes</li><br>
 						<li>Bitmap Indexes</li><br>
-						<li>Function-Based Indexes</li><br>
-						<li>Application Domain Indexes</li>
+						<li>Function-Based Indexes</li>
 					</ul></small>
 				</section>
 
@@ -148,14 +147,27 @@
 							<li>B*tree cluster Indexes</li>
 						</ul></small>
 					</section>
+					<section>
+						<h2>descend order</h2>
+					</section>
 				</section>
 
 				<section>
-					<h2>bitmap index</h2>
-					<p>
-						<small>키 값에 중복이 없고, 키 값 별로 하나의 비트맵 레코드를 갖는다.</small>
-					</p>
+					<section>
+						<h2>bitmap index</h2>
+						<img src="image/index/customer.png" alt="" />
+						<img class="fragment grow" src="image/index/bitmapsample.png" alt="" />
+					</section>
+					<section>
+						<h2>bitmap index</h2>
+						<p>
+							<small>Distinct Value의 수가 적을 때</small><br>
+							<small>DML문이 거의 사용되지 않거나 읽기 위주의 대용량 데이터 환경(Data Warehousing)</small><br>
+							<small>두개 이상의 Bitmap을 활용한 Bitwise 연산으로 여러 인덱스를 동시에 활용</small>
+						</p>
+					</section>
 				</section>
+
 
 				<section>
 					<h2>Function Based Index (FBI)</h2>
@@ -180,9 +192,9 @@
 							<li>is (not) null 조건이나 < > 비교를 사용할 경우</li><br>
 							<li>Column에 산술 연산자(mathematical operation)를 사용했을 경우</li><br>
 							<li>Column에 연결 연산자(concatenate)를 사용했을 경우</li><br>
-							<li>데이터 타입의 묵시적(implicit) 형변환</li><br>
-							<li>'OR' 문장을 쓴 경우 드물게 인덱스 사용이 불가능</li><br>
+							<li>데이터 타입의 묵시적(implicit) 형변환</li>
 						</ul></small>
+						<hr>
 						<p>
 							<small>예외가 있을 수 있고, 정상적으로 인덱스 사용이 불가능할 뿐 </small><br>
 							<small>사용자체가 불가능한 것은 <u>아니다.</u></small>
@@ -197,12 +209,24 @@
 					</p>
 				</section>
 
-				<section>
-					<h2>descend order</h2>
-				</section>
+
 
 				<section>
-
+					<h2>summary</h2>
+					<small><ul>
+						<li><a href="#/1">INDEX?</a></li>
+						<li><a href="#/3/1">B*Tree Index</a></li>
+						<li><a href="#/4">Bitmap Index</a></li>
+						<li><a href="#/6">Index Scan</a></li>
+						<li><a href="#/7">Why Indexes Aren't Used</a></li>
+					</ul></small>
+					<hr>
+					<h2>reference</h2>
+					<small><ul>
+						<li><a href="//oracle-base.com/articles/misc/efficient-sql-statements">Efficient SQL Statements</a></li>
+						<li><a href="//docs.oracle.com/cd/E11882_01/server.112/e40540/indexiot.htm#CNCPT721">Indexes and Index-Organized Tables</a></li>
+						<li>조시형. 『 오라클 성능 고도화 원리와 해법 II 』 비투엔컨설팅</li>
+					</ul></small>
 				</section>
 
 			</div>
