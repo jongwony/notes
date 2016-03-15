@@ -89,26 +89,13 @@
 				</section>
 
 				<section>
-					<h2>Index의 종류</h2>
-					<small><ul>
-						<li>B*Tree Indexes</li><br>
-						<li>Bitmap Indexes</li><br>
-						<li>Function-Based Indexes</li>
-					</ul></small>
-				</section>
-
-				<section>
 					<section>
-						<h2>B*Tree Index</h2>
-						<p>
-							<small>Binary Trees가 아닌 Balanced Trees</small><br>
-							<small>책 뒷면의 색인과 비슷한 방법</small><br>
-							<small><strong style="color:cyan">ROWID</strong>를 <strong style="color:yellow">KEY</strong> 값과 함께 저장하는 인덱스 구조</small>
-						</p>
-					</section>
-					<section>
-						<h2>Balanced Trees</h2>
-						<a href="//en.wikipedia.org/wiki/B-tree"><img src="image/index/btree.gif" alt="" /></a>
+						<h2>Index의 종류</h2>
+						<small><ul>
+							<li>B*Tree Indexes</li><br>
+							<li>Bitmap Indexes</li><br>
+							<li>Function-Based Indexes</li>
+						</ul></small>
 					</section>
 					<section data-markdown>
 						<script type="text/template">
@@ -116,7 +103,7 @@
 
 							```sql
 							CREATE INDEX emp_test_idx ON employees(employee_id);
-							                                          ↑ KEY
+							                                           ↑ KEY
 							```
 
 							<small>**column** 또는 **expressions** 들의 집합</small><br>
@@ -138,6 +125,26 @@
 						</p>
 						<img src="image/index/rowid.png" alt="" style="width:60%" />
 					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>B*Tree Index</h2>
+						<p>
+							<small>Binary Trees가 아닌 Balanced Trees</small><br>
+							<small>책 뒷면의 색인과 비슷한 방법</small><br>
+							<small><strong style="color:cyan">ROWID</strong>를 <strong style="color:yellow">KEY</strong> 값과 함께 저장하는 인덱스 구조</small>
+						</p>
+					</section>
+					<section>
+						<h2>Balanced Trees</h2>
+						<a href="//en.wikipedia.org/wiki/B-tree"><img src="image/index/btree.gif" alt="" /></a>
+					</section>
+					<section>
+						<p>Branch Blocks</p>
+						<hr>
+						<p>Leaf Blocks</p>
+					</section>
 					<section>
 						<h2><a href="//docs.oracle.com/cd/E11882_01/server.112/e40540/indexiot.htm#CNCPT721">B*Tree Index subtypes</a></h2>
 						<small><ul>
@@ -146,9 +153,6 @@
 							<li>Descending Indexes</li><br>
 							<li>B*tree cluster Indexes</li>
 						</ul></small>
-					</section>
-					<section>
-						<h2>descend order</h2>
 					</section>
 				</section>
 
@@ -180,20 +184,68 @@
 							<li>Index Range Scan</li><br>
 							<li>Index Range Scan Descending</li><br>
 							<li>Index Full Scan</li><br>
-							<li>Index Fast Full Scan</li><br>
 							<li>Index Unique Scan</li><br>
+							<li>Index Fast Full Scan</li><br>
 							<li>Index Skip Scan</li>
 						</ul></small>
 					</section>
 					<section>
 						<h2>Index Range Scan</h2>
+						<img src="image/index/rangescan.png" alt="" />
+						<p>
+							<small>Branch block을 수직적으로 스캔한 후 Leaf block에서 Key값의 범위만큼을 스캔</small><br>
+							<small><strong style="color:cyan">스캔 범위</strong>와 <strong style="color:cyan">테이블 액세스 횟수</strong>가 속도의 관건</small>
+						</p>
+					</section>
+					<section>
+						<h2>Index Range Scan Descending</h2>
+						<img src="image/index/rangedesc.png" alt="" />
+						<p>
+							<small>Index Range Scan과 기본적으로 동일하나 Index를 뒤에서부터 스캔</small><br>
+							<small>ORDER BY ~ DESC 를 사용했을 경우</small>
+						</p>
+					</section>
+					<section>
+						<h2>Index Full Scan</h2>
+						<img src="image/index/idxfullscan.png" alt="" />
+						<p>
+							<small>Leaf block을 처음부터 끝까지 수평적으로 스캔</small><br>
+							<small>테이블이 대용량인데 Key값을 이용한 <strong style="color:cyan">조건절로 필터링되는 데이터가 극히 일부</strong>인 경우</small><br>
+							<small>Index Range Scan에서 Index를 구성하는 컬럼이 조건절에 사용되지 않았을 경우 발생</small>
+						</p>
+					</section>
+					<section>
+						<h2>Index Unique Scan</h2>
+						<img src="image/index/uniquescan.png" alt="" />
+						<p>
+							<small>수직적 스캔만으로 데이터를 찾는 방식</small><br>
+							<small>Unique Key를 통해 <strong style="color:cyan">등호</strong> 조건으로 탐색하는 경우</small>
+						</p>
+					</section>
+
+					<section>
+						<h2>Index Fast Full Scan</h2>
+						<img src="image/index/idxfastfullscan.png" alt="" />
+						<p>
+							<small>Index 트리 구조를 무시하고, <strong style="color:cyan">물리적으로 디스크에 저장된 순서대로</strong> Leaf block을 스캔</small>
+						</p>
+					</section>
+
+					<section>
+						<h2>Index Skip Scan</h2>
+						<img src="image/index/skipscan.png" alt="" />
+						<p>
+							<small>Root 또는 Branch block에서 읽은 Key값 정보를 이용해서</small><br>
+							<small>조건에 맞는 레코드를 포함하는 Leaf Block을 골라서 액세스</small><br>
+							<small>DIstinct Value가 적은 선행 Key가 조건절에서 누락됐고 후행 Key의 Distinct Value가 많을 때 효과적</small>
+						</p>
 					</section>
 
 				</section>
 
 				<section>
 					<section>
-						<h2></h2>
+						<h2>Hint</h2>
 					</section>
 				</section>
 
@@ -211,36 +263,54 @@
 						<hr>
 						<p>
 							<small>예외가 있을 수 있고, 정상적으로 인덱스 사용이 불가능할 뿐 </small><br>
-							<small>사용자체가 불가능한 것은 <u>아니다.</u></small>
+							<small>사용자체가 <u>불가능한 것은 아니다.</u></small>
 						</p>
 
 				</section>
 
 				<section>
-					<h2>Index 조회</h2>
-					<p>
-						<small>Data Dictionary로 조회 할 수 있다.</small>
-					</p>
+					<section data-markdown>
+						<script type="text/template">
+							## Index 조회
+
+							<small>Data Dictionary의 **ALL_INDEXES** 뷰로 조회할 수 있다.</small><br>
+							```sql
+							SELECT INDEX_NAME, CLUSTERING_FACTOR
+							FROM ALL_INDEXES
+							WHERE TABLE_NAME = 'EMPLOYEES';
+							```
+
+						</script>
+					</section>
+					<section>
+						<h2>Clustering Factor</h2>
+						<small>인접한 Leaf block들이 가리키는 Data block에 데이터가 밀집된 정도</small><br>
+						<img src="image/index/unclustered_rows.gif" alt="" />
+						<img src="image/index/clustered_rows.gif" alt="" />
+					</section>
 				</section>
 
 
 
+
 				<section>
-					<h2>summary</h2>
+					<h2>highlight</h2>
 					<small><ul>
-						<li><a href="#/1">INDEX?</a></li>
+						<li><a href="#/2/1">KEY, ROWID</a></li>
 						<li><a href="#/3/1">B*Tree Index</a></li>
 						<li><a href="#/4">Bitmap Index</a></li>
 						<li><a href="#/6">Index Scan</a></li>
-						<li><a href="#"></a></li>
+						<li><a href="#">HINT</a></li>
 						<li><a href="#/7">Why Indexes Aren't Used</a></li>
 					</ul></small>
 					<hr>
 					<h2>reference</h2>
 					<small><ul>
+						<li><a href="//www.dba-oracle.com/concepts/index_administration.htm">Oracle Concepts - Administering Oracle Indexes</a></li>
+						<li><a href="//www.dba-oracle.com/oracle_tips_index_column_order.htm">Index Column Order Does Matter</a></li>
 						<li><a href="//oracle-base.com/articles/misc/efficient-sql-statements">Efficient SQL Statements</a></li>
 						<li><a href="//docs.oracle.com/cd/E11882_01/server.112/e40540/indexiot.htm#CNCPT721">Indexes and Index-Organized Tables</a></li>
-						<li>조시형. 『 오라클 성능 고도화 원리와 해법 II 』 비투엔컨설팅</li>
+						<li>조시형. 『 오라클 성능 고도화 원리와 해법 I, II 』 비투엔컨설팅</li>
 					</ul></small>
 				</section>
 
