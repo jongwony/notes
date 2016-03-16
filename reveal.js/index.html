@@ -245,7 +245,95 @@
 
 				<section>
 					<section>
+						<h2><a href="//docs.oracle.com/cd/B19306_01/server.102/b14200/sql_elements006.htm#BABEFDFC">Hint</a></h2>
+						<p>
+							<small>Comment를 사용하여 Optimizer가 HINT를 사용해 Execution Plan을 선택하게 할 수 있다.</small>
+						</p>
+						<table>
+							<tr>
+							<td>
+								<div class="caption">
+									<p>
+										<small>tablespec::=</small>
+									</p>
+									<img src="image/index/tablespec.gif" alt="" />
+								</div>
+							</td>
+							<td>
+								<div class="caption">
+									<p>
+										<small>indexspec::=</small>
+									</p>
+									<img src="image/index/indexspec.gif" alt="" />
+								</div>
+							</td>
+							</tr>
+							</table>
+
+							<div class="caption">
+								<p>
+									<small>INDEX Hint</small>
+								</p>
+								<img src="image/index/index_hint.gif" alt="" />
+							</div>
+					</section>
+					<section>
+						<h2>query block</h2>
+						<pre style="height:80px">
+							<code>EXPLAIN PLAN FOR
+SELECT employee_id FROM employees;</code>
+						</pre>
+						<img src="image/index/queryblock.png" alt="" />
+
+					</section>
+					<section>
 						<h2>Hint</h2>
+						<small><table>
+							<thead>
+								<tr>
+									<th>
+										Hint
+									</th>
+									<th>
+										Syntax
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										Index
+									</td>
+									<td>
+										/*+ INDEX ( [ @ qb_name ] tablespec [ indexspec [ indexspec ]... ] ) */
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Descending scan
+									</td>
+									<td>
+										/*+ INDEX_DESC ( [ @ qb_name ] tablespec [ indexspec [ indexspec ]... ] ) */
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Fast Full Scan
+									</td>
+									<td>
+										/*+ INDEX_FFS ( [ @ qb_name ] tablespec [ indexspec [ indexspec ]... ] ) */
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Skip Scan
+									</td>
+									<td>
+										/*+ INDEX_SS ( [ @ qb_name ] tablespec [ indexspec [ indexspec ]... ] ) */
+									</td>
+								</tr>
+							</tbody>
+						</table></small>
 					</section>
 				</section>
 
@@ -300,8 +388,8 @@
 						<li><a href="#/3/1">B*Tree Index</a></li>
 						<li><a href="#/4">Bitmap Index</a></li>
 						<li><a href="#/6">Index Scan</a></li>
-						<li><a href="#">HINT</a></li>
-						<li><a href="#/7">Why Indexes Aren't Used</a></li>
+						<li><a href="#/7">HINT</a></li>
+						<li><a href="#/8">Why Indexes Aren't Used</a></li>
 					</ul></small>
 					<hr>
 					<h2>reference</h2>
