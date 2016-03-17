@@ -381,12 +381,15 @@ SELECT employee_id FROM employees;</code>
 						<pre>
 							<code>-- 현재 유저 내의 INDEX
 DESC user_indexes
+DESC user_ind_columns
 
 -- 현재 유저의 권한으로 사용할 수 있는 모든 INDEX
 DESC all_indexes
+DESC all_ind_columns
 
 -- 모든 유저의 INDEX
-DESC dba_indexes</code>
+DESC dba_indexes
+DESC dba_ind_columns</code>
 						</pre>
 					</section>
 					<section>
@@ -418,9 +421,10 @@ WHERE table_name IN ('PROMOTIONS','INDEX_ORG_T');
 					<h2>highlight</h2>
 					<small><ul>
 						<li><a href="#/2/1">KEY, ROWID</a></li>
-						<li><a href="#/3/1">B*Tree Index</a></li>
-						<li><a href="#/4">Bitmap Index</a></li>
-						<li><a href="#/6">Index Scan</a></li>
+						<li><a href="#/4/1">Balanced Trees</a></li>
+						<li><a href="#/5">Bitmap Index</a></li>
+						<li><a href="#/6/1">Implicit Issue</a></li>
+						<li><a href="#/7">Index Scan</a></li>
 						<li><a href="#/8/1">Why Indexes Aren't Used</a></li>
 						<li><a href="#/9">HINT</a></li>
 						<li><a href="#/10/1">Clustering Factor</a></li>
