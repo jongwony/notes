@@ -112,7 +112,11 @@
 					</section>
 					<section>
 						<h2>ROWID</h2>
-						<img src="image/index/query1.png" alt="" />
+						<!--img src="image/index/query1.png" alt="" /-->
+						<pre>
+							<code>SELECT rowid, employee_id, last_name
+FROM employees;</code>
+						</pre>
 						<p>
 							<small>테이블에 값이 실제로 저장되어 있지는 않은</small><br>
 							<small>pseudo column</small>
@@ -141,9 +145,15 @@
 						<a href="//en.wikipedia.org/wiki/B-tree"><img src="image/index/btree.gif" alt="" /></a>
 					</section>
 					<section>
-						<p>Branch Blocks</p>
+						<h2>branch blocks</h2>
+						<small><p>
+							하위 노드 Block을 찾아가기 위한 Data Block Address 정보를 갖는다.
+						</p></small>
 						<hr>
-						<p>Leaf Blocks</p>
+						<h2>leaf blocks</h2>
+						<small><p>
+							KEY 컬럼과 함께 해당 테이블 레코드를 찾아가기 위한 주소정보(ROWID)를 갖는다.
+						</p></small>
 					</section>
 					<section>
 						<h2><a href="//docs.oracle.com/cd/E11882_01/server.112/e40540/indexiot.htm#CNCPT721">B*Tree Index subtypes</a></h2>
@@ -165,10 +175,17 @@
 					<section>
 						<h2>bitmap index</h2>
 						<p>
-							<small>Distinct Value의 수가 적을 때</small><br>
-							<small>DML문이 거의 사용되지 않거나 읽기 위주의 대용량 데이터 환경(Data Warehousing)</small><br>
+							<small>Distinct Value의 수가 적거나 DML문이 거의 사용되지 않는 경우</small><br>
+							<small>읽기 위주의 대용량 데이터 환경(Data Warehousing)에 적합</small><br>
 							<small>두개 이상의 Bitmap을 활용한 Bitwise 연산으로 여러 인덱스를 동시에 활용</small>
 						</p>
+					</section>
+					<section>
+						<h2>bitmap index structure</h2>
+ 						<small><p>
+ 							아래 화면은 SH 스키마의 COST_PROD_BIX 라는 BITMAP INDEX를 DUMP한 것입니다.
+ 						</p></small>
+						<img src="image/index/bitmapdump.png" alt="" />
 					</section>
 				</section>
 
@@ -286,55 +303,6 @@ SELECT employee_id FROM employees;</code>
 						<img src="image/index/queryblock.png" alt="" />
 
 					</section>
-					<section>
-						<h2>Hint</h2>
-						<small><table>
-							<thead>
-								<tr>
-									<th>
-										Hint
-									</th>
-									<th>
-										Syntax
-									</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>
-										Index
-									</td>
-									<td>
-										/*+ INDEX ( [ @ qb_name ] tablespec [ indexspec [ indexspec ]... ] ) */
-									</td>
-								</tr>
-								<tr>
-									<td>
-										Descending scan
-									</td>
-									<td>
-										/*+ INDEX_DESC ( [ @ qb_name ] tablespec [ indexspec [ indexspec ]... ] ) */
-									</td>
-								</tr>
-								<tr>
-									<td>
-										Fast Full Scan
-									</td>
-									<td>
-										/*+ INDEX_FFS ( [ @ qb_name ] tablespec [ indexspec [ indexspec ]... ] ) */
-									</td>
-								</tr>
-								<tr>
-									<td>
-										Skip Scan
-									</td>
-									<td>
-										/*+ INDEX_SS ( [ @ qb_name ] tablespec [ indexspec [ indexspec ]... ] ) */
-									</td>
-								</tr>
-							</tbody>
-						</table></small>
-					</section>
 				</section>
 
 
@@ -357,24 +325,40 @@ SELECT employee_id FROM employees;</code>
 				</section>
 
 				<section>
-					<section data-markdown>
-						<script type="text/template">
-							## Index 조회
+					<section>
+						<h2>Index 조회</h2>
+						<small>Data Dictionary의 뷰로 조회할 수 있다.</small><br>
+						<pre>
+							<code>-- 현재 유저 내의 INDEX
+DESC user_indexes
 
-							<small>Data Dictionary의 **ALL_INDEXES** 뷰로 조회할 수 있다.</small><br>
-							```sql
-							SELECT INDEX_NAME, CLUSTERING_FACTOR
-							FROM ALL_INDEXES
-							WHERE TABLE_NAME = 'EMPLOYEES';
-							```
+-- 현재 유저가 사용할 수 있는 INDEX
+DESC all_indexes
 
-						</script>
+-- SYS유저의 INDEX
+DESC dba_indexes</code>
+						</pre>
 					</section>
 					<section>
 						<h2>Clustering Factor</h2>
 						<small>인접한 Leaf block들이 가리키는 Data block에 데이터가 밀집된 정도</small><br>
 						<img src="image/index/unclustered_rows.gif" alt="" />
 						<img src="image/index/clustered_rows.gif" alt="" />
+					</section>
+					<section>
+						<p>
+							Heap-Organized Table &nbsp; vs &nbsp; Index-Organized Table
+						</p>
+						<img src="image/index/iotvsnormal.png" alt="" />
+						<pre>
+							<code>CREATE TABLE index_org_t (a NUMBER PRIMARY KEY, b VARCHAR(10))
+ORGANIZATION INDEX;
+
+SELECT index_name, index_type, clustering_factor
+FROM user_indexes
+WHERE table_name IN ('EMPLOYEES','INDEX_ORG_T');
+</code>
+						</pre>
 					</section>
 				</section>
 
