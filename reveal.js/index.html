@@ -77,31 +77,27 @@
 							<small>Index를 통해 검색한다.</small>
 						</div>
 					</section>
-
-					<section>
-						<h2>INDEX 생성 지침</h2>
-						<small><ul>
-							<li>인덱스화 된 컬럼이 자주 쿼리되고 테이블 전체의 작은 부분(2~4%)을 반환할 때</li><br>
-							<li>컬럼 또는 인덱스화 된 컬럼에 Referential integrity constraint가 걸려 있을 때</li><br>
-							<li>Unique key constraint가 테이블에 걸려있고 이를 인덱스화 할 때</li>
-						</ul></small>
-					</section>
 				</section>
 
 				<section>
 					<section>
-						<h2>Index의 종류</h2>
-						<small><ul>
-							<li>B*Tree Indexes</li><br>
-							<li>Bitmap Indexes</li><br>
-							<li>Function-Based Indexes</li>
-						</ul></small>
+						<h2><a href="//docs.oracle.com/cd/B28359_01/server.111/b28286/statements_5011.htm">create index</a></h2>
+						<img src="image/index/create_index.gif" alt="" />
+						<pre>
+							<code>CREATE [ UNIQUE | BITMAP ] INDEX [ schema. ] index
+  ON { cluster_index_clause
+     | table_index_clause
+     | bitmap_join_index_clause
+     }
+[ UNUSABLE ] ;</code>
+						</pre>
 					</section>
 					<section data-markdown>
 						<script type="text/template">
 							## KEY
 
 							```sql
+							-- HR Schema
 							CREATE INDEX emp_test_idx ON employees(employee_id);
 							                                           ↑ KEY
 							```
@@ -114,7 +110,8 @@
 						<h2>ROWID</h2>
 						<!--img src="image/index/query1.png" alt="" /-->
 						<pre>
-							<code>SELECT rowid, employee_id, last_name
+							<code>-- HR Schema
+SELECT ROWID, employee_id, last_name
 FROM employees;</code>
 						</pre>
 						<p>
@@ -129,6 +126,15 @@ FROM employees;</code>
 						</p>
 						<img src="image/index/rowid.png" alt="" style="width:60%" />
 					</section>
+				</section>
+
+				<section>
+					<h2>Index의 종류</h2>
+					<small><ul>
+						<li>B*Tree Indexes</li><br>
+						<li>Bitmap Indexes</li><br>
+						<li>Function-Based Indexes</li>
+					</ul></small>
 				</section>
 
 				<section>
@@ -169,7 +175,14 @@ FROM employees;</code>
 				<section>
 					<section>
 						<h2>bitmap index</h2>
-						<img src="image/index/customer.png" alt="" />
+						<!--img src="image/index/customer.png" alt="" /-->
+						<pre>
+							<code>-- SH Schema
+SELECT cust_id, cust_last_name, cust_matital_status, cust_gender
+FROM customers
+WHERE ROWNUM < 100
+ORDER BY cust_id;</code>
+						</pre>
 						<img class="fragment grow" src="image/index/bitmapsample.png" alt="" />
 					</section>
 					<section>
@@ -183,7 +196,7 @@ FROM employees;</code>
 					<section>
 						<h2>bitmap index structure</h2>
  						<small><p>
- 							아래 화면은 SH 스키마의 COST_PROD_BIX 라는 BITMAP INDEX를 DUMP한 것입니다.
+ 							아래 화면은 SH 스키마의 SALES_PROD_BIX 라는 BITMAP INDEX를 <a href="//blogs.oracle.com/sysdba/entry/how_to_dump_oracle_data_block">DUMP</a>한 것입니다.
  						</p></small>
 						<img src="image/index/bitmapdump.png" alt="" />
 					</section>
@@ -191,8 +204,38 @@ FROM employees;</code>
 
 
 				<section>
-					<h2>Function Based Index (FBI)</h2>
+					<section>
+						<h2>Function Based Index (FBI)</h2>
+						<p>
+							<small>테이블에 Index를 생성할 때 하나 이상의 열에 함수나 expressions를 포함하는 것.</small><br>
+							<small>B*Tree Index나 Bitmap Index가 될 수 있다.</small>
+						</p></small>
+					</section>
+					<section>
+						<h2>implicit 형변환 문제</h2>
+						<pre style="height:200px">
+							<code>-- SH Schema, SET AUTOTRACE ON
+CREATE TABLE promotion_test AS SELECT * FROM PROMOTIONS;
+ALTER TABLE promotion_test ADD v_category VARCHAR2(2);
+UPDATE promotion_test SET v_category = promo_category_id;
+CREATE INDEX before_test ON promotion_test(v_category);
+
+SELECT promo_id, promo_name FROM promotion_test WHERE v_category = 10;
+</code>
+						</pre>
+						<img src="image/index/implicit1.png" alt="" />
+					</section>
+					<section>
+						<h2>implicit 형변환 문제</h2>
+						<pre style="height:150px">
+							<code>DROP INDEX before_test;
+CREATE INDEX after_test ON promotion_test(to_number(v_category));
+SELECT promo_id, promo_name FROM promotion_test where v_category = 10;</code>
+						</pre>
+						<img src="image/index/implicit2.png" alt="" />
+					</section>
 				</section>
+
 
 				<section>
 					<section>
@@ -262,37 +305,63 @@ FROM employees;</code>
 
 				<section>
 					<section>
+						<h2>INDEX 생성 지침</h2>
+						<small><ul>
+							<li>조건절에 항상 사용되거나, 자주 등장하는 컬럼을 선정한다.</li><br>
+							<li>등호 조건으로 자주 조회되는 컬럼들을 앞쪽에 둔다.</li>
+						</ul></small>
+					</section>
+					<section>
+						<h2>왜 Index가 사용되지 않았나</h2>
+							<small><ul>
+								<li>Optimizer가 인덱스를 사용하기에 효율적이지 않다고 판단할 경우</li><br>
+								<li>Function Based Index를 사용하지 않고 인덱스 컬럼을 조건절에서 가공할 경우</li><br>
+								<li>is (not) null 조건이나 < > 비교를 사용할 경우</li><br>
+								<li>Column에 산술 연산자(mathematical operation)를 사용했을 경우</li><br>
+								<li>Column에 연결 연산자(concatenate)를 사용했을 경우</li><br>
+								<li>데이터 타입의 묵시적(implicit) 형변환</li>
+							</ul></small>
+							<hr>
+							<p>
+								<small>예외가 있을 수 있고, 정상적으로 인덱스 사용이 불가능할 뿐 </small><br>
+								<small>사용자체가 <u>불가능한 것은 아니다.</u></small>
+							</p>
+					</section>
+				</section>
+
+
+				<section>
+					<section>
 						<h2><a href="//docs.oracle.com/cd/B19306_01/server.102/b14200/sql_elements006.htm#BABEFDFC">Hint</a></h2>
 						<p>
 							<small>Comment를 사용하여 Optimizer가 HINT를 사용해 Execution Plan을 선택하게 할 수 있다.</small>
 						</p>
-						<table>
-							<tr>
-							<td>
-								<div class="caption">
-									<p>
-										<small>tablespec::=</small>
-									</p>
-									<img src="image/index/tablespec.gif" alt="" />
-								</div>
-							</td>
-							<td>
-								<div class="caption">
-									<p>
-										<small>indexspec::=</small>
-									</p>
-									<img src="image/index/indexspec.gif" alt="" />
-								</div>
-							</td>
-							</tr>
-							</table>
-
 							<div class="caption">
 								<p>
 									<small>INDEX Hint</small>
 								</p>
 								<img src="image/index/index_hint.gif" alt="" />
 							</div>
+							<table>
+								<tr>
+								<td>
+									<div class="caption">
+										<p>
+											<small>tablespec::=</small>
+										</p>
+										<img src="image/index/tablespec.gif" alt="" />
+									</div>
+								</td>
+								<td>
+									<div class="caption">
+										<p>
+											<small>indexspec::=</small>
+										</p>
+										<img src="image/index/indexspec.gif" alt="" />
+									</div>
+								</td>
+								</tr>
+								</table>
 					</section>
 					<section>
 						<h2>query block</h2>
@@ -305,25 +374,6 @@ SELECT employee_id FROM employees;</code>
 					</section>
 				</section>
 
-
-				<section>
-					<h2>왜 Index가 사용되지 않았나</h2>
-						<small><ul>
-							<li>Optimizer가 인덱스를 사용하기에 효율적이지 않다고 판단할 경우</li><br>
-							<li>Function Based Index를 사용하지 않고 인덱스 컬럼을 조건절에서 가공할 경우</li><br>
-							<li>is (not) null 조건이나 < > 비교를 사용할 경우</li><br>
-							<li>Column에 산술 연산자(mathematical operation)를 사용했을 경우</li><br>
-							<li>Column에 연결 연산자(concatenate)를 사용했을 경우</li><br>
-							<li>데이터 타입의 묵시적(implicit) 형변환</li>
-						</ul></small>
-						<hr>
-						<p>
-							<small>예외가 있을 수 있고, 정상적으로 인덱스 사용이 불가능할 뿐 </small><br>
-							<small>사용자체가 <u>불가능한 것은 아니다.</u></small>
-						</p>
-
-				</section>
-
 				<section>
 					<section>
 						<h2>Index 조회</h2>
@@ -332,10 +382,10 @@ SELECT employee_id FROM employees;</code>
 							<code>-- 현재 유저 내의 INDEX
 DESC user_indexes
 
--- 현재 유저가 사용할 수 있는 INDEX
+-- 현재 유저의 권한으로 사용할 수 있는 모든 INDEX
 DESC all_indexes
 
--- SYS유저의 INDEX
+-- 모든 유저의 INDEX
 DESC dba_indexes</code>
 						</pre>
 					</section>
@@ -351,19 +401,18 @@ DESC dba_indexes</code>
 						</p>
 						<img src="image/index/iotvsnormal.png" alt="" />
 						<pre>
-							<code>CREATE TABLE index_org_t (a NUMBER PRIMARY KEY, b VARCHAR(10))
-ORGANIZATION INDEX;
+							<code>-- SH Schema
+CREATE TABLE index_org_t (a PRIMARY KEY, b)
+ORGANIZATION INDEX
+AS SELECT promo_id, promo_name FROM promotions;
 
 SELECT index_name, index_type, clustering_factor
 FROM user_indexes
-WHERE table_name IN ('EMPLOYEES','INDEX_ORG_T');
+WHERE table_name IN ('PROMOTIONS','INDEX_ORG_T');
 </code>
 						</pre>
 					</section>
 				</section>
-
-
-
 
 				<section>
 					<h2>highlight</h2>
@@ -372,8 +421,9 @@ WHERE table_name IN ('EMPLOYEES','INDEX_ORG_T');
 						<li><a href="#/3/1">B*Tree Index</a></li>
 						<li><a href="#/4">Bitmap Index</a></li>
 						<li><a href="#/6">Index Scan</a></li>
-						<li><a href="#/7">HINT</a></li>
-						<li><a href="#/8">Why Indexes Aren't Used</a></li>
+						<li><a href="#/8/1">Why Indexes Aren't Used</a></li>
+						<li><a href="#/9">HINT</a></li>
+						<li><a href="#/10/1">Clustering Factor</a></li>
 					</ul></small>
 					<hr>
 					<h2>reference</h2>
