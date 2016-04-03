@@ -14,6 +14,7 @@ HTML정도만 해보신 분들이라면 어렵지 않게 접근할 수 있습니
 [Reveal.js GitHub](//github.com/hakimel/reveal.js)
 
 GitHub가 설치되어 있다면 다음과 같이 프로젝트를 clone합니다.
+
 ```
 git clone https://github.com/hakimel/reveal.js.git
 ```
