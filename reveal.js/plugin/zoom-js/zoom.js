@@ -13,6 +13,7 @@
 
 			var bounds = event.target.getBoundingClientRect();
 
+		/*
 			zoom.to({
 				x: ( bounds.left * revealScale ) - zoomPadding,
 				y: ( bounds.top * revealScale ) - zoomPadding,
@@ -20,6 +21,12 @@
 				height: ( bounds.height * revealScale ) - ( zoomPadding * 5 ),
 				pan: false
 			});
+		*/
+
+			zoom.to({
+				element: event.target
+			});
+
 		}
 	} );
 
