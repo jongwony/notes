@@ -42,7 +42,6 @@ git clone https://github.com/hakimel/reveal.js.git
     아래 방향으로 슬라이드
   </section>
 </section>  
-
 ```
 
 - - -
@@ -236,7 +235,7 @@ reveal.js/plugin/sketch-js 디렉터리를 만들고
 
 [sketch.js](//intridea.github.com/sketch.js/lib/sketch.js)
 
-index.html에서 가장 마지막(body 태그 위)에 다음을 추가합니다.
+index.html에서 가장 마지막(/body 태그 위)에 다음을 추가합니다.
 
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -245,6 +244,7 @@ index.html에서 가장 마지막(body 태그 위)에 다음을 추가합니다.
 ```
 
 Chrome의 컨트롤 키 기능과 충돌하지 않기 위해 dazzleSketch.js를 다음과 같이 변경합니다.
+
 ```js
 $(document).keypress(function(event)
 {
@@ -253,6 +253,8 @@ $(document).keypress(function(event)
 
     // 여기다 원하는 색을 추가하셔도 좋습니다.
     var colors = ['#ff0', '#0f0', '#0ff', '#f00', '#fff', '#00f', '#f0f', '#000'];
+
+    // 사이즈도 조절할 수 있습니다.
     var sizes = [1, 2, 3, 5, 8, 10, 15];
 
     // event.ctrlKey && 을 모두 제거합니다.
