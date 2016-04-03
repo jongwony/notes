@@ -114,7 +114,7 @@ var RevealNotes = (function() {
 			// Disregard the event if keyboard is disabled
 			if ( Reveal.getConfig().keyboard === false ) return;
 
-			if( event.keyCode === 83 ) {
+			if( event.keyCode === 88 ) {
 				event.preventDefault();
 				openNotes();
 			}
