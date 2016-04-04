@@ -36,7 +36,7 @@ $(document).ready( function() {
 });
 
 // Global variable for pen size
-var currentSketchSize = 2;
+var currentSketchSize = 1;
 
 // Grab and process a few keypreses
 
