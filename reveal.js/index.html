@@ -70,15 +70,36 @@
 				<section>
 					<section>
 						<h1>Performance?</h1>
-						<small>속도 향상 - Access 횟수 줄이기 개요</small>
+						<img style="width:70%" src="image/btree/speed.jpg" alt="" />
+						<aside class="notes">
+							<small>성능이 좋다 = 빠르다 </small><br>
+							<small>단순히 빠른것인가</small><br>
+							<small>일단 속도의 개념부터 살펴보기로</small>
+						</aside>
 					</section>
 					<section>
 						<h2>Memory Systems</h2>
-						<img src="image/btree/memoryhierarchy.png" alt="" />
+						<img style="width:70%" src="image/btree/memoryhierarchy.png" alt="" />
 						<aside class="notes">
 							<small>위로 갈수록 저장공간이 커지고</small><br>
 							<small>아래로 갈수록 속도가 빨라진다</small><br>
-							<small>여기서 External Memory는 CD DVD TAPE 등의 Storage 개념</small>
+							<small>여기서 External Memory는 CD DVD TAPE 등의 Storage 개념</small><br>
+							<small>일처리는 CPU가 거의다함(DMA)</small>
+						</aside>
+					</section>
+
+					<section>
+						<span style="font-size:100px">C</span><small style="padding-top:80px">entral</small>
+						<span style="font-size:100px">P</span><small style="padding-top:80px">rocessing</small>
+						<span style="font-size:100px; color:cyan">U</span><small style="padding-top:80px; color:cyan">nit</small>
+						<br>
+						<span style="font-size:100px">I</span><small style="padding-top:80px">nput </small>
+						<span style="font-size:100px"> &nbsp; / O</span><small style="padding-top:80px">utput</small>
+						<aside class="notes">
+							<small>다른건 다 저장(메모리)하는 공간인데 CPU는 단위 임을강조</small><br>
+							<small>속도의 차이만 있을뿐 나머지는 저장 공간</small><br>
+							<small>실제로 CPU가 저장장치를 읽고 쓰기만 함(I/O)</small><br>
+							<small>더 자세한 내용은 운영체제를 참조</small>
 						</aside>
 					</section>
 
@@ -111,41 +132,96 @@
 				</section>
 
 				<section>
-					<h1>Caching</h1>
-					데이터가 커서 메모리에 모두 올릴 수가 없다.<br>
-					그럼 자주 쓰는 것만 올려보자.
-					<aside class="notes">
-						<small>다시 성능문제로 돌아와서...</small><br>
-						<small>cpu 메모리 빠르지만 저장 공간이 부족</small><br>
-						<small>자주 안쓰는걸 올릴 때는 어쩔 수 없이 시간을 감수하더라도.</small><br>
-						<small>이 캐싱에서 중요한 개념이 locality-of-reference</small>
-					</aside>
-				</section>
 
+					<section>
+						<h1>Caching</h1>
+						데이터가 커서 메모리에 모두 올릴 수가 없다.<br>
+						그럼 자주 쓰는 것만 올려보자.
+						<aside class="notes">
+							<small>다시 성능문제로 돌아와서...</small><br>
+							<small>cpu 메모리 빠르지만 저장 공간이 부족</small><br>
+							<small>자주 안쓰는걸 올릴 때는 어쩔 수 없이 시간을 감수하더라도.</small><br>
+							<small>이 캐싱에서 중요한 개념이 locality-of-reference</small>
+						</aside>
+					</section>
+
+					<section>
+						<h1>LOCALITY</h1>
+						<table>
+							<tr>
+								<td style="text-align:center">
+									<img width="500px" height="150px" src="image/btree/locality_temporal.jpg" alt="" /><br>
+									Temporal Locality
+								</td>
+								<td style="text-align:center">
+									<img width="500px" height="150px" src="image/btree/locality_spatial.jpg" alt="" /><br>
+									Spatial Locality
+								</td>
+							</tr>
+						</table>
+						<aside class="notes">
+							<small>이것이 분포도와 관련이 있다.</small><br>
+							<small>시간:어떤 메모리 영역을 Access하면 잠시 후에 같은 영역을 Access할 가능성이 높다.<br>
+							공간:어떤 메모리 영역을 Access하면 그 근처에 있는 영역이 Access될 가능성이 높다.</small><br>
+							<small>시간지역성을 이용한 것이 가상메모리</small><br>
+							<small>공간지역성을 이용한 것이 <strong style="color:red">단위</strong> Block</small><br>
+							<small>나아가 multi? 근처의 데이터를 한꺼번에 읽음</small><br>
+							<small>운영체제에서 페이지라고도 불림</small>
+						</aside>
+					</section>
+
+					<section>
+						메모리는 한정된 공간이라서<br>
+						안쓰던 영역이 메모리에 올라오는 경우가 있기 마련<br><br>
+						<h2>그 영역은 자주 쓰일까?</h2>
+						<strong class="fragment" style="color:cyan">Scheduling</strong>
+						<aside class="notes">
+							<small>스케줄링에 관련해서는 논외이므로 소개만 함</small>
+						</aside>
+					</section>
+
+			</section>
+
+			<section>
 				<section>
-					<h1>LOCALITY</h1>
-					<table>
-						<tr>
-							<td style="text-align:center">
-								<img width="500px" height="150px" src="image/btree/locality_temporal.jpg" alt="" /><br>
-								Temporal Locality
-							</td>
-							<td style="text-align:center">
-								<img width="500px" height="150px" src="image/btree/locality_spatial.jpg" alt="" /><br>
-								Spatial Locality
-							</td>
-						</tr>
-					</table>
+					<h1>Performance?</h1>
+					<img style="width:70%" src="image/btree/ramborghini.jpg" alt="" />
 					<aside class="notes">
-						<small>이것이 분포도와 관련이 있다.</small><br>
-						<small>시간:어떤 메모리 영역을 Access하면 잠시 후에 같은 영역을 Access할 가능성이 높다.<br>
-						공간:어떤 메모리 영역을 Access하면 그 근처에 있는 영역이 Access될 가능성이 높다.</small><br>
-						<small>시간지역성을 이용한 것이 가상메모리</small><br>
-						<small>공간지역성을 이용한 것이 <strong style="color:red">단위</strong> Block</small><br>
-						<small>나아가 multi? 근처의 데이터를 한꺼번에 읽음</small><br>
-						<small>운영체제에서 페이지라고도 불림</small>
+						<small>속도의 향상 만이 성능의 향상은 아니다.</small><br>
+						<small>성능이 좋은 자동차란 작은소리, 속도, 연비 등을 갖춤</small>
 					</aside>
 				</section>
+				<section>
+					Access time 뿐만 아니라<br><br>
+					<h2>Access 횟수를 줄여보자.</h2>
+					<h4 class="fragment" style="color:cyan">Data Structure</h4>
+					<aside class="notes">
+						<small>여태 access시간을 줄이기 위해서 빠른 장치에 접근하기 위해
+						자주 사용하는 부분을 빠른 장치에 저장하는 방법이 있었다.</small><br>
+						<small>저장된 데이터를 구조화함으로써 성능을 향상(효율성)</small><br>
+						<small>엔진을 재구성하는 개념</small>
+					</aside>
+				</section>
+			</section>
+
+			<section>
+				Big oh notation
+				<aside class="notes">
+					<small>스택과 큐, <strong>트리</strong> 등이 있다.</small>
+				</aside>
+			</section>
+
+			<section>
+				b-tree(balanced tree)
+			</section>
+
+			<section>
+				oracle에서 다루는 b-tree 구조
+			</section>
+
+			<section>
+				index를 생성할 때 일어나는 내부 현상
+			</section>
 
 			</div>
 
