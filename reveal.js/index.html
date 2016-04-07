@@ -205,15 +205,53 @@
 			</section>
 
 			<section>
-				Big oh notation
+				<section>
+					<h2>Access를 어떻게 하는가</h2>
+					<img style="width:70%" src="image/btree/subway.jpg" alt="" />
+					<aside class="notes">
+						<small>액세스횟수를 줄이기위해 자료구조를 바꾸려면 어떤방식으로 액세스하는지 알아야한다.</small><br>
+						<small>처리는 CPU가 하는데 어떻게?</small><br>
+						<small>강의실에서 앉아있는 사람들 중 특정사람을 찾는건 쉽지만</small><br>
+						<small>지하철에서 수많은 사람들 중 특정사람을 찾는건 어렵다.</small><br>
+						<small>역의위치는 정해져있음(헤더)</small><br>
+						<small>2번 출구로 들어가서 어디?</small>
+					</aside>
+				</section>
+				<section>
+					<h1>ADDRESS</h1>
+					<img src="image/btree/entnum.jpg" alt="" /><br>
+					<img class="fragment" style="width:128px;" src="image/btree/brain.png" alt="" />
+					<img class="fragment" style="width:128px;margin-left:3em" src="image/btree/note.png" alt="" />
+					<aside class="notes">
+						<small>그래서 주소의 개념이 나타남</small><br>
+						<small>주소를 기억하거나 적어놓으면 빨리 찾아가는 것과 동일</small>
+					</aside>
+				</section>
+			</section>
+
+
+
+			<section>
+				<h2>Big-o-notation</h2>
+				<img src="image/btree/bigonotation.png" alt="" /><br>
+				<strong style="color:cyan">특정 시점</strong> 이후에는 이 <strong style="color:cyan">선</strong>을 넘을 수 없다
 				<aside class="notes">
-					<small>스택과 큐, <strong>트리</strong> 등이 있다.</small>
+					<small>얼마나 빠른가</small><br>
+					<small>자료구조엔 스택과 큐, <strong>트리</strong> 등이 있다.</small><br>
+					<small>자료구조를 분석하기 위해서 어떤것이 빠른가 하는 개념 도입 필요</small><br>
+					<small>직접 그리면서 설명</small><br>
+					<small>어떤 시점 이후 이 선 함수보다 빠를 순 없다는 뜻</small><br>
+					<small>big o notation에서 log타임은 밑이 2</small>
 				</aside>
 			</section>
 
 			<section>
-				b-tree(balanced tree)
+				<h2>balanced tree</h2>
+				<img style="width:70%" src="image/btree/tree.png" alt="" /><br>
+				leaf로 가는 <strong style="font-size:60px;">depth</strong>가 거의 동일하다.
 			</section>
+
+
 
 			<section>
 				oracle에서 다루는 b-tree 구조
