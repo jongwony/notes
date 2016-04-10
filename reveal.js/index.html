@@ -278,7 +278,7 @@
 
 			<section>
 				<h2>Oracle b-tree structure</h2>
-				<img src="image/index/btree.gif" alt="" /><br>
+				<img style="width:60%;" src="image/index/btree.gif" alt="" /><br>
 				Scan을 위한 양방향 Linked list 구조의 leaf 노드
 				<aside class="notes">
 					<small>버스를 타고 지하철 역(세그먼트)로 가면 항상 같은 장소(root)에 내린다</small><br>
@@ -292,11 +292,28 @@
 			<section>
 				<h2>B-Tree Operation</h2>
 				<ul>
+					<li>Selection</li>
 					<li>Index Block Creation</li>
 					<li>Index Block Split(Data Insert)</li>
-					<li>Data Delete, Update</li>
-					<li>Selection</li>
+					<li>Data Delete</li>
+					<li>Data Update</li>
 				</ul>
+			</section>
+
+			<section>
+				<h2>Selection</h2>
+				<img src="image/index/btree.gif" style="width:40%" alt="" />
+				<ol>
+					<li>Root 블록을 찾는다.</li>
+					<li class="fragment">주어진 값 이상의 최소값을 찾아 해당 블록을 찾는다.</li>
+					<li class="fragment">Leaf 블록을 찾을 때 까지 반복한다.</li>
+					<li class="fragment">KEY가 존재하면 ROWID를 이용해 테이블을 Access한다.</li>
+				</ol>
+
+				<aside class="notes">
+					<small>앞에서 설명한 지하철 예시를 강조</small><br>
+
+				</aside>
 			</section>
 
 			<section>
@@ -322,16 +339,17 @@
 				<section>
 					<h2>Index Block Split</h2>
 					<img src="image/btree/orgtree.png" alt="" /><br>
-					<strong style="color:red">꽉찬 부서</strong> VS <strong style="color:green">자리가 남았다</strong>
+					어떻게 분할할 것인가
 					<aside class="notes">
-						<small style="color:red">예가 부적절함</small>
-						<small>간부로 입사했을 때 내 부하직원은?</small><br>
+						<small>위에 관리하는 사람이 3명밖에 관리할 수 없다면</small><br>
 						<small>우리가 인덱스를 재생성하는 이유</small>
 					</aside>
 				</section>
 				<section>
 					<h2>Index Block Split</h2>
-					<img src="image/btree/split.png" alt="" />
+					<img src="image/btree/split.png" alt="" /><br>
+					분할한 양쪽을 $ 2 \over 3 $ 만큼씩 채우도록 하면서 <br>
+					양쪽을 모두 새로 편성한다.
 					<aside class="notes">
 						<small>어차피 인덱스 생성시 새로운 블록을 생성시는 꽉찬 블록이므로 분할해야함</small><br>
 						<small></small>
@@ -340,11 +358,21 @@
 			</section>
 
 			<section>
-				<h2>Data Delete, Update</h2>
+				<h2>Data Delete</h2>
+				테이블의 row는 제거되나 <br>
+				index의 row는 삭제된 <strong style="color:yellow">표시</strong>만 추가된다.<br>
+				그 자리에 새로운 index row가 추가되지 않는다면<br><br>
+				<span class="fragment">저장공간의 낭비, 스캔할 블록 증가.</span>
 			</section>
-
 			<section>
-				<h2>Selection</h2>
+				<h2>Data Update</h2>
+				Index row는 정렬되어 저장된다.<br><br>
+				<span class="fragment">Update 작업은 Delete 후 Insert 작업이 발생한다.</span>
+
+			</section>
+			<section>
+				<h4>dml문이 많이 수행되는 테이블은 <br>Index를 <span style="color:cyan">정기적으로 재생성</span>할 필요가있다.</h4>
+				<img src="image/indexrecreate.png" alt="" />
 			</section>
 
 			<section>
@@ -357,6 +385,8 @@
 
 			<section>
 				<h2>Reverse Key Index</h2>
+				<img src="image/btree/revindex.png" alt="" /> <br>
+				\[ 1211101 => 1011121 \]
 			</section>
 
 			<section>
@@ -380,8 +410,8 @@
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="plugin/sketch-js/sketch.js">	</script>
+		<script src="js/jquery.min.js"></script>
+		<script src="plugin/sketch-js/sketch.js"></script>
 		<script src="plugin/sketch-js/dazzleSketch.js"></script>
 		<script src="plugin/search/search.js"></script>
 
