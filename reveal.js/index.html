@@ -104,6 +104,7 @@
 					</section>
 
 					<section>
+						<h2>문제를 푸는 상황과 비교해 봅시다.</h2>
 						<img style="width:128px;margin-right:3em;" src="image/btree/cpu.png" alt="" />
 						<img style="width:128px;margin-right:3em;" src="image/btree/ram.png" alt="" />
 						<img style="width:128px;"  src="image/btree/storage.jpg" alt="" />
@@ -229,6 +230,10 @@
 				</section>
 			</section>
 
+			<section>
+				first fit, best fit, worst fit
+			</section>
+
 
 
 			<section>
@@ -240,26 +245,134 @@
 					<small>자료구조엔 스택과 큐, <strong>트리</strong> 등이 있다.</small><br>
 					<small>자료구조를 분석하기 위해서 어떤것이 빠른가 하는 개념 도입 필요</small><br>
 					<small>직접 그리면서 설명</small><br>
-					<small>어떤 시점 이후 이 선 함수보다 빠를 순 없다는 뜻</small><br>
-					<small>big o notation에서 log타임은 밑이 2</small>
+					<small>어떤 시점 이후 이 선 함수보다 빠를(또는 I/O가 적을) 순 없다는 뜻</small><br>
+					<small>big o notation에서 log타임은 밑이 2</small><br>
+					<small>y축이 알고리즘 복잡도라했는데 시간적인 요소라고 봐도 되고 I/O로 봐도 됨</small>
+				</aside>
+			</section>
+
+			<section>
+				<h2>doubly linked list</h2>
+				<img style="width:70%" src="image/btree/dlinkedlist.png" alt="" /><br>
+			 	이전 또는 다음 블록의 주소를 한 <strong style="color:cyan">노드</strong>에 함께 기록
+				\[ O(n) \]
+				<aside class="notes">
+					<small>일반적인 자료구조의 Node 단위를 Oracle에서 leaf block 단위로 보면 된다.</small><br>
+					<small>header영역에 다음 또는 이전 주소를 넣어서 논리적인 탐색이 가능하게됨</small><br>
+					<small>새로운 행이 들어 올 때는 가리키는 곳만 바꾸어 주면됨</small><br>
+					<small>본래(doubley 아닌경우) next밖에 없음 PL/SQL 커서 개념</small>
 				</aside>
 			</section>
 
 			<section>
 				<h2>balanced tree</h2>
 				<img style="width:70%" src="image/btree/tree.png" alt="" /><br>
-				leaf로 가는 <strong style="font-size:60px;">depth</strong>가 거의 동일하다.
+				leaf로 가는 <strong style="font-size:60px;">DEPTH</strong>가 거의 동일하다.
+				\[ O(log \   n) \]
+				<aside class="notes">
+					<small>범용적인 자료구조에 해당</small><br>
+					<small>정확히 2 depth 이상 차이가 나지 않음</small><br>
+					<small>기하급수적으로 데이터가 커진다면 앞의 그래프와 같은 차이가 생김</small>
+				</aside>
 			</section>
-
-
 
 			<section>
-				oracle에서 다루는 b-tree 구조
+				<h2>Oracle b-tree structure</h2>
+				<img src="image/index/btree.gif" alt="" /><br>
+				Scan을 위한 양방향 Linked list 구조의 leaf 노드
+				<aside class="notes">
+					<small>버스를 타고 지하철 역(세그먼트)로 가면 항상 같은 장소(root)에 내린다</small><br>
+					<small>지하철 역의 몇번 출구(branch)와</small><br>
+					<small>지하철 승강장 번호(leaf)를 통해 친구를 찾는다(scan)</small><br>
+					<small>1번출구로 들어가서 1-1승강장에서 처음부터 친구를 찾는다고 생각하면 물론 운좋게 빨리 찾을 수는 있겠지만 그때 뿐 성능관점에서 현저히 차이가 난다.</small>
+					<small>쉽게 얘기하면 테이블의 로우가 어느위치에 있든 동일한 처리 방법과 속도로 접근이 가능하다.</small>
+				</aside>
 			</section>
 
 			<section>
-				index를 생성할 때 일어나는 내부 현상
+				<h2>B-Tree Operation</h2>
+				<ul>
+					<li>Index Block Creation</li>
+					<li>Index Block Split(Data Insert)</li>
+					<li>Data Delete, Update</li>
+					<li>Selection</li>
+				</ul>
 			</section>
+
+			<section>
+				<section>
+					<h2>Index Block Creation</h2>
+					<ol>
+						<li>테이블을 액세스 하여 정렬을 수행한다.</li>
+						<li>정렬된 결과를 leaf 블록에 기록한다.</li>
+						<li>leaf블록이 차면 branch블록을 만들어 블록 헤더에 주소를 기록하고, 새로 leaf블록을 할당한다.</li>
+						<li>위 작업을 반복하여 branch블록도 차면 새로운 branch블록을 할당한다.</li>
+						<li>이 때 새로운 root블록도 만든다. 이 작업을 반복한다.</li>
+					</ol>
+					<aside class="notes">
+						<small style="color:red">슬라이드 분할</small>
+						<small>leaf블록밖에 없을 때는 자신이 branch역할도 겸한다.(linked list)</small><br>
+						<small>하나의 인덱스 블록에 많은 인덱스 로우가 저장될 수록 leaf블록 수가 감소</small><br>
+						<small>블록 증가 속도 감소, depth감소 => I/O감소</small>
+					</aside>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>Index Block Split</h2>
+					<img src="image/btree/orgtree.png" alt="" /><br>
+					<strong style="color:red">꽉찬 부서</strong> VS <strong style="color:green">자리가 남았다</strong>
+					<aside class="notes">
+						<small style="color:red">예가 부적절함</small>
+						<small>간부로 입사했을 때 내 부하직원은?</small><br>
+						<small>우리가 인덱스를 재생성하는 이유</small>
+					</aside>
+				</section>
+				<section>
+					<h2>Index Block Split</h2>
+					<img src="image/btree/split.png" alt="" />
+					<aside class="notes">
+						<small>어차피 인덱스 생성시 새로운 블록을 생성시는 꽉찬 블록이므로 분할해야함</small><br>
+						<small></small>
+					</aside>
+				</section>
+			</section>
+
+			<section>
+				<h2>Data Delete, Update</h2>
+			</section>
+
+			<section>
+				<h2>Selection</h2>
+			</section>
+
+			<section>
+				<h2>다양한 b-tree index</h2>
+				<ul>
+					<li>Reverse Key Index</li>
+					<li>Descending Index</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Reverse Key Index</h2>
+			</section>
+
+			<section>
+				<h2>Descending Index</h2>
+			</section>
+
+			<section>
+				<h2>Index Key Compression</h2>
+			</section>
+
+			<section>
+				<h2>HIGHLIGHT</h2>
+				<hr>
+				<h2>REFERENCE</h2>
+			</section>
+
 
 			</div>
 
