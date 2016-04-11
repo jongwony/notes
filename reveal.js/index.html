@@ -63,11 +63,33 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1 class="animated rubberBand">Data Structure<br>B-Tree</h1>
+					<h1 class="animated rubberBand">Oracle B-Tree</h1>
+					<h4>Data structure</h4>
 					<small>Created by <a href="#">Jongwon</a></small>
 				</section>
 
 				<section>
+					<h1>intro...</h1>
+					<ul>
+						<li>Performance</li>
+						<li>Data Structure</li>
+							<li>Oracle B-Tree Structure</li>
+							<li>Oracle B-Tree Operation</li>
+							<li>Reverse Key Index</li>
+							<li>Index Key Compression</li>
+					</ul>
+					<aside class="notes">
+						<small><ul>
+							<li>Access 시간 줄이기</li>
+							<li>Access 횟수 줄이기</li>
+						</ul></small>
+						<small><ul>
+							<li>Doubly linked list</li>
+							<li>Balanced Tree</li>
+						</ul></small>
+					</aside>
+				</section>
+
 					<section>
 						<h1>Performance?</h1>
 						<img style="width:70%" src="image/btree/speed.jpg" alt="" />
@@ -120,7 +142,6 @@
 							<small style="color:red">자연스럽게 테이블 액세스 시간이 오래 걸림을 언급</small>
 						</aside>
 					</section>
-				</section>
 
 				<section>
 					<h1>ACCESS TIME?</h1>
@@ -131,8 +152,6 @@
 						<small>0.01초와 0.0001초의 차이는 와닿지 않는다.</small>
 					</aside>
 				</section>
-
-				<section>
 
 					<section>
 						<h1>Caching</h1>
@@ -181,9 +200,6 @@
 						</aside>
 					</section>
 
-			</section>
-
-			<section>
 				<section>
 					<h1>Performance?</h1>
 					<img style="width:70%" src="image/btree/ramborghini.jpg" alt="" />
@@ -203,9 +219,7 @@
 						<small>엔진을 재구성하는 개념</small>
 					</aside>
 				</section>
-			</section>
 
-			<section>
 				<section>
 					<h2>Access를 어떻게 하는가</h2>
 					<img style="width:70%" src="image/btree/subway.jpg" alt="" />
@@ -228,13 +242,6 @@
 						<small>주소를 기억하거나 적어놓으면 빨리 찾아가는 것과 동일</small>
 					</aside>
 				</section>
-			</section>
-
-			<section>
-				first fit, best fit, worst fit
-			</section>
-
-
 
 			<section>
 				<h2>Big-o-notation</h2>
@@ -302,13 +309,13 @@
 
 			<section>
 				<h2>Selection</h2>
-				<img src="image/index/btree.gif" style="width:40%" alt="" />
-				<ol>
+				<img src="image/index/btree.gif" style="width:40%" alt="" /><br>
+				<small><ol>
 					<li>Root 블록을 찾는다.</li>
 					<li class="fragment">주어진 값 이상의 최소값을 찾아 해당 블록을 찾는다.</li>
 					<li class="fragment">Leaf 블록을 찾을 때 까지 반복한다.</li>
 					<li class="fragment">KEY가 존재하면 ROWID를 이용해 테이블을 Access한다.</li>
-				</ol>
+				</ol></small>
 
 				<aside class="notes">
 					<small>앞에서 설명한 지하철 예시를 강조</small><br>
@@ -316,16 +323,15 @@
 				</aside>
 			</section>
 
-			<section>
 				<section>
 					<h2>Index Block Creation</h2>
-					<ol>
-						<li>테이블을 액세스 하여 정렬을 수행한다.</li>
-						<li>정렬된 결과를 leaf 블록에 기록한다.</li>
-						<li>leaf블록이 차면 branch블록을 만들어 블록 헤더에 주소를 기록하고, 새로 leaf블록을 할당한다.</li>
-						<li>위 작업을 반복하여 branch블록도 차면 새로운 branch블록을 할당한다.</li>
-						<li>이 때 새로운 root블록도 만든다. 이 작업을 반복한다.</li>
-					</ol>
+					<img src="image/btree/indexcreation.gif" alt="" />
+					<small><ol>
+						<li>테이블을 Access 하여 정렬을 수행하여 Leaf 블록에 기록한다.</li>
+						<li class="fragment">Leaf블록이 차면 Branch블록을 만들어 블록 헤더에 주소를 기록하고, 새로 Leaf블록을 할당한다.</li>
+						<li class="fragment">위 작업을 반복하여 Branch블록도 차면 새로운 Branch블록을 할당한다.</li>
+						<li class="fragment">이 때 새로운 Root블록도 만든다. 이 작업을 반복한다.</li>
+					</ol></small>
 					<aside class="notes">
 						<small style="color:red">슬라이드 분할</small>
 						<small>leaf블록밖에 없을 때는 자신이 branch역할도 겸한다.(linked list)</small><br>
@@ -333,9 +339,17 @@
 						<small>블록 증가 속도 감소, depth감소 => I/O감소</small>
 					</aside>
 				</section>
-			</section>
+				<section>
+					<h2>pctfree</h2>
+					<img src="image/btree/pctfree.gif" alt="" /><br>
+					미래의 UPDATE를 위한 가용공간
+					<aside class="notes">
+						<small>블록이 빽빽히 들어찬게 아니다</small>
+						<small>위에서 블록이 차면 새로운블록을 만든다고 얘기한것은 정확히 이야기하면 PCTFREE에 도달한것이다.</small>
 
-			<section>
+					</aside>
+				</section>
+
 				<section>
 					<h2>Index Block Split</h2>
 					<img src="image/btree/orgtree.png" alt="" /><br>
@@ -355,7 +369,6 @@
 						<small></small>
 					</aside>
 				</section>
-			</section>
 
 			<section>
 				<h2>Data Delete</h2>
@@ -375,32 +388,79 @@
 				<img src="image/indexrecreate.png" alt="" />
 			</section>
 
-			<section>
-				<h2>다양한 b-tree index</h2>
-				<ul>
-					<li>Reverse Key Index</li>
-					<li>Descending Index</li>
-				</ul>
-			</section>
-
-			<section>
-				<h2>Reverse Key Index</h2>
-				<img src="image/btree/revindex.png" alt="" /> <br>
-				\[ 1211101 => 1011121 \]
-			</section>
-
-			<section>
-				<h2>Descending Index</h2>
-			</section>
+				<section>
+					<h2>Reverse Key Index</h2>
+					<img src="image/btree/revindex.png" alt="" /> <br>
+					실제로 byte를 역순으로 처리한다.
+					<pre>
+						<code class="hljs sql">SELECT dump(1211101,16) FROM dual;
+	-- Typ=2 Len=5: c4,2,16,c,2
+	-- Reversed : 2,c,16,2,c4</code>
+					</pre>
+					<aside class="notes">
+						<small>descending index관련해서는 실습쪽으로 미룸</small>
+						<small>실제로는 내부적으로 바이트 단위로 reverse된다.</small><br>
+						<small>중요한 것은 이들이 멀리 떨어진다는 것이다.</small><br>
+						<small>클러스터링 팩터도 안좋아지는데 왜 쓰는것일까</small>
+					</aside>
+				</section>
+				<section>
+					<h3>왜 쓰는 것일까?</h3>
+					<img src="image/btree/revindexrac.gif" alt="" /><br>
+					<strong style="color:cyan">RAC</strong>환경에서의 Contention을 줄이기 위해 사용
+					<aside class="notes">
+						<small>싱글 환경에서도 경합을 줄이는데 유용하다. butter busy waits 경감</small>
+						<br><small>세션에서도 해당됨</small>
+					</aside>
+				</section>
 
 			<section>
 				<h2>Index Key Compression</h2>
+				여러개의 컬럼을 KEY값으로 하는 Index의 <br>
+				<strong style="color:cyan">중복을 제거</strong>해서 압축한다.<br><br>
+				KEY를 prefix(중복부분)와 suffix(고유부분)로 분해
+				<aside class="notes">
+					<small>복합 컬럼의 앞부분: prefix</small><br>
+					<small>suffix는 같은 접두사 내에서 고유값을 가진다</small>
+				</aside>
+			</section>
+			<section>
+				<h2>Index key compression</h2>
+				<ul>
+					<li>Index의 공간이 줄어든다.</li>
+					<li>I/O 시간이 줄어든다.</li>
+					<li>버퍼캐시의 효율이 향상된다.</li>
+				</ul>
+				<hr>
+				<ul>
+					<li>Contention이 발생할 수 있다.</li>
+					<li>CPU 사용량이 증가한다</li>
+				</ul>
+				<br><br>
+				<h4 class="fragment">현재 상황을 고려하여 Index를 압축한다</h4>
+				<aside class="notes">
+					<small>현재 상황이 CPU작업이 많은지, I/O작업이 많은지</small>
+				</aside>
 			</section>
 
 			<section>
 				<h2>HIGHLIGHT</h2>
+				<small><ul>
+										<li>Performance</li>
+										<li><a href="#/14">Data Structure</a></li>
+											<li><a href="#/17">Oracle B-Tree Structure</a></li>
+											<li><a href="#/18">Oracle B-Tree Operation</a></li>
+											<li><a href="#/27">Reverse Key Index</a></li>
+											<li><a href="#/29">Index Key Compression</a></li>
+				</ul></small>
 				<hr>
 				<h2>REFERENCE</h2>
+				<small><ul>
+					<li>Thomas Kyte. 『 Expert Oracle Database 』 Jpub</li>
+					<li>이화식. 『 새로 쓴, 대용량 데이터 베이스 솔루션 』 엔코아컨설팅</li>
+				</ul></small>
+
+
 			</section>
 
 
