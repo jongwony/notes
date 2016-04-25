@@ -51,15 +51,16 @@
 				</section>
 
 				<section>
-					Rule Based Optimizer(RBO)
-					정해진 규칙에 따라 Execution Plan을 도출
-					Execution Plan이 거의 변하지 않는다.
+					<strong>Rule Based Optimizer(RBO)</strong><br><br>
+					<small>정해진 규칙에 따라 Execution Plan을 도출 <br>
+					Execution Plan이 거의 변하지 않는다.</small>
 					<hr>
-					Cost Based Optimizer(CBO)<br>
-					Optimizer가 Cost를 계산하여 Execution Plan을 도출
-					시스템 상태 및 통계자료에 따라 Execution Plan이 변한다.
+					<strong>Cost Based Optimizer(CBO)</strong><br><br>
+					<small>Optimizer가 Cost를 계산하여 Execution Plan을 도출 <br>
+					시스템 상태 및 통계자료에 따라 Execution Plan이 변한다.</small>
 					<aside class="notes">
-
+						<small>개발하는 입장에서는 RBO사고방식을 이해하기 쉽다 <br>
+						성능이 떨어지는 경우가 거의 없어 안정적이다</small>
 					</aside>
 				</section>
 
@@ -68,7 +69,7 @@
 					<img src="image/optimizer/review.gif" alt="" />
 					<aside class="notes">
 						<small>SQL 처리의 전반적인 개요를 도식화 <br> 공유커서가 Shared Pool에 캐시가 없으면 Hard(무겁)
-						<br>이번 시간에는 Optimization에 대해 자세히 설명</small>
+						<br>이번 시간에는 Optimization(Component)에 대해 자세히 설명</small>
 					</aside>
 				</section>
 
@@ -77,8 +78,8 @@
 					<img src="image/optimizer/querytrans.png" alt="" /><br>
 					SQL문을 다양한 형태로 변형하여 <br> 선택 가능한 Execution Plan을 늘린다. <br>
 					<aside class="notes">
-						뷰나 서브쿼리를 전개해 집합을 합치거나 <br> 조건문을 뷰안에 추가
-						Materialized view 참조하는 쿼리로 변환
+						<small>뷰나 서브쿼리를 전개해 집합을 합치거나 <br> 조건문을 뷰안에 추가
+						Materialized view 참조하는 쿼리로 변환</small>
 					</aside>
 				</section>
 
@@ -91,14 +92,14 @@
 						<li>Cardinality</li>
 						<li>Cost(CPU, I/O)</li>
 					</ul></small>
-					<aside class="notes">
+					<aside class="notes"><small>
 						먼저 기초 비용을 예측 <br>
 						플랜생성기가 실행계획을 생성한후 다시 계산반복 <br>
 						비용이 가장 적은 실행계획을 선택함 <br>
 						selectivity : 쿼리가 선택한 비율 0 ~ 1 (where last_name LIKE 'A%')<br>
 						cardinality : operation으로 리턴된 row 수 / 해당 테이블 전체 row <br>
 						cost : 자원사용량 <br>
-						plan generator는 나중에 tracefile을 분석해보면서 살펴볼 예정
+						plan generator는 나중에 tracefile을 분석해보면서 살펴볼 예정</small>
 					</aside>
 				</section>
 
@@ -115,8 +116,8 @@
 	<li>#MRds : multi block을 읽은 수</li>
 </ul></small>
 					<aside class="notes">
-						CPU I/O 저번에 설명함 <br>
-
+						<small>CPU I/O 저번에 설명함 <br> db_file_multiblock_read_count
+						</small>
 					</aside>
 				</section>
 
@@ -168,7 +169,7 @@ Plan hash value: 1197568639
 						</ul></small>
 						<li>Column Statistics</li>
 						<small><ul>
-							<li>컬럼 내의 NDV수</li>
+							<li>컬럼 내의 NDV(Number of Distinct Value)</li>
 							<li>컬럼 내의 NULL수</li>
 							<li>데이터 분포(Histogram)</li>
 						</ul></small>
