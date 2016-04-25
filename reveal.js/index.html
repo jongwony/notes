@@ -51,7 +51,13 @@
 				</section>
 
 				<section>
-					CBO, RBO
+					Rule Based Optimizer(RBO)
+					정해진 규칙에 따라 Execution Plan을 도출
+					Execution Plan이 거의 변하지 않는다.
+					<hr>
+					Cost Based Optimizer(CBO)<br>
+					Optimizer가 Cost를 계산하여 Execution Plan을 도출
+					시스템 상태 및 통계자료에 따라 Execution Plan이 변한다.
 					<aside class="notes">
 
 					</aside>
@@ -215,13 +221,6 @@ Plan hash value: 1197568639
 				</section>
 
 				<section>
-					<h2>block read</h2>
-					DB_FILE_MULTIBLOCK_READ_COUNT
-					full, fast Full
-					처리량을 늘려 연속된 블록을 한번에 읽음
-				</section>
-
-				<section>
 					<h2>CACHE HIT</h2>
 					<pre>
 						<code class="hljs sql">-- 기본값
@@ -294,7 +293,6 @@ OPTIMIZER_INDEX_COST_ADJ = 25</code>
 							<li>Parameters</li>
 							<small><ul>
 								<li>OPTIMIZER_MODE</li>
-								<li>BLOCK READ</li>
 								<li>CACHE HIT</li>
 							</ul></small>
 							<li>Histogram</li>
@@ -304,7 +302,10 @@ OPTIMIZER_INDEX_COST_ADJ = 25</code>
 				<section>
 					<h2>reference</h2>
 					<ul>
-						<li></li>
+						<li><a href="https://docs.oracle.com/database/121/TGSQL/tgsql_optcncpt.htm#TGSQL192">Query Optimizer Concepts</a></li>
+						<li><a href="http://www.dba-oracle.com/art_builder_cpu_io.htm">Oracle cpu_cost & Oracle io_cost SQL optimizer Features</a></li>
+						<li>오다 케이지 외 6명. 『 오라클 실무 테크닉 』 Jpub</li>
+						<li>Jonathan Lewis. 『 비용기반의 오라클 원리 』 비투엔컨설팅 역</li>
 					</ul>
 				</section>
 
