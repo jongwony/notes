@@ -1,0 +1,1385 @@
+*******************************************
+Peeked values of the binds in SQL statement
+*******************************************
+***************************************
+PARAMETERS USED BY THE OPTIMIZER
+********************************
+  *************************************
+  PARAMETERS WITH ALTERED VALUES
+  ******************************
+  *************************************
+  PARAMETERS WITH DEFAULT VALUES
+  ******************************
+  optimizer_mode_hinted               = false
+  optimizer_features_hinted           = 0.0.0
+  parallel_execution_enabled          = true
+  parallel_query_forced_dop           = 0
+  parallel_dml_forced_dop             = 0
+  parallel_ddl_forced_degree          = 0
+  parallel_ddl_forced_instances       = 0
+  _query_rewrite_fudge                = 90
+  optimizer_features_enable           = 10.1.0.4
+  _optimizer_search_limit             = 5
+  cpu_count                           = 2
+  active_instance_count               = 1
+  parallel_threads_per_cpu            = 2
+  hash_area_size                      = 131072
+  bitmap_merge_area_size              = 1048576
+  sort_area_size                      = 65536
+  sort_area_retained_size             = 0
+  _sort_elimination_cost_ratio        = 0
+  _optimizer_block_size               = 8192
+  _sort_multiblock_read_count         = 2
+  _hash_multiblock_io_count           = 0
+  db_file_multiblock_read_count       = 8
+  _optimizer_max_permutations         = 2000
+  pga_aggregate_target                = 204800 KB
+  _pga_max_size                       = 204800 KB
+  _sort_space_for_write_buffers       = 1
+  _query_rewrite_maxdisjunct          = 257
+  _smm_auto_min_io_size               = 56 KB
+  _smm_auto_max_io_size               = 248 KB
+  _smm_min_size                       = 204 KB
+  _smm_max_size                       = 10240 KB
+  _smm_px_max_size                    = 61440 KB
+  _cpu_to_io                          = 0
+  _optimizer_undo_cost_change         = 10.1.0.4
+  parallel_query_mode                 = enabled
+  parallel_dml_mode                   = disabled
+  parallel_ddl_mode                   = enabled
+  optimizer_mode                      = all_rows
+  sqlstat_enabled                     = false
+  _optimizer_percent_parallel         = 101
+  _always_anti_join                   = choose
+  _always_semi_join                   = choose
+  _optimizer_mode_force               = true
+  _partition_view_enabled             = true
+  _always_star_transformation         = false
+  _query_rewrite_or_error             = false
+  _hash_join_enabled                  = true
+  cursor_sharing                      = exact
+  _b_tree_bitmap_plans                = true
+  star_transformation_enabled         = false
+  _optimizer_cost_model               = choose
+  _new_sort_cost_estimate             = true
+  _complex_view_merging               = true
+  _unnest_subquery                    = true
+  _eliminate_common_subexpr           = true
+  _pred_move_around                   = true
+  _convert_set_to_join                = false
+  _push_join_predicate                = true
+  _push_join_union_view               = true
+  _fast_full_scan_enabled             = true
+  _optim_enhance_nnull_detection      = true
+  _parallel_broadcast_enabled         = true
+  _px_broadcast_fudge_factor          = 100
+  _ordered_nested_loop                = true
+  _no_or_expansion                    = false
+  optimizer_index_cost_adj            = 100
+  optimizer_index_caching             = 0
+  _system_index_caching               = 0
+  _disable_datalayer_sampling         = false
+  query_rewrite_enabled               = true
+  query_rewrite_integrity             = enforced
+  _query_cost_rewrite                 = true
+  _query_rewrite_2                    = true
+  _query_rewrite_1                    = true
+  _query_rewrite_expression           = true
+  _query_rewrite_jgmigrate            = true
+  _query_rewrite_fpc                  = true
+  _query_rewrite_drj                  = true
+  _full_pwise_join_enabled            = true
+  _partial_pwise_join_enabled         = true
+  _left_nested_loops_random           = true
+  _improved_row_length_enabled        = true
+  _index_join_enabled                 = true
+  _enable_type_dep_selectivity        = true
+  _improved_outerjoin_card            = true
+  _optimizer_adjust_for_nulls         = true
+  _optimizer_degree                   = 0
+  _use_column_stats_for_function      = true
+  _subquery_pruning_enabled           = true
+  _subquery_pruning_mv_enabled        = false
+  _or_expand_nvl_predicate            = true
+  _like_with_bind_as_equality         = false
+  _table_scan_cost_plus_one           = true
+  _cost_equality_semi_join            = true
+  _default_non_equality_sel_check     = true
+  _new_initial_join_orders            = true
+  _oneside_colstat_for_equijoins      = true
+  _optim_peek_user_binds              = true
+  _minimal_stats_aggregation          = true
+  _force_temptables_for_gsets         = false
+  workarea_size_policy                = auto
+  _smm_auto_cost_enabled              = true
+  _gs_anti_semi_join_allowed          = true
+  _optim_new_default_join_sel         = true
+  optimizer_dynamic_sampling          = 2
+  _pre_rewrite_push_pred              = true
+  _optimizer_new_join_card_computation = true
+  _union_rewrite_for_gs               = yes_gset_mvs
+  _generalized_pruning_enabled        = true
+  _optim_adjust_for_part_skews        = true
+  _force_datefold_trunc               = false
+  statistics_level                    = typical
+  _optimizer_system_stats_usage       = true
+  skip_unusable_indexes               = true
+  _remove_aggr_subquery               = true
+  _optimizer_push_down_distinct       = 0
+  _dml_monitoring_enabled             = true
+  _optimizer_undo_changes             = false
+  _predicate_elimination_enabled      = true
+  _nested_loop_fudge                  = 100
+  _project_view_columns               = true
+  _local_communication_costing_enabled = true
+  _local_communication_ratio          = 50
+  _query_rewrite_vop_cleanup          = true
+  _slave_mapping_enabled              = true
+  _optimizer_cost_based_transformation = linear
+  _optimizer_mjc_enabled              = true
+  _right_outer_hash_enable            = true
+  _spr_push_pred_refspr               = true
+  _optimizer_cache_stats              = false
+  _optimizer_cbqt_factor              = 50
+  _optimizer_squ_bottomup             = true
+  _fic_area_size                      = 131072
+  _optimizer_skip_scan_enabled        = true
+  _optimizer_cost_filter_pred         = false
+  _optimizer_sortmerge_join_enabled   = true
+  _optimizer_join_sel_sanity_check    = true
+  _mmv_query_rewrite_enabled          = false
+  _bt_mmv_query_rewrite_enabled       = true
+  _add_stale_mv_to_dependency_list    = true
+  _distinct_view_unnesting            = false
+  _optimizer_dim_subq_join_sel        = true
+  _optimizer_disable_strans_sanity_checks = 0
+  _optimizer_compute_index_stats      = true
+  _push_join_union_view2              = true
+  _optimizer_ignore_hints             = false
+  _optimizer_random_plan              = 0
+  _query_rewrite_setopgrw_enable      = true
+  _optimizer_correct_sq_selectivity   = true
+  _disable_function_based_index       = false
+  _optimizer_join_order_control       = 3
+  _optimizer_push_pred_cost_based     = true
+  flashback_table_rpi                 = non_fbt
+  _optimizer_cbqt_no_size_restriction = true
+***************************************
+Column Usage Monitoring is ON: tracking level = 1
+***************************************
+QUERY BLOCK SIGNATURE
+*********************
+qb name was generated
+signature (optimizer): qb_name=SEL$1 nbfros=4 flg=0
+  fro(0): flg=0 objn=52067 hint_alias="C"@"SEL$1"
+  fro(1): flg=0 objn=52064 hint_alias="GGP"@"SEL$1"
+  fro(2): flg=0 objn=52065 hint_alias="GP"@"SEL$1"
+  fro(3): flg=0 objn=52066 hint_alias="P"@"SEL$1"
+***************************************
+BASE STATISTICAL INFORMATION
+***********************
+Table stats    Table: CHILD   Alias:  C
+  TOTAL ::  CDN: 40000  NBLKS:  10000  AVG_ROW_LEN:  1632
+  COLUMN:       ID_P(NUMBER)  Col#: 3      Table: CHILD   Alias: C
+    Size: 4  NDV: 10000  Nulls: 0  Density: 1.0000e-004 Min: 1  Max: 10000
+  COLUMN:      ID_GP(NUMBER)  Col#: 2      Table: CHILD   Alias: C
+    Size: 4  NDV: 2000  Nulls: 0  Density: 5.0000e-004 Min: 1  Max: 2000
+  COLUMN:     ID_GGP(NUMBER)  Col#: 1      Table: CHILD   Alias: C
+    Size: 4  NDV: 1000  Nulls: 0  Density: 1.0000e-003 Min: 1  Max: 1000
+Index stats
+  Index: C_PK  COL#: 1 2 3 4 
+    TOTAL ::  LVLS: 1   #LB: 108  #DK: 40000  LB/K: 1  DB/K: 1  CLUF: 40000
+***********************
+Table stats    Table: PARENT   Alias:  P
+  TOTAL ::  CDN: 10000  NBLKS:  2500  AVG_ROW_LEN:  1627
+  COLUMN:      ID_GP(NUMBER)  Col#: 2      Table: PARENT   Alias: P
+    Size: 4  NDV: 2000  Nulls: 0  Density: 5.0000e-004 Min: 1  Max: 2000
+  COLUMN:     ID_GGP(NUMBER)  Col#: 1      Table: PARENT   Alias: P
+    Size: 4  NDV: 1000  Nulls: 0  Density: 1.0000e-003 Min: 1  Max: 1000
+  COLUMN:         ID(NUMBER)  Col#: 3      Table: PARENT   Alias: P
+    Size: 4  NDV: 10000  Nulls: 0  Density: 1.0000e-004 Min: 1  Max: 10000
+  COLUMN:      ID_GP(NUMBER)  Col#: 2      Table: PARENT   Alias: P
+    Size: 4  NDV: 2000  Nulls: 0  Density: 5.0000e-004 Min: 1  Max: 2000
+  COLUMN:     ID_GGP(NUMBER)  Col#: 1      Table: PARENT   Alias: P
+    Size: 4  NDV: 1000  Nulls: 0  Density: 1.0000e-003 Min: 1  Max: 1000
+Index stats
+  Index: P_PK  COL#: 1 2 3 
+    TOTAL ::  LVLS: 1   #LB: 24  #DK: 10000  LB/K: 1  DB/K: 1  CLUF: 10000
+***********************
+Table stats    Table: GRANDPARENT   Alias: GP
+  TOTAL ::  CDN: 2000  NBLKS:  500  AVG_ROW_LEN:  1623
+  COLUMN:     ID_GGP(NUMBER)  Col#: 1      Table: GRANDPARENT   Alias: GP
+    Size: 4  NDV: 1000  Nulls: 0  Density: 1.0000e-003 Min: 1  Max: 1000
+  COLUMN:         ID(NUMBER)  Col#: 2      Table: GRANDPARENT   Alias: GP
+    Size: 4  NDV: 2000  Nulls: 0  Density: 5.0000e-004 Min: 1  Max: 2000
+  COLUMN:     ID_GGP(NUMBER)  Col#: 1      Table: GRANDPARENT   Alias: GP
+    Size: 4  NDV: 1000  Nulls: 0  Density: 1.0000e-003 Min: 1  Max: 1000
+Index stats
+  Index: GP_PK  COL#: 1 2 
+    TOTAL ::  LVLS: 1   #LB: 6  #DK: 2000  LB/K: 1  DB/K: 1  CLUF: 2000
+***********************
+Table stats    Table: GREATGRANDPARENT   Alias: GGP
+  TOTAL ::  CDN: 1000  NBLKS:  250  AVG_ROW_LEN:  1619
+  COLUMN:         ID(NUMBER)  Col#: 1      Table: GREATGRANDPARENT   Alias: GGP
+    Size: 4  NDV: 1000  Nulls: 0  Density: 1.0000e-003 Min: 1  Max: 1000
+Index stats
+  Index: GGP_PK  COL#: 1 
+    TOTAL ::  LVLS: 1   #LB: 2  #DK: 1000  LB/K: 1  DB/K: 1  CLUF: 250
+_OPTIMIZER_PERCENT_PARALLEL = 0
+***************************************
+SINGLE TABLE ACCESS PATH
+  COLUMN: SMALL_NUM_(NUMBER)  Col#: 2      Table: GREATGRANDPARENT   Alias: GGP
+    Size: 4  NDV: 200  Nulls: 0  Density: 5.0000e-003 Min: 0  Max: 199
+  TABLE: GREATGRANDPARENT  Alias: GGP     
+    Original Card: 1000   Rounded: 261  Computed: 261.26  Non Adjusted: 261.26
+  Access Path: table-scan  Resc:  64  Resp:  64
+  BEST_CST: 64.41  PATH: 2  Degree:  1
+***************************************
+SINGLE TABLE ACCESS PATH
+  COLUMN: SMALL_NUM_(NUMBER)  Col#: 3      Table: GRANDPARENT   Alias: GP
+    Size: 4  NDV: 400  Nulls: 0  Density: 2.5000e-003 Min: 0  Max: 399
+  TABLE: GRANDPARENT  Alias: GP     
+    Original Card: 2000   Rounded: 110  Computed: 110.25  Non Adjusted: 110.25
+  Access Path: table-scan  Resc:  128  Resp:  128
+  BEST_CST: 127.82  PATH: 2  Degree:  1
+***************************************
+SINGLE TABLE ACCESS PATH
+  COLUMN: SMALL_NUM_(NUMBER)  Col#: 4      Table: PARENT   Alias: P
+    Size: 4  NDV: 2000  Nulls: 0  Density: 5.0000e-004 Min: 0  Max: 1999
+  TABLE: PARENT  Alias: P     
+    Original Card: 10000   Rounded: 110  Computed: 110.05  Non Adjusted: 110.05
+  Access Path: table-scan  Resc:  631  Resp:  631
+  BEST_CST: 631.09  PATH: 2  Degree:  1
+***************************************
+SINGLE TABLE ACCESS PATH
+  COLUMN: SMALL_NUM_(NUMBER)  Col#: 5      Table: CHILD   Alias: C
+    Size: 4  NDV: 10000  Nulls: 0  Density: 1.0000e-004 Min: 0  Max: 9999
+  TABLE: CHILD  Alias: C     
+    Original Card: 40000   Rounded: 68  Computed: 68.01  Non Adjusted: 68.01
+  Access Path: table-scan  Resc:  2517  Resp:  2517
+  BEST_CST: 2517.49  PATH: 2  Degree:  1
+Table:  CHILD  Concatenated index card: 10000.000000
+Table:  PARENT  Concatenated index card: 2000.000000
+Table:  CHILD  Multi-column join key card: 40000.000000
+Table:  PARENT  Multi-column join key card: 10000.000000
+Table:  PARENT  Multi-column join key card: 10000.000000
+Table:  GRANDPARENT  Multi-column join key card: 2000.000000
+***************************************
+OPTIMIZER STATISTICS AND COMPUTATIONS
+***************************************
+GENERAL PLANS
+***********************
+Join order[1]:  CHILD[C]#0  PARENT[P]#1  GRANDPARENT[GP]#2  GREATGRANDPARENT[GGP]#3
+Now joining: PARENT[P]#1 *******
+NL Join
+  Outer table: cost: 2517  cdn: 68  rcz: 27  resp:  2517
+  Inner table: PARENT  Alias: P
+    Access Path: table-scan  Resc: 629
+    Join:  Resc:  45302  Resp:  45302
+  Access Path: index (unique)
+    Index: P_PK
+    rsc_cpu: 15620   rsc_io: 1
+    ix_sel:  1.0000e-004    ix_sel_with_filters:  1.0000e-004
+    NL Join:  resc: 2586  resp: 2586
+  Access Path: index (eq-unique)
+    Index: P_PK
+    rsc_cpu: 15820   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join:  resc: 2586  resp: 2586
+  Best NL cost: 2586  resp: 2586
+Using concatenated index cardinality for table PARENT
+Revised join selectivity: 1.0000e-004 = 7.9445e-007 * (1/10000) * (1/7.9445e-007)
+Join Card:  0.75 = outer (68.01) * inner (110.05) * sel (1.0000e-004)
+SM Join
+  Outer table: 
+    resc: 2517  cdn: 68  rcz: 27  deg: 1  resp: 2517
+  Inner table: PARENT  Alias: P
+    resc: 631  cdn: 110  rcz: 27  deg:  1  resp: 631
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           40 Total Rows:             68
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5018650
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           40 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+  Merge join  Cost:  3151  Resp:  3151
+HA Join
+  Outer table: 
+    resc: 2517  cdn: 68  rcz: 27  deg: 1  resp: 2517
+  Inner table: PARENT  Alias: P
+    resc: 631  cdn: 110  rcz: 27  deg:  1  resp: 631
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 3149   Resp: 3149
+Join result: cost: 2586  cdn: 1  rcz: 54
+Now joining: GRANDPARENT[GP]#2 *******
+NL Join
+  Outer table: cost: 2586  cdn: 1  rcz: 54  resp:  2586
+  Inner table: GRANDPARENT  Alias: GP
+    Access Path: table-scan  Resc: 128
+    Join:  Resc:  2714  Resp:  2714
+  Access Path: index (unique)
+    Index: GP_PK
+    rsc_cpu: 15589   rsc_io: 1
+    ix_sel:  5.0000e-004    ix_sel_with_filters:  5.0000e-004
+    NL Join:  resc: 2587  resp: 2587
+  Access Path: index (eq-unique)
+    Index: GP_PK
+    rsc_cpu: 15789   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join:  resc: 2587  resp: 2587
+  Best NL cost: 2587  resp: 2587
+Using concatenated index cardinality for table GRANDPARENT
+Revised join selectivity: 5.0000e-004 = 8.3417e-005 * (1/2000) * (1/8.3417e-005)
+Join Card:  0.04 = outer (0.75) * inner (110.25) * sel (5.0000e-004)
+SM Join
+  Outer table: 
+    resc: 2586  cdn: 1  rcz: 54  deg: 1  resp: 2586
+  Inner table: GRANDPARENT  Alias: GP
+    resc: 128  cdn: 110  rcz: 23  deg:  1  resp: 128
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           70 Total Rows:              1
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5000000
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           36 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+  Merge join  Cost:  2716  Resp:  2716
+HA Join
+  Outer table: 
+    resc: 2586  cdn: 1  rcz: 54  deg: 1  resp: 2586
+  Inner table: GRANDPARENT  Alias: GP
+    resc: 128  cdn: 110  rcz: 23  deg:  1  resp: 128
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 2714   Resp: 2714
+Join result: cost: 2587  cdn: 1  rcz: 77
+Now joining: GREATGRANDPARENT[GGP]#3 *******
+NL Join
+  Outer table: cost: 2587  cdn: 1  rcz: 77  resp:  2587
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    Access Path: table-scan  Resc: 64
+    Join:  Resc:  2651  Resp:  2651
+  Access Path: index (unique)
+    Index: GGP_PK
+    rsc_cpu: 15558   rsc_io: 1
+    ix_sel:  1.0000e-003    ix_sel_with_filters:  1.0000e-003
+    NL Join:  resc: 2588  resp: 2588
+  Access Path: index (eq-unique)
+    Index: GGP_PK
+    rsc_cpu: 15758   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join:  resc: 2588  resp: 2588
+  Best NL cost: 2588  resp: 2588
+Join Card:  0.04 = outer (0.04) * inner (261.26) * sel (3.8168e-003)
+SM Join
+  Outer table: 
+    resc: 2587  cdn: 1  rcz: 77  deg: 1  resp: 2587
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           95 Total Rows:              1
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5000000
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           31 Total Rows:            261
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5094402
+      Total Temp space used: 0
+  Merge join  Cost:  2653  Resp:  2653
+HA Join
+  Outer table: 
+    resc: 2587  cdn: 1  rcz: 77  deg: 1  resp: 2587
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 2652   Resp: 2652
+Join result: cost: 2588  cdn: 1  rcz: 96
+Best so far: TABLE#: 0  CST:       2517  CDN:         68  BYTES:       1836
+Best so far: TABLE#: 1  CST:       2586  CDN:          1  BYTES:         54
+Best so far: TABLE#: 2  CST:       2587  CDN:          1  BYTES:         77
+Best so far: TABLE#: 3  CST:       2588  CDN:          1  BYTES:         96
+***********************
+Join order[2]:  CHILD[C]#0  PARENT[P]#1  GREATGRANDPARENT[GGP]#3  GRANDPARENT[GP]#2
+Now joining: GREATGRANDPARENT[GGP]#3 *******
+NL Join
+  Outer table: cost: 2586  cdn: 1  rcz: 54  resp:  2586
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    Access Path: table-scan  Resc: 64
+    Join:  Resc:  2650  Resp:  2650
+  Best NL cost: 2650  resp: 2650
+Join Card:  195.53 = outer (0.75) * inner (261.26) * sel (1.0000e+000)
+***********************
+Join order[3]:  CHILD[C]#0  GRANDPARENT[GP]#2  PARENT[P]#1  GREATGRANDPARENT[GGP]#3
+Now joining: GRANDPARENT[GP]#2 *******
+NL Join
+  Outer table: cost: 2517  cdn: 68  rcz: 27  resp:  2517
+  Inner table: GRANDPARENT  Alias: GP
+    Access Path: table-scan  Resc: 126
+    Join:  Resc:  11074  Resp:  11074
+  Best NL cost: 11074  resp: 11074
+Join Card:  7497.70 = outer (68.01) * inner (110.25) * sel (1.0000e+000)
+***********************
+Join order[4]:  CHILD[C]#0  GREATGRANDPARENT[GGP]#3  PARENT[P]#1  GRANDPARENT[GP]#2
+Now joining: GREATGRANDPARENT[GGP]#3 *******
+NL Join
+  Outer table: cost: 2517  cdn: 68  rcz: 27  resp:  2517
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    Access Path: table-scan  Resc: 63
+    Join:  Resc:  6796  Resp:  6796
+  Best NL cost: 6796  resp: 6796
+Join Card:  17766.99 = outer (68.01) * inner (261.26) * sel (1.0000e+000)
+***********************
+Join order[5]:  PARENT[P]#1  CHILD[C]#0  GRANDPARENT[GP]#2  GREATGRANDPARENT[GGP]#3
+Now joining: CHILD[C]#0 *******
+NL Join
+  Outer table: cost: 631  cdn: 110  rcz: 27  resp:  631
+  Inner table: CHILD  Alias: C
+    Access Path: table-scan  Resc: 2517
+    Join:  Resc:  277488  Resp:  277488
+  Access Path: index (scan)
+    Index: C_PK
+    rsc_cpu: 15543   rsc_io: 2
+    ix_sel:  5.0000e-011    ix_sel_with_filters:  5.0000e-011
+    NL Join:  resc: 851  resp: 851
+  Best NL cost: 851  resp: 851
+Using concatenated index cardinality for table PARENT
+Revised join selectivity: 1.0000e-004 = 7.9445e-007 * (1/10000) * (1/7.9445e-007)
+Join Card:  0.75 = outer (110.05) * inner (68.01) * sel (1.0000e-004)
+SM Join
+  Outer table: 
+    resc: 631  cdn: 110  rcz: 27  deg: 1  resp: 631
+  Inner table: CHILD  Alias: C
+    resc: 2517  cdn: 68  rcz: 27  deg:  1  resp: 2517
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           40 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           40 Total Rows:             68
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5018650
+      Total Temp space used: 0
+  Merge join  Cost:  3151  Resp:  3151
+HA Join
+  Outer table: 
+    resc: 631  cdn: 110  rcz: 27  deg: 1  resp: 631
+  Inner table: CHILD  Alias: C
+    resc: 2517  cdn: 68  rcz: 27  deg:  1  resp: 2517
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 3149   Resp: 3149
+Join result: cost: 851  cdn: 1  rcz: 54
+Now joining: GRANDPARENT[GP]#2 *******
+NL Join
+  Outer table: cost: 851  cdn: 1  rcz: 54  resp:  851
+  Inner table: GRANDPARENT  Alias: GP
+    Access Path: table-scan  Resc: 128
+    Join:  Resc:  979  Resp:  979
+  Access Path: index (unique)
+    Index: GP_PK
+    rsc_cpu: 15589   rsc_io: 1
+    ix_sel:  5.0000e-004    ix_sel_with_filters:  5.0000e-004
+    NL Join:  resc: 852  resp: 852
+  Access Path: index (eq-unique)
+    Index: GP_PK
+    rsc_cpu: 15789   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join:  resc: 852  resp: 852
+  Best NL cost: 852  resp: 852
+Using concatenated index cardinality for table GRANDPARENT
+Revised join selectivity: 5.0000e-004 = 8.3417e-005 * (1/2000) * (1/8.3417e-005)
+Join Card:  0.04 = outer (0.75) * inner (110.25) * sel (5.0000e-004)
+SM Join
+  Outer table: 
+    resc: 851  cdn: 1  rcz: 54  deg: 1  resp: 851
+  Inner table: GRANDPARENT  Alias: GP
+    resc: 128  cdn: 110  rcz: 23  deg:  1  resp: 128
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           70 Total Rows:              1
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5000000
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           36 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+  Merge join  Cost:  981  Resp:  981
+HA Join
+  Outer table: 
+    resc: 851  cdn: 1  rcz: 54  deg: 1  resp: 851
+  Inner table: GRANDPARENT  Alias: GP
+    resc: 128  cdn: 110  rcz: 23  deg:  1  resp: 128
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 980   Resp: 980
+Join result: cost: 852  cdn: 1  rcz: 77
+Now joining: GREATGRANDPARENT[GGP]#3 *******
+NL Join
+  Outer table: cost: 852  cdn: 1  rcz: 77  resp:  852
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    Access Path: table-scan  Resc: 64
+    Join:  Resc:  917  Resp:  917
+  Access Path: index (unique)
+    Index: GGP_PK
+    rsc_cpu: 15558   rsc_io: 1
+    ix_sel:  1.0000e-003    ix_sel_with_filters:  1.0000e-003
+    NL Join:  resc: 853  resp: 853
+  Access Path: index (eq-unique)
+    Index: GGP_PK
+    rsc_cpu: 15758   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join:  resc: 853  resp: 853
+  Best NL cost: 853  resp: 853
+Join Card:  0.04 = outer (0.04) * inner (261.26) * sel (3.8168e-003)
+SM Join
+  Outer table: 
+    resc: 852  cdn: 1  rcz: 77  deg: 1  resp: 852
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           95 Total Rows:              1
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5000000
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           31 Total Rows:            261
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5094402
+      Total Temp space used: 0
+  Merge join  Cost:  919  Resp:  919
+HA Join
+  Outer table: 
+    resc: 852  cdn: 1  rcz: 77  deg: 1  resp: 852
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 917   Resp: 917
+Join result: cost: 853  cdn: 1  rcz: 96
+Best so far: TABLE#: 1  CST:        631  CDN:        110  BYTES:       2970
+Best so far: TABLE#: 0  CST:        851  CDN:          1  BYTES:         54
+Best so far: TABLE#: 2  CST:        852  CDN:          1  BYTES:         77
+Best so far: TABLE#: 3  CST:        853  CDN:          1  BYTES:         96
+***********************
+Join order[6]:  PARENT[P]#1  CHILD[C]#0  GREATGRANDPARENT[GGP]#3  GRANDPARENT[GP]#2
+Now joining: GREATGRANDPARENT[GGP]#3 *******
+NL Join
+  Outer table: cost: 851  cdn: 1  rcz: 54  resp:  851
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    Access Path: table-scan  Resc: 64
+    Join:  Resc:  916  Resp:  916
+  Best NL cost: 916  resp: 916
+Join Card:  195.53 = outer (0.75) * inner (261.26) * sel (1.0000e+000)
+***********************
+Join order[7]:  PARENT[P]#1  GRANDPARENT[GP]#2  CHILD[C]#0  GREATGRANDPARENT[GGP]#3
+Now joining: GRANDPARENT[GP]#2 *******
+NL Join
+  Outer table: cost: 631  cdn: 110  rcz: 27  resp:  631
+  Inner table: GRANDPARENT  Alias: GP
+    Access Path: table-scan  Resc: 126
+    Join:  Resc:  14473  Resp:  14473
+  Access Path: index (unique)
+    Index: GP_PK
+    rsc_cpu: 15589   rsc_io: 1
+    ix_sel:  5.0000e-004    ix_sel_with_filters:  5.0000e-004
+    NL Join:  resc: 741  resp: 741
+  Access Path: index (eq-unique)
+    Index: GP_PK
+    rsc_cpu: 15789   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join:  resc: 741  resp: 741
+  Best NL cost: 741  resp: 741
+Using concatenated index cardinality for table GRANDPARENT
+Revised join selectivity: 5.0000e-004 = 8.3417e-005 * (1/2000) * (1/8.3417e-005)
+Join Card:  6.07 = outer (110.05) * inner (110.25) * sel (5.0000e-004)
+SM Join
+  Outer table: 
+    resc: 631  cdn: 110  rcz: 27  deg: 1  resp: 631
+  Inner table: GRANDPARENT  Alias: GP
+    resc: 128  cdn: 110  rcz: 23  deg:  1  resp: 128
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           40 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           36 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+  Merge join  Cost:  761  Resp:  761
+HA Join
+  Outer table: 
+    resc: 631  cdn: 110  rcz: 27  deg: 1  resp: 631
+  Inner table: GRANDPARENT  Alias: GP
+    resc: 128  cdn: 110  rcz: 23  deg:  1  resp: 128
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 759   Resp: 759
+Join result: cost: 741  cdn: 6  rcz: 50
+Now joining: CHILD[C]#0 *******
+NL Join
+  Outer table: cost: 741  cdn: 6  rcz: 50  resp:  741
+  Inner table: CHILD  Alias: C
+    Access Path: table-scan  Resc: 2517
+    Join:  Resc:  15844  Resp:  15844
+  Access Path: index (scan)
+    Index: C_PK
+    rsc_cpu: 15543   rsc_io: 2
+    ix_sel:  5.0000e-011    ix_sel_with_filters:  5.0000e-011
+    NL Join:  resc: 753  resp: 753
+  Best NL cost: 753  resp: 753
+Using concatenated index cardinality for table PARENT
+Revised join selectivity: 1.0000e-004 = 7.9445e-007 * (1/10000) * (1/7.9445e-007)
+Join Card:  0.04 = outer (6.07) * inner (68.01) * sel (1.0000e-004)
+SM Join
+  Outer table: 
+    resc: 741  cdn: 6  rcz: 50  deg: 1  resp: 741
+  Inner table: CHILD  Alias: C
+    resc: 2517  cdn: 68  rcz: 27  deg:  1  resp: 2517
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           65 Total Rows:              6
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5000699
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           40 Total Rows:             68
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5018650
+      Total Temp space used: 0
+  Merge join  Cost:  3261  Resp:  3261
+HA Join
+  Outer table: 
+    resc: 741  cdn: 6  rcz: 50  deg: 1  resp: 741
+  Inner table: CHILD  Alias: C
+    resc: 2517  cdn: 68  rcz: 27  deg:  1  resp: 2517
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 3259   Resp: 3259
+Join result: cost: 753  cdn: 1  rcz: 77
+Now joining: GREATGRANDPARENT[GGP]#3 *******
+NL Join
+  Outer table: cost: 753  cdn: 1  rcz: 77  resp:  753
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    Access Path: table-scan  Resc: 64
+    Join:  Resc:  818  Resp:  818
+  Access Path: index (unique)
+    Index: GGP_PK
+    rsc_cpu: 15558   rsc_io: 1
+    ix_sel:  1.0000e-003    ix_sel_with_filters:  1.0000e-003
+    NL Join:  resc: 754  resp: 754
+  Access Path: index (eq-unique)
+    Index: GGP_PK
+    rsc_cpu: 15758   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join:  resc: 754  resp: 754
+  Best NL cost: 754  resp: 754
+Join Card:  0.04 = outer (0.04) * inner (261.26) * sel (3.8168e-003)
+SM Join
+  Outer table: 
+    resc: 753  cdn: 1  rcz: 77  deg: 1  resp: 753
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           95 Total Rows:              1
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5000000
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           31 Total Rows:            261
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5094402
+      Total Temp space used: 0
+  Merge join  Cost:  820  Resp:  820
+HA Join
+  Outer table: 
+    resc: 753  cdn: 1  rcz: 77  deg: 1  resp: 753
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 818   Resp: 818
+Join result: cost: 754  cdn: 1  rcz: 96
+Best so far: TABLE#: 1  CST:        631  CDN:        110  BYTES:       2970
+Best so far: TABLE#: 2  CST:        741  CDN:          6  BYTES:        300
+Best so far: TABLE#: 0  CST:        753  CDN:          1  BYTES:         77
+Best so far: TABLE#: 3  CST:        754  CDN:          1  BYTES:         96
+***********************
+Join order[8]:  PARENT[P]#1  GRANDPARENT[GP]#2  GREATGRANDPARENT[GGP]#3  CHILD[C]#0
+Now joining: GREATGRANDPARENT[GGP]#3 *******
+NL Join
+  Outer table: cost: 741  cdn: 6  rcz: 50  resp:  741
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    Access Path: table-scan  Resc: 63
+    Join:  Resc:  1121  Resp:  1121
+  Access Path: index (unique)
+    Index: GGP_PK
+    rsc_cpu: 15558   rsc_io: 1
+    ix_sel:  1.0000e-003    ix_sel_with_filters:  1.0000e-003
+    NL Join:  resc: 747  resp: 747
+  Access Path: index (eq-unique)
+    Index: GGP_PK
+    rsc_cpu: 15758   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join:  resc: 747  resp: 747
+  Best NL cost: 747  resp: 747
+Join Card:  6.05 = outer (6.07) * inner (261.26) * sel (3.8168e-003)
+SM Join
+  Outer table: 
+    resc: 741  cdn: 6  rcz: 50  deg: 1  resp: 741
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           65 Total Rows:              6
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5000699
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           31 Total Rows:            261
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5094402
+      Total Temp space used: 0
+  Merge join  Cost:  808  Resp:  808
+HA Join
+  Outer table: 
+    resc: 741  cdn: 6  rcz: 50  deg: 1  resp: 741
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 806   Resp: 806
+Join result: cost: 747  cdn: 6  rcz: 69
+Now joining: CHILD[C]#0 *******
+NL Join
+  Outer table: cost: 747  cdn: 6  rcz: 69  resp:  747
+  Inner table: CHILD  Alias: C
+    Access Path: table-scan  Resc: 2517
+    Join:  Resc:  15850  Resp:  15850
+  Access Path: index (scan)
+    Index: C_PK
+    rsc_cpu: 15543   rsc_io: 2
+    ix_sel:  5.0000e-011    ix_sel_with_filters:  5.0000e-011
+    NL Join:  resc: 759  resp: 759
+  Best NL cost: 759  resp: 759
+Using concatenated index cardinality for table PARENT
+Revised join selectivity: 1.0000e-004 = 7.9445e-007 * (1/10000) * (1/7.9445e-007)
+Join Card:  0.04 = outer (6.05) * inner (68.01) * sel (1.0000e-004)
+Join cardinality for NL:  0.04, outer: 6.05, inner: 68.01, sel: 1.0000e-004 
+SM Join
+  Outer table: 
+    resc: 747  cdn: 6  rcz: 69  deg: 1  resp: 747
+  Inner table: CHILD  Alias: C
+    resc: 2517  cdn: 68  rcz: 27  deg:  1  resp: 2517
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           86 Total Rows:              6
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5000699
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           40 Total Rows:             68
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5018650
+      Total Temp space used: 0
+  Merge join  Cost:  3267  Resp:  3267
+HA Join
+  Outer table: 
+    resc: 747  cdn: 6  rcz: 69  deg: 1  resp: 747
+  Inner table: CHILD  Alias: C
+    resc: 2517  cdn: 68  rcz: 27  deg:  1  resp: 2517
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 3265   Resp: 3265
+***********************
+Join order[9]:  PARENT[P]#1  GREATGRANDPARENT[GGP]#3  CHILD[C]#0  GRANDPARENT[GP]#2
+Now joining: GREATGRANDPARENT[GGP]#3 *******
+NL Join
+  Outer table: cost: 631  cdn: 110  rcz: 27  resp:  631
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    Access Path: table-scan  Resc: 63
+    Join:  Resc:  7553  Resp:  7553
+  Best NL cost: 7553  resp: 7553
+Join Card:  28751.26 = outer (110.05) * inner (261.26) * sel (1.0000e+000)
+***********************
+Join order[10]:  GRANDPARENT[GP]#2  CHILD[C]#0  PARENT[P]#1  GREATGRANDPARENT[GGP]#3
+Now joining: CHILD[C]#0 *******
+NL Join
+  Outer table: cost: 128  cdn: 110  rcz: 23  resp:  128
+  Inner table: CHILD  Alias: C
+    Access Path: table-scan  Resc: 2517
+    Join:  Resc:  276985  Resp:  276985
+  Best NL cost: 276985  resp: 276985
+Join Card:  7497.70 = outer (110.25) * inner (68.01) * sel (1.0000e+000)
+***********************
+Join order[11]:  GRANDPARENT[GP]#2  PARENT[P]#1  CHILD[C]#0  GREATGRANDPARENT[GGP]#3
+Now joining: PARENT[P]#1 *******
+NL Join
+  Outer table: cost: 128  cdn: 110  rcz: 23  resp:  128
+  Inner table: PARENT  Alias: P
+    Access Path: table-scan  Resc: 629
+    Join:  Resc:  69338  Resp:  69338
+  Access Path: index (scan)
+    Index: P_PK
+    rsc_cpu: 15523   rsc_io: 2
+    ix_sel:  5.0000e-007    ix_sel_with_filters:  5.0000e-007
+    NL Join:  resc: 348  resp: 348
+  Best NL cost: 348  resp: 348
+Using concatenated index cardinality for table GRANDPARENT
+Revised join selectivity: 5.0000e-004 = 8.3417e-005 * (1/2000) * (1/8.3417e-005)
+Join Card:  6.07 = outer (110.25) * inner (110.05) * sel (5.0000e-004)
+SM Join
+  Outer table: 
+    resc: 128  cdn: 110  rcz: 23  deg: 1  resp: 128
+  Inner table: PARENT  Alias: P
+    resc: 631  cdn: 110  rcz: 27  deg:  1  resp: 631
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           36 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           40 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+  Merge join  Cost:  761  Resp:  761
+HA Join
+  Outer table: 
+    resc: 128  cdn: 110  rcz: 23  deg: 1  resp: 128
+  Inner table: PARENT  Alias: P
+    resc: 631  cdn: 110  rcz: 27  deg:  1  resp: 631
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 759   Resp: 759
+Join result: cost: 348  cdn: 6  rcz: 50
+Now joining: CHILD[C]#0 *******
+NL Join
+  Outer table: cost: 348  cdn: 6  rcz: 50  resp:  348
+  Inner table: CHILD  Alias: C
+    Access Path: table-scan  Resc: 2517
+    Join:  Resc:  15450  Resp:  15450
+  Access Path: index (scan)
+    Index: C_PK
+    rsc_cpu: 15543   rsc_io: 2
+    ix_sel:  5.0000e-011    ix_sel_with_filters:  5.0000e-011
+    NL Join:  resc: 360  resp: 360
+  Best NL cost: 360  resp: 360
+Using concatenated index cardinality for table PARENT
+Revised join selectivity: 1.0000e-004 = 7.9445e-007 * (1/10000) * (1/7.9445e-007)
+Join Card:  0.04 = outer (6.07) * inner (68.01) * sel (1.0000e-004)
+SM Join
+  Outer table: 
+    resc: 348  cdn: 6  rcz: 50  deg: 1  resp: 348
+  Inner table: CHILD  Alias: C
+    resc: 2517  cdn: 68  rcz: 27  deg:  1  resp: 2517
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           65 Total Rows:              6
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5000699
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           40 Total Rows:             68
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5018650
+      Total Temp space used: 0
+  Merge join  Cost:  2868  Resp:  2868
+HA Join
+  Outer table: 
+    resc: 348  cdn: 6  rcz: 50  deg: 1  resp: 348
+  Inner table: CHILD  Alias: C
+    resc: 2517  cdn: 68  rcz: 27  deg:  1  resp: 2517
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 2866   Resp: 2866
+Join result: cost: 360  cdn: 1  rcz: 77
+Now joining: GREATGRANDPARENT[GGP]#3 *******
+NL Join
+  Outer table: cost: 360  cdn: 1  rcz: 77  resp:  360
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    Access Path: table-scan  Resc: 64
+    Join:  Resc:  425  Resp:  425
+  Access Path: index (unique)
+    Index: GGP_PK
+    rsc_cpu: 15558   rsc_io: 1
+    ix_sel:  1.0000e-003    ix_sel_with_filters:  1.0000e-003
+    NL Join:  resc: 361  resp: 361
+  Access Path: index (eq-unique)
+    Index: GGP_PK
+    rsc_cpu: 15758   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join:  resc: 361  resp: 361
+  Best NL cost: 361  resp: 361
+Join Card:  0.04 = outer (0.04) * inner (261.26) * sel (3.8168e-003)
+SM Join
+  Outer table: 
+    resc: 360  cdn: 1  rcz: 77  deg: 1  resp: 360
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           95 Total Rows:              1
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5000000
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           31 Total Rows:            261
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5094402
+      Total Temp space used: 0
+  Merge join  Cost:  427  Resp:  427
+HA Join
+  Outer table: 
+    resc: 360  cdn: 1  rcz: 77  deg: 1  resp: 360
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 425   Resp: 425
+Join result: cost: 361  cdn: 1  rcz: 96
+Best so far: TABLE#: 2  CST:        128  CDN:        110  BYTES:       2530
+Best so far: TABLE#: 1  CST:        348  CDN:          6  BYTES:        300
+Best so far: TABLE#: 0  CST:        360  CDN:          1  BYTES:         77
+Best so far: TABLE#: 3  CST:        361  CDN:          1  BYTES:         96
+***********************
+Join order[12]:  GRANDPARENT[GP]#2  PARENT[P]#1  GREATGRANDPARENT[GGP]#3  CHILD[C]#0
+Now joining: GREATGRANDPARENT[GGP]#3 *******
+NL Join
+  Outer table: cost: 348  cdn: 6  rcz: 50  resp:  348
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    Access Path: table-scan  Resc: 63
+    Join:  Resc:  728  Resp:  728
+  Access Path: index (unique)
+    Index: GGP_PK
+    rsc_cpu: 15558   rsc_io: 1
+    ix_sel:  1.0000e-003    ix_sel_with_filters:  1.0000e-003
+    NL Join:  resc: 354  resp: 354
+  Access Path: index (eq-unique)
+    Index: GGP_PK
+    rsc_cpu: 15758   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join:  resc: 354  resp: 354
+  Best NL cost: 354  resp: 354
+Join Card:  6.05 = outer (6.07) * inner (261.26) * sel (3.8168e-003)
+SM Join
+  Outer table: 
+    resc: 348  cdn: 6  rcz: 50  deg: 1  resp: 348
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           65 Total Rows:              6
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5000699
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           31 Total Rows:            261
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5094402
+      Total Temp space used: 0
+  Merge join  Cost:  415  Resp:  415
+HA Join
+  Outer table: 
+    resc: 348  cdn: 6  rcz: 50  deg: 1  resp: 348
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 413   Resp: 413
+Join result: cost: 354  cdn: 6  rcz: 69
+Now joining: CHILD[C]#0 *******
+NL Join
+  Outer table: cost: 354  cdn: 6  rcz: 69  resp:  354
+  Inner table: CHILD  Alias: C
+    Access Path: table-scan  Resc: 2517
+    Join:  Resc:  15456  Resp:  15456
+  Access Path: index (scan)
+    Index: C_PK
+    rsc_cpu: 15543   rsc_io: 2
+    ix_sel:  5.0000e-011    ix_sel_with_filters:  5.0000e-011
+    NL Join:  resc: 366  resp: 366
+  Best NL cost: 366  resp: 366
+Using concatenated index cardinality for table PARENT
+Revised join selectivity: 1.0000e-004 = 7.9445e-007 * (1/10000) * (1/7.9445e-007)
+Join Card:  0.04 = outer (6.05) * inner (68.01) * sel (1.0000e-004)
+Join cardinality for NL:  0.04, outer: 6.05, inner: 68.01, sel: 1.0000e-004 
+SM Join
+  Outer table: 
+    resc: 354  cdn: 6  rcz: 69  deg: 1  resp: 354
+  Inner table: CHILD  Alias: C
+    resc: 2517  cdn: 68  rcz: 27  deg:  1  resp: 2517
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           86 Total Rows:              6
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5000699
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           40 Total Rows:             68
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5018650
+      Total Temp space used: 0
+  Merge join  Cost:  2874  Resp:  2874
+HA Join
+  Outer table: 
+    resc: 354  cdn: 6  rcz: 69  deg: 1  resp: 354
+  Inner table: CHILD  Alias: C
+    resc: 2517  cdn: 68  rcz: 27  deg:  1  resp: 2517
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 2872   Resp: 2872
+***********************
+Join order[13]:  GRANDPARENT[GP]#2  GREATGRANDPARENT[GGP]#3  CHILD[C]#0  PARENT[P]#1
+Now joining: GREATGRANDPARENT[GGP]#3 *******
+NL Join
+  Outer table: cost: 128  cdn: 110  rcz: 23  resp:  128
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    Access Path: table-scan  Resc: 63
+    Join:  Resc:  7049  Resp:  7049
+  Access Path: index (unique)
+    Index: GGP_PK
+    rsc_cpu: 15558   rsc_io: 1
+    ix_sel:  1.0000e-003    ix_sel_with_filters:  1.0000e-003
+    NL Join:  resc: 238  resp: 238
+  Access Path: index (eq-unique)
+    Index: GGP_PK
+    rsc_cpu: 15758   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join:  resc: 238  resp: 238
+  Best NL cost: 238  resp: 238
+Join Card:  109.94 = outer (110.25) * inner (261.26) * sel (3.8168e-003)
+Join cardinality for NL:  109.94, outer: 110.25, inner: 261.26, sel: 3.8168e-003 
+SM Join
+  Outer table: 
+    resc: 128  cdn: 110  rcz: 23  deg: 1  resp: 128
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           36 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           31 Total Rows:            261
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5094402
+      Total Temp space used: 0
+  Merge join  Cost:  194  Resp:  194
+HA Join
+  Outer table: 
+    resc: 128  cdn: 110  rcz: 23  deg: 1  resp: 128
+  Inner table: GREATGRANDPARENT  Alias: GGP
+    resc: 64  cdn: 261  rcz: 19  deg:  1  resp: 64
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 193   Resp: 193
+Join result: cost: 193  cdn: 110  rcz: 42
+Now joining: CHILD[C]#0 *******
+NL Join
+  Outer table: cost: 193  cdn: 110  rcz: 42  resp:  193
+  Inner table: CHILD  Alias: C
+    Access Path: table-scan  Resc: 2517
+    Join:  Resc:  277050  Resp:  277050
+  Best NL cost: 277050  resp: 277050
+Join Card:  7476.42 = outer (109.94) * inner (68.01) * sel (1.0000e+000)
+***********************
+Join order[14]:  GRANDPARENT[GP]#2  GREATGRANDPARENT[GGP]#3  PARENT[P]#1  CHILD[C]#0
+Now joining: PARENT[P]#1 *******
+NL Join
+  Outer table: cost: 193  cdn: 110  rcz: 42  resp:  193
+  Inner table: PARENT  Alias: P
+    Access Path: table-scan  Resc: 629
+    Join:  Resc:  69403  Resp:  69403
+  Access Path: index (scan)
+    Index: P_PK
+    rsc_cpu: 15523   rsc_io: 2
+    ix_sel:  5.0000e-007    ix_sel_with_filters:  5.0000e-007
+    NL Join:  resc: 413  resp: 413
+  Best NL cost: 413  resp: 413
+Using concatenated index cardinality for table GRANDPARENT
+Revised join selectivity: 5.0000e-004 = 8.3417e-005 * (1/2000) * (1/8.3417e-005)
+Join Card:  6.05 = outer (109.94) * inner (110.05) * sel (5.0000e-004)
+SM Join
+  Outer table: 
+    resc: 193  cdn: 110  rcz: 42  deg: 1  resp: 193
+  Inner table: PARENT  Alias: P
+    resc: 631  cdn: 110  rcz: 27  deg:  1  resp: 631
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           57 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           40 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+  Merge join  Cost:  826  Resp:  826
+HA Join
+  Outer table: 
+    resc: 193  cdn: 110  rcz: 42  deg: 1  resp: 193
+  Inner table: PARENT  Alias: P
+    resc: 631  cdn: 110  rcz: 27  deg:  1  resp: 631
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 824   Resp: 824
+***********************
+Join order[15]:  GREATGRANDPARENT[GGP]#3  CHILD[C]#0  PARENT[P]#1  GRANDPARENT[GP]#2
+Now joining: CHILD[C]#0 *******
+NL Join
+  Outer table: cost: 64  cdn: 261  rcz: 19  resp:  64
+  Inner table: CHILD  Alias: C
+    Access Path: table-scan  Resc: 2517
+    Join:  Resc:  656970  Resp:  656970
+  Best NL cost: 656970  resp: 656970
+Join Card:  17766.99 = outer (261.26) * inner (68.01) * sel (1.0000e+000)
+***********************
+Join order[16]:  GREATGRANDPARENT[GGP]#3  PARENT[P]#1  CHILD[C]#0  GRANDPARENT[GP]#2
+Now joining: PARENT[P]#1 *******
+NL Join
+  Outer table: cost: 64  cdn: 261  rcz: 19  resp:  64
+  Inner table: PARENT  Alias: P
+    Access Path: table-scan  Resc: 629
+    Join:  Resc:  164281  Resp:  164281
+  Best NL cost: 164281  resp: 164281
+Join Card:  28751.26 = outer (261.26) * inner (110.05) * sel (1.0000e+000)
+***********************
+Join order[17]:  GREATGRANDPARENT[GGP]#3  GRANDPARENT[GP]#2  CHILD[C]#0  PARENT[P]#1
+Now joining: GRANDPARENT[GP]#2 *******
+NL Join
+  Outer table: cost: 64  cdn: 261  rcz: 19  resp:  64
+  Inner table: GRANDPARENT  Alias: GP
+    Access Path: table-scan  Resc: 126
+    Join:  Resc:  32906  Resp:  32906
+  Access Path: index (scan)
+    Index: GP_PK
+    rsc_cpu: 23207   rsc_io: 3
+    ix_sel:  1.0000e-003    ix_sel_with_filters:  1.0000e-003
+    NL Join:  resc: 849  resp: 849
+  Best NL cost: 849  resp: 849
+Join Card:  109.94 = outer (261.26) * inner (110.25) * sel (3.8168e-003)
+Join cardinality for NL:  109.94, outer: 261.26, inner: 110.25, sel: 3.8168e-003 
+SM Join
+  Outer table: 
+    resc: 64  cdn: 261  rcz: 19  deg: 1  resp: 64
+  Inner table: GRANDPARENT  Alias: GP
+    resc: 128  cdn: 110  rcz: 23  deg:  1  resp: 128
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           31 Total Rows:            261
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5094402
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           36 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+  Merge join  Cost:  194  Resp:  194
+SM Join (with index on outer)
+  Access Path: index (no start/stop keys)
+    Index: GGP_PK
+    rsc_cpu: 2266849   rsc_io: 253
+    ix_sel:  1.0000e+000    ix_sel_with_filters:  1.0000e+000
+  Outer table: 
+    resc: 253  cdn: 261  rcz: 19  deg: 1  resp: 253
+  Inner table: GRANDPARENT  Alias: GP
+    resc: 128  cdn: 110  rcz: 23  deg:  1  resp: 128
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           36 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+  Merge join  Cost:  382  Resp:  382
+HA Join
+  Outer table: 
+    resc: 64  cdn: 261  rcz: 19  deg: 1  resp: 64
+  Inner table: GRANDPARENT  Alias: GP
+    resc: 128  cdn: 110  rcz: 23  deg:  1  resp: 128
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 193   Resp: 193
+Join result: cost: 193  cdn: 110  rcz: 42
+Now joining: CHILD[C]#0 *******
+NL Join
+  Outer table: cost: 193  cdn: 110  rcz: 42  resp:  193
+  Inner table: CHILD  Alias: C
+    Access Path: table-scan  Resc: 2517
+    Join:  Resc:  277050  Resp:  277050
+  Best NL cost: 277050  resp: 277050
+Join Card:  7476.42 = outer (109.94) * inner (68.01) * sel (1.0000e+000)
+***********************
+Join order[18]:  GREATGRANDPARENT[GGP]#3  GRANDPARENT[GP]#2  PARENT[P]#1  CHILD[C]#0
+Now joining: PARENT[P]#1 *******
+NL Join
+  Outer table: cost: 193  cdn: 110  rcz: 42  resp:  193
+  Inner table: PARENT  Alias: P
+    Access Path: table-scan  Resc: 629
+    Join:  Resc:  69403  Resp:  69403
+  Access Path: index (scan)
+    Index: P_PK
+    rsc_cpu: 15523   rsc_io: 2
+    ix_sel:  5.0000e-007    ix_sel_with_filters:  5.0000e-007
+    NL Join:  resc: 413  resp: 413
+  Best NL cost: 413  resp: 413
+Using concatenated index cardinality for table GRANDPARENT
+Revised join selectivity: 5.0000e-004 = 8.3417e-005 * (1/2000) * (1/8.3417e-005)
+Join Card:  6.05 = outer (109.94) * inner (110.05) * sel (5.0000e-004)
+SM Join
+  Outer table: 
+    resc: 193  cdn: 110  rcz: 42  deg: 1  resp: 193
+  Inner table: PARENT  Alias: P
+    resc: 631  cdn: 110  rcz: 27  deg:  1  resp: 631
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           57 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           40 Total Rows:            110
+      Initial runs:         1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0      Total CPU sort cost: 5033608
+      Total Temp space used: 0
+  Merge join  Cost:  826  Resp:  826
+HA Join
+  Outer table: 
+    resc: 193  cdn: 110  rcz: 42  deg: 1  resp: 193
+  Inner table: PARENT  Alias: P
+    resc: 631  cdn: 110  rcz: 27  deg:  1  resp: 631
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 824   Resp: 824
+(newjo-stop-1) k:0, spcnt:0, perm:18, maxperm:2000
+(newjo-save)    [2 1 0 3 ]
+Final - All Rows Plan:
+  JOIN ORDER: 11
+  CST: 361  CDN: 1  RSC: 361  RSP: 361  BYTES: 96
+  IO-RSC: 360  IO-RSP: 360  CPU-RSC: 5892137  CPU-RSP: 5892137

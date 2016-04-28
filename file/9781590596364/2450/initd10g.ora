@@ -1,0 +1,33 @@
+*.background_dump_dest='C:\oracle\product\10.1.0\admin\d10g\bdump'
+*.compatible='10.1.0.4'
+*.control_files='C:\oracle\product\10.1.0\oradata\d10g\control01.ctl','C:\oracle\product\10.1.0\oradata\d10g\control02.ctl'
+*.core_dump_dest='C:\oracle\product\10.1.0\admin\d10g\cdump'
+*.db_16k_cache_size=8388608
+*.db_2k_cache_size=8388608
+*.db_4k_cache_size=8388608
+*.db_block_size=8192
+*.db_cache_size=67108864
+*.db_file_multiblock_read_count=8
+*.db_keep_cache_size=8388608
+*.db_name='d10g'
+*.db_recovery_file_dest='C:\oracle\product\10.1.0\flash_recovery_area'
+*.db_recovery_file_dest_size=2147483648
+*.db_recycle_cache_size=8388608
+*.dispatchers='(PROTOCOL=TCP) (SERVICE=D10gXDB)','(PROTOCOL=TCP) (SERVICE=D10g)'
+*.global_names=FALSE
+*.java_pool_size=8388608
+*.large_pool_size=8388608
+*.local_listener='(DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1521)))'
+*.nls_language='ENGLISH'
+*.nls_territory='UNITED KINGDOM'
+*.open_cursors=300
+*.parallel_max_servers=40
+*.pga_aggregate_target=209715200
+*.processes=150
+*.query_rewrite_enabled='false'
+*.remote_login_passwordfile='EXCLUSIVE'
+*.shared_pool_size=134217728
+*.sql_trace=FALSE
+*.undo_management='AUTO'
+*.undo_tablespace='UNDOTBS1'
+*.user_dump_dest='C:\oracle\product\10.1.0\admin\d10g\udump'

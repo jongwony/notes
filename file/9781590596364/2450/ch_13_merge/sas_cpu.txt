@@ -1,0 +1,3084 @@
+Blocks to sort: 588
+	First example:
+	Total IO sort cost: 1328 = blocks to sort + merge passes * IO cost per pass
+				 = 588 + 5 * 148
+
+	IO Cost per pass goes to zero when initial runs goes to 1.
+
+BUT
+	initial runs goes to 1 when SAS = 7143424 = 872 blocks.
+	But this is when SAS * 0.9 * 0.75 > 4,800,000
+	And rows * rowsize = 4,800,000
+	
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000065536.TRC
+      Initial runs:        131 Merge passes:        5 IO Cost / pass:        148
+      Total IO sort cost: 1328
+      Initial runs:        131 Merge passes:        5 IO Cost / pass:        148
+      Total IO sort cost: 1328
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000131072.TRC
+      Initial runs:         56 Merge passes:        4 IO Cost / pass:        148
+      Total IO sort cost: 1180
+      Initial runs:         56 Merge passes:        4 IO Cost / pass:        148
+      Total IO sort cost: 1180
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000196608.TRC
+      Initial runs:         36 Merge passes:        3 IO Cost / pass:        148
+      Total IO sort cost: 1032
+      Initial runs:         36 Merge passes:        3 IO Cost / pass:        148
+      Total IO sort cost: 1032
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000262144.TRC
+      Initial runs:         27 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+      Initial runs:         27 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000327680.TRC
+      Initial runs:         22 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+      Initial runs:         22 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000393216.TRC
+      Initial runs:         18 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+      Initial runs:         18 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000458752.TRC
+      Initial runs:         16 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+      Initial runs:         16 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000524288.TRC
+      Initial runs:         14 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:         14 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000589824.TRC
+      Initial runs:         12 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:         12 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000655360.TRC
+      Initial runs:         11 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:         11 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000720896.TRC
+      Initial runs:         10 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:         10 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000786432.TRC
+      Initial runs:          9 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          9 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000851968.TRC
+      Initial runs:          9 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          9 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000917504.TRC
+      Initial runs:          8 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          8 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0000983040.TRC
+      Initial runs:          8 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          8 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001048576.TRC
+      Initial runs:          7 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          7 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001114112.TRC
+      Initial runs:          7 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          7 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001179648.TRC
+      Initial runs:          7 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          7 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001245184.TRC
+      Initial runs:          6 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          6 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001310720.TRC
+      Initial runs:          6 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          6 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001376256.TRC
+      Initial runs:          6 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          6 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001441792.TRC
+      Initial runs:          5 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          5 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001507328.TRC
+      Initial runs:          5 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          5 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001572864.TRC
+      Initial runs:          5 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          5 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001638400.TRC
+      Initial runs:          5 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          5 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001703936.TRC
+      Initial runs:          5 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          5 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001769472.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001835008.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001900544.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0001966080.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002031616.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002097152.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002162688.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002228224.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002293760.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002359296.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002424832.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002490368.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002555904.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002621440.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002686976.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002752512.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002818048.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002883584.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0002949120.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003014656.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003080192.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003145728.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003211264.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003276800.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003342336.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003407872.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003473408.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003538944.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003604480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003670016.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003735552.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003801088.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003866624.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003932160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0003997696.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004063232.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004128768.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004194304.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004259840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004325376.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004390912.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004456448.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004521984.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004587520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004653056.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004718592.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004784128.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004849664.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004915200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0004980736.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005046272.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005111808.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005177344.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005242880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005308416.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005373952.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005439488.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005505024.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005570560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005636096.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005701632.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005767168.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005832704.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005898240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0005963776.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006029312.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006094848.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006160384.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006225920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006291456.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006356992.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006422528.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006488064.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006553600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006619136.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006684672.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006750208.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006815744.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006881280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0006946816.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007012352.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007077888.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007143424.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007208960.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007274496.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007340032.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007405568.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007471104.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007536640.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007602176.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007667712.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007733248.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007798784.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007864320.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007929856.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0007995392.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008060928.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008126464.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008192000.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008257536.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008323072.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008388608.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008454144.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008519680.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008585216.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008650752.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008716288.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008781824.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008847360.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008912896.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0008978432.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009043968.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009109504.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009175040.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009240576.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009306112.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009371648.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009437184.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009502720.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009568256.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009633792.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009699328.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009764864.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009830400.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009895936.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0009961472.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010027008.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010092544.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010158080.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010223616.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010289152.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010354688.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010420224.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010485760.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010551296.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010616832.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010682368.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010747904.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010813440.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010878976.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0010944512.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011010048.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011075584.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011141120.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011206656.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011272192.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011337728.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011403264.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011468800.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011534336.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011599872.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011665408.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011730944.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011796480.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011862016.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011927552.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0011993088.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012058624.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012124160.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012189696.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012255232.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012320768.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012386304.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012451840.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012517376.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012582912.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012648448.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012713984.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012779520.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012845056.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012910592.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0012976128.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013041664.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013107200.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013172736.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013238272.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013303808.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013369344.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013434880.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013500416.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013565952.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013631488.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013697024.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013762560.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013828096.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013893632.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0013959168.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014024704.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014090240.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014155776.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014221312.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014286848.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014352384.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014417920.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014483456.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014548992.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014614528.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014680064.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014745600.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014811136.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014876672.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0014942208.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015007744.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015073280.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015138816.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015204352.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015269888.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015335424.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015400960.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015466496.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015532032.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015597568.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015663104.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015728640.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015794176.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015859712.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015925248.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0015990784.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016056320.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016121856.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016187392.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016252928.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016318464.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016384000.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016449536.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016515072.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016580608.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016646144.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016711680.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016777216.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016842752.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016908288.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0016973824.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017039360.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017104896.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017170432.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017235968.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017301504.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017367040.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017432576.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017498112.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017563648.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017629184.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017694720.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017760256.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017825792.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017891328.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0017956864.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018022400.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018087936.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018153472.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018219008.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018284544.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018350080.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018415616.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018481152.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018546688.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018612224.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018677760.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018743296.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018808832.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018874368.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0018939904.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019005440.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019070976.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019136512.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019202048.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019267584.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019333120.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019398656.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019464192.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019529728.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019595264.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019660800.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019726336.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019791872.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019857408.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019922944.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0019988480.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020054016.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020119552.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020185088.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020250624.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020316160.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020381696.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020447232.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020512768.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020578304.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020643840.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020709376.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020774912.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020840448.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020905984.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0020971520.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021037056.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021102592.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021168128.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021233664.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021299200.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021364736.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021430272.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021495808.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021561344.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021626880.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021692416.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021757952.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021823488.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021889024.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0021954560.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022020096.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022085632.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022151168.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022216704.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022282240.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022347776.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022413312.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022478848.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022544384.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022609920.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022675456.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022740992.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022806528.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022872064.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0022937600.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023003136.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023068672.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023134208.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023199744.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023265280.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023330816.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023396352.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023461888.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023527424.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023592960.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023658496.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023724032.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023789568.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023855104.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023920640.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0023986176.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024051712.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024117248.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024182784.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024248320.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024313856.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024379392.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024444928.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024510464.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024576000.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024641536.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024707072.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024772608.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024838144.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024903680.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0024969216.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025034752.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025100288.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025165824.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025231360.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025296896.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025362432.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025427968.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025493504.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025559040.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025624576.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025690112.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025755648.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025821184.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025886720.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0025952256.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026017792.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026083328.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026148864.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026214400.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026279936.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026345472.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026411008.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026476544.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026542080.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026607616.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026673152.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026738688.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026804224.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026869760.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0026935296.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027000832.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027066368.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027131904.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027197440.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027262976.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027328512.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027394048.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027459584.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027525120.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027590656.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027656192.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027721728.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027787264.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027852800.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027918336.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0027983872.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028049408.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028114944.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028180480.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028246016.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028311552.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028377088.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028442624.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028508160.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028573696.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028639232.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028704768.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028770304.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028835840.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028901376.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0028966912.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029032448.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029097984.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029163520.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029229056.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029294592.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029360128.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029425664.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029491200.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029556736.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029622272.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029687808.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029753344.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029818880.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029884416.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0029949952.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030015488.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030081024.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030146560.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030212096.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030277632.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030343168.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030408704.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030474240.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030539776.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030605312.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030670848.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030736384.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030801920.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030867456.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030932992.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0030998528.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031064064.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031129600.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031195136.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031260672.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031326208.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031391744.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031457280.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031522816.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031588352.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031653888.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031719424.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031784960.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031850496.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031916032.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0031981568.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032047104.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032112640.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032178176.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032243712.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032309248.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032374784.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032440320.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032505856.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032571392.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032636928.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032702464.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032768000.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032833536.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032899072.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0032964608.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0033030144.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0033095680.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0033161216.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0033226752.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0033292288.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0033357824.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0033423360.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0033488896.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\SAS_CPU\D920_ORA_3952_SAS_CPU_0033554432.TRC
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0
+      Initial runs:          1 Merge passes:        0 IO Cost / pass:          0
+      Total IO sort cost: 0

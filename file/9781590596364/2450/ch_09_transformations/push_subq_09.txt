@@ -1,0 +1,183 @@
+
+With no_unnest, without push_subq
+
+
+8 rows selected.
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=26 Card=6 Bytes=108)
+   1    0   FILTER
+   2    1     TABLE ACCESS (BY INDEX ROWID) OF 'CHILD' (Cost=2 Card=1 Bytes=9)
+   3    2       NESTED LOOPS (Cost=14 Card=6 Bytes=108)
+   4    3         TABLE ACCESS (BY INDEX ROWID) OF 'PARENT' (Cost=4 Card=5 Bytes=45)
+   5    4           INDEX (RANGE SCAN) OF 'PAR_PK' (UNIQUE) (Cost=2 Card=102)
+   6    3         INDEX (RANGE SCAN) OF 'CHI_PK' (UNIQUE) (Cost=1 Card=1)
+   7    1     TABLE ACCESS (BY INDEX ROWID) OF 'SUBTEST' (Cost=2 Card=1 Bytes=14)
+   8    7       INDEX (UNIQUE SCAN) OF 'SUB_PK' (UNIQUE) (Cost=1 Card=1)
+
+
+
+
+Statistics
+----------------------------------------------------------
+          0  recursive calls
+          0  db block gets
+       1224  consistent gets
+          0  physical reads
+          0  redo size
+        504  bytes sent via SQL*Net to client
+        499  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          0  sorts (memory)
+          0  sorts (disk)
+          8  rows processed
+
+
+With no_unnest, with push_subq
+
+
+8 rows selected.
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=14 Card=6 Bytes=108)
+   1    0   TABLE ACCESS (BY INDEX ROWID) OF 'CHILD' (Cost=2 Card=1 Bytes=9)
+   2    1     NESTED LOOPS (Cost=14 Card=6 Bytes=108)
+   3    2       TABLE ACCESS (BY INDEX ROWID) OF 'PARENT' (Cost=4 Card=5 Bytes=45)
+   4    3         INDEX (RANGE SCAN) OF 'PAR_PK' (UNIQUE) (Cost=2 Card=102)
+   5    3         TABLE ACCESS (BY INDEX ROWID) OF 'SUBTEST' (Cost=2 Card=1 Bytes=14)
+   6    5           INDEX (UNIQUE SCAN) OF 'SUB_PK' (UNIQUE) (Cost=1 Card=1)
+   7    2       INDEX (RANGE SCAN) OF 'CHI_PK' (UNIQUE) (Cost=1 Card=1)
+
+
+
+
+Statistics
+----------------------------------------------------------
+          0  recursive calls
+          0  db block gets
+        320  consistent gets
+          0  physical reads
+          0  redo size
+        504  bytes sent via SQL*Net to client
+        499  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          0  sorts (memory)
+          0  sorts (disk)
+          8  rows processed
+
+
+Without no_unnest, with push_subq
+
+
+8 rows selected.
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=17 Card=1 Bytes=32)
+   1    0   TABLE ACCESS (BY INDEX ROWID) OF 'CHILD' (Cost=2 Card=1 Bytes=9)
+   2    1     NESTED LOOPS (Cost=17 Card=1 Bytes=32)
+   3    2       HASH JOIN (Cost=15 Card=1 Bytes=23)
+   4    3         SORT (UNIQUE)
+   5    4           TABLE ACCESS (BY INDEX ROWID) OF 'SUBTEST' (Cost=4 Card=91 Bytes=1274)
+   6    5             INDEX (RANGE SCAN) OF 'SUB_PK' (UNIQUE) (Cost=2 Card=102)
+   7    3         TABLE ACCESS (BY INDEX ROWID) OF 'PARENT' (Cost=4 Card=102 Bytes=918)
+   8    7           INDEX (RANGE SCAN) OF 'PAR_PK' (UNIQUE) (Cost=2 Card=1)
+   9    2       INDEX (RANGE SCAN) OF 'CHI_PK' (UNIQUE) (Cost=1 Card=1)
+
+
+
+
+Statistics
+----------------------------------------------------------
+          0  recursive calls
+          0  db block gets
+         22  consistent gets
+          0  physical reads
+          0  redo size
+        504  bytes sent via SQL*Net to client
+        499  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          1  sorts (memory)
+          0  sorts (disk)
+          8  rows processed
+
+
+Without no_unnest, without push_subq
+
+
+8 rows selected.
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=17 Card=1 Bytes=32)
+   1    0   TABLE ACCESS (BY INDEX ROWID) OF 'CHILD' (Cost=2 Card=1 Bytes=9)
+   2    1     NESTED LOOPS (Cost=17 Card=1 Bytes=32)
+   3    2       HASH JOIN (Cost=15 Card=1 Bytes=23)
+   4    3         SORT (UNIQUE)
+   5    4           TABLE ACCESS (BY INDEX ROWID) OF 'SUBTEST' (Cost=4 Card=91 Bytes=1274)
+   6    5             INDEX (RANGE SCAN) OF 'SUB_PK' (UNIQUE) (Cost=2 Card=102)
+   7    3         TABLE ACCESS (BY INDEX ROWID) OF 'PARENT' (Cost=4 Card=102 Bytes=918)
+   8    7           INDEX (RANGE SCAN) OF 'PAR_PK' (UNIQUE) (Cost=2 Card=1)
+   9    2       INDEX (RANGE SCAN) OF 'CHI_PK' (UNIQUE) (Cost=1 Card=1)
+
+
+
+
+Statistics
+----------------------------------------------------------
+          0  recursive calls
+          0  db block gets
+         22  consistent gets
+          0  physical reads
+          0  redo size
+        504  bytes sent via SQL*Net to client
+        499  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          1  sorts (memory)
+          0  sorts (disk)
+          8  rows processed
+
+
+With explicit unnest, without push_subq
+(Especially for 8i)
+
+
+8 rows selected.
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=17 Card=1 Bytes=32)
+   1    0   TABLE ACCESS (BY INDEX ROWID) OF 'CHILD' (Cost=2 Card=1 Bytes=9)
+   2    1     NESTED LOOPS (Cost=17 Card=1 Bytes=32)
+   3    2       HASH JOIN (Cost=15 Card=1 Bytes=23)
+   4    3         SORT (UNIQUE)
+   5    4           TABLE ACCESS (BY INDEX ROWID) OF 'SUBTEST' (Cost=4 Card=91 Bytes=1274)
+   6    5             INDEX (RANGE SCAN) OF 'SUB_PK' (UNIQUE) (Cost=2 Card=102)
+   7    3         TABLE ACCESS (BY INDEX ROWID) OF 'PARENT' (Cost=4 Card=102 Bytes=918)
+   8    7           INDEX (RANGE SCAN) OF 'PAR_PK' (UNIQUE) (Cost=2 Card=1)
+   9    2       INDEX (RANGE SCAN) OF 'CHI_PK' (UNIQUE) (Cost=1 Card=1)
+
+
+
+
+Statistics
+----------------------------------------------------------
+          0  recursive calls
+          0  db block gets
+         22  consistent gets
+          0  physical reads
+          0  redo size
+        504  bytes sent via SQL*Net to client
+        499  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          1  sorts (memory)
+          0  sorts (disk)
+          8  rows processed
+

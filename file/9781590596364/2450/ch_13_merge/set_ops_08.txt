@@ -1,0 +1,112 @@
+Union with distinct
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=30 Card=38 Bytes=494)
+   1    0   SORT (UNIQUE) (Cost=30 Card=38 Bytes=494)
+   2    1     UNION-ALL
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=5 Card=2500 Bytes=32500)
+   4    2       TABLE ACCESS (FULL) OF 'T2' (Cost=4 Card=2000 Bytes=26000)
+
+
+
+Union without distinct
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=30 Card=4500 Bytes=58500)
+   1    0   SORT (UNIQUE) (Cost=30 Card=4500 Bytes=58500)
+   2    1     UNION-ALL
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=5 Card=2500 Bytes=32500)
+   4    2       TABLE ACCESS (FULL) OF 'T2' (Cost=4 Card=2000 Bytes=26000)
+
+
+
+Interesct with distinct
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=30 Card=38 Bytes=494)
+   1    0   INTERSECTION
+   2    1     SORT (UNIQUE) (Cost=16 Card=23 Bytes=299)
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=5 Card=2500 Bytes=32500)
+   4    1     SORT (UNIQUE) (Cost=14 Card=15 Bytes=195)
+   5    4       TABLE ACCESS (FULL) OF 'T2' (Cost=4 Card=2000 Bytes=26000)
+
+
+
+Intersect without distinct
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=30 Card=4500 Bytes=58500)
+   1    0   INTERSECTION
+   2    1     SORT (UNIQUE) (Cost=16 Card=2500 Bytes=32500)
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=5 Card=2500 Bytes=32500)
+   4    1     SORT (UNIQUE) (Cost=14 Card=2000 Bytes=26000)
+   5    4       TABLE ACCESS (FULL) OF 'T2' (Cost=4 Card=2000 Bytes=26000)
+
+
+
+Minus with distinct
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=30 Card=38 Bytes=494)
+   1    0   MINUS
+   2    1     SORT (UNIQUE) (Cost=16 Card=23 Bytes=299)
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=5 Card=2500 Bytes=32500)
+   4    1     SORT (UNIQUE) (Cost=14 Card=15 Bytes=195)
+   5    4       TABLE ACCESS (FULL) OF 'T2' (Cost=4 Card=2000 Bytes=26000)
+
+
+
+Minus without distinct
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=30 Card=4500 Bytes=58500)
+   1    0   MINUS
+   2    1     SORT (UNIQUE) (Cost=16 Card=2500 Bytes=32500)
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=5 Card=2500 Bytes=32500)
+   4    1     SORT (UNIQUE) (Cost=14 Card=2000 Bytes=26000)
+   5    4       TABLE ACCESS (FULL) OF 'T2' (Cost=4 Card=2000 Bytes=26000)
+
+
+
+
+0 rows deleted.
+
+
+Explained.
+
+select * from table(dbms_xplan.display)
+                               *
+ERROR at line 1:
+ORA-00904: invalid column name
+
+
+
+8 rows deleted.
+
+
+Explained.
+
+select * from table(dbms_xplan.display)
+                               *
+ERROR at line 1:
+ORA-00904: invalid column name
+
+
+
+9 rows deleted.
+
+
+Explained.
+
+select * from table(dbms_xplan.display)
+                               *
+ERROR at line 1:
+ORA-00904: invalid column name
+
+

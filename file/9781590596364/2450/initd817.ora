@@ -1,0 +1,68 @@
+
+db_block_size = 8192
+
+db_name = "d817"
+db_domain = jlcomp.co.uk
+instance_name = d817
+service_names = d817.jlcomp.co.uk
+
+control_files = (
+		"C:\oracle\oradata\d817\control01.ctl", 
+		"C:\oracle\oradata\d817\control02.ctl"
+)
+
+db_files = 64
+
+compatible = 8.1.7.4
+
+processes = 150
+open_cursors = 300
+max_enabled_roles = 30
+
+db_file_multiblock_read_count = 8
+db_block_buffers = 8192
+
+shared_pool_size = 52428800
+large_pool_size = 614400
+java_pool_size = 10485760
+
+log_checkpoint_interval = 10000
+log_checkpoint_timeout = 1800
+
+parallel_max_servers = 8
+
+log_buffer = 1048576
+
+# audit_trail = true  
+
+-- timed_statistics = true  
+max_dump_file_size = 102400
+background_dump_dest = C:\oracle\admin\d817\bdump
+user_dump_dest = C:\oracle\admin\d817\udump
+
+
+# log_archive_start = true
+# log_archive_dest_1 = "location=C:\oracle\oradata\d817\archive"
+# log_archive_format = %%ORACLE_SID%%T%TS%S.ARC
+
+global_names = true
+
+# oracle_trace_enable = true
+oracle_trace_collection_name = ""
+
+# resource_manager_plan = system_plan
+
+remote_login_passwordfile = exclusive
+os_authent_prefix = ""
+
+job_queue_processes = 1
+job_queue_interval = 60
+open_links = 4
+
+distributed_transactions = 500
+mts_dispatchers = "(PROTOCOL=TCP)(PRE=oracle.aurora.server.SGiopServer)"
+
+sort_area_size = 1048576
+hash_join_enabled = true
+query_rewrite_enabled = false
+

@@ -1,0 +1,63 @@
+---------------------------------
+Session stats - 06-Jul 17:14:50
+Interval:-  10 seconds
+---------------------------------
+Name                                                                     Value
+----                                                                     -----
+opened cursors cumulative                                                   16
+user calls                                                               1,069
+recursive calls                                                            155
+session logical reads                                                    1,782
+CPU used when call started                                                 703
+CPU used by this session                                                   703
+session uga memory                                                      -1,116
+session uga memory max                                              24,185,708
+session pga memory                                                  24,880,576
+session pga memory max                                              24,880,576
+enqueue requests                                                             3
+enqueue releases                                                             3
+db block gets                                                               15
+consistent gets                                                          1,767
+calls to get snapshot scn: kcmgss                                           17
+no work - consistent read gets                                           1,738
+table scans (long tables)                                                    1
+table scan rows gotten                                               1,048,576
+table scan blocks gotten                                                 1,731
+table fetch by rowid                                                         7
+rows fetched via callback                                                    2
+parse time cpu                                                               2
+parse time elapsed                                                           1
+parse count (total)                                                         20
+parse count (hard)                                                          11
+execute count                                                               21
+bytes sent via SQL*Net to client                                    43,676,955
+bytes received via SQL*Net from client                                 118,442
+SQL*Net roundtrips to/from client                                        1,060
+sorts (memory)                                                               3
+sorts (rows)                                                         1,048,578
+buffer is not pinned count                                               1,747
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------------
+SID:     8:TEST_USER - DELL_5160\Jonathan
+Session Events - 06-Jul 17:14:50
+Interval:-      10 seconds
+---------------------------------------------------------
+Event                                             Waits   Time_outs        Csec    Avg Csec    Max Csec
+-----                                             -----   ---------        ----    --------    --------
+SQL*Net message to client                         1,065           0           0        .000           0
+SQL*Net more data to client                      20,967           0          39        .002           2
+SQL*Net message from client                       1,065           0         369        .346       2,704
+
+PL/SQL procedure successfully completed.
+
+---------------------------------
+T/S Stats - 06-Jul 17:14:50
+Interval:-      10 seconds
+---------------------------------
+TS#        Reads      Blocks   Avg Csecs    Max      Writes      Blocks   Avg Csecs    Max Tablespace
+----       -----      ------   ---------    ---      ------      ------   ---------    --- -------------------
+
+PL/SQL procedure successfully completed.
+

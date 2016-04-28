@@ -1,0 +1,72 @@
+
+Default value for _complex_view_merging
+Query unhinted
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=12 Card=1 Bytes=95)
+   1    0   HASH JOIN (Cost=12 Card=1 Bytes=95)
+   2    1     TABLE ACCESS (FULL) OF 'T1' (Cost=1 Card=1 Bytes=69)
+   3    1     VIEW OF 'AVG_VAL_VIEW' (Cost=10 Card=32 Bytes=832)
+   4    3       SORT (GROUP BY) (Cost=10 Card=32 Bytes=224)
+   5    4         TABLE ACCESS (FULL) OF 'T2' (Cost=4 Card=1024 Bytes=7168)
+
+
+
+
+Session altered.
+
+
+With view_merging enabled
+Query unhinted
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=10 Card=23 Bytes=1909)
+   1    0   SORT (GROUP BY) (Cost=10 Card=23 Bytes=1909)
+   2    1     HASH JOIN (Cost=6 Card=32 Bytes=2656)
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=1 Card=1 Bytes=76)
+   4    2       TABLE ACCESS (FULL) OF 'T2' (Cost=4 Card=1024 Bytes=7168)
+
+
+
+
+View merging enabled
+no_merge hint applied
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=12 Card=1 Bytes=95)
+   1    0   HASH JOIN (Cost=12 Card=1 Bytes=95)
+   2    1     TABLE ACCESS (FULL) OF 'T1' (Cost=1 Card=1 Bytes=69)
+   3    1     VIEW OF 'AVG_VAL_VIEW' (Cost=10 Card=32 Bytes=832)
+   4    3       SORT (GROUP BY) (Cost=10 Card=32 Bytes=224)
+   5    4         TABLE ACCESS (FULL) OF 'T2' (Cost=4 Card=1024 Bytes=7168)
+
+
+
+
+Session altered.
+
+
+View merging disabled
+Query unhinted
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=12 Card=1 Bytes=95)
+   1    0   HASH JOIN (Cost=12 Card=1 Bytes=95)
+   2    1     TABLE ACCESS (FULL) OF 'T1' (Cost=1 Card=1 Bytes=69)
+   3    1     VIEW OF 'AVG_VAL_VIEW' (Cost=10 Card=32 Bytes=832)
+   4    3       SORT (GROUP BY) (Cost=10 Card=32 Bytes=224)
+   5    4         TABLE ACCESS (FULL) OF 'T2' (Cost=4 Card=1024 Bytes=7168)
+
+
+
+
+Session altered.
+
