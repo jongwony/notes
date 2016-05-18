@@ -1,0 +1,88 @@
+---------------------------------
+Session stats - 06-Jul 17:14:03
+Interval:-  18 seconds
+---------------------------------
+Name                                                                     Value
+----                                                                     -----
+opened cursors cumulative                                                   22
+user calls                                                               1,077
+recursive calls                                                             98
+recursive cpu usage                                                          8
+session logical reads                                                    1,754
+CPU used when call started                                                 456
+CPU used by this session                                                   456
+DB time                                                                    613
+user I/O wait time                                                         127
+session uga memory max                                               6,354,200
+session pga memory                                                     131,072
+session pga memory max                                              27,000,832
+enqueue requests                                                            22
+enqueue releases                                                            22
+db block gets                                                                2
+db block gets from cache                                                     2
+consistent gets                                                          1,752
+consistent gets from cache                                               1,752
+consistent gets - examination                                                5
+physical reads                                                           1,547
+physical reads direct                                                    1,547
+physical read IO requests                                                   18
+physical writes                                                          1,547
+physical writes direct                                                   1,547
+physical write IO requests                                                  13
+physical writes non checkpoint                                           1,547
+free buffer requested                                                        1
+physical reads direct temporary tablespace                               1,547
+physical writes direct temporary tablespace                              1,547
+shared hash latch upgrades - no wait                                         2
+calls to get snapshot scn: kcmgss                                           10
+no work - consistent read gets                                           1,741
+table scans (long tables)                                                    1
+table scan rows gotten                                               1,048,576
+table scan blocks gotten                                                 1,739
+table fetch by rowid                                                         1
+cluster key scans                                                            1
+cluster key scan block gets                                                  1
+index fetch by key                                                           2
+index scans kdiixs1                                                          2
+cursor authentications                                                       3
+buffer is not pinned count                                                   3
+workarea executions - optimal                                                2
+parse time cpu                                                               6
+parse time elapsed                                                          17
+parse count (total)                                                         22
+parse count (hard)                                                          15
+execute count                                                               23
+bytes sent via SQL*Net to client                                    11,740,122
+bytes received via SQL*Net from client                                  15,904
+SQL*Net roundtrips to/from client                                        1,068
+sorts (memory)                                                               1
+sorts (rows)                                                         1,048,576
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------------
+SID:   149:TEST_USER - DELL_5160\Jonathan
+Session Events - 06-Jul 17:14:03
+Interval:-      18 seconds
+---------------------------------------------------------
+Event                                             Waits   Time_outs        Csec    Avg Csec    Max Csec
+-----                                             -----   ---------        ----    --------    --------
+direct path read temp                                28           0          74       2.644           8
+direct path write temp                               23           0          49       2.147          10
+SQL*Net message to client                         1,074           0           0        .000           0
+SQL*Net message from client                       1,074           0       1,239       1.154       7,279
+
+PL/SQL procedure successfully completed.
+
+---------------------------------
+T/S Stats - 06-Jul 17:14:03
+Interval:-      18 seconds
+---------------------------------
+TS#        Reads      Blocks   Avg Csecs    Max      Writes      Blocks   Avg Csecs    Max Tablespace
+----       -----      ------   ---------    ---      ------      ------   ---------    --- -------------------
+   0           0           0        .000     16           8           8        .875     11 SYSTEM
+   1           0           0        .000     36           4           4       2.750     11 UNDOTBS1
+   3          18       1,547       4.833     66          13       1,547      12.769    199 TEMP
+
+PL/SQL procedure successfully completed.
+

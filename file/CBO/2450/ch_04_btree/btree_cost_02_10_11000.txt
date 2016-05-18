@@ -1,0 +1,86 @@
+
+TABLE_NAME               BLOCKS   NUM_ROWS
+-------------------- ---------- ----------
+T1                          371      10000
+
+1 row selected.
+
+
+  NUM_ROWS DISTINCT_KEYS     BLEVEL LEAF_BLOCKS CLUSTERING_FACTOR AVG_LEAF_BLOCKS_PER_KEY AVG_DATA_BLOCKS_PER_KEY
+---------- ------------- ---------- ----------- ----------------- ----------------------- -----------------------
+     10000           500          2        1111              9745                       2                      19
+
+1 row selected.
+
+
+COLUMN_NAME           NUM_NULLS NUM_DISTINCT    DENSITY LOW_VALUE                HIGH_VALUE
+-------------------- ---------- ------------ ---------- ------------------------ ------------------------
+IND_PAD                       0            1          1 782020202020202020202020 782020202020202020202020
+                                                        202020202020202020202020 202020202020202020202020
+                                                        2020202020202020         2020202020202020
+
+N1                            0           25        .04 80                       C119
+N2                            0           20        .05 80                       C114
+
+3 rows selected.
+
+Changing statistics on index t1_i1
+
+PL/SQL procedure successfully completed.
+
+
+System altered.
+
+
+Range scan at end of index. This one happens
+to default to FTS, so the second attempt is
+hinted to use the index
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=58 Card=82 Bytes=4756)
+   1    0   TABLE ACCESS (FULL) OF 'T1' (TABLE) (Cost=58 Card=82 Bytes=4756)
+
+
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=93 Card=82 Bytes=4756)
+   1    0   TABLE ACCESS (BY INDEX ROWID) OF 'T1' (TABLE) (Cost=93 Card=82 Bytes=4756)
+   2    1     INDEX (RANGE SCAN) OF 'T1_I1' (INDEX) (Cost=12 Card=90)
+
+
+
+
+Range scan at start of index. This one defaults
+to FTS, so has been hinted to use the index
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=264 Card=82 Bytes=4756)
+   1    0   TABLE ACCESS (BY INDEX ROWID) OF 'T1' (TABLE) (Cost=264 Card=82 Bytes=4756)
+   2    1     INDEX (RANGE SCAN) OF 'T1_I1' (INDEX) (Cost=184 Card=1797)
+
+
+
+
+To show the three selectivities in action
+Effective index selectivity set by range scan on 1st column
+Effective table selectivity set by n1, ind_pad, n2
+Final table selectivity set by all 4 predicates
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=264 Card=1 Bytes=58)
+   1    0   TABLE ACCESS (BY INDEX ROWID) OF 'T1' (TABLE) (Cost=264 Card=1 Bytes=58)
+   2    1     INDEX (RANGE SCAN) OF 'T1_I1' (INDEX) (Cost=184 Card=1797)
+
+
+
+
+Session altered.
+

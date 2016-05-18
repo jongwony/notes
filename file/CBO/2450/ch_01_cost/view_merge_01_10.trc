@@ -1,0 +1,786 @@
+*******************************************
+Peeked values of the binds in SQL statement
+*******************************************
+***************************************
+PARAMETERS USED BY THE OPTIMIZER
+********************************
+  *************************************
+  PARAMETERS WITH ALTERED VALUES
+  ******************************
+  _optimizer_cost_model               = io
+  *************************************
+  PARAMETERS WITH DEFAULT VALUES
+  ******************************
+  optimizer_mode_hinted               = false
+  optimizer_features_hinted           = 0.0.0
+  parallel_execution_enabled          = true
+  parallel_query_forced_dop           = 0
+  parallel_dml_forced_dop             = 0
+  parallel_ddl_forced_degree          = 0
+  parallel_ddl_forced_instances       = 0
+  _query_rewrite_fudge                = 90
+  optimizer_features_enable           = 10.1.0.4
+  _optimizer_search_limit             = 5
+  cpu_count                           = 2
+  active_instance_count               = 1
+  parallel_threads_per_cpu            = 2
+  hash_area_size                      = 131072
+  bitmap_merge_area_size              = 1048576
+  sort_area_size                      = 65536
+  sort_area_retained_size             = 0
+  _sort_elimination_cost_ratio        = 0
+  _optimizer_block_size               = 8192
+  _sort_multiblock_read_count         = 2
+  _hash_multiblock_io_count           = 0
+  db_file_multiblock_read_count       = 8
+  _optimizer_max_permutations         = 2000
+  pga_aggregate_target                = 204800 KB
+  _pga_max_size                       = 204800 KB
+  _sort_space_for_write_buffers       = 1
+  _query_rewrite_maxdisjunct          = 257
+  _smm_auto_min_io_size               = 56 KB
+  _smm_auto_max_io_size               = 248 KB
+  _smm_min_size                       = 204 KB
+  _smm_max_size                       = 10240 KB
+  _smm_px_max_size                    = 61440 KB
+  _cpu_to_io                          = 0
+  _optimizer_undo_cost_change         = 10.1.0.4
+  parallel_query_mode                 = enabled
+  parallel_dml_mode                   = disabled
+  parallel_ddl_mode                   = enabled
+  optimizer_mode                      = all_rows
+  sqlstat_enabled                     = false
+  _optimizer_percent_parallel         = 101
+  _always_anti_join                   = choose
+  _always_semi_join                   = choose
+  _optimizer_mode_force               = true
+  _partition_view_enabled             = true
+  _always_star_transformation         = false
+  _query_rewrite_or_error             = false
+  _hash_join_enabled                  = true
+  cursor_sharing                      = exact
+  _b_tree_bitmap_plans                = true
+  star_transformation_enabled         = false
+  _new_sort_cost_estimate             = true
+  _complex_view_merging               = true
+  _unnest_subquery                    = true
+  _eliminate_common_subexpr           = true
+  _pred_move_around                   = true
+  _convert_set_to_join                = false
+  _push_join_predicate                = true
+  _push_join_union_view               = true
+  _fast_full_scan_enabled             = true
+  _optim_enhance_nnull_detection      = true
+  _parallel_broadcast_enabled         = true
+  _px_broadcast_fudge_factor          = 100
+  _ordered_nested_loop                = true
+  _no_or_expansion                    = false
+  optimizer_index_cost_adj            = 100
+  optimizer_index_caching             = 0
+  _system_index_caching               = 0
+  _disable_datalayer_sampling         = false
+  query_rewrite_enabled               = true
+  query_rewrite_integrity             = enforced
+  _query_cost_rewrite                 = true
+  _query_rewrite_2                    = true
+  _query_rewrite_1                    = true
+  _query_rewrite_expression           = true
+  _query_rewrite_jgmigrate            = true
+  _query_rewrite_fpc                  = true
+  _query_rewrite_drj                  = true
+  _full_pwise_join_enabled            = true
+  _partial_pwise_join_enabled         = true
+  _left_nested_loops_random           = true
+  _improved_row_length_enabled        = true
+  _index_join_enabled                 = true
+  _enable_type_dep_selectivity        = true
+  _improved_outerjoin_card            = true
+  _optimizer_adjust_for_nulls         = true
+  _optimizer_degree                   = 0
+  _use_column_stats_for_function      = true
+  _subquery_pruning_enabled           = true
+  _subquery_pruning_mv_enabled        = false
+  _or_expand_nvl_predicate            = true
+  _like_with_bind_as_equality         = false
+  _table_scan_cost_plus_one           = true
+  _cost_equality_semi_join            = true
+  _default_non_equality_sel_check     = true
+  _new_initial_join_orders            = true
+  _oneside_colstat_for_equijoins      = true
+  _optim_peek_user_binds              = true
+  _minimal_stats_aggregation          = true
+  _force_temptables_for_gsets         = false
+  workarea_size_policy                = auto
+  _smm_auto_cost_enabled              = true
+  _gs_anti_semi_join_allowed          = true
+  _optim_new_default_join_sel         = true
+  optimizer_dynamic_sampling          = 2
+  _pre_rewrite_push_pred              = true
+  _optimizer_new_join_card_computation = true
+  _union_rewrite_for_gs               = yes_gset_mvs
+  _generalized_pruning_enabled        = true
+  _optim_adjust_for_part_skews        = true
+  _force_datefold_trunc               = false
+  statistics_level                    = typical
+  _optimizer_system_stats_usage       = true
+  skip_unusable_indexes               = true
+  _remove_aggr_subquery               = true
+  _optimizer_push_down_distinct       = 0
+  _dml_monitoring_enabled             = true
+  _optimizer_undo_changes             = false
+  _predicate_elimination_enabled      = true
+  _nested_loop_fudge                  = 100
+  _project_view_columns               = true
+  _local_communication_costing_enabled = true
+  _local_communication_ratio          = 50
+  _query_rewrite_vop_cleanup          = true
+  _slave_mapping_enabled              = true
+  _optimizer_cost_based_transformation = linear
+  _optimizer_mjc_enabled              = true
+  _right_outer_hash_enable            = true
+  _spr_push_pred_refspr               = true
+  _optimizer_cache_stats              = false
+  _optimizer_cbqt_factor              = 50
+  _optimizer_squ_bottomup             = true
+  _fic_area_size                      = 131072
+  _optimizer_skip_scan_enabled        = true
+  _optimizer_cost_filter_pred         = false
+  _optimizer_sortmerge_join_enabled   = true
+  _optimizer_join_sel_sanity_check    = true
+  _mmv_query_rewrite_enabled          = false
+  _bt_mmv_query_rewrite_enabled       = true
+  _add_stale_mv_to_dependency_list    = true
+  _distinct_view_unnesting            = false
+  _optimizer_dim_subq_join_sel        = true
+  _optimizer_disable_strans_sanity_checks = 0
+  _optimizer_compute_index_stats      = true
+  _push_join_union_view2              = true
+  _optimizer_ignore_hints             = false
+  _optimizer_random_plan              = 0
+  _query_rewrite_setopgrw_enable      = true
+  _optimizer_correct_sq_selectivity   = true
+  _disable_function_based_index       = false
+  _optimizer_join_order_control       = 3
+  _optimizer_push_pred_cost_based     = true
+  flashback_table_rpi                 = non_fbt
+  _optimizer_cbqt_no_size_restriction = true
+***************************************
+Column Usage Monitoring is ON: tracking level = 1
+***************************************
+QUERY BLOCK SIGNATURE
+*********************
+qb name was generated
+signature (optimizer): qb_name=SEL$2 nbfros=1 flg=0
+  fro(0): flg=4 objn=52047 hint_alias="T2"@"SEL$2"
+***************************************
+BASE STATISTICAL INFORMATION
+***********************
+Table stats    Table: T2   Alias: T2
+  TOTAL ::  CDN: 1024  NBLKS:  20  AVG_ROW_LEN:  111
+Index stats
+  Index: T2_PK  COL#: 1 
+    TOTAL ::  LVLS: 1   #LB: 2  #DK: 1024  LB/K: 1  DB/K: 1  CLUF: 17
+_OPTIMIZER_PERCENT_PARALLEL = 0
+  COLUMN:     ID_PAR(NUMBER)  Col#: 2      Table: T2   Alias: T2
+    Size: 3  NDV: 32  Nulls: 0  Density: 3.1250e-002 Min: 1  Max: 32
+***************************************
+SINGLE TABLE ACCESS PATH
+  TABLE: T2  Alias: T2     
+    Original Card: 1024   Rounded: 1024  Computed: 1024.00  Non Adjusted: 1024.00
+  Access Path: table-scan  Resc:  5  Resp:  5
+  BEST_CST: 5.00  PATH: 2  Degree:  1
+Grouping column cardinality [    ID_PAR]    32
+***************************************
+OPTIMIZER STATISTICS AND COMPUTATIONS
+***************************************
+GENERAL PLANS
+***********************
+Join order[1]:  T2[T2]#0
+GROUP BY sort
+GROUP BY cardinality:  32.00, TABLE cardinality:  1024.00
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       3 Row size:           21 Total Rows:           1024
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         12
+      Total IO sort cost: 7      Total CPU sort cost: 0
+      Total Temp space used: 0
+Best so far: TABLE#: 0  CST:         12  CDN:       1024  BYTES:      10240
+(newjo-stop-1) k:0, spcnt:0, perm:1, maxperm:80000
+GROUP BY cardinality:  32.00, TABLE cardinality:  1024.00
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       3 Row size:           21 Total Rows:           1024
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         12
+      Total IO sort cost: 7      Total CPU sort cost: 0
+      Total Temp space used: 0
+Final - All Rows Plan:
+  JOIN ORDER: 1
+  CST: 12  CDN: 1024  RSC: 12  RSP: 12  BYTES: 10240
+  IO-RSC: 12  IO-RSP: 12  CPU-RSC: 0  CPU-RSP: 0
+QUERY BLOCK SIGNATURE
+*********************
+qb name was generated
+signature (optimizer): qb_name=SEL$1 nbfros=2 flg=0
+  fro(0): flg=5 objn=52032 hint_alias="AVG_VAL_VIEW"@"SEL$1"
+  fro(1): flg=4 objn=52045 hint_alias="T1"@"SEL$1"
+***************************************
+BASE STATISTICAL INFORMATION
+***********************
+Table stats    Table: AVG_VAL_VIEW   Alias: AVG_VAL_VIEW
+  TOTAL ::  (NOT ANALYZED)    CDN: 0  NBLKS:  0  AVG_ROW_LEN:  0
+***********************
+Table stats    Table: T1   Alias: T1
+  TOTAL ::  CDN: 32  NBLKS:  1  AVG_ROW_LEN:  170
+  COLUMN:     ID_PAR(NUMBER)  Col#: 1      Table: T1   Alias: T1
+    Size: 3  NDV: 32  Nulls: 0  Density: 3.1250e-002 Min: 1  Max: 32
+Index stats
+  Index: T1_PK  COL#: 1 
+    TOTAL ::  LVLS: 0   #LB: 1  #DK: 32  LB/K: 1  DB/K: 1  CLUF: 1
+_OPTIMIZER_PERCENT_PARALLEL = 0
+***************************************
+SINGLE TABLE ACCESS PATH
+  COLUMN:        VC2(VARCHAR2)  Col#: 3      Table: T1   Alias: T1
+    Size: 33  NDV: 32  Nulls: 0  Density: 3.1250e-002
+  TABLE: T1  Alias: T1     
+    Original Card: 32   Rounded: 1  Computed: 1.00  Non Adjusted: 1.00
+  Access Path: table-scan  Resc:  2  Resp:  2
+  BEST_CST: 2.00  PATH: 2  Degree:  1
+  BEST_CST: 12.00  PATH: 2  Degree:  1
+***************************************
+OPTIMIZER STATISTICS AND COMPUTATIONS
+***************************************
+GENERAL PLANS
+***********************
+Join order[1]:  T1[T1]#0  AVG_VAL_VIEW[AVG_VAL_VIEW]#1
+Now joining: AVG_VAL_VIEW[AVG_VAL_VIEW]#1 *******
+NL Join
+  Outer table: cost: 2  cdn: 1  rcz: 69  resp:  2
+  Inner table: AVG_VAL_VIEW  Alias: AVG_VAL_VIEW
+    Access Path: table-scan  Resc: 12
+    Join:  Resc:  14  Resp:  14
+  Best NL cost: 14  resp: 14
+  COLUMN:     ID_PAR(NUMBER)  Col#: 1      Table: AVG_VAL_VIEW   Alias: AVG_VAL_VIEW
+    Size: 3  NDV: 32  Nulls: 0  Density: 3.1250e-002 Min: 1  Max: 32
+Join Card:  1.00 = outer (1.00) * inner (32.00) * sel (3.1250e-002)
+SM Join
+  Outer table: 
+    resc: 2  cdn: 1  rcz: 69  deg: 1  resp: 2
+  Inner table: AVG_VAL_VIEW  Alias: AVG_VAL_VIEW
+    resc: 12  cdn: 32  rcz: 26  deg:  1  resp: 12
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           86 Total Rows:              1
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           39 Total Rows:             32
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+  Merge join  Cost:  25  Resp:  25
+SM Join (with index on outer)
+  Access Path: index (no start/stop keys)
+    Index: T1_PK
+    rsc_cpu: 0   rsc_io: 2
+    ix_sel:  1.0000e+000    ix_sel_with_filters:  1.0000e+000
+  Outer table: 
+    resc: 2  cdn: 1  rcz: 69  deg: 1  resp: 2
+  Inner table: AVG_VAL_VIEW  Alias: AVG_VAL_VIEW
+    resc: 12  cdn: 32  rcz: 26  deg:  1  resp: 12
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           39 Total Rows:             32
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+  Merge join  Cost:  19  Resp:  19
+HA Join
+  Outer table: 
+    resc: 2  cdn: 1  rcz: 69  deg: 1  resp: 2
+  Inner table: AVG_VAL_VIEW  Alias: AVG_VAL_VIEW
+    resc: 12  cdn: 32  rcz: 26  deg:  1  resp: 12
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 15   Resp: 15
+Join result: cost: 15  cdn: 1  rcz: 95
+Best so far: TABLE#: 0  CST:          2  CDN:          1  BYTES:         69
+Best so far: TABLE#: 1  CST:         15  CDN:          1  BYTES:         95
+***********************
+Join order[2]:  AVG_VAL_VIEW[AVG_VAL_VIEW]#1  T1[T1]#0
+Now joining: T1[T1]#0 *******
+NL Join
+  Outer table: cost: 12  cdn: 32  rcz: 26  resp:  12
+  Inner table: T1  Alias: T1
+    Access Path: table-scan  Resc: 0
+    Join:  Resc:  18  Resp:  18
+  Access Path: index (unique)
+    Index: T1_PK
+    rsc_cpu: 0   rsc_io: 1
+    ix_sel:  3.1250e-002    ix_sel_with_filters:  3.1250e-002
+    NL Join (ordered):  resc: 44  resp: 44
+  Access Path: index (eq-unique)
+    Index: T1_PK
+    rsc_cpu: 0   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join (ordered):  resc: 44  resp: 44
+  Best NL cost: 18  resp: 18
+Join Card:  1.00 = outer (32.00) * inner (1.00) * sel (3.1250e-002)
+SM Join
+  Outer table: 
+    resc: 12  cdn: 32  rcz: 26  deg: 1  resp: 12
+  Inner table: T1  Alias: T1
+    resc: 2  cdn: 1  rcz: 69  deg:  1  resp: 2
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           86 Total Rows:              1
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+  Merge join  Cost:  19  Resp:  19
+HA Join
+  Outer table: 
+    resc: 12  cdn: 32  rcz: 26  deg: 1  resp: 12
+  Inner table: T1  Alias: T1
+    resc: 2  cdn: 1  rcz: 69  deg:  1  resp: 2
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 1 ppasses: 1
+  Hash join   Resc: 15   Resp: 15
+(newjo-stop-1) k:0, spcnt:0, perm:2, maxperm:2000
+(newjo-save)    [1 0 ]
+Final - All Rows Plan:
+  JOIN ORDER: 1
+  CST: 15  CDN: 1  RSC: 15  RSP: 15  BYTES: 95
+  IO-RSC: 15  IO-RSP: 15  CPU-RSC: 0  CPU-RSP: 0
+QUERY BLOCK SIGNATURE
+*********************
+qb name was generated
+signature (optimizer): qb_name=SEL$F5BB74E1 nbfros=2 flg=0
+  fro(0): flg=0 objn=52045 hint_alias="T1"@"SEL$F5BB74E1"
+  fro(1): flg=0 objn=52047 hint_alias="T2"@"SEL$F5BB74E1"
+***************************************
+BASE STATISTICAL INFORMATION
+***********************
+Table stats    Table: T2   Alias: T2
+  TOTAL ::  CDN: 1024  NBLKS:  20  AVG_ROW_LEN:  111
+  COLUMN:     ID_PAR(NUMBER)  Col#: 2      Table: T2   Alias: T2
+    Size: 3  NDV: 32  Nulls: 0  Density: 3.1250e-002 Min: 1  Max: 32
+  COLUMN:     ID_PAR(NUMBER)  Col#: 2      Table: T2   Alias: T2
+    Size: 3  NDV: 32  Nulls: 0  Density: 3.1250e-002 Min: 1  Max: 32
+Index stats
+  Index: T2_PK  COL#: 1 
+    TOTAL ::  LVLS: 1   #LB: 2  #DK: 1024  LB/K: 1  DB/K: 1  CLUF: 17
+***********************
+Table stats    Table: T1   Alias: T1
+  TOTAL ::  CDN: 32  NBLKS:  1  AVG_ROW_LEN:  170
+  COLUMN:     ID_PAR(NUMBER)  Col#: 1      Table: T1   Alias: T1
+    Size: 3  NDV: 32  Nulls: 0  Density: 3.1250e-002 Min: 1  Max: 32
+Index stats
+  Index: T1_PK  COL#: 1 
+    TOTAL ::  LVLS: 0   #LB: 1  #DK: 32  LB/K: 1  DB/K: 1  CLUF: 1
+_OPTIMIZER_PERCENT_PARALLEL = 0
+  COLUMN:     ID_PAR(NUMBER)  Col#: 2      Table: T2   Alias: T2
+    Size: 3  NDV: 32  Nulls: 0  Density: 3.1250e-002 Min: 1  Max: 32
+  COLUMN:        VC1(VARCHAR2)  Col#: 2      Table: T1   Alias: T1
+    Size: 33  NDV: 5  Nulls: 0  Density: 2.0000e-001
+***************************************
+SINGLE TABLE ACCESS PATH
+  COLUMN:        VC2(VARCHAR2)  Col#: 3      Table: T1   Alias: T1
+    Size: 33  NDV: 32  Nulls: 0  Density: 3.1250e-002
+  TABLE: T1  Alias: T1     
+    Original Card: 32   Rounded: 1  Computed: 1.00  Non Adjusted: 1.00
+  Access Path: table-scan  Resc:  2  Resp:  2
+  BEST_CST: 2.00  PATH: 2  Degree:  1
+***************************************
+SINGLE TABLE ACCESS PATH
+  TABLE: T2  Alias: T2     
+    Original Card: 1024   Rounded: 1024  Computed: 1024.00  Non Adjusted: 1024.00
+  Access Path: table-scan  Resc:  5  Resp:  5
+  BEST_CST: 5.00  PATH: 2  Degree:  1
+Grouping column cardinality [    ID_PAR]    32
+Grouping column cardinality [       VC1]    1
+***************************************
+OPTIMIZER STATISTICS AND COMPUTATIONS
+***************************************
+GENERAL PLANS
+***********************
+Join order[1]:  T1[T1]#0  T2[T2]#1
+Now joining: T2[T2]#1 *******
+NL Join
+  Outer table: cost: 2  cdn: 1  rcz: 76  resp:  2
+  Inner table: T2  Alias: T2
+    Access Path: table-scan  Resc: 5
+    Join:  Resc:  7  Resp:  7
+  Best NL cost: 7  resp: 7
+Join Card:  32.00 = outer (1.00) * inner (1024.00) * sel (3.1250e-002)
+Grouping column cardinality [    ID_PAR]    32
+Grouping column cardinality [       VC1]    1
+SM Join
+  Outer table: 
+    resc: 2  cdn: 1  rcz: 76  deg: 1  resp: 2
+  Inner table: T2  Alias: T2
+    resc: 5  cdn: 1024  rcz: 10  deg:  1  resp: 5
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           94 Total Rows:              1
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       3 Row size:           21 Total Rows:           1024
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         12
+      Total IO sort cost: 8      Total CPU sort cost: 0
+      Total Temp space used: 0
+  Merge join  Cost:  20  Resp:  20
+SM Join (with index on outer)
+  Access Path: index (no start/stop keys)
+    Index: T1_PK
+    rsc_cpu: 0   rsc_io: 2
+    ix_sel:  1.0000e+000    ix_sel_with_filters:  1.0000e+000
+  Outer table: 
+    resc: 2  cdn: 1  rcz: 76  deg: 1  resp: 2
+  Inner table: T2  Alias: T2
+    resc: 5  cdn: 1024  rcz: 10  deg:  1  resp: 5
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       3 Row size:           21 Total Rows:           1024
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         12
+      Total IO sort cost: 8      Total CPU sort cost: 0
+      Total Temp space used: 0
+  Merge join  Cost:  15  Resp:  15
+HA Join
+  Outer table: 
+    resc: 2  cdn: 1  rcz: 76  deg: 1  resp: 2
+  Inner table: T2  Alias: T2
+    resc: 5  cdn: 1024  rcz: 10  deg:  1  resp: 5
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 3 ppasses: 1
+  Hash join   Resc: 8   Resp: 8
+GROUP BY sort
+GROUP BY cardinality:  23.00, TABLE cardinality:  32.00
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:          105 Total Rows:             32
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+Join result: cost: 14  cdn: 32  rcz: 86
+Best so far: TABLE#: 0  CST:          2  CDN:          1  BYTES:         76
+Best so far: TABLE#: 1  CST:         14  CDN:         32  BYTES:       2752
+***********************
+Join order[2]:  T2[T2]#1  T1[T1]#0
+Now joining: T1[T1]#0 *******
+NL Join
+  Outer table: cost: 5  cdn: 1024  rcz: 10  resp:  5
+  Inner table: T1  Alias: T1
+    Access Path: table-scan  Resc: 0
+    Join:  Resc:  162  Resp:  162
+  Access Path: index (unique)
+    Index: T1_PK
+    rsc_cpu: 0   rsc_io: 1
+    ix_sel:  3.1250e-002    ix_sel_with_filters:  3.1250e-002
+    NL Join:  resc: 1029  resp: 1029
+  Access Path: index (eq-unique)
+    Index: T1_PK
+    rsc_cpu: 0   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join:  resc: 1029  resp: 1029
+  Best NL cost: 162  resp: 162
+Join Card:  32.00 = outer (1024.00) * inner (1.00) * sel (3.1250e-002)
+Grouping column cardinality [    ID_PAR]    32
+Grouping column cardinality [       VC1]    1
+SM Join
+  Outer table: 
+    resc: 5  cdn: 1024  rcz: 10  deg: 1  resp: 5
+  Inner table: T1  Alias: T1
+    resc: 2  cdn: 1  rcz: 76  deg:  1  resp: 2
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       3 Row size:           21 Total Rows:           1024
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         12
+      Total IO sort cost: 8      Total CPU sort cost: 0
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           94 Total Rows:              1
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+  Merge join  Cost:  20  Resp:  20
+HA Join
+  Outer table: 
+    resc: 5  cdn: 1024  rcz: 10  deg: 1  resp: 5
+  Inner table: T1  Alias: T1
+    resc: 2  cdn: 1  rcz: 76  deg:  1  resp: 2
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1   (better to swap inputs)
+    hash_area: 124 (max=2560)  buildfrag: 3  probefrag: 1 ppasses: 1
+  Hash join   Resc: 8   Resp: 8
+HA Join (swap)
+  Outer table: 
+    resc: 2  cdn: 1  rcz: 76  deg: 1  resp: 2
+  Inner table: T2  Alias: T2
+    resc: 5  cdn: 1024  rcz: 10  deg:  1  resp: 5
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 3 ppasses: 1
+  Hash join   Resc: 8   Resp: 8
+GROUP BY sort
+GROUP BY cardinality:  23.00, TABLE cardinality:  32.00
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:          105 Total Rows:             32
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+(newjo-stop-1) k:0, spcnt:0, perm:2, maxperm:2000
+(newjo-save)    [1 0 ]
+GROUP BY cardinality:  23.00, TABLE cardinality:  32.00
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:          105 Total Rows:             32
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+Final - All Rows Plan:
+  JOIN ORDER: 1
+  CST: 14  CDN: 32  RSC: 14  RSP: 14  BYTES: 2752
+  IO-RSC: 14  IO-RSP: 14  CPU-RSC: 0  CPU-RSP: 0
+QUERY BLOCK SIGNATURE
+*********************
+qb name was generated
+signature (optimizer): qb_name=SEL$F5BB74E1 nbfros=2 flg=0
+  fro(0): flg=0 objn=52045 hint_alias="T1"@"SEL$1"
+  fro(1): flg=0 objn=52047 hint_alias="T2"@"SEL$2"
+***************************************
+BASE STATISTICAL INFORMATION
+***********************
+Table stats    Table: T2   Alias: T2
+  TOTAL ::  CDN: 1024  NBLKS:  20  AVG_ROW_LEN:  111
+  COLUMN:     ID_PAR(NUMBER)  Col#: 2      Table: T2   Alias: T2
+    Size: 3  NDV: 32  Nulls: 0  Density: 3.1250e-002 Min: 1  Max: 32
+  COLUMN:     ID_PAR(NUMBER)  Col#: 2      Table: T2   Alias: T2
+    Size: 3  NDV: 32  Nulls: 0  Density: 3.1250e-002 Min: 1  Max: 32
+Index stats
+  Index: T2_PK  COL#: 1 
+    TOTAL ::  LVLS: 1   #LB: 2  #DK: 1024  LB/K: 1  DB/K: 1  CLUF: 17
+***********************
+Table stats    Table: T1   Alias: T1
+  TOTAL ::  CDN: 32  NBLKS:  1  AVG_ROW_LEN:  170
+  COLUMN:     ID_PAR(NUMBER)  Col#: 1      Table: T1   Alias: T1
+    Size: 3  NDV: 32  Nulls: 0  Density: 3.1250e-002 Min: 1  Max: 32
+Index stats
+  Index: T1_PK  COL#: 1 
+    TOTAL ::  LVLS: 0   #LB: 1  #DK: 32  LB/K: 1  DB/K: 1  CLUF: 1
+_OPTIMIZER_PERCENT_PARALLEL = 0
+  COLUMN:        VC1(VARCHAR2)  Col#: 2      Table: T1   Alias: T1
+    Size: 33  NDV: 5  Nulls: 0  Density: 2.0000e-001
+***************************************
+SINGLE TABLE ACCESS PATH
+  COLUMN:        VC2(VARCHAR2)  Col#: 3      Table: T1   Alias: T1
+    Size: 33  NDV: 32  Nulls: 0  Density: 3.1250e-002
+  TABLE: T1  Alias: T1     
+    Original Card: 32   Rounded: 1  Computed: 1.00  Non Adjusted: 1.00
+  Access Path: table-scan  Resc:  2  Resp:  2
+  BEST_CST: 2.00  PATH: 2  Degree:  1
+***************************************
+SINGLE TABLE ACCESS PATH
+  TABLE: T2  Alias: T2     
+    Original Card: 1024   Rounded: 1024  Computed: 1024.00  Non Adjusted: 1024.00
+  Access Path: table-scan  Resc:  5  Resp:  5
+  BEST_CST: 5.00  PATH: 2  Degree:  1
+Grouping column cardinality [    ID_PAR]    32
+Grouping column cardinality [       VC1]    1
+***************************************
+OPTIMIZER STATISTICS AND COMPUTATIONS
+***************************************
+GENERAL PLANS
+***********************
+Join order[1]:  T1[T1]#0  T2[T2]#1
+Now joining: T2[T2]#1 *******
+NL Join
+  Outer table: cost: 2  cdn: 1  rcz: 76  resp:  2
+  Inner table: T2  Alias: T2
+    Access Path: table-scan  Resc: 5
+    Join:  Resc:  7  Resp:  7
+  Best NL cost: 7  resp: 7
+Join Card:  32.00 = outer (1.00) * inner (1024.00) * sel (3.1250e-002)
+Grouping column cardinality [    ID_PAR]    32
+Grouping column cardinality [       VC1]    1
+SM Join
+  Outer table: 
+    resc: 2  cdn: 1  rcz: 76  deg: 1  resp: 2
+  Inner table: T2  Alias: T2
+    resc: 5  cdn: 1024  rcz: 7  deg:  1  resp: 5
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           94 Total Rows:              1
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       3 Row size:           18 Total Rows:           1024
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         12
+      Total IO sort cost: 8      Total CPU sort cost: 0
+      Total Temp space used: 0
+  Merge join  Cost:  20  Resp:  20
+SM Join (with index on outer)
+  Access Path: index (no start/stop keys)
+    Index: T1_PK
+    rsc_cpu: 0   rsc_io: 2
+    ix_sel:  1.0000e+000    ix_sel_with_filters:  1.0000e+000
+  Outer table: 
+    resc: 2  cdn: 1  rcz: 76  deg: 1  resp: 2
+  Inner table: T2  Alias: T2
+    resc: 5  cdn: 1024  rcz: 7  deg:  1  resp: 5
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       3 Row size:           18 Total Rows:           1024
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         12
+      Total IO sort cost: 8      Total CPU sort cost: 0
+      Total Temp space used: 0
+  Merge join  Cost:  15  Resp:  15
+HA Join
+  Outer table: 
+    resc: 2  cdn: 1  rcz: 76  deg: 1  resp: 2
+  Inner table: T2  Alias: T2
+    resc: 5  cdn: 1024  rcz: 7  deg:  1  resp: 5
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 3 ppasses: 1
+  Hash join   Resc: 8   Resp: 8
+GROUP BY sort
+GROUP BY cardinality:  23.00, TABLE cardinality:  32.00
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:          102 Total Rows:             32
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+Join result: cost: 14  cdn: 32  rcz: 83
+Best so far: TABLE#: 0  CST:          2  CDN:          1  BYTES:         76
+Best so far: TABLE#: 1  CST:         14  CDN:         32  BYTES:       2656
+***********************
+Join order[2]:  T2[T2]#1  T1[T1]#0
+Now joining: T1[T1]#0 *******
+NL Join
+  Outer table: cost: 5  cdn: 1024  rcz: 7  resp:  5
+  Inner table: T1  Alias: T1
+    Access Path: table-scan  Resc: 0
+    Join:  Resc:  162  Resp:  162
+  Access Path: index (unique)
+    Index: T1_PK
+    rsc_cpu: 0   rsc_io: 1
+    ix_sel:  3.1250e-002    ix_sel_with_filters:  3.1250e-002
+    NL Join:  resc: 1029  resp: 1029
+  Access Path: index (eq-unique)
+    Index: T1_PK
+    rsc_cpu: 0   rsc_io: 1
+    ix_sel:  0.0000e+000    ix_sel_with_filters:  0.0000e+000
+    NL Join:  resc: 1029  resp: 1029
+  Best NL cost: 162  resp: 162
+Join Card:  32.00 = outer (1024.00) * inner (1.00) * sel (3.1250e-002)
+Grouping column cardinality [    ID_PAR]    32
+Grouping column cardinality [       VC1]    1
+SM Join
+  Outer table: 
+    resc: 5  cdn: 1024  rcz: 7  deg: 1  resp: 5
+  Inner table: T1  Alias: T1
+    resc: 2  cdn: 1  rcz: 76  deg:  1  resp: 2
+    using join:1 distribution:2 #groups:1
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       3 Row size:           18 Total Rows:           1024
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         12
+      Total IO sort cost: 8      Total CPU sort cost: 0
+      Total Temp space used: 0
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:           94 Total Rows:              1
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+  Merge join  Cost:  20  Resp:  20
+HA Join
+  Outer table: 
+    resc: 5  cdn: 1024  rcz: 7  deg: 1  resp: 5
+  Inner table: T1  Alias: T1
+    resc: 2  cdn: 1  rcz: 76  deg:  1  resp: 2
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1   (better to swap inputs)
+    hash_area: 124 (max=2560)  buildfrag: 3  probefrag: 1 ppasses: 1
+  Hash join   Resc: 8   Resp: 8
+HA Join (swap)
+  Outer table: 
+    resc: 2  cdn: 1  rcz: 76  deg: 1  resp: 2
+  Inner table: T2  Alias: T2
+    resc: 5  cdn: 1024  rcz: 7  deg:  1  resp: 5
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1   Deg: 1
+    hash_area: 124 (max=2560)  buildfrag: 1  probefrag: 3 ppasses: 1
+  Hash join   Resc: 8   Resp: 8
+GROUP BY sort
+GROUP BY cardinality:  23.00, TABLE cardinality:  32.00
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:          102 Total Rows:             32
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+(newjo-stop-1) k:0, spcnt:0, perm:2, maxperm:2000
+(newjo-save)    [1 0 ]
+GROUP BY cardinality:  23.00, TABLE cardinality:  32.00
+    SORT resource      Sort statistics
+      Sort width:          58 Area size:      208896 Max Area size:    10485760
+      Degree:               1
+      Blocks to Sort:       1 Row size:          102 Total Rows:             32
+      Initial runs:         1 Merge passes:        1 IO Cost / pass:         10
+      Total IO sort cost: 6      Total CPU sort cost: 0
+      Total Temp space used: 0
+Final - All Rows Plan:
+  JOIN ORDER: 1
+  CST: 14  CDN: 32  RSC: 14  RSP: 14  BYTES: 2656
+  IO-RSC: 14  IO-RSP: 14  CPU-RSC: 0  CPU-RSP: 0
+QUERY
+select
+	t1.vc1, avg_val_t1
+from
+	t1, avg_val_view
+where
+	t1.vc2 = lpad(18,32)
+and	avg_val_view.id_par = t1.id_par

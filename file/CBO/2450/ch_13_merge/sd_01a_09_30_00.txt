@@ -1,0 +1,72 @@
+---------------------------------
+Session stats - 06-Jul 17:17:42
+Interval:-  17 seconds
+---------------------------------
+Name                                                                     Value
+----                                                                     -----
+opened cursors cumulative                                                   31
+opened cursors current                                                       1
+user calls                                                               1,069
+recursive calls                                                            522
+recursive cpu usage                                                          1
+session logical reads                                                    1,825
+CPU used when call started                                                 544
+CPU used by this session                                                   544
+session uga memory max                                              26,905,704
+session pga memory                                                      65,536
+session pga memory max                                              26,935,296
+enqueue requests                                                            10
+enqueue releases                                                            10
+consistent gets                                                          1,825
+consistent gets - examination                                               40
+shared hash latch upgrades - no wait                                        15
+calls to get snapshot scn: kcmgss                                           33
+no work - consistent read gets                                           1,765
+table scans (long tables)                                                    1
+table scan rows gotten                                               1,048,576
+table scan blocks gotten                                                 1,739
+table fetch by rowid                                                        44
+cluster key scans                                                            9
+cluster key scan block gets                                                  9
+rows fetched via callback                                                    3
+index fetch by key                                                          13
+index scans kdiixs1                                                         15
+cursor authentications                                                       4
+buffer is pinned count                                                      56
+buffer is not pinned count                                               1,784
+workarea executions - optimal                                               10
+parse time cpu                                                               3
+parse time elapsed                                                           4
+parse count (total)                                                         35
+parse count (hard)                                                          13
+execute count                                                               37
+bytes sent via SQL*Net to client                                    11,736,656
+bytes received via SQL*Net from client                                  13,732
+SQL*Net roundtrips to/from client                                        1,060
+sorts (memory)                                                               9
+sorts (rows)                                                         1,048,611
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------------
+SID:    10:TEST_USER - DELL_5160\Jonathan
+Session Events - 06-Jul 17:17:42
+Interval:-      17 seconds
+---------------------------------------------------------
+Event                                             Waits   Time_outs        Csec    Avg Csec    Max Csec
+-----                                             -----   ---------        ----    --------    --------
+SQL*Net message to client                         1,065           0           0        .000           0
+SQL*Net more data to client                       5,227           0           7        .001           0
+SQL*Net message from client                       1,065           0       1,274       1.196      17,988
+
+PL/SQL procedure successfully completed.
+
+---------------------------------
+T/S Stats - 06-Jul 17:17:42
+Interval:-      17 seconds
+---------------------------------
+TS#        Reads      Blocks   Avg Csecs    Max      Writes      Blocks   Avg Csecs    Max Tablespace
+----       -----      ------   ---------    ---      ------      ------   ---------    --- -------------------
+
+PL/SQL procedure successfully completed.
+

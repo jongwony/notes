@@ -1,0 +1,85 @@
+
+Stats for Parallel Reads
+========================
+
+Name
+----
+opened cursors cumulative                                                    4
+user calls                                                                   8
+recursive calls                                                             76
+session logical reads                                                    2,534
+CPU used when call started                                                  19
+CPU used by this session                                                    19
+session uga memory                                                      65,464
+messages sent                                                                1
+session pga memory                                                      65,536
+consistent gets                                                          2,534
+physical reads                                                           2,020
+free buffer requested                                                    2,020
+dirty buffers inspected                                                      2
+hot buffers moved to head of LRU                                            82
+free buffer inspected                                                        2
+prefetched blocks                                                        2,020
+	***  Note: "prefetched blocks aged out before use" was zero.
+consistent gets - examination                                                1
+shared hash latch upgrades - no wait                                         1
+calls to get snapshot scn: kcmgss                                            2
+no work - consistent read gets                                           2,520
+table fetch by rowid                                                     2,500
+index scans kdiixs1                                                          1
+cursor authentications                                                       1
+buffer is pinned count                                                   2,499
+buffer is not pinned count                                               2,501
+parse time cpu                                                               1
+parse time elapsed                                                           1
+parse count (total)                                                          4
+parse count (hard)                                                           1
+execute count                                                                5
+bytes sent via SQL*Net to client                                           788
+bytes received via SQL*Net from client                                   1,018
+SQL*Net roundtrips to/from client                                            5
+
+Waits from trace file:
+	EXEC #3:c=0,e=146,p=0,cr=0,cu=0,mis=0,r=0,dep=0,og=1,tim=634626798
+	WAIT #3: nam='SQL*Net message to client' ela= 10 p1=1111838976 p2=1 p3=0
+	WAIT #3: nam='db file parallel read' ela= 106671 p1=1 p2=40 p3=40
+	WAIT #3: nam='db file parallel read' ela= 82579 p1=1 p2=40 p3=40
+	WAIT #3: nam='db file parallel read' ela= 83709 p1=1 p2=40 p3=40
+
+
+
+Stats for Sequential Reads
+==========================
+
+Name                                                                     Value
+----                                                                     -----
+opened cursors cumulative                                                    4
+user calls                                                                   8
+recursive calls                                                             79
+session logical reads                                                    2,522
+CPU used when call started                                                  31
+CPU used by this session                                                    31
+consistent gets                                                          2,522
+physical reads                                                           1,891
+free buffer requested                                                    1,891
+consistent gets - examination                                                1
+shared hash latch upgrades - no wait                                         1
+calls to get snapshot scn: kcmgss                                            2
+no work - consistent read gets                                           2,520
+table fetch by rowid                                                     2,500
+index scans kdiixs1                                                          1
+buffer is pinned count                                                   2,499
+buffer is not pinned count                                               2,501
+parse count (total)                                                          4
+parse count (hard)                                                           1
+execute count                                                                5
+bytes sent via SQL*Net to client                                           788
+bytes received via SQL*Net from client                                   1,018
+SQL*Net roundtrips to/from client                                            5
+
+Waits from trace file:
+	EXEC #3:c=0,e=120,p=0,cr=0,cu=0,mis=0,r=0,dep=0,og=1,tim=1126157249
+	WAIT #3: nam='SQL*Net message to client' ela= 8 p1=1111838976 p2=1 p3=0
+	WAIT #3: nam='db file sequential read' ela= 31044 p1=5 p2=20753 p3=1
+	WAIT #3: nam='db file sequential read' ela= 1337 p1=5 p2=20757 p3=1
+

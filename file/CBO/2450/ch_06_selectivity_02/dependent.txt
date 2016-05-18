@@ -1,0 +1,49 @@
+
+TABLE_NAME               BLOCKS   NUM_ROWS
+-------------------- ---------- ----------
+T1                          371      10000
+
+1 row selected.
+
+Elapsed: 00:00:00.00
+
+  NUM_ROWS DISTINCT_KEYS     BLEVEL LEAF_BLOCKS CLUSTERING_FACTOR AVG_LEAF_BLOCKS_PER_KEY AVG_DATA_BLOCKS_PER_KEY
+---------- ------------- ---------- ----------- ----------------- ----------------------- -----------------------
+     10000            25          2        1107              6153                      44                     246
+
+1 row selected.
+
+Elapsed: 00:00:00.00
+
+COLUMN_NAME           NUM_NULLS NUM_DISTINCT    DENSITY LOW_VALUE                HIGH_VALUE
+-------------------- ---------- ------------ ---------- ------------------------ ------------------------
+IND_PAD                       0            1          1 782020202020202020202020 782020202020202020202020
+                                                        202020202020202020202020 202020202020202020202020
+                                                        2020202020202020         2020202020202020
+
+N1                            0           25        .04 80                       C119
+N2                            0           25        .04 80                       C119
+
+3 rows selected.
+
+Elapsed: 00:00:00.00
+Elapsed: 00:00:00.00
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=14 Card=16 Bytes=928)
+   1    0   TABLE ACCESS (BY INDEX ROWID) OF 'T1' (Cost=14 Card=16 Bytes=928)
+   2    1     INDEX (RANGE SCAN) OF 'T1_I1' (NON-UNIQUE) (Cost=4 Card=16)
+
+
+
+Elapsed: 00:00:00.00
+
+Execution Plan (9.2.0.4)
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=14 Card=359 Bytes=20822)
+   1    0   TABLE ACCESS (BY INDEX ROWID) OF 'T1' (Cost=14 Card=359 Bytes=20822)
+   2    1     INDEX (RANGE SCAN) OF 'T1_I1' (NON-UNIQUE) (Cost=4 Card=16)
+
+
+

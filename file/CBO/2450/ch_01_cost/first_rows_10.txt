@@ -1,0 +1,81 @@
+
+Get a base-line cost and plan for acquiring the rows
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=FIRST_ROWS (Cost=35 Card=33 Bytes=33264)
+   1    0   TABLE ACCESS (BY INDEX ROWID) OF 'T1' (TABLE) (Cost=35 Card=33 Bytes=33264)
+   2    1     INDEX (RANGE SCAN) OF 'T1_MOD' (INDEX) (Cost=1 Card=33)
+
+
+
+
+See what happens if we add an 'order by primary key'.
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=FIRST_ROWS (Cost=1450 Card=33 Bytes=33264)
+   1    0   TABLE ACCESS (BY INDEX ROWID) OF 'T1' (TABLE) (Cost=1450 Card=33 Bytes=33264)
+   2    1     INDEX (FULL SCAN) OF 'T1_PK' (INDEX (UNIQUE)) (Cost=21 Card=10000)
+
+
+
+
+Block the index with a no_merge hint
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=FIRST_ROWS (Cost=43 Card=33 Bytes=17424)
+   1    0   SORT (ORDER BY) (Cost=43 Card=33 Bytes=17424)
+   2    1     VIEW (Cost=35 Card=33 Bytes=17424)
+   3    2       TABLE ACCESS (BY INDEX ROWID) OF 'T1' (TABLE) (Cost=35 Card=33 Bytes=33264)
+   4    3         INDEX (RANGE SCAN) OF 'T1_MOD' (INDEX) (Cost=1 Card=33)
+
+
+
+
+Block the index with a no_index hint
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=FIRST_ROWS (Cost=45 Card=33 Bytes=33264)
+   1    0   SORT (ORDER BY) (Cost=45 Card=33 Bytes=33264)
+   2    1     TABLE ACCESS (BY INDEX ROWID) OF 'T1' (TABLE) (Cost=35 Card=33 Bytes=33264)
+   3    2       INDEX (RANGE SCAN) OF 'T1_MOD' (INDEX) (Cost=1 Card=33)
+
+
+
+
+Session altered.
+
+
+Cost ratio set to 34 - PK path should be accepted
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=FIRST_ROWS (Cost=1450 Card=33 Bytes=33264)
+   1    0   TABLE ACCESS (BY INDEX ROWID) OF 'T1' (TABLE) (Cost=1450 Card=33 Bytes=33264)
+   2    1     INDEX (FULL SCAN) OF 'T1_PK' (INDEX (UNIQUE)) (Cost=21 Card=10000)
+
+
+
+
+Session altered.
+
+
+Cost ratio set to 33 - PK NOSORT should be too expensive
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=FIRST_ROWS (Cost=1450 Card=33 Bytes=33264)
+   1    0   TABLE ACCESS (BY INDEX ROWID) OF 'T1' (TABLE) (Cost=1450 Card=33 Bytes=33264)
+   2    1     INDEX (FULL SCAN) OF 'T1_PK' (INDEX (UNIQUE)) (Cost=21 Card=10000)
+
+
+

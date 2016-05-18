@@ -1,0 +1,59 @@
+
+GROUP BY cardinality:  544, TABLE cardinality:  5000
+    SORT resource      Sort statistics
+      Sort width:           58 Area size:      208896 Max Area size:    10485760   Degree: 1
+      Blocks to Sort:       10 Row size:           15 Rows:       5000
+      Initial runs:          1 Merge passes:        1 IO Cost / pass:         19
+      Total IO sort cost: 10
+
+GROUP BY cardinality:  545, TABLE cardinality:  5000
+    SORT resource      Sort statistics
+      Sort width:           58 Area size:      208896 Max Area size:    10485760   Degree: 1
+      Blocks to Sort:       10 Row size:           15 Rows:       5000
+      Initial runs:          1 Merge passes:        1 IO Cost / pass:         19
+      Total IO sort cost: 11
+
+GROUP BY cardinality:  1633, TABLE cardinality:  5000
+    SORT resource      Sort statistics
+      Sort width:           58 Area size:      208896 Max Area size:    10485760   Degree: 1
+      Blocks to Sort:       10 Row size:           15 Rows:       5000
+      Initial runs:          1 Merge passes:        1 IO Cost / pass:         19
+      Total IO sort cost: 11
+
+GROUP BY cardinality:  1634, TABLE cardinality:  5000
+    SORT resource      Sort statistics
+      Sort width:           58 Area size:      208896 Max Area size:    10485760   Degree: 1
+      Blocks to Sort:       10 Row size:           15 Rows:       5000
+      Initial runs:          1 Merge passes:        1 IO Cost / pass:         19
+      Total IO sort cost: 12
+
+GROUP BY cardinality:  5021, TABLE cardinality:  5000
+    SORT resource      Sort statistics
+      Sort width:           58 Area size:      208896 Max Area size:    10485760   Degree: 1
+      Blocks to Sort:       10 Row size:           15 Rows:       5000
+      Initial runs:          1 Merge passes:        1 IO Cost / pass:         19
+      Total IO sort cost: 15
+
+ 545 * sqrt(2) =  770.7	-- entry point for total IO sort cost = 11
+1634 * sqrt(2) = 2310.8	-- entry point for total IO sort cost = 12
+
+Predicted entry point for total IO sort cost = 13 is: 2725    (3,849)
+Predicted entry point for total IO sort cost = 14 is: 3815    (5,395)	-- actual 5,390
+Predicted entry point for total IO sort cost = 15 is: 4905    (6,937)	-- actual 6,930
+
+NOTE:  
+	545 * 3 = 1635
+	545 * 5 = 2725
+	545 * 7 = 3815  -- x 1.4142 = 5,395
+	545 * 9 = 4905	-- x 1.4142 = 6,937
+
+	545 * 15 (bytes) = 8,175 bytes = one block.
+
+The Total IO sort cost goes up by one for every 2 blocks increase in the output size.
+
+IO Cost / Pass = dump size + output size ?
+Total IO cost = (Blocks to sort + cost / pass) / 2
+
+Maybe IO Cost / Pass = dump size + read size, but it gets adjusted for the last pass.
+	So:  total cost = ((passes - 1) * "io cost/pass" + "dump size + output size" ) / 2
+

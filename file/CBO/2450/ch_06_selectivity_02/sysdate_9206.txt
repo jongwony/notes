@@ -1,0 +1,261 @@
+
+Variations on sysdate
+=====================
+
+= sysdate
+=========
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=1 Bytes=8)
+
+
+
+> sysdate
+=========
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=2875 Bytes=23000)
+
+
+
+>= sysdate
+==========
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=2876 Bytes=23008)
+
+
+
+> trunc(sysdate)
+================
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=3600 Bytes=28800)
+
+
+
+>= trunc(sysdate)
+=================
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=3601 Bytes=28808)
+
+
+
+
+Variations on a single day range
+================================
+
+sysdate to sysdate + 1
+======================
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     FILTER
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=144 Bytes=1152)
+
+
+
+
+trunc(sysdate) to trunc(sysdate + 1)
+====================================
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     FILTER
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=180 Bytes=1440)
+
+
+
+
+trunc(sysdate) to trunc(sysdate) + 1
+====================================
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     FILTER
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=180 Bytes=1440)
+
+
+
+sysdate - 1 to sysdate
+======================
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     FILTER
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=180 Bytes=1440)
+
+
+
+
+trunc(sysdate - 1) to trunc(sysdate)
+====================================
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     FILTER
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=144 Bytes=1152)
+
+
+
+
+trunc(sysdate) - 1 to trunc(sysdate)
+====================================
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     FILTER
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=144 Bytes=1152)
+
+
+
+
+Variations on a 2 day day range
+===============================
+
+sysdate - 1 to sysdate + 1
+==========================
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     FILTER
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=16 Bytes=128)
+
+
+
+
+trunc(sysdate) - 1 to trunc(sysdate) + 1
+========================================
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     FILTER
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=16 Bytes=128)
+
+
+
+
+trunc(sysdate - 1) to trunc(sysdate + 1)
+========================================
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     FILTER
+   3    2       TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=16 Bytes=128)
+
+
+
+
+Variations with literal date-only values
+========================================
+
+> to_date({today})
+==================
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=3600 Bytes=28800)
+
+
+
+
+> to_date({literal for yesterday})
+==================================
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=5040 Bytes=40320)
+
+
+
+
+between to_date({yesterday}) and to_date({tomorrow})
+====================================================
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=2882 Bytes=23056)
+
+
+
+
+between to_date({today}) - 1 and to_date({today}) + 1
+=====================================================
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=2882 Bytes=23056)
+
+
+
+
+One special warning
+===================
+
+>= sysdate + 0
+==============
+
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=19 Card=1 Bytes=8)
+   1    0   SORT (AGGREGATE)
+   2    1     TABLE ACCESS (FULL) OF 'T1' (Cost=19 Card=324 Bytes=2592)
+
+
+

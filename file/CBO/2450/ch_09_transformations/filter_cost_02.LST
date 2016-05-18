@@ -1,0 +1,161 @@
+============================================
+========= Test 1, Driving value cycled =====
+============================================
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+============================================
+========= Test 1, Driving value cycled =====
+============================================
+---------------------------------
+Session stats - 21-Jul 11:34:26
+Interval:-  2 seconds
+---------------------------------
+Name                                                                     Value
+----                                                                     -----
+opened cursors cumulative                                                   12
+user calls                                                                  33
+recursive calls                                                             77
+session logical reads                                                    5,370
+CPU used when call started                                                 262
+CPU used by this session                                                   262
+enqueue requests                                                             1
+enqueue releases                                                             1
+consistent gets                                                          5,370
+consistent gets - examination                                               50
+calls to get snapshot scn: kcmgss                                           41
+no work - consistent read gets                                           5,290
+table scans (long tables)                                                   10
+table scan rows gotten                                               2,000,000
+table scan blocks gotten                                                 5,260
+table fetch by rowid                                                        40
+rows fetched via callback                                                   40
+index fetch by key                                                          40
+cursor authentications                                                       1
+buffer is not pinned count                                               5,370
+parse count (total)                                                         12
+parse count (hard)                                                           1
+execute count                                                               13
+bytes sent via SQL*Net to client                                         4,096
+bytes received via SQL*Net from client                                   4,635
+SQL*Net roundtrips to/from client                                           22
+
+==============================================
+========= Test 2, Driving value repeated =====
+==============================================
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+
+COUNT(M.V)
+----------
+    200000
+==============================================
+========= Test 2, Driving value repeated =====
+==============================================
+---------------------------------
+Session stats - 21-Jul 11:34:42
+Interval:-  2 seconds
+---------------------------------
+Name                                                                     Value
+----                                                                     -----
+opened cursors cumulative                                                   12
+user calls                                                                  33
+recursive calls                                                             82
+session logical reads                                                    5,370
+CPU used when call started                                                 137
+CPU used by this session                                                   137
+session uga memory                                                      65,464
+session pga memory                                                      65,536
+enqueue requests                                                             1
+enqueue releases                                                             1
+consistent gets                                                          5,370
+consistent gets - examination                                               50
+calls to get snapshot scn: kcmgss                                           41
+no work - consistent read gets                                           5,290
+table scans (long tables)                                                   10
+table scan rows gotten                                               2,000,000
+table scan blocks gotten                                                 5,260
+table fetch by rowid                                                        40
+rows fetched via callback                                                   40
+index fetch by key                                                          40
+cursor authentications                                                       1
+buffer is not pinned count                                               5,370
+parse time cpu                                                               2
+parse time elapsed                                                           1
+parse count (total)                                                         12
+parse count (hard)                                                           1
+execute count                                                               13
+bytes sent via SQL*Net to client                                         4,096
+bytes received via SQL*Net from client                                   4,635
+SQL*Net roundtrips to/from client                                           22

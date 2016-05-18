@@ -1,0 +1,534 @@
+Dump file d:\oracle\admin\d920\udump\d920_ora_1588.trc
+Mon Jan 17 23:16:14 2005
+ORACLE V9.2.0.6.0 - Production vsnsta=0
+vsnsql=12 vsnxtr=3
+Windows 2000 Version 5.0 Service Pack 4, CPU type 586
+Oracle9i Enterprise Edition Release 9.2.0.6.0 - Production
+With the Partitioning, Oracle Label Security, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+Windows 2000 Version 5.0 Service Pack 4, CPU type 586
+Instance name: d920
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 13
+
+Windows thread id: 1588, image: ORACLE.EXE
+
+
+*** 2005-01-17 23:16:14.258
+*** SESSION ID:(10.223) 2005-01-17 23:16:14.258
+***************************************
+PARAMETERS USED BY THE OPTIMIZER
+********************************
+OPTIMIZER_FEATURES_ENABLE = 9.2.0
+OPTIMIZER_MODE/GOAL = All_Rows
+_OPTIMIZER_PERCENT_PARALLEL = 101
+HASH_AREA_SIZE = 524288
+HASH_JOIN_ENABLED = TRUE
+HASH_MULTIBLOCK_IO_COUNT = 0
+SORT_AREA_SIZE = 524288
+OPTIMIZER_SEARCH_LIMIT = 5
+PARTITION_VIEW_ENABLED = FALSE
+_ALWAYS_STAR_TRANSFORMATION = FALSE
+_B_TREE_BITMAP_PLANS = TRUE
+STAR_TRANSFORMATION_ENABLED = FALSE
+_COMPLEX_VIEW_MERGING = TRUE
+_PUSH_JOIN_PREDICATE = TRUE
+PARALLEL_BROADCAST_ENABLED = TRUE
+OPTIMIZER_MAX_PERMUTATIONS = 2000
+OPTIMIZER_INDEX_CACHING = 0
+_SYSTEM_INDEX_CACHING = 0
+OPTIMIZER_INDEX_COST_ADJ = 100
+OPTIMIZER_DYNAMIC_SAMPLING = 1
+_OPTIMIZER_DYN_SMP_BLKS = 32
+QUERY_REWRITE_ENABLED = FALSE
+QUERY_REWRITE_INTEGRITY = ENFORCED
+_INDEX_JOIN_ENABLED = TRUE
+_SORT_ELIMINATION_COST_RATIO = 0
+_OR_EXPAND_NVL_PREDICATE = TRUE
+_NEW_INITIAL_JOIN_ORDERS = TRUE
+ALWAYS_ANTI_JOIN = CHOOSE
+ALWAYS_SEMI_JOIN = CHOOSE
+_OPTIMIZER_MODE_FORCE = TRUE
+_OPTIMIZER_UNDO_CHANGES = FALSE
+_UNNEST_SUBQUERY = TRUE
+_PUSH_JOIN_UNION_VIEW = TRUE
+_FAST_FULL_SCAN_ENABLED = TRUE
+_OPTIM_ENHANCE_NNULL_DETECTION = TRUE
+_ORDERED_NESTED_LOOP = TRUE
+_NESTED_LOOP_FUDGE = 100
+_NO_OR_EXPANSION = FALSE
+_QUERY_COST_REWRITE = TRUE
+QUERY_REWRITE_EXPRESSION = TRUE
+_IMPROVED_ROW_LENGTH_ENABLED = TRUE
+_USE_NOSEGMENT_INDEXES = FALSE
+_ENABLE_TYPE_DEP_SELECTIVITY = TRUE
+_IMPROVED_OUTERJOIN_CARD = TRUE
+_OPTIMIZER_ADJUST_FOR_NULLS = TRUE
+_OPTIMIZER_CHOOSE_PERMUTATION = 0
+_USE_COLUMN_STATS_FOR_FUNCTION = TRUE
+_SUBQUERY_PRUNING_ENABLED = TRUE
+_SUBQUERY_PRUNING_REDUCTION_FACTOR = 50
+_SUBQUERY_PRUNING_COST_FACTOR = 20
+_LIKE_WITH_BIND_AS_EQUALITY = FALSE
+_TABLE_SCAN_COST_PLUS_ONE = TRUE
+_SORTMERGE_INEQUALITY_JOIN_OFF = FALSE
+_DEFAULT_NON_EQUALITY_SEL_CHECK = TRUE
+_ONESIDE_COLSTAT_FOR_EQUIJOINS = TRUE
+_OPTIMIZER_COST_MODEL = IO
+_GSETS_ALWAYS_USE_TEMPTABLES = FALSE
+DB_FILE_MULTIBLOCK_READ_COUNT = 8
+_NEW_SORT_COST_ESTIMATE = TRUE
+_GS_ANTI_SEMI_JOIN_ALLOWED = TRUE
+_CPU_TO_IO = 0
+_PRED_MOVE_AROUND = TRUE
+***************************************
+BASE STATISTICAL INFORMATION
+***********************
+Table stats    Table: PROBE_TAB   Alias: PB
+  TOTAL ::  CDN: 10000  NBLKS:  1667  AVG_ROW_LEN:  1030
+Column:         ID  Col#: 1      Table: PROBE_TAB   Alias: PB
+    NDV: 10000     NULLS: 0         DENS: 1.0000e-004 LO:  10001  HI: 20000
+    NO HISTOGRAM: #BKT: 1 #VAL: 2
+-- Index stats
+  INDEX NAME: PB_PK  COL#: 1 
+    TOTAL ::  LVLS: 1   #LB: 21  #DK: 10000  LB/K: 1  DB/K: 1  CLUF: 1667
+***********************
+Table stats    Table: BUILD_TAB   Alias: BU
+  TOTAL ::  CDN: 10000  NBLKS:  1667  AVG_ROW_LEN:  1030
+Column:   ID_PROBE  Col#: 2      Table: BUILD_TAB   Alias: BU
+    NDV: 4327      NULLS: 0         DENS: 2.3111e-004 LO:  10001  HI: 15000
+    NO HISTOGRAM: #BKT: 1 #VAL: 2
+-- Index stats
+  INDEX NAME: BU_FK_PB  COL#: 2 
+    TOTAL ::  LVLS: 1   #LB: 23  #DK: 4327  LB/K: 1  DB/K: 2  CLUF: 9992
+  INDEX NAME: BU_PK  COL#: 1 
+    TOTAL ::  LVLS: 1   #LB: 20  #DK: 10000  LB/K: 1  DB/K: 1  CLUF: 1667
+_OPTIMIZER_PERCENT_PARALLEL = 0
+***************************************
+SINGLE TABLE ACCESS PATH
+Column:         ID  Col#: 1      Table: BUILD_TAB   Alias: BU
+    NDV: 10000     NULLS: 0         DENS: 1.0000e-004 LO:  1  HI: 10000
+    NO HISTOGRAM: #BKT: 1 #VAL: 2
+  TABLE: BUILD_TAB     ORIG CDN: 10000  ROUNDED CDN: 2000  CMPTD CDN: 2000
+  Access path: tsc  Resc:  255  Resp:  255
+  BEST_CST: 255.00  PATH: 2  Degree:  1
+***************************************
+SINGLE TABLE ACCESS PATH
+  TABLE: PROBE_TAB     ORIG CDN: 10000  ROUNDED CDN: 10000  CMPTD CDN: 10000
+  Access path: tsc  Resc:  255  Resp:  255
+  BEST_CST: 255.00  PATH: 2  Degree:  1
+***************************************
+OPTIMIZER STATISTICS AND COMPUTATIONS
+***********************
+Join order[1]:  BUILD_TAB[BU]#0  PROBE_TAB[PB]#1
+Now joining: PROBE_TAB[PB]#1 *******
+NL Join
+  Outer table: cost: 255  cdn: 2000  rcz: 1030  resp:  255
+  Inner table: PROBE_TAB
+    Access path: tsc  Resc: 255
+    Join:  Resc:  510255  Resp:  510255
+  Best NL cost: 510255  resp: 510255
+Join cardinality:  2000 = outer (2000) * inner (10000) * sel (1.0000e-004)  [flag=0]
+HA Join
+  Outer table: 
+    resc: 255  cdn: 2000  rcz: 1030  deg: 1  resp: 255
+  Inner table: PROBE_TAB
+    resc: 255  cdn: 10000  rcz: 1027  deg:  1  resp: 255
+    using join:8 distribution:2 #groups:1
+  Hash join one ptn Resc: 1911   Deg: 1
+      hash_area:  64 (max=64)  buildfrag:  255                probefrag:   1269 ppasses:    4
+  Hash join   Resc: 2421   Resp: 2421
+Join result: cost: 2421  cdn: 2000  rcz: 2057
+Best so far: TABLE#: 0  CST:        255  CDN:       2000  BYTES:    2060000
+Best so far: TABLE#: 1  CST:       2421  CDN:       2000  BYTES:    4114000
+Final - All Rows Plan:
+  JOIN ORDER: 1
+  CST: 2421  CDN: 2000  RSC: 2421  RSP: 2421  BYTES: 4114000
+  IO-RSC: 2421  IO-RSP: 2421  CPU-RSC: 0  CPU-RSP: 0
+QUERY
+select
+	/*+ ordered full(bu) full(pb) use_hash(pb) */
+	bu.build_vc,
+	bu.build_padding,
+	pb.probe_vc,
+	pb.probe_padding
+from
+	build_tab	bu,
+	probe_tab	pb
+where
+	bu.id between 1 and 2000
+and	pb.id = bu.id_probe
+kxhfInit(): enter
+kxhfInit(): exit
+*** HASH JOIN STATISTICS (INITIALIZATION) ***
+Original memory: 524288
+Memory after all overhead: 512937
+Memory for slots: 491520
+Calculated overhead for partitions and row/slot managers: 21417
+Hash-join fanout: 8
+Number of partitions: 8
+Number of slots: 15
+Multiblock IO: 4
+Block size(KB): 8
+Cluster (slot) size(KB): 32
+Minimum number of bytes per block: 8160
+Bit vector memory allocation(KB): 16
+Per partition bit vector length(KB): 2
+Maximum possible row length: 1081
+Estimated build size (KB): 2050
+Estimated Row Length (includes overhead): 1050
+# Immutable Flags:
+kxhfSetPhase: phase=BUILD
+kxhfAddChunk: add chunk 0 (sz=15) to slot table
+kxhfAddChunk: chunk 0 (lbs=079A73C4, slotTab=079A7310) successfuly added
+kxhfWrite: hash-join is spilling to disk
+kxhfSetPhase: phase=PROBE_1
+qerhjFetch: max build row length (mbl=1042)
+*** HASH JOIN BUILD HASH TABLE (PHASE 1) ***
+Total number of partitions: 8
+Number of partitions which could fit in memory: 1
+Number of partitions left in memory: 1
+Total number of slots in in-memory partitions: 7
+Total number of rows in in-memory partitions: 208
+   (used as preliminary number of buckets in hash table)
+Estimated max # of build rows that can fit in avail memory: 960
+### Partition Distribution ###
+Partition:0    rows:247        clusters:8      slots:1      kept=0
+Partition:1    rows:244        clusters:8      slots:1      kept=0
+Partition:2    rows:208        clusters:7      slots:7      kept=1
+Partition:3    rows:260        clusters:9      slots:1      kept=0
+Partition:4    rows:260        clusters:9      slots:1      kept=0
+Partition:5    rows:243        clusters:8      slots:1      kept=0
+Partition:6    rows:282        clusters:9      slots:1      kept=0
+Partition:7    rows:256        clusters:9      slots:1      kept=0
+*** (continued) HASH JOIN BUILD HASH TABLE (PHASE 1) ***
+Revised number of hash buckets (after flushing): 282
+Allocating new hash table.
+*** (continued) HASH JOIN BUILD HASH TABLE (PHASE 1) ***
+Requested size of hash table: 64
+Actual size of hash table: 64
+Number of buckets: 512
+*** (continued) HASH JOIN BUILD HASH TABLE (PHASE 1) ***
+Total number of rows (may have changed): 208
+Number of in-memory partitions (may have changed): 1
+Final number of hash buckets: 512
+Size (in bytes) of hash table: 2048
+kxhfIterate(end_iterate): numAlloc=15, maxSlots=15
+*** (continued) HASH JOIN BUILD HASH TABLE (PHASE 1) ***
+### Hash table ###
+# NOTE: The calculated number of rows in non-empty buckets may be smaller
+#       than the true number.
+Number of buckets with   0 rows:        363
+Number of buckets with   1 rows:        103
+Number of buckets with   2 rows:         35
+Number of buckets with   3 rows:          9
+Number of buckets with   4 rows:          2
+Number of buckets with   5 rows:          0
+Number of buckets with   6 rows:          0
+Number of buckets with   7 rows:          0
+Number of buckets with   8 rows:          0
+Number of buckets with   9 rows:          0
+Number of buckets with between  10 and  19 rows:          0
+Number of buckets with between  20 and  29 rows:          0
+Number of buckets with between  30 and  39 rows:          0
+Number of buckets with between  40 and  49 rows:          0
+Number of buckets with between  50 and  59 rows:          0
+Number of buckets with between  60 and  69 rows:          0
+Number of buckets with between  70 and  79 rows:          0
+Number of buckets with between  80 and  89 rows:          0
+Number of buckets with between  90 and  99 rows:          0
+Number of buckets with 100 or more rows:          0
+### Hash table overall statistics ###
+Total buckets: 512 Empty buckets: 363 Non-empty buckets: 149
+Total number of rows: 208
+Maximum number of rows in a bucket: 4
+Average number of rows in non-empty buckets: 1.395973
+qerhjFetch: max probe row length (mpl=1037)
+kxhfSetPhase: phase=PROBE_2
+qerhjFetchPhase2(): building a hash table
+*** HASH JOIN GET FLUSHED PARTITIONS (PHASE 2) ***
+Getting a pair of flushed partions.
+ BUILD PARTION: nrows:256 size=(9 slots, 288K)
+ PROBE PARTION: nrows:220 size=(7 slots, 224K)
+   ROLE REVERSAL OCCURRED
+*** HASH JOIN BUILD HASH TABLE (PHASE 2) ***
+Number of blocks that may be used to build the hash hable 40
+Number of rows left to be iterated over (start of function): 220
+Number of rows iterated over this function call: 220
+Number of rows left to be iterated over (end of function): 0
+### Hash table ###
+# NOTE: The calculated number of rows in non-empty buckets may be smaller
+#       than the true number.
+Number of buckets with   0 rows:        344
+Number of buckets with   1 rows:        121
+Number of buckets with   2 rows:         42
+Number of buckets with   3 rows:          5
+Number of buckets with   4 rows:          0
+Number of buckets with   5 rows:          0
+Number of buckets with   6 rows:          0
+Number of buckets with   7 rows:          0
+Number of buckets with   8 rows:          0
+Number of buckets with   9 rows:          0
+Number of buckets with between  10 and  19 rows:          0
+Number of buckets with between  20 and  29 rows:          0
+Number of buckets with between  30 and  39 rows:          0
+Number of buckets with between  40 and  49 rows:          0
+Number of buckets with between  50 and  59 rows:          0
+Number of buckets with between  60 and  69 rows:          0
+Number of buckets with between  70 and  79 rows:          0
+Number of buckets with between  80 and  89 rows:          0
+Number of buckets with between  90 and  99 rows:          0
+Number of buckets with 100 or more rows:          0
+### Hash table overall statistics ###
+Total buckets: 512 Empty buckets: 344 Non-empty buckets: 168
+Total number of rows: 220
+Maximum number of rows in a bucket: 3
+Average number of rows in non-empty buckets: 1.309524
+kxhfResetIter(079A9040)
+qerhjFetchPhase2(): building a hash table
+*** HASH JOIN GET FLUSHED PARTITIONS (PHASE 2) ***
+Getting a pair of flushed partions.
+ BUILD PARTION: nrows:282 size=(9 slots, 288K)
+ PROBE PARTION: nrows:248 size=(8 slots, 256K)
+   ROLE REVERSAL OCCURRED
+*** HASH JOIN BUILD HASH TABLE (PHASE 2) ***
+Number of blocks that may be used to build the hash hable 40
+Number of rows left to be iterated over (start of function): 248
+Number of rows iterated over this function call: 248
+Number of rows left to be iterated over (end of function): 0
+### Hash table ###
+# NOTE: The calculated number of rows in non-empty buckets may be smaller
+#       than the true number.
+Number of buckets with   0 rows:        329
+Number of buckets with   1 rows:        142
+Number of buckets with   2 rows:         25
+Number of buckets with   3 rows:         13
+Number of buckets with   4 rows:          1
+Number of buckets with   5 rows:          1
+Number of buckets with   6 rows:          0
+Number of buckets with   7 rows:          0
+Number of buckets with   8 rows:          1
+Number of buckets with   9 rows:          0
+Number of buckets with between  10 and  19 rows:          0
+Number of buckets with between  20 and  29 rows:          0
+Number of buckets with between  30 and  39 rows:          0
+Number of buckets with between  40 and  49 rows:          0
+Number of buckets with between  50 and  59 rows:          0
+Number of buckets with between  60 and  69 rows:          0
+Number of buckets with between  70 and  79 rows:          0
+Number of buckets with between  80 and  89 rows:          0
+Number of buckets with between  90 and  99 rows:          0
+Number of buckets with 100 or more rows:          0
+### Hash table overall statistics ###
+Total buckets: 512 Empty buckets: 329 Non-empty buckets: 183
+Total number of rows: 248
+Maximum number of rows in a bucket: 8
+Average number of rows in non-empty buckets: 1.355191
+kxhfResetIter(079A9040)
+qerhjFetchPhase2(): building a hash table
+*** HASH JOIN GET FLUSHED PARTITIONS (PHASE 2) ***
+Getting a pair of flushed partions.
+ BUILD PARTION: nrows:243 size=(8 slots, 256K)
+ PROBE PARTION: nrows:219 size=(7 slots, 224K)
+   ROLE REVERSAL OCCURRED
+*** HASH JOIN BUILD HASH TABLE (PHASE 2) ***
+Number of blocks that may be used to build the hash hable 40
+Number of rows left to be iterated over (start of function): 219
+Number of rows iterated over this function call: 219
+Number of rows left to be iterated over (end of function): 0
+### Hash table ###
+# NOTE: The calculated number of rows in non-empty buckets may be smaller
+#       than the true number.
+Number of buckets with   0 rows:        346
+Number of buckets with   1 rows:        121
+Number of buckets with   2 rows:         39
+Number of buckets with   3 rows:          4
+Number of buckets with   4 rows:          2
+Number of buckets with   5 rows:          0
+Number of buckets with   6 rows:          0
+Number of buckets with   7 rows:          0
+Number of buckets with   8 rows:          0
+Number of buckets with   9 rows:          0
+Number of buckets with between  10 and  19 rows:          0
+Number of buckets with between  20 and  29 rows:          0
+Number of buckets with between  30 and  39 rows:          0
+Number of buckets with between  40 and  49 rows:          0
+Number of buckets with between  50 and  59 rows:          0
+Number of buckets with between  60 and  69 rows:          0
+Number of buckets with between  70 and  79 rows:          0
+Number of buckets with between  80 and  89 rows:          0
+Number of buckets with between  90 and  99 rows:          0
+Number of buckets with 100 or more rows:          0
+### Hash table overall statistics ###
+Total buckets: 512 Empty buckets: 346 Non-empty buckets: 166
+Total number of rows: 219
+Maximum number of rows in a bucket: 4
+Average number of rows in non-empty buckets: 1.319277
+kxhfResetIter(079A9040)
+qerhjFetchPhase2(): building a hash table
+*** HASH JOIN GET FLUSHED PARTITIONS (PHASE 2) ***
+Getting a pair of flushed partions.
+ BUILD PARTION: nrows:260 size=(9 slots, 288K)
+ PROBE PARTION: nrows:229 size=(8 slots, 256K)
+   ROLE REVERSAL OCCURRED
+*** HASH JOIN BUILD HASH TABLE (PHASE 2) ***
+Number of blocks that may be used to build the hash hable 40
+Number of rows left to be iterated over (start of function): 229
+Number of rows iterated over this function call: 229
+Number of rows left to be iterated over (end of function): 0
+### Hash table ###
+# NOTE: The calculated number of rows in non-empty buckets may be smaller
+#       than the true number.
+Number of buckets with   0 rows:        329
+Number of buckets with   1 rows:        147
+Number of buckets with   2 rows:         28
+Number of buckets with   3 rows:          6
+Number of buckets with   4 rows:          2
+Number of buckets with   5 rows:          0
+Number of buckets with   6 rows:          0
+Number of buckets with   7 rows:          0
+Number of buckets with   8 rows:          0
+Number of buckets with   9 rows:          0
+Number of buckets with between  10 and  19 rows:          0
+Number of buckets with between  20 and  29 rows:          0
+Number of buckets with between  30 and  39 rows:          0
+Number of buckets with between  40 and  49 rows:          0
+Number of buckets with between  50 and  59 rows:          0
+Number of buckets with between  60 and  69 rows:          0
+Number of buckets with between  70 and  79 rows:          0
+Number of buckets with between  80 and  89 rows:          0
+Number of buckets with between  90 and  99 rows:          0
+Number of buckets with 100 or more rows:          0
+### Hash table overall statistics ###
+Total buckets: 512 Empty buckets: 329 Non-empty buckets: 183
+Total number of rows: 229
+Maximum number of rows in a bucket: 4
+Average number of rows in non-empty buckets: 1.251366
+kxhfResetIter(079A9040)
+qerhjFetchPhase2(): building a hash table
+*** HASH JOIN GET FLUSHED PARTITIONS (PHASE 2) ***
+Getting a pair of flushed partions.
+ BUILD PARTION: nrows:260 size=(9 slots, 288K)
+ PROBE PARTION: nrows:236 size=(8 slots, 256K)
+   ROLE REVERSAL OCCURRED
+*** HASH JOIN BUILD HASH TABLE (PHASE 2) ***
+Number of blocks that may be used to build the hash hable 40
+Number of rows left to be iterated over (start of function): 236
+Number of rows iterated over this function call: 236
+Number of rows left to be iterated over (end of function): 0
+### Hash table ###
+# NOTE: The calculated number of rows in non-empty buckets may be smaller
+#       than the true number.
+Number of buckets with   0 rows:        331
+Number of buckets with   1 rows:        139
+Number of buckets with   2 rows:         32
+Number of buckets with   3 rows:          7
+Number of buckets with   4 rows:          3
+Number of buckets with   5 rows:          0
+Number of buckets with   6 rows:          0
+Number of buckets with   7 rows:          0
+Number of buckets with   8 rows:          0
+Number of buckets with   9 rows:          0
+Number of buckets with between  10 and  19 rows:          0
+Number of buckets with between  20 and  29 rows:          0
+Number of buckets with between  30 and  39 rows:          0
+Number of buckets with between  40 and  49 rows:          0
+Number of buckets with between  50 and  59 rows:          0
+Number of buckets with between  60 and  69 rows:          0
+Number of buckets with between  70 and  79 rows:          0
+Number of buckets with between  80 and  89 rows:          0
+Number of buckets with between  90 and  99 rows:          0
+Number of buckets with 100 or more rows:          0
+### Hash table overall statistics ###
+Total buckets: 512 Empty buckets: 331 Non-empty buckets: 181
+Total number of rows: 236
+Maximum number of rows in a bucket: 4
+Average number of rows in non-empty buckets: 1.303867
+kxhfResetIter(079A9040)
+qerhjFetchPhase2(): building a hash table
+*** HASH JOIN GET FLUSHED PARTITIONS (PHASE 2) ***
+Getting a pair of flushed partions.
+ BUILD PARTION: nrows:244 size=(8 slots, 256K)
+ PROBE PARTION: nrows:213 size=(7 slots, 224K)
+   ROLE REVERSAL OCCURRED
+*** HASH JOIN BUILD HASH TABLE (PHASE 2) ***
+Number of blocks that may be used to build the hash hable 40
+Number of rows left to be iterated over (start of function): 213
+Number of rows iterated over this function call: 213
+Number of rows left to be iterated over (end of function): 0
+### Hash table ###
+# NOTE: The calculated number of rows in non-empty buckets may be smaller
+#       than the true number.
+Number of buckets with   0 rows:        349
+Number of buckets with   1 rows:        123
+Number of buckets with   2 rows:         32
+Number of buckets with   3 rows:          6
+Number of buckets with   4 rows:          2
+Number of buckets with   5 rows:          0
+Number of buckets with   6 rows:          0
+Number of buckets with   7 rows:          0
+Number of buckets with   8 rows:          0
+Number of buckets with   9 rows:          0
+Number of buckets with between  10 and  19 rows:          0
+Number of buckets with between  20 and  29 rows:          0
+Number of buckets with between  30 and  39 rows:          0
+Number of buckets with between  40 and  49 rows:          0
+Number of buckets with between  50 and  59 rows:          0
+Number of buckets with between  60 and  69 rows:          0
+Number of buckets with between  70 and  79 rows:          0
+Number of buckets with between  80 and  89 rows:          0
+Number of buckets with between  90 and  99 rows:          0
+Number of buckets with 100 or more rows:          0
+### Hash table overall statistics ###
+Total buckets: 512 Empty buckets: 349 Non-empty buckets: 163
+Total number of rows: 213
+Maximum number of rows in a bucket: 4
+Average number of rows in non-empty buckets: 1.306748
+kxhfResetIter(079A9040)
+qerhjFetchPhase2(): building a hash table
+*** HASH JOIN GET FLUSHED PARTITIONS (PHASE 2) ***
+Getting a pair of flushed partions.
+ BUILD PARTION: nrows:247 size=(8 slots, 256K)
+ PROBE PARTION: nrows:220 size=(7 slots, 224K)
+   ROLE REVERSAL OCCURRED
+*** HASH JOIN BUILD HASH TABLE (PHASE 2) ***
+Number of blocks that may be used to build the hash hable 40
+Number of rows left to be iterated over (start of function): 220
+Number of rows iterated over this function call: 220
+Number of rows left to be iterated over (end of function): 0
+### Hash table ###
+# NOTE: The calculated number of rows in non-empty buckets may be smaller
+#       than the true number.
+Number of buckets with   0 rows:        349
+Number of buckets with   1 rows:        117
+Number of buckets with   2 rows:         36
+Number of buckets with   3 rows:          9
+Number of buckets with   4 rows:          1
+Number of buckets with   5 rows:          0
+Number of buckets with   6 rows:          0
+Number of buckets with   7 rows:          0
+Number of buckets with   8 rows:          0
+Number of buckets with   9 rows:          0
+Number of buckets with between  10 and  19 rows:          0
+Number of buckets with between  20 and  29 rows:          0
+Number of buckets with between  30 and  39 rows:          0
+Number of buckets with between  40 and  49 rows:          0
+Number of buckets with between  50 and  59 rows:          0
+Number of buckets with between  60 and  69 rows:          0
+Number of buckets with between  70 and  79 rows:          0
+Number of buckets with between  80 and  89 rows:          0
+Number of buckets with between  90 and  99 rows:          0
+Number of buckets with 100 or more rows:          0
+### Hash table overall statistics ###
+Total buckets: 512 Empty buckets: 349 Non-empty buckets: 163
+Total number of rows: 220
+Maximum number of rows in a bucket: 4
+Average number of rows in non-empty buckets: 1.349693
+kxhfResetIter(079A9040)
+qerhjFetchPhase2(): building a hash table
+qerhjFreeSpace(): free hash-join memory
+kxhfRemoveChunk: remove chunk 0 from slot table
+QUERY
+alter session set events '10053 trace name context off'

@@ -1,0 +1,2020 @@
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000065536.TRC
+  Hash join one ptn Resc: 25132   Deg: 1
+  Hash join   Resc: 25642   Resp: 25642
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000073728.TRC
+  Hash join one ptn Resc: 22861   Deg: 1
+  Hash join   Resc: 23371   Resp: 23371
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000081920.TRC
+  Hash join one ptn Resc: 20590   Deg: 1
+  Hash join   Resc: 21100   Resp: 21100
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000090112.TRC
+  Hash join one ptn Resc: 19077   Deg: 1
+  Hash join   Resc: 19587   Resp: 19587
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000098304.TRC
+  Hash join one ptn Resc: 17563   Deg: 1
+  Hash join   Resc: 18073   Resp: 18073
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000106496.TRC
+  Hash join one ptn Resc: 16049   Deg: 1
+  Hash join   Resc: 16559   Resp: 16559
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000114688.TRC
+  Hash join one ptn Resc: 15292   Deg: 1
+  Hash join   Resc: 15802   Resp: 15802
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000122880.TRC
+  Hash join one ptn Resc: 13778   Deg: 1
+  Hash join   Resc: 14288   Resp: 14288
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000131072.TRC
+  Hash join one ptn Resc: 13021   Deg: 1
+  Hash join   Resc: 13531   Resp: 13531
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000139264.TRC
+  Hash join one ptn Resc: 12264   Deg: 1
+  Hash join   Resc: 12774   Resp: 12774
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000147456.TRC
+  Hash join one ptn Resc: 12264   Deg: 1
+  Hash join   Resc: 12774   Resp: 12774
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000155648.TRC
+  Hash join one ptn Resc: 11507   Deg: 1
+  Hash join   Resc: 12017   Resp: 12017
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000163840.TRC
+  Hash join one ptn Resc: 10750   Deg: 1
+  Hash join   Resc: 11260   Resp: 11260
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000172032.TRC
+  Hash join one ptn Resc: 10750   Deg: 1
+  Hash join   Resc: 11260   Resp: 11260
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000180224.TRC
+  Hash join one ptn Resc: 9993   Deg: 1
+  Hash join   Resc: 10503   Resp: 10503
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000188416.TRC
+  Hash join one ptn Resc: 9993   Deg: 1
+  Hash join   Resc: 10503   Resp: 10503
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000196608.TRC
+  Hash join one ptn Resc: 9236   Deg: 1
+  Hash join   Resc: 9746   Resp: 9746
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000204800.TRC
+  Hash join one ptn Resc: 9236   Deg: 1
+  Hash join   Resc: 9746   Resp: 9746
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000212992.TRC
+  Hash join one ptn Resc: 8479   Deg: 1
+  Hash join   Resc: 8989   Resp: 8989
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000221184.TRC
+  Hash join one ptn Resc: 8479   Deg: 1
+  Hash join   Resc: 8989   Resp: 8989
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000229376.TRC
+  Hash join one ptn Resc: 8479   Deg: 1
+  Hash join   Resc: 8989   Resp: 8989
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000237568.TRC
+  Hash join one ptn Resc: 7722   Deg: 1
+  Hash join   Resc: 8232   Resp: 8232
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000245760.TRC
+  Hash join one ptn Resc: 7722   Deg: 1
+  Hash join   Resc: 8232   Resp: 8232
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000253952.TRC
+  Hash join one ptn Resc: 7722   Deg: 1
+  Hash join   Resc: 8232   Resp: 8232
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000262144.TRC
+  Hash join one ptn Resc: 6965   Deg: 1
+  Hash join   Resc: 7475   Resp: 7475
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000270336.TRC
+  Hash join one ptn Resc: 6965   Deg: 1
+  Hash join   Resc: 7475   Resp: 7475
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000278528.TRC
+  Hash join one ptn Resc: 6965   Deg: 1
+  Hash join   Resc: 7475   Resp: 7475
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000286720.TRC
+  Hash join one ptn Resc: 6965   Deg: 1
+  Hash join   Resc: 7475   Resp: 7475
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000294912.TRC
+  Hash join one ptn Resc: 6965   Deg: 1
+  Hash join   Resc: 7475   Resp: 7475
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000303104.TRC
+  Hash join one ptn Resc: 6208   Deg: 1
+  Hash join   Resc: 6718   Resp: 6718
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000311296.TRC
+  Hash join one ptn Resc: 6208   Deg: 1
+  Hash join   Resc: 6718   Resp: 6718
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000319488.TRC
+  Hash join one ptn Resc: 6208   Deg: 1
+  Hash join   Resc: 6718   Resp: 6718
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000327680.TRC
+  Hash join one ptn Resc: 6208   Deg: 1
+  Hash join   Resc: 6718   Resp: 6718
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000335872.TRC
+  Hash join one ptn Resc: 6208   Deg: 1
+  Hash join   Resc: 6718   Resp: 6718
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000344064.TRC
+  Hash join one ptn Resc: 3935   Deg: 1
+  Hash join   Resc: 4445   Resp: 4445
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000352256.TRC
+  Hash join one ptn Resc: 3455   Deg: 1
+  Hash join   Resc: 3965   Resp: 3965
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000360448.TRC
+  Hash join one ptn Resc: 3455   Deg: 1
+  Hash join   Resc: 3965   Resp: 3965
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000368640.TRC
+  Hash join one ptn Resc: 3455   Deg: 1
+  Hash join   Resc: 3965   Resp: 3965
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000376832.TRC
+  Hash join one ptn Resc: 3455   Deg: 1
+  Hash join   Resc: 3965   Resp: 3965
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000385024.TRC
+  Hash join one ptn Resc: 3455   Deg: 1
+  Hash join   Resc: 3965   Resp: 3965
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000393216.TRC
+  Hash join one ptn Resc: 3455   Deg: 1
+  Hash join   Resc: 3965   Resp: 3965
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000401408.TRC
+  Hash join one ptn Resc: 3455   Deg: 1
+  Hash join   Resc: 3965   Resp: 3965
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000409600.TRC
+  Hash join one ptn Resc: 3455   Deg: 1
+  Hash join   Resc: 3965   Resp: 3965
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000417792.TRC
+  Hash join one ptn Resc: 2975   Deg: 1
+  Hash join   Resc: 3485   Resp: 3485
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000425984.TRC
+  Hash join one ptn Resc: 2975   Deg: 1
+  Hash join   Resc: 3485   Resp: 3485
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000434176.TRC
+  Hash join one ptn Resc: 2975   Deg: 1
+  Hash join   Resc: 3485   Resp: 3485
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000442368.TRC
+  Hash join one ptn Resc: 2975   Deg: 1
+  Hash join   Resc: 3485   Resp: 3485
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000450560.TRC
+  Hash join one ptn Resc: 2278   Deg: 1
+  Hash join   Resc: 2788   Resp: 2788
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000458752.TRC
+  Hash join one ptn Resc: 2278   Deg: 1
+  Hash join   Resc: 2788   Resp: 2788
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000466944.TRC
+  Hash join one ptn Resc: 2278   Deg: 1
+  Hash join   Resc: 2788   Resp: 2788
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000475136.TRC
+  Hash join one ptn Resc: 2278   Deg: 1
+  Hash join   Resc: 2788   Resp: 2788
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000483328.TRC
+  Hash join one ptn Resc: 2278   Deg: 1
+  Hash join   Resc: 2788   Resp: 2788
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000491520.TRC
+  Hash join one ptn Resc: 2278   Deg: 1
+  Hash join   Resc: 2788   Resp: 2788
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000499712.TRC
+  Hash join one ptn Resc: 2278   Deg: 1
+  Hash join   Resc: 2788   Resp: 2788
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000507904.TRC
+  Hash join one ptn Resc: 2278   Deg: 1
+  Hash join   Resc: 2788   Resp: 2788
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000516096.TRC
+  Hash join one ptn Resc: 2278   Deg: 1
+  Hash join   Resc: 2788   Resp: 2788
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000524288.TRC
+  Hash join one ptn Resc: 1911   Deg: 1
+  Hash join   Resc: 2421   Resp: 2421
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000532480.TRC
+  Hash join one ptn Resc: 1911   Deg: 1
+  Hash join   Resc: 2421   Resp: 2421
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000540672.TRC
+  Hash join one ptn Resc: 1911   Deg: 1
+  Hash join   Resc: 2421   Resp: 2421
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000548864.TRC
+  Hash join one ptn Resc: 1911   Deg: 1
+  Hash join   Resc: 2421   Resp: 2421
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000557056.TRC
+  Hash join one ptn Resc: 1911   Deg: 1
+  Hash join   Resc: 2421   Resp: 2421
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000565248.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000573440.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000581632.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000589824.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000598016.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000606208.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000614400.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000622592.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000630784.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000638976.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000647168.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000655360.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000663552.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000671744.TRC
+  Hash join one ptn Resc: 1581   Deg: 1
+  Hash join   Resc: 2091   Resp: 2091
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000679936.TRC
+  Hash join one ptn Resc: 1365   Deg: 1
+  Hash join   Resc: 1875   Resp: 1875
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000688128.TRC
+  Hash join one ptn Resc: 1365   Deg: 1
+  Hash join   Resc: 1875   Resp: 1875
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000696320.TRC
+  Hash join one ptn Resc: 1103   Deg: 1
+  Hash join   Resc: 1613   Resp: 1613
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000704512.TRC
+  Hash join one ptn Resc: 1103   Deg: 1
+  Hash join   Resc: 1613   Resp: 1613
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000712704.TRC
+  Hash join one ptn Resc: 1103   Deg: 1
+  Hash join   Resc: 1613   Resp: 1613
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000720896.TRC
+  Hash join one ptn Resc: 1103   Deg: 1
+  Hash join   Resc: 1613   Resp: 1613
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000729088.TRC
+  Hash join one ptn Resc: 1103   Deg: 1
+  Hash join   Resc: 1613   Resp: 1613
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000737280.TRC
+  Hash join one ptn Resc: 1103   Deg: 1
+  Hash join   Resc: 1613   Resp: 1613
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000745472.TRC
+  Hash join one ptn Resc: 1103   Deg: 1
+  Hash join   Resc: 1613   Resp: 1613
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000753664.TRC
+  Hash join one ptn Resc: 1103   Deg: 1
+  Hash join   Resc: 1613   Resp: 1613
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000761856.TRC
+  Hash join one ptn Resc: 1103   Deg: 1
+  Hash join   Resc: 1613   Resp: 1613
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000770048.TRC
+  Hash join one ptn Resc: 1103   Deg: 1
+  Hash join   Resc: 1613   Resp: 1613
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000778240.TRC
+  Hash join one ptn Resc: 1103   Deg: 1
+  Hash join   Resc: 1613   Resp: 1613
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000786432.TRC
+  Hash join one ptn Resc: 1103   Deg: 1
+  Hash join   Resc: 1613   Resp: 1613
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000794624.TRC
+  Hash join one ptn Resc: 978   Deg: 1
+  Hash join   Resc: 1488   Resp: 1488
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000802816.TRC
+  Hash join one ptn Resc: 978   Deg: 1
+  Hash join   Resc: 1488   Resp: 1488
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000811008.TRC
+  Hash join one ptn Resc: 978   Deg: 1
+  Hash join   Resc: 1488   Resp: 1488
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000819200.TRC
+  Hash join one ptn Resc: 978   Deg: 1
+  Hash join   Resc: 1488   Resp: 1488
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000827392.TRC
+  Hash join one ptn Resc: 978   Deg: 1
+  Hash join   Resc: 1488   Resp: 1488
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000835584.TRC
+  Hash join one ptn Resc: 978   Deg: 1
+  Hash join   Resc: 1488   Resp: 1488
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000843776.TRC
+  Hash join one ptn Resc: 978   Deg: 1
+  Hash join   Resc: 1488   Resp: 1488
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000851968.TRC
+  Hash join one ptn Resc: 978   Deg: 1
+  Hash join   Resc: 1488   Resp: 1488
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000860160.TRC
+  Hash join one ptn Resc: 978   Deg: 1
+  Hash join   Resc: 1488   Resp: 1488
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000868352.TRC
+  Hash join one ptn Resc: 978   Deg: 1
+  Hash join   Resc: 1488   Resp: 1488
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000876544.TRC
+  Hash join one ptn Resc: 978   Deg: 1
+  Hash join   Resc: 1488   Resp: 1488
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000884736.TRC
+  Hash join one ptn Resc: 978   Deg: 1
+  Hash join   Resc: 1488   Resp: 1488
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000892928.TRC
+  Hash join one ptn Resc: 978   Deg: 1
+  Hash join   Resc: 1488   Resp: 1488
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000901120.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000909312.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000917504.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000925696.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000933888.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000942080.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000950272.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000958464.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000966656.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000974848.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000983040.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000991232.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0000999424.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001007616.TRC
+  Hash join one ptn Resc: 884   Deg: 1
+  Hash join   Resc: 1394   Resp: 1394
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001015808.TRC
+  Hash join one ptn Resc: 810   Deg: 1
+  Hash join   Resc: 1320   Resp: 1320
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001024000.TRC
+  Hash join one ptn Resc: 810   Deg: 1
+  Hash join   Resc: 1320   Resp: 1320
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001032192.TRC
+  Hash join one ptn Resc: 810   Deg: 1
+  Hash join   Resc: 1320   Resp: 1320
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001040384.TRC
+  Hash join one ptn Resc: 810   Deg: 1
+  Hash join   Resc: 1320   Resp: 1320
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001048576.TRC
+  Hash join one ptn Resc: 617   Deg: 1
+  Hash join   Resc: 1127   Resp: 1127
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001056768.TRC
+  Hash join one ptn Resc: 617   Deg: 1
+  Hash join   Resc: 1127   Resp: 1127
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001064960.TRC
+  Hash join one ptn Resc: 617   Deg: 1
+  Hash join   Resc: 1127   Resp: 1127
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001073152.TRC
+  Hash join one ptn Resc: 617   Deg: 1
+  Hash join   Resc: 1127   Resp: 1127
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001081344.TRC
+  Hash join one ptn Resc: 617   Deg: 1
+  Hash join   Resc: 1127   Resp: 1127
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001089536.TRC
+  Hash join one ptn Resc: 617   Deg: 1
+  Hash join   Resc: 1127   Resp: 1127
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001097728.TRC
+  Hash join one ptn Resc: 617   Deg: 1
+  Hash join   Resc: 1127   Resp: 1127
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001105920.TRC
+  Hash join one ptn Resc: 617   Deg: 1
+  Hash join   Resc: 1127   Resp: 1127
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001114112.TRC
+  Hash join one ptn Resc: 617   Deg: 1
+  Hash join   Resc: 1127   Resp: 1127
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001122304.TRC
+  Hash join one ptn Resc: 617   Deg: 1
+  Hash join   Resc: 1127   Resp: 1127
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001130496.TRC
+  Hash join one ptn Resc: 571   Deg: 1
+  Hash join   Resc: 1081   Resp: 1081
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001138688.TRC
+  Hash join one ptn Resc: 571   Deg: 1
+  Hash join   Resc: 1081   Resp: 1081
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001146880.TRC
+  Hash join one ptn Resc: 571   Deg: 1
+  Hash join   Resc: 1081   Resp: 1081
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001155072.TRC
+  Hash join one ptn Resc: 571   Deg: 1
+  Hash join   Resc: 1081   Resp: 1081
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001163264.TRC
+  Hash join one ptn Resc: 571   Deg: 1
+  Hash join   Resc: 1081   Resp: 1081
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001171456.TRC
+  Hash join one ptn Resc: 571   Deg: 1
+  Hash join   Resc: 1081   Resp: 1081
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001179648.TRC
+  Hash join one ptn Resc: 571   Deg: 1
+  Hash join   Resc: 1081   Resp: 1081
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001187840.TRC
+  Hash join one ptn Resc: 571   Deg: 1
+  Hash join   Resc: 1081   Resp: 1081
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001196032.TRC
+  Hash join one ptn Resc: 571   Deg: 1
+  Hash join   Resc: 1081   Resp: 1081
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001204224.TRC
+  Hash join one ptn Resc: 571   Deg: 1
+  Hash join   Resc: 1081   Resp: 1081
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001212416.TRC
+  Hash join one ptn Resc: 571   Deg: 1
+  Hash join   Resc: 1081   Resp: 1081
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001220608.TRC
+  Hash join one ptn Resc: 571   Deg: 1
+  Hash join   Resc: 1081   Resp: 1081
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001228800.TRC
+  Hash join one ptn Resc: 571   Deg: 1
+  Hash join   Resc: 1081   Resp: 1081
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001236992.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001245184.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001253376.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001261568.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001269760.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001277952.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001286144.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001294336.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001302528.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001310720.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001318912.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001327104.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001335296.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001343488.TRC
+  Hash join one ptn Resc: 533   Deg: 1
+  Hash join   Resc: 1043   Resp: 1043
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001351680.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001359872.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001368064.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001376256.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001384448.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001392640.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001400832.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001409024.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001417216.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001425408.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001433600.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001441792.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001449984.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001458176.TRC
+  Hash join one ptn Resc: 501   Deg: 1
+  Hash join   Resc: 1011   Resp: 1011
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001466368.TRC
+  Hash join one ptn Resc: 473   Deg: 1
+  Hash join   Resc: 983   Resp: 983
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001474560.TRC
+  Hash join one ptn Resc: 473   Deg: 1
+  Hash join   Resc: 983   Resp: 983
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001482752.TRC
+  Hash join one ptn Resc: 473   Deg: 1
+  Hash join   Resc: 983   Resp: 983
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001490944.TRC
+  Hash join one ptn Resc: 473   Deg: 1
+  Hash join   Resc: 983   Resp: 983
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001499136.TRC
+  Hash join one ptn Resc: 473   Deg: 1
+  Hash join   Resc: 983   Resp: 983
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001507328.TRC
+  Hash join one ptn Resc: 473   Deg: 1
+  Hash join   Resc: 983   Resp: 983
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001515520.TRC
+  Hash join one ptn Resc: 473   Deg: 1
+  Hash join   Resc: 983   Resp: 983
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001523712.TRC
+  Hash join one ptn Resc: 473   Deg: 1
+  Hash join   Resc: 983   Resp: 983
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001531904.TRC
+  Hash join one ptn Resc: 473   Deg: 1
+  Hash join   Resc: 983   Resp: 983
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001540096.TRC
+  Hash join one ptn Resc: 473   Deg: 1
+  Hash join   Resc: 983   Resp: 983
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001548288.TRC
+  Hash join one ptn Resc: 473   Deg: 1
+  Hash join   Resc: 983   Resp: 983
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001556480.TRC
+  Hash join one ptn Resc: 473   Deg: 1
+  Hash join   Resc: 983   Resp: 983
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001564672.TRC
+  Hash join one ptn Resc: 473   Deg: 1
+  Hash join   Resc: 983   Resp: 983
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001572864.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001581056.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001589248.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001597440.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001605632.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001613824.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001622016.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001630208.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001638400.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001646592.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001654784.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001662976.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001671168.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001679360.TRC
+  Hash join one ptn Resc: 448   Deg: 1
+  Hash join   Resc: 958   Resp: 958
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001687552.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001695744.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001703936.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001712128.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001720320.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001728512.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001736704.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001744896.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001753088.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001761280.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001769472.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001777664.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001785856.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001794048.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001802240.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001810432.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001818624.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001826816.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001835008.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001843200.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001851392.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001859584.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001867776.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001875968.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001884160.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001892352.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001900544.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001908736.TRC
+  Hash join one ptn Resc: 408   Deg: 1
+  Hash join   Resc: 918   Resp: 918
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001916928.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001925120.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001933312.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001941504.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001949696.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001957888.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001966080.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001974272.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001982464.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001990656.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0001998848.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002007040.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002015232.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002023424.TRC
+  Hash join one ptn Resc: 376   Deg: 1
+  Hash join   Resc: 886   Resp: 886
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002031616.TRC
+  Hash join one ptn Resc: 376   Deg: 1
+  Hash join   Resc: 886   Resp: 886
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002039808.TRC
+  Hash join one ptn Resc: 376   Deg: 1
+  Hash join   Resc: 886   Resp: 886
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002048000.TRC
+  Hash join one ptn Resc: 376   Deg: 1
+  Hash join   Resc: 886   Resp: 886
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002056192.TRC
+  Hash join one ptn Resc: 376   Deg: 1
+  Hash join   Resc: 886   Resp: 886
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002064384.TRC
+  Hash join one ptn Resc: 2423   Deg: 1
+  Hash join   Resc: 2933   Resp: 2933
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002072576.TRC
+  Hash join one ptn Resc: 2423   Deg: 1
+  Hash join   Resc: 2933   Resp: 2933
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002080768.TRC
+  Hash join one ptn Resc: 2423   Deg: 1
+  Hash join   Resc: 2933   Resp: 2933
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002088960.TRC
+  Hash join one ptn Resc: 2424   Deg: 1
+  Hash join   Resc: 2934   Resp: 2934
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002097152.TRC
+  Hash join one ptn Resc: 2416   Deg: 1
+  Hash join   Resc: 2926   Resp: 2926
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002105344.TRC
+  Hash join one ptn Resc: 2407   Deg: 1
+  Hash join   Resc: 2917   Resp: 2917
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002113536.TRC
+  Hash join one ptn Resc: 2398   Deg: 1
+  Hash join   Resc: 2908   Resp: 2908
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002121728.TRC
+  Hash join one ptn Resc: 2389   Deg: 1
+  Hash join   Resc: 2899   Resp: 2899
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002129920.TRC
+  Hash join one ptn Resc: 2381   Deg: 1
+  Hash join   Resc: 2891   Resp: 2891
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002138112.TRC
+  Hash join one ptn Resc: 2373   Deg: 1
+  Hash join   Resc: 2883   Resp: 2883
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002146304.TRC
+  Hash join one ptn Resc: 2364   Deg: 1
+  Hash join   Resc: 2874   Resp: 2874
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002154496.TRC
+  Hash join one ptn Resc: 2356   Deg: 1
+  Hash join   Resc: 2866   Resp: 2866
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002162688.TRC
+  Hash join one ptn Resc: 2347   Deg: 1
+  Hash join   Resc: 2857   Resp: 2857
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002170880.TRC
+  Hash join one ptn Resc: 2339   Deg: 1
+  Hash join   Resc: 2849   Resp: 2849
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002179072.TRC
+  Hash join one ptn Resc: 2331   Deg: 1
+  Hash join   Resc: 2841   Resp: 2841
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002187264.TRC
+  Hash join one ptn Resc: 2322   Deg: 1
+  Hash join   Resc: 2832   Resp: 2832
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002195456.TRC
+  Hash join one ptn Resc: 2315   Deg: 1
+  Hash join   Resc: 2825   Resp: 2825
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002203648.TRC
+  Hash join one ptn Resc: 2306   Deg: 1
+  Hash join   Resc: 2816   Resp: 2816
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002211840.TRC
+  Hash join one ptn Resc: 2298   Deg: 1
+  Hash join   Resc: 2808   Resp: 2808
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002220032.TRC
+  Hash join one ptn Resc: 2291   Deg: 1
+  Hash join   Resc: 2801   Resp: 2801
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002228224.TRC
+  Hash join one ptn Resc: 2282   Deg: 1
+  Hash join   Resc: 2792   Resp: 2792
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002236416.TRC
+  Hash join one ptn Resc: 2275   Deg: 1
+  Hash join   Resc: 2785   Resp: 2785
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002244608.TRC
+  Hash join one ptn Resc: 2267   Deg: 1
+  Hash join   Resc: 2777   Resp: 2777
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002252800.TRC
+  Hash join one ptn Resc: 2259   Deg: 1
+  Hash join   Resc: 2769   Resp: 2769
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002260992.TRC
+  Hash join one ptn Resc: 2252   Deg: 1
+  Hash join   Resc: 2762   Resp: 2762
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002269184.TRC
+  Hash join one ptn Resc: 2244   Deg: 1
+  Hash join   Resc: 2754   Resp: 2754
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002277376.TRC
+  Hash join one ptn Resc: 2237   Deg: 1
+  Hash join   Resc: 2747   Resp: 2747
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002285568.TRC
+  Hash join one ptn Resc: 2229   Deg: 1
+  Hash join   Resc: 2739   Resp: 2739
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002293760.TRC
+  Hash join one ptn Resc: 2222   Deg: 1
+  Hash join   Resc: 2732   Resp: 2732
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002301952.TRC
+  Hash join one ptn Resc: 2215   Deg: 1
+  Hash join   Resc: 2725   Resp: 2725
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002310144.TRC
+  Hash join one ptn Resc: 2207   Deg: 1
+  Hash join   Resc: 2717   Resp: 2717
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002318336.TRC
+  Hash join one ptn Resc: 2200   Deg: 1
+  Hash join   Resc: 2710   Resp: 2710
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002326528.TRC
+  Hash join one ptn Resc: 2192   Deg: 1
+  Hash join   Resc: 2702   Resp: 2702
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002334720.TRC
+  Hash join one ptn Resc: 2185   Deg: 1
+  Hash join   Resc: 2695   Resp: 2695
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002342912.TRC
+  Hash join one ptn Resc: 2179   Deg: 1
+  Hash join   Resc: 2689   Resp: 2689
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002351104.TRC
+  Hash join one ptn Resc: 2171   Deg: 1
+  Hash join   Resc: 2681   Resp: 2681
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002359296.TRC
+  Hash join one ptn Resc: 2164   Deg: 1
+  Hash join   Resc: 2674   Resp: 2674
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002367488.TRC
+  Hash join one ptn Resc: 2157   Deg: 1
+  Hash join   Resc: 2667   Resp: 2667
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002375680.TRC
+  Hash join one ptn Resc: 2150   Deg: 1
+  Hash join   Resc: 2660   Resp: 2660
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002383872.TRC
+  Hash join one ptn Resc: 1359   Deg: 1
+  Hash join   Resc: 1869   Resp: 1869
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002392064.TRC
+  Hash join one ptn Resc: 1354   Deg: 1
+  Hash join   Resc: 1864   Resp: 1864
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002400256.TRC
+  Hash join one ptn Resc: 1350   Deg: 1
+  Hash join   Resc: 1860   Resp: 1860
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002408448.TRC
+  Hash join one ptn Resc: 1346   Deg: 1
+  Hash join   Resc: 1856   Resp: 1856
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002416640.TRC
+  Hash join one ptn Resc: 1342   Deg: 1
+  Hash join   Resc: 1852   Resp: 1852
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002424832.TRC
+  Hash join one ptn Resc: 1338   Deg: 1
+  Hash join   Resc: 1848   Resp: 1848
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002433024.TRC
+  Hash join one ptn Resc: 1333   Deg: 1
+  Hash join   Resc: 1843   Resp: 1843
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002441216.TRC
+  Hash join one ptn Resc: 1329   Deg: 1
+  Hash join   Resc: 1839   Resp: 1839
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002449408.TRC
+  Hash join one ptn Resc: 1325   Deg: 1
+  Hash join   Resc: 1835   Resp: 1835
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002457600.TRC
+  Hash join one ptn Resc: 1321   Deg: 1
+  Hash join   Resc: 1831   Resp: 1831
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002465792.TRC
+  Hash join one ptn Resc: 1317   Deg: 1
+  Hash join   Resc: 1827   Resp: 1827
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002473984.TRC
+  Hash join one ptn Resc: 1313   Deg: 1
+  Hash join   Resc: 1823   Resp: 1823
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002482176.TRC
+  Hash join one ptn Resc: 1309   Deg: 1
+  Hash join   Resc: 1819   Resp: 1819
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002490368.TRC
+  Hash join one ptn Resc: 1000   Deg: 1
+  Hash join   Resc: 1510   Resp: 1510
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002498560.TRC
+  Hash join one ptn Resc: 996   Deg: 1
+  Hash join   Resc: 1506   Resp: 1506
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002506752.TRC
+  Hash join one ptn Resc: 994   Deg: 1
+  Hash join   Resc: 1504   Resp: 1504
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002514944.TRC
+  Hash join one ptn Resc: 991   Deg: 1
+  Hash join   Resc: 1501   Resp: 1501
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002523136.TRC
+  Hash join one ptn Resc: 987   Deg: 1
+  Hash join   Resc: 1497   Resp: 1497
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002531328.TRC
+  Hash join one ptn Resc: 984   Deg: 1
+  Hash join   Resc: 1494   Resp: 1494
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002539520.TRC
+  Hash join one ptn Resc: 982   Deg: 1
+  Hash join   Resc: 1492   Resp: 1492
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002547712.TRC
+  Hash join one ptn Resc: 979   Deg: 1
+  Hash join   Resc: 1489   Resp: 1489
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002555904.TRC
+  Hash join one ptn Resc: 976   Deg: 1
+  Hash join   Resc: 1486   Resp: 1486
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002564096.TRC
+  Hash join one ptn Resc: 973   Deg: 1
+  Hash join   Resc: 1483   Resp: 1483
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002572288.TRC
+  Hash join one ptn Resc: 970   Deg: 1
+  Hash join   Resc: 1480   Resp: 1480
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002580480.TRC
+  Hash join one ptn Resc: 967   Deg: 1
+  Hash join   Resc: 1477   Resp: 1477
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002588672.TRC
+  Hash join one ptn Resc: 964   Deg: 1
+  Hash join   Resc: 1474   Resp: 1474
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002596864.TRC
+  Hash join one ptn Resc: 796   Deg: 1
+  Hash join   Resc: 1306   Resp: 1306
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002605056.TRC
+  Hash join one ptn Resc: 794   Deg: 1
+  Hash join   Resc: 1304   Resp: 1304
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002613248.TRC
+  Hash join one ptn Resc: 791   Deg: 1
+  Hash join   Resc: 1301   Resp: 1301
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002621440.TRC
+  Hash join one ptn Resc: 789   Deg: 1
+  Hash join   Resc: 1299   Resp: 1299
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002629632.TRC
+  Hash join one ptn Resc: 787   Deg: 1
+  Hash join   Resc: 1297   Resp: 1297
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002637824.TRC
+  Hash join one ptn Resc: 785   Deg: 1
+  Hash join   Resc: 1295   Resp: 1295
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002646016.TRC
+  Hash join one ptn Resc: 782   Deg: 1
+  Hash join   Resc: 1292   Resp: 1292
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002654208.TRC
+  Hash join one ptn Resc: 780   Deg: 1
+  Hash join   Resc: 1290   Resp: 1290
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002662400.TRC
+  Hash join one ptn Resc: 778   Deg: 1
+  Hash join   Resc: 1288   Resp: 1288
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002670592.TRC
+  Hash join one ptn Resc: 776   Deg: 1
+  Hash join   Resc: 1286   Resp: 1286
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002678784.TRC
+  Hash join one ptn Resc: 773   Deg: 1
+  Hash join   Resc: 1283   Resp: 1283
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002686976.TRC
+  Hash join one ptn Resc: 771   Deg: 1
+  Hash join   Resc: 1281   Resp: 1281
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002695168.TRC
+  Hash join one ptn Resc: 769   Deg: 1
+  Hash join   Resc: 1279   Resp: 1279
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002703360.TRC
+  Hash join one ptn Resc: 662   Deg: 1
+  Hash join   Resc: 1172   Resp: 1172
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002711552.TRC
+  Hash join one ptn Resc: 661   Deg: 1
+  Hash join   Resc: 1171   Resp: 1171
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002719744.TRC
+  Hash join one ptn Resc: 659   Deg: 1
+  Hash join   Resc: 1169   Resp: 1169
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002727936.TRC
+  Hash join one ptn Resc: 657   Deg: 1
+  Hash join   Resc: 1167   Resp: 1167
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002736128.TRC
+  Hash join one ptn Resc: 655   Deg: 1
+  Hash join   Resc: 1165   Resp: 1165
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002744320.TRC
+  Hash join one ptn Resc: 653   Deg: 1
+  Hash join   Resc: 1163   Resp: 1163
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002752512.TRC
+  Hash join one ptn Resc: 652   Deg: 1
+  Hash join   Resc: 1162   Resp: 1162
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002760704.TRC
+  Hash join one ptn Resc: 650   Deg: 1
+  Hash join   Resc: 1160   Resp: 1160
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002768896.TRC
+  Hash join one ptn Resc: 648   Deg: 1
+  Hash join   Resc: 1158   Resp: 1158
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002777088.TRC
+  Hash join one ptn Resc: 646   Deg: 1
+  Hash join   Resc: 1156   Resp: 1156
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002785280.TRC
+  Hash join one ptn Resc: 645   Deg: 1
+  Hash join   Resc: 1155   Resp: 1155
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002793472.TRC
+  Hash join one ptn Resc: 643   Deg: 1
+  Hash join   Resc: 1153   Resp: 1153
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002801664.TRC
+  Hash join one ptn Resc: 641   Deg: 1
+  Hash join   Resc: 1151   Resp: 1151
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002809856.TRC
+  Hash join one ptn Resc: 567   Deg: 1
+  Hash join   Resc: 1077   Resp: 1077
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002818048.TRC
+  Hash join one ptn Resc: 565   Deg: 1
+  Hash join   Resc: 1075   Resp: 1075
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002826240.TRC
+  Hash join one ptn Resc: 564   Deg: 1
+  Hash join   Resc: 1074   Resp: 1074
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002834432.TRC
+  Hash join one ptn Resc: 563   Deg: 1
+  Hash join   Resc: 1073   Resp: 1073
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002842624.TRC
+  Hash join one ptn Resc: 561   Deg: 1
+  Hash join   Resc: 1071   Resp: 1071
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002850816.TRC
+  Hash join one ptn Resc: 560   Deg: 1
+  Hash join   Resc: 1070   Resp: 1070
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002859008.TRC
+  Hash join one ptn Resc: 558   Deg: 1
+  Hash join   Resc: 1068   Resp: 1068
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002867200.TRC
+  Hash join one ptn Resc: 556   Deg: 1
+  Hash join   Resc: 1066   Resp: 1066
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002875392.TRC
+  Hash join one ptn Resc: 556   Deg: 1
+  Hash join   Resc: 1066   Resp: 1066
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002883584.TRC
+  Hash join one ptn Resc: 554   Deg: 1
+  Hash join   Resc: 1064   Resp: 1064
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002891776.TRC
+  Hash join one ptn Resc: 552   Deg: 1
+  Hash join   Resc: 1062   Resp: 1062
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002899968.TRC
+  Hash join one ptn Resc: 551   Deg: 1
+  Hash join   Resc: 1061   Resp: 1061
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002908160.TRC
+  Hash join one ptn Resc: 549   Deg: 1
+  Hash join   Resc: 1059   Resp: 1059
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002916352.TRC
+  Hash join one ptn Resc: 495   Deg: 1
+  Hash join   Resc: 1005   Resp: 1005
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002924544.TRC
+  Hash join one ptn Resc: 494   Deg: 1
+  Hash join   Resc: 1004   Resp: 1004
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002932736.TRC
+  Hash join one ptn Resc: 493   Deg: 1
+  Hash join   Resc: 1003   Resp: 1003
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002940928.TRC
+  Hash join one ptn Resc: 491   Deg: 1
+  Hash join   Resc: 1001   Resp: 1001
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002949120.TRC
+  Hash join one ptn Resc: 490   Deg: 1
+  Hash join   Resc: 1000   Resp: 1000
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002957312.TRC
+  Hash join one ptn Resc: 489   Deg: 1
+  Hash join   Resc: 999   Resp: 999
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002965504.TRC
+  Hash join one ptn Resc: 488   Deg: 1
+  Hash join   Resc: 998   Resp: 998
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002973696.TRC
+  Hash join one ptn Resc: 487   Deg: 1
+  Hash join   Resc: 997   Resp: 997
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002981888.TRC
+  Hash join one ptn Resc: 485   Deg: 1
+  Hash join   Resc: 995   Resp: 995
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002990080.TRC
+  Hash join one ptn Resc: 484   Deg: 1
+  Hash join   Resc: 994   Resp: 994
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0002998272.TRC
+  Hash join one ptn Resc: 483   Deg: 1
+  Hash join   Resc: 993   Resp: 993
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003006464.TRC
+  Hash join one ptn Resc: 482   Deg: 1
+  Hash join   Resc: 992   Resp: 992
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003014656.TRC
+  Hash join one ptn Resc: 481   Deg: 1
+  Hash join   Resc: 991   Resp: 991
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003022848.TRC
+  Hash join one ptn Resc: 439   Deg: 1
+  Hash join   Resc: 949   Resp: 949
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003031040.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 948   Resp: 948
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003039232.TRC
+  Hash join one ptn Resc: 437   Deg: 1
+  Hash join   Resc: 947   Resp: 947
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003047424.TRC
+  Hash join one ptn Resc: 436   Deg: 1
+  Hash join   Resc: 946   Resp: 946
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003055616.TRC
+  Hash join one ptn Resc: 435   Deg: 1
+  Hash join   Resc: 945   Resp: 945
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003063808.TRC
+  Hash join one ptn Resc: 433   Deg: 1
+  Hash join   Resc: 943   Resp: 943
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003072000.TRC
+  Hash join one ptn Resc: 433   Deg: 1
+  Hash join   Resc: 943   Resp: 943
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003080192.TRC
+  Hash join one ptn Resc: 432   Deg: 1
+  Hash join   Resc: 942   Resp: 942
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003088384.TRC
+  Hash join one ptn Resc: 431   Deg: 1
+  Hash join   Resc: 941   Resp: 941
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003096576.TRC
+  Hash join one ptn Resc: 430   Deg: 1
+  Hash join   Resc: 940   Resp: 940
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003104768.TRC
+  Hash join one ptn Resc: 428   Deg: 1
+  Hash join   Resc: 938   Resp: 938
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003112960.TRC
+  Hash join one ptn Resc: 427   Deg: 1
+  Hash join   Resc: 937   Resp: 937
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003121152.TRC
+  Hash join one ptn Resc: 426   Deg: 1
+  Hash join   Resc: 936   Resp: 936
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003129344.TRC
+  Hash join one ptn Resc: 394   Deg: 1
+  Hash join   Resc: 904   Resp: 904
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003137536.TRC
+  Hash join one ptn Resc: 393   Deg: 1
+  Hash join   Resc: 903   Resp: 903
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003145728.TRC
+  Hash join one ptn Resc: 392   Deg: 1
+  Hash join   Resc: 902   Resp: 902
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003153920.TRC
+  Hash join one ptn Resc: 391   Deg: 1
+  Hash join   Resc: 901   Resp: 901
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003162112.TRC
+  Hash join one ptn Resc: 390   Deg: 1
+  Hash join   Resc: 900   Resp: 900
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003170304.TRC
+  Hash join one ptn Resc: 389   Deg: 1
+  Hash join   Resc: 899   Resp: 899
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003178496.TRC
+  Hash join one ptn Resc: 388   Deg: 1
+  Hash join   Resc: 898   Resp: 898
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003186688.TRC
+  Hash join one ptn Resc: 387   Deg: 1
+  Hash join   Resc: 897   Resp: 897
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003194880.TRC
+  Hash join one ptn Resc: 386   Deg: 1
+  Hash join   Resc: 896   Resp: 896
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003203072.TRC
+  Hash join one ptn Resc: 385   Deg: 1
+  Hash join   Resc: 895   Resp: 895
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003211264.TRC
+  Hash join one ptn Resc: 385   Deg: 1
+  Hash join   Resc: 895   Resp: 895
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003219456.TRC
+  Hash join one ptn Resc: 384   Deg: 1
+  Hash join   Resc: 894   Resp: 894
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003227648.TRC
+  Hash join one ptn Resc: 383   Deg: 1
+  Hash join   Resc: 893   Resp: 893
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003235840.TRC
+  Hash join one ptn Resc: 356   Deg: 1
+  Hash join   Resc: 866   Resp: 866
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003244032.TRC
+  Hash join one ptn Resc: 356   Deg: 1
+  Hash join   Resc: 866   Resp: 866
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003252224.TRC
+  Hash join one ptn Resc: 355   Deg: 1
+  Hash join   Resc: 865   Resp: 865
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003260416.TRC
+  Hash join one ptn Resc: 354   Deg: 1
+  Hash join   Resc: 864   Resp: 864
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003268608.TRC
+  Hash join one ptn Resc: 353   Deg: 1
+  Hash join   Resc: 863   Resp: 863
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003276800.TRC
+  Hash join one ptn Resc: 352   Deg: 1
+  Hash join   Resc: 862   Resp: 862
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003284992.TRC
+  Hash join one ptn Resc: 352   Deg: 1
+  Hash join   Resc: 862   Resp: 862
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003293184.TRC
+  Hash join one ptn Resc: 351   Deg: 1
+  Hash join   Resc: 861   Resp: 861
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003301376.TRC
+  Hash join one ptn Resc: 350   Deg: 1
+  Hash join   Resc: 860   Resp: 860
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003309568.TRC
+  Hash join one ptn Resc: 350   Deg: 1
+  Hash join   Resc: 860   Resp: 860
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003317760.TRC
+  Hash join one ptn Resc: 349   Deg: 1
+  Hash join   Resc: 859   Resp: 859
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003325952.TRC
+  Hash join one ptn Resc: 348   Deg: 1
+  Hash join   Resc: 858   Resp: 858
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003334144.TRC
+  Hash join one ptn Resc: 347   Deg: 1
+  Hash join   Resc: 857   Resp: 857
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003342336.TRC
+  Hash join one ptn Resc: 325   Deg: 1
+  Hash join   Resc: 835   Resp: 835
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003350528.TRC
+  Hash join one ptn Resc: 325   Deg: 1
+  Hash join   Resc: 835   Resp: 835
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003358720.TRC
+  Hash join one ptn Resc: 324   Deg: 1
+  Hash join   Resc: 834   Resp: 834
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003366912.TRC
+  Hash join one ptn Resc: 323   Deg: 1
+  Hash join   Resc: 833   Resp: 833
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003375104.TRC
+  Hash join one ptn Resc: 322   Deg: 1
+  Hash join   Resc: 832   Resp: 832
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003383296.TRC
+  Hash join one ptn Resc: 322   Deg: 1
+  Hash join   Resc: 832   Resp: 832
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003391488.TRC
+  Hash join one ptn Resc: 321   Deg: 1
+  Hash join   Resc: 831   Resp: 831
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003399680.TRC
+  Hash join one ptn Resc: 320   Deg: 1
+  Hash join   Resc: 830   Resp: 830
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003407872.TRC
+  Hash join one ptn Resc: 319   Deg: 1
+  Hash join   Resc: 829   Resp: 829
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003416064.TRC
+  Hash join one ptn Resc: 319   Deg: 1
+  Hash join   Resc: 829   Resp: 829
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003424256.TRC
+  Hash join one ptn Resc: 318   Deg: 1
+  Hash join   Resc: 828   Resp: 828
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003432448.TRC
+  Hash join one ptn Resc: 318   Deg: 1
+  Hash join   Resc: 828   Resp: 828
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003440640.TRC
+  Hash join one ptn Resc: 317   Deg: 1
+  Hash join   Resc: 827   Resp: 827
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003448832.TRC
+  Hash join one ptn Resc: 299   Deg: 1
+  Hash join   Resc: 809   Resp: 809
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003457024.TRC
+  Hash join one ptn Resc: 298   Deg: 1
+  Hash join   Resc: 808   Resp: 808
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003465216.TRC
+  Hash join one ptn Resc: 297   Deg: 1
+  Hash join   Resc: 807   Resp: 807
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003473408.TRC
+  Hash join one ptn Resc: 296   Deg: 1
+  Hash join   Resc: 806   Resp: 806
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003481600.TRC
+  Hash join one ptn Resc: 296   Deg: 1
+  Hash join   Resc: 806   Resp: 806
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003489792.TRC
+  Hash join one ptn Resc: 296   Deg: 1
+  Hash join   Resc: 806   Resp: 806
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003497984.TRC
+  Hash join one ptn Resc: 295   Deg: 1
+  Hash join   Resc: 805   Resp: 805
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003506176.TRC
+  Hash join one ptn Resc: 294   Deg: 1
+  Hash join   Resc: 804   Resp: 804
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003514368.TRC
+  Hash join one ptn Resc: 294   Deg: 1
+  Hash join   Resc: 804   Resp: 804
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003522560.TRC
+  Hash join one ptn Resc: 293   Deg: 1
+  Hash join   Resc: 803   Resp: 803
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003530752.TRC
+  Hash join one ptn Resc: 292   Deg: 1
+  Hash join   Resc: 802   Resp: 802
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003538944.TRC
+  Hash join one ptn Resc: 292   Deg: 1
+  Hash join   Resc: 802   Resp: 802
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003547136.TRC
+  Hash join one ptn Resc: 291   Deg: 1
+  Hash join   Resc: 801   Resp: 801
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003555328.TRC
+  Hash join one ptn Resc: 275   Deg: 1
+  Hash join   Resc: 785   Resp: 785
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003563520.TRC
+  Hash join one ptn Resc: 275   Deg: 1
+  Hash join   Resc: 785   Resp: 785
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003571712.TRC
+  Hash join one ptn Resc: 275   Deg: 1
+  Hash join   Resc: 785   Resp: 785
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003579904.TRC
+  Hash join one ptn Resc: 274   Deg: 1
+  Hash join   Resc: 784   Resp: 784
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003588096.TRC
+  Hash join one ptn Resc: 274   Deg: 1
+  Hash join   Resc: 784   Resp: 784
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003596288.TRC
+  Hash join one ptn Resc: 273   Deg: 1
+  Hash join   Resc: 783   Resp: 783
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003604480.TRC
+  Hash join one ptn Resc: 272   Deg: 1
+  Hash join   Resc: 782   Resp: 782
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003612672.TRC
+  Hash join one ptn Resc: 272   Deg: 1
+  Hash join   Resc: 782   Resp: 782
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003620864.TRC
+  Hash join one ptn Resc: 271   Deg: 1
+  Hash join   Resc: 781   Resp: 781
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003629056.TRC
+  Hash join one ptn Resc: 270   Deg: 1
+  Hash join   Resc: 780   Resp: 780
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003637248.TRC
+  Hash join one ptn Resc: 270   Deg: 1
+  Hash join   Resc: 780   Resp: 780
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003645440.TRC
+  Hash join one ptn Resc: 270   Deg: 1
+  Hash join   Resc: 780   Resp: 780
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003653632.TRC
+  Hash join one ptn Resc: 269   Deg: 1
+  Hash join   Resc: 779   Resp: 779
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003661824.TRC
+  Hash join one ptn Resc: 255   Deg: 1
+  Hash join   Resc: 765   Resp: 765
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003670016.TRC
+  Hash join one ptn Resc: 255   Deg: 1
+  Hash join   Resc: 765   Resp: 765
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003678208.TRC
+  Hash join one ptn Resc: 255   Deg: 1
+  Hash join   Resc: 765   Resp: 765
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003686400.TRC
+  Hash join one ptn Resc: 254   Deg: 1
+  Hash join   Resc: 764   Resp: 764
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003694592.TRC
+  Hash join one ptn Resc: 254   Deg: 1
+  Hash join   Resc: 764   Resp: 764
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003702784.TRC
+  Hash join one ptn Resc: 253   Deg: 1
+  Hash join   Resc: 763   Resp: 763
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003710976.TRC
+  Hash join one ptn Resc: 253   Deg: 1
+  Hash join   Resc: 763   Resp: 763
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003719168.TRC
+  Hash join one ptn Resc: 252   Deg: 1
+  Hash join   Resc: 762   Resp: 762
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003727360.TRC
+  Hash join one ptn Resc: 252   Deg: 1
+  Hash join   Resc: 762   Resp: 762
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003735552.TRC
+  Hash join one ptn Resc: 251   Deg: 1
+  Hash join   Resc: 761   Resp: 761
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003743744.TRC
+  Hash join one ptn Resc: 250   Deg: 1
+  Hash join   Resc: 760   Resp: 760
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003751936.TRC
+  Hash join one ptn Resc: 250   Deg: 1
+  Hash join   Resc: 760   Resp: 760
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003760128.TRC
+  Hash join one ptn Resc: 250   Deg: 1
+  Hash join   Resc: 760   Resp: 760
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003768320.TRC
+  Hash join one ptn Resc: 238   Deg: 1
+  Hash join   Resc: 748   Resp: 748
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003776512.TRC
+  Hash join one ptn Resc: 238   Deg: 1
+  Hash join   Resc: 748   Resp: 748
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003784704.TRC
+  Hash join one ptn Resc: 237   Deg: 1
+  Hash join   Resc: 747   Resp: 747
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003792896.TRC
+  Hash join one ptn Resc: 237   Deg: 1
+  Hash join   Resc: 747   Resp: 747
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003801088.TRC
+  Hash join one ptn Resc: 236   Deg: 1
+  Hash join   Resc: 746   Resp: 746
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003809280.TRC
+  Hash join one ptn Resc: 236   Deg: 1
+  Hash join   Resc: 746   Resp: 746
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003817472.TRC
+  Hash join one ptn Resc: 235   Deg: 1
+  Hash join   Resc: 745   Resp: 745
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003825664.TRC
+  Hash join one ptn Resc: 235   Deg: 1
+  Hash join   Resc: 745   Resp: 745
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003833856.TRC
+  Hash join one ptn Resc: 235   Deg: 1
+  Hash join   Resc: 745   Resp: 745
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003842048.TRC
+  Hash join one ptn Resc: 234   Deg: 1
+  Hash join   Resc: 744   Resp: 744
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003850240.TRC
+  Hash join one ptn Resc: 234   Deg: 1
+  Hash join   Resc: 744   Resp: 744
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003858432.TRC
+  Hash join one ptn Resc: 233   Deg: 1
+  Hash join   Resc: 743   Resp: 743
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003866624.TRC
+  Hash join one ptn Resc: 233   Deg: 1
+  Hash join   Resc: 743   Resp: 743
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003874816.TRC
+  Hash join one ptn Resc: 223   Deg: 1
+  Hash join   Resc: 733   Resp: 733
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003883008.TRC
+  Hash join one ptn Resc: 222   Deg: 1
+  Hash join   Resc: 732   Resp: 732
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003891200.TRC
+  Hash join one ptn Resc: 222   Deg: 1
+  Hash join   Resc: 732   Resp: 732
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003899392.TRC
+  Hash join one ptn Resc: 222   Deg: 1
+  Hash join   Resc: 732   Resp: 732
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003907584.TRC
+  Hash join one ptn Resc: 221   Deg: 1
+  Hash join   Resc: 731   Resp: 731
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003915776.TRC
+  Hash join one ptn Resc: 221   Deg: 1
+  Hash join   Resc: 731   Resp: 731
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003923968.TRC
+  Hash join one ptn Resc: 220   Deg: 1
+  Hash join   Resc: 730   Resp: 730
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003932160.TRC
+  Hash join one ptn Resc: 220   Deg: 1
+  Hash join   Resc: 730   Resp: 730
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003940352.TRC
+  Hash join one ptn Resc: 219   Deg: 1
+  Hash join   Resc: 729   Resp: 729
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003948544.TRC
+  Hash join one ptn Resc: 219   Deg: 1
+  Hash join   Resc: 729   Resp: 729
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003956736.TRC
+  Hash join one ptn Resc: 219   Deg: 1
+  Hash join   Resc: 729   Resp: 729
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003964928.TRC
+  Hash join one ptn Resc: 218   Deg: 1
+  Hash join   Resc: 728   Resp: 728
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003973120.TRC
+  Hash join one ptn Resc: 218   Deg: 1
+  Hash join   Resc: 728   Resp: 728
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003981312.TRC
+  Hash join one ptn Resc: 209   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003989504.TRC
+  Hash join one ptn Resc: 209   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0003997696.TRC
+  Hash join one ptn Resc: 208   Deg: 1
+  Hash join   Resc: 718   Resp: 718
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004005888.TRC
+  Hash join one ptn Resc: 208   Deg: 1
+  Hash join   Resc: 718   Resp: 718
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004014080.TRC
+  Hash join one ptn Resc: 208   Deg: 1
+  Hash join   Resc: 718   Resp: 718
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004022272.TRC
+  Hash join one ptn Resc: 207   Deg: 1
+  Hash join   Resc: 717   Resp: 717
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004030464.TRC
+  Hash join one ptn Resc: 207   Deg: 1
+  Hash join   Resc: 717   Resp: 717
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004038656.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 716   Resp: 716
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004046848.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 716   Resp: 716
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004055040.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 716   Resp: 716
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004063232.TRC
+  Hash join one ptn Resc: 205   Deg: 1
+  Hash join   Resc: 715   Resp: 715
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004071424.TRC
+  Hash join one ptn Resc: 205   Deg: 1
+  Hash join   Resc: 715   Resp: 715
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004079616.TRC
+  Hash join one ptn Resc: 205   Deg: 1
+  Hash join   Resc: 715   Resp: 715
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004087808.TRC
+  Hash join one ptn Resc: 197   Deg: 1
+  Hash join   Resc: 707   Resp: 707
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004096000.TRC
+  Hash join one ptn Resc: 196   Deg: 1
+  Hash join   Resc: 706   Resp: 706
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004104192.TRC
+  Hash join one ptn Resc: 196   Deg: 1
+  Hash join   Resc: 706   Resp: 706
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004112384.TRC
+  Hash join one ptn Resc: 196   Deg: 1
+  Hash join   Resc: 706   Resp: 706
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004120576.TRC
+  Hash join one ptn Resc: 195   Deg: 1
+  Hash join   Resc: 705   Resp: 705
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004128768.TRC
+  Hash join one ptn Resc: 195   Deg: 1
+  Hash join   Resc: 705   Resp: 705
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004136960.TRC
+  Hash join one ptn Resc: 194   Deg: 1
+  Hash join   Resc: 704   Resp: 704
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004145152.TRC
+  Hash join one ptn Resc: 195   Deg: 1
+  Hash join   Resc: 705   Resp: 705
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004153344.TRC
+  Hash join one ptn Resc: 194   Deg: 1
+  Hash join   Resc: 704   Resp: 704
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004161536.TRC
+  Hash join one ptn Resc: 194   Deg: 1
+  Hash join   Resc: 704   Resp: 704
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004169728.TRC
+  Hash join one ptn Resc: 193   Deg: 1
+  Hash join   Resc: 703   Resp: 703
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004177920.TRC
+  Hash join one ptn Resc: 193   Deg: 1
+  Hash join   Resc: 703   Resp: 703
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004186112.TRC
+  Hash join one ptn Resc: 193   Deg: 1
+  Hash join   Resc: 703   Resp: 703
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\HAS_NOCPU\D920_ORA_4008_HAS_NOCPU_0004194304.TRC
+  Hash join one ptn Resc: 186   Deg: 1
+  Hash join   Resc: 696   Resp: 696

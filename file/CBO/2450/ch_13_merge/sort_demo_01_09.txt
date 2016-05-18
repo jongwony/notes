@@ -1,0 +1,83 @@
+---------------------------------
+Session stats - 08-Jul 07:24:07
+Interval:-  32 seconds
+---------------------------------
+Name                                                                     Value
+----                                                                     -----
+opened cursors cumulative                                                   11
+user calls                                                              41,965
+recursive calls                                                             82
+session logical reads                                                    2,785
+CPU used when call started                                                 671
+CPU used by this session                                                   671
+session pga memory                                                      65,536
+enqueue requests                                                            15
+enqueue releases                                                            15
+db block gets                                                               27
+consistent gets                                                          2,758
+physical reads                                                           1,565
+physical writes                                                          1,565
+physical writes non checkpoint                                           1,565
+free buffer requested                                                        1
+physical reads direct                                                    1,565
+physical writes direct                                                   1,565
+calls to get snapshot scn: kcmgss                                            7
+no work - consistent read gets                                           2,753
+table scans (long tables)                                                    1
+table scan rows gotten                                               1,048,576
+table scan blocks gotten                                                 2,753
+buffer is not pinned count                                               2,753
+workarea executions - onepass                                                2
+parse time cpu                                                               2
+parse time elapsed                                                           2
+parse count (total)                                                         11
+parse count (hard)                                                          10
+execute count                                                               12
+bytes sent via SQL*Net to client                                    13,591,279
+bytes received via SQL*Net from client                                 463,782
+SQL*Net roundtrips to/from client                                       41,955
+sorts (disk)                                                                 1
+sorts (rows)                                                         1,048,576
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------------
+SID:    10:TEST_USER - DELL_5160\Jonathan
+Session Events - 08-Jul 07:24:07
+Interval:-      32 seconds
+---------------------------------------------------------
+Event                                             Waits   Time_outs        Csec    Avg Csec    Max Csec
+-----                                             -----   ---------        ----    --------    --------
+direct path read                                    428           0         311        .728          10
+direct path write                                     2           0           0        .069           2
+SQL*Net message to client                        41,960           0     610,036      14.539     203,698
+SQL*Net message from client                      41,960           0       2,082        .050       6,049
+
+PL/SQL procedure successfully completed.
+
+---------------------------------
+T/S Stats - 08-Jul 07:24:07
+Interval:-      32 seconds
+---------------------------------
+TS#        Reads      Blocks   Avg Csecs    Max      Writes      Blocks   Avg Csecs    Max Tablespace
+----       -----      ------   ---------    ---      ------      ------   ---------    --- -------------------
+   2         990       1,565       2.420     89         262       1,565        .710    111 TEMP
+
+PL/SQL procedure successfully completed.
+
+
+TABLE_NAME               BLOCKS AVG_ROW_LEN
+-------------------- ---------- -----------
+T1                         2753          14
+
+1 row selected.
+
+
+TABLE_NAME           COLUMN_NAME          AVG_COL_LEN
+-------------------- -------------------- -----------
+T1                   SORTCODE                       7
+T1                   V2                             3
+T1                   V3                             4
+
+3 rows selected.
+

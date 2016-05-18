@@ -1,0 +1,94 @@
+
+Session altered.
+
+star_transformation_enabled = false
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=10527 Card=423403 Bytes=49538151)
+   1    0   HASH JOIN (Cost=10527 Card=423403 Bytes=49538151)
+   2    1     TABLE ACCESS (FULL) OF 'DIM_23' (Cost=24 Card=20 Bytes=560)
+   3    1     HASH JOIN (Cost=10485 Card=486914 Bytes=43335346)
+   4    3       TABLE ACCESS (FULL) OF 'DIM_31' (Cost=32 Card=20 Bytes=560)
+   5    3       HASH JOIN (Cost=10433 Card=754717 Bytes=46037737)
+   6    5         TABLE ACCESS (FULL) OF 'DIM_53' (Cost=54 Card=20 Bytes=560)
+   7    5         PARTITION RANGE (ALL)
+   8    7           TABLE ACCESS (FULL) OF 'FACT1' (Cost=10363 Card=2000000 Bytes=66000000)
+
+
+
+
+Session altered.
+
+star_transformation_enabled = true
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=143 Card=11 Bytes=1188)
+   1    0   TEMP TABLE GENERATION
+   2    0   TEMP TABLE GENERATION
+   3    0   TEMP TABLE GENERATION
+   4    0   TEMP TABLE GENERATION
+   5    0   TEMP TABLE GENERATION
+   6    0   TEMP TABLE GENERATION
+   7    6     HASH JOIN (Cost=143 Card=11 Bytes=1188)
+   8    7       HASH JOIN (Cost=141 Card=13 Bytes=1079)
+   9    8         HASH JOIN (Cost=139 Card=20 Bytes=1160)
+  10    9           TABLE ACCESS (FULL) OF 'ORA_TEMP_1_2A' (Cost=1 Card=20 Bytes=500)
+  11    9           PARTITION RANGE (ALL)
+  12   11             TABLE ACCESS (BY LOCAL INDEX ROWID) OF 'FACT1' (Cost=137 Card=53 Bytes=1747)
+  13   12               BITMAP CONVERSION (TO ROWIDS)
+  14   13                 BITMAP AND
+  15   14                   BITMAP MERGE
+  16   15                     BITMAP KEY ITERATION
+  17   16                       SORT (BUFFER)
+  18   17                         TABLE ACCESS (FULL) OF 'ORA_TEMP_1_2A' (Cost=16 Card=8168 Bytes=106184)
+  19   16                       BITMAP INDEX (RANGE SCAN) OF 'FACT1_53'
+  20   14                   BITMAP MERGE
+  21   20                     BITMAP KEY ITERATION
+  22   21                       SORT (BUFFER)
+  23   22                         TABLE ACCESS (FULL) OF 'ORA_TEMP_1_2C' (Cost=16 Card=8168 Bytes=106184)
+  24   21                       BITMAP INDEX (RANGE SCAN) OF 'FACT1_23'
+  25   14                   BITMAP MERGE
+  26   25                     BITMAP KEY ITERATION
+  27   26                       SORT (BUFFER)
+  28   27                         TABLE ACCESS (FULL) OF 'ORA_TEMP_1_2B' (Cost=16 Card=8168 Bytes=106184)
+  29   26                       BITMAP INDEX (RANGE SCAN) OF 'FACT1_31'
+  30    8         TABLE ACCESS (FULL) OF 'ORA_TEMP_1_2B' (Cost=1 Card=20 Bytes=500)
+  31    7       TABLE ACCESS (FULL) OF 'ORA_TEMP_1_2C' (Cost=1 Card=20 Bytes=500)
+
+
+
+
+Session altered.
+
+star_transformation_enabled = temp_disable
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=ALL_ROWS (Cost=250 Card=11 Bytes=1287)
+   1    0   HASH JOIN (Cost=250 Card=11 Bytes=1287)
+   2    1     HASH JOIN (Cost=195 Card=30 Bytes=2670)
+   3    2       HASH JOIN (Cost=162 Card=46 Bytes=2806)
+   4    3         TABLE ACCESS (FULL) OF 'DIM_23' (Cost=24 Card=20 Bytes=560)
+   5    3         PARTITION RANGE (ALL)
+   6    5           TABLE ACCESS (BY LOCAL INDEX ROWID) OF 'FACT1' (Cost=137 Card=53 Bytes=1747)
+   7    6             BITMAP CONVERSION (TO ROWIDS)
+   8    7               BITMAP AND
+   9    8                 BITMAP MERGE
+  10    9                   BITMAP KEY ITERATION
+  11   10                     SORT (BUFFER)
+  12   11                       TABLE ACCESS (FULL) OF 'DIM_53' (Cost=54 Card=20 Bytes=560)
+  13   10                     BITMAP INDEX (RANGE SCAN) OF 'FACT1_53'
+  14    8                 BITMAP MERGE
+  15   14                   BITMAP KEY ITERATION
+  16   15                     SORT (BUFFER)
+  17   16                       TABLE ACCESS (FULL) OF 'DIM_23' (Cost=24 Card=20 Bytes=560)
+  18   15                     BITMAP INDEX (RANGE SCAN) OF 'FACT1_23'
+  19    8                 BITMAP MERGE
+  20   19                   BITMAP KEY ITERATION
+  21   20                     SORT (BUFFER)
+  22   21                       TABLE ACCESS (FULL) OF 'DIM_31' (Cost=32 Card=20 Bytes=560)
+  23   20                     BITMAP INDEX (RANGE SCAN) OF 'FACT1_31'
+  24    2       TABLE ACCESS (FULL) OF 'DIM_31' (Cost=32 Card=20 Bytes=560)
+  25    1     TABLE ACCESS (FULL) OF 'DIM_53' (Cost=54 Card=20 Bytes=560)

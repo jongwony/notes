@@ -1,0 +1,3072 @@
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0010485760.TRC
+      Initial runs:         10 Merge passes:        4 IO Cost / pass:        148
+      Total IO sort cost: 1180
+      Initial runs:         10 Merge passes:        4 IO Cost / pass:        148
+      Total IO sort cost: 1180
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0011796480.TRC
+      Initial runs:          9 Merge passes:        4 IO Cost / pass:        148
+      Total IO sort cost: 1180
+      Initial runs:          9 Merge passes:        4 IO Cost / pass:        148
+      Total IO sort cost: 1180
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0013107200.TRC
+      Initial runs:          8 Merge passes:        3 IO Cost / pass:        148
+      Total IO sort cost: 1032
+      Initial runs:          8 Merge passes:        3 IO Cost / pass:        148
+      Total IO sort cost: 1032
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0014417920.TRC
+      Initial runs:          7 Merge passes:        3 IO Cost / pass:        148
+      Total IO sort cost: 1032
+      Initial runs:          7 Merge passes:        3 IO Cost / pass:        148
+      Total IO sort cost: 1032
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0015728640.TRC
+      Initial runs:          7 Merge passes:        3 IO Cost / pass:        148
+      Total IO sort cost: 1032
+      Initial runs:          7 Merge passes:        3 IO Cost / pass:        148
+      Total IO sort cost: 1032
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0017039360.TRC
+      Initial runs:          6 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+      Initial runs:          6 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0018350080.TRC
+      Initial runs:          6 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+      Initial runs:          6 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0019660800.TRC
+      Initial runs:          5 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+      Initial runs:          5 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0020971520.TRC
+      Initial runs:          5 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+      Initial runs:          5 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0022282240.TRC
+      Initial runs:          5 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+      Initial runs:          5 Merge passes:        2 IO Cost / pass:        148
+      Total IO sort cost: 884
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0023592960.TRC
+      Initial runs:          5 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          5 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0024903680.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0026214400.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0027525120.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0028835840.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0030146560.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0031457280.TRC
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          4 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0032768000.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0034078720.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0035389440.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0036700160.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0038010880.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0039321600.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0040632320.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0041943040.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0043253760.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0044564480.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0045875200.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0047185920.TRC
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          3 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0048496640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0049807360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0051118080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0052428800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0053739520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0055050240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0056360960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0057671680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0058982400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0060293120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0061603840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0062914560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0064225280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0065536000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0066846720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0068157440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0069468160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0070778880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0072089600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0073400320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0074711040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0076021760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0077332480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0078643200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0079953920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0081264640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0082575360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0083886080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0085196800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0086507520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0087818240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0089128960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0090439680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0091750400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0093061120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0094371840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0095682560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0096993280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0098304000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0099614720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0100925440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0102236160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0103546880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0104857600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0106168320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0107479040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0108789760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0110100480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0111411200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0112721920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0114032640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0115343360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0116654080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0117964800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0119275520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0120586240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0121896960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0123207680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0124518400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0125829120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0127139840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0128450560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0129761280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0131072000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0132382720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0133693440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0135004160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0136314880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0137625600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0138936320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0140247040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0141557760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0142868480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0144179200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0145489920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0146800640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0148111360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0149422080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0150732800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0152043520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0153354240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0154664960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0155975680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0157286400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0158597120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0159907840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0161218560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0162529280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0163840000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0165150720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0166461440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0167772160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0169082880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0170393600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0171704320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0173015040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0174325760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0175636480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0176947200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0178257920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0179568640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0180879360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0182190080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0183500800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0184811520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0186122240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0187432960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0188743680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0190054400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0191365120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0192675840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0193986560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0195297280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0196608000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0197918720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0199229440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0200540160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0201850880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0203161600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0204472320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0205783040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0207093760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0208404480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0209715200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0211025920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0212336640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0213647360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0214958080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0216268800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0217579520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0218890240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0220200960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0221511680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0222822400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0224133120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0225443840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0226754560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0228065280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0229376000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0230686720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0231997440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0233308160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0234618880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0235929600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0237240320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0238551040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0239861760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0241172480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0242483200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0243793920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0245104640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0246415360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0247726080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0249036800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0250347520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0251658240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0252968960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0254279680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0255590400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0256901120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0258211840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0259522560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0260833280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0262144000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0263454720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0264765440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0266076160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0267386880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0268697600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0270008320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0271319040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0272629760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0273940480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0275251200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0276561920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0277872640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0279183360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0280494080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0281804800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0283115520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0284426240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0285736960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0287047680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0288358400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0289669120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0290979840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0292290560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0293601280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0294912000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0296222720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0297533440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0298844160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0300154880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0301465600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0302776320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0304087040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0305397760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0306708480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0308019200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0309329920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0310640640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0311951360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0313262080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0314572800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0315883520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0317194240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0318504960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0319815680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0321126400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0322437120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0323747840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0325058560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0326369280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0327680000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0328990720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0330301440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0331612160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0332922880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0334233600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0335544320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0336855040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0338165760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0339476480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0340787200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0342097920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0343408640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0344719360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0346030080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0347340800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0348651520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0349962240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0351272960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0352583680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0353894400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0355205120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0356515840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0357826560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0359137280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0360448000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0361758720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0363069440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0364380160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0365690880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0367001600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0368312320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0369623040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0370933760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0372244480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0373555200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0374865920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0376176640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0377487360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0378798080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0380108800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0381419520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0382730240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0384040960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0385351680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0386662400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0387973120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0389283840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0390594560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0391905280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0393216000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0394526720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0395837440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0397148160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0398458880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0399769600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0401080320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0402391040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0403701760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0405012480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0406323200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0407633920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0408944640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0410255360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0411566080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0412876800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0414187520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0415498240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0416808960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0418119680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0419430400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0420741120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0422051840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0423362560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0424673280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0425984000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0427294720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0428605440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0429916160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0431226880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0432537600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0433848320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0435159040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0436469760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0437780480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0439091200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0440401920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0441712640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0443023360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0444334080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0445644800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0446955520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0448266240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0449576960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0450887680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0452198400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0453509120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0454819840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0456130560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0457441280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0458752000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0460062720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0461373440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0462684160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0463994880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0465305600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0466616320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0467927040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0469237760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0470548480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0471859200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0473169920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0474480640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0475791360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0477102080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0478412800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0479723520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0481034240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0482344960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0483655680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0484966400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0486277120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0487587840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0488898560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0490209280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0491520000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0492830720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0494141440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0495452160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0496762880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0498073600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0499384320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0500695040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0502005760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0503316480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0504627200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0505937920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0507248640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0508559360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0509870080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0511180800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0512491520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0513802240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0515112960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0516423680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0517734400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0519045120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0520355840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0521666560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0522977280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0524288000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0525598720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0526909440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0528220160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0529530880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0530841600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0532152320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0533463040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0534773760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0536084480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0537395200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0538705920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0540016640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0541327360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0542638080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0543948800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0545259520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0546570240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0547880960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0549191680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0550502400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0551813120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0553123840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0554434560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0555745280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0557056000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0558366720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0559677440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0560988160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0562298880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0563609600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0564920320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0566231040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0567541760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0568852480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0570163200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0571473920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0572784640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0574095360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0575406080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0576716800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0578027520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0579338240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0580648960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0581959680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0583270400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0584581120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0585891840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0587202560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0588513280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0589824000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0591134720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0592445440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0593756160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0595066880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0596377600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0597688320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0598999040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0600309760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0601620480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0602931200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0604241920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0605552640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0606863360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0608174080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0609484800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0610795520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0612106240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0613416960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0614727680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0616038400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0617349120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0618659840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0619970560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0621281280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0622592000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0623902720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0625213440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0626524160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0627834880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0629145600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0630456320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0631767040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0633077760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0634388480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0635699200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0637009920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0638320640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0639631360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0640942080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0642252800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0643563520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0644874240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0646184960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0647495680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0648806400.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0650117120.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0651427840.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0652738560.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0654049280.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0655360000.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0656670720.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0657981440.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0659292160.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0660602880.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0661913600.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0663224320.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0664535040.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0665845760.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0667156480.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0668467200.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0669777920.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0671088640.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0672399360.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0673710080.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0675020800.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0676331520.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0677642240.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0678952960.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_S\D920_ORA_208_PAT_CPU_0680263680.TRC
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736
+      Initial runs:          2 Merge passes:        1 IO Cost / pass:        148
+      Total IO sort cost: 736

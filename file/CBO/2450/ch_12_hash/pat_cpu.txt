@@ -1,0 +1,1800 @@
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0010485760.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0010649400.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0010813040.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0010976680.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0011140320.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0011303960.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0011467600.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0011631240.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0011794880.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0011958520.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0012122160.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0012285800.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0012449440.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0012613080.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0012776720.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0012940360.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0013104000.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0013267640.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0013431280.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0013594920.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0013758560.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0013922200.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0014085840.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0014249480.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0014413120.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0014576760.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0014740400.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0014904040.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0015067680.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0015231320.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0015394960.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0015558600.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0015722240.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0015885880.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0016049520.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0016213160.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0016376800.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0016540440.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0016704080.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0016867720.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0017031360.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0017195000.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0017358640.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0017522280.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0017685920.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0017849560.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0018013200.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0018176840.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0018340480.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0018504120.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0018667760.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0018831400.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0018995040.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0019158680.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0019322320.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0019485960.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0019649600.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0019813240.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0019976880.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0020140520.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0020304160.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0020467800.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0020631440.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0020795080.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0020958720.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0021122360.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0021286000.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0021449640.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0021613280.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0021776920.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0021940560.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0022104200.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0022267840.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0022431480.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0022595120.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0022758760.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0022922400.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0023086040.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0023249680.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0023413320.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0023576960.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0023740600.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0023904240.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0024067880.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0024231520.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0024395160.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0024558800.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0024722440.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0024886080.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0025049720.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0025213360.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0025377000.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0025540640.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0025704280.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0025867920.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0026031560.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0026195200.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0026358840.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0026522480.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0026686120.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0026849760.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0027013400.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0027177040.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0027340680.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0027504320.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0027667960.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0027831600.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0027995240.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0028158880.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0028322520.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0028486160.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0028649800.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0028813440.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0028977080.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0029140720.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0029304360.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0029468000.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0029631640.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0029795280.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0029958920.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0030122560.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0030286200.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0030449840.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0030613480.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0030777120.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0030940760.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0031104400.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0031268040.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0031431680.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0031595320.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0031758960.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0031922600.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0032086240.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0032249880.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0032413520.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0032577160.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0032740800.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0032904440.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0033068080.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0033231720.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0033395360.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0033559000.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0033722640.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0033886280.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0034049920.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0034213560.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0034377200.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0034540840.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0034704480.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0034868120.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0035031760.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0035195400.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0035359040.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0035522680.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0035686320.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0035849960.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0036013600.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0036177240.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0036340880.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0036504520.TRC
+  Hash join one ptn Resc: 438   Deg: 1
+  Hash join   Resc: 951   Resp: 951
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0036668160.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0036831800.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0036995440.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0037159080.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0037322720.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0037486360.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0037650000.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0037813640.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0037977280.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0038140920.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0038304560.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0038468200.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0038631840.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0038795480.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0038959120.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0039122760.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0039286400.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0039450040.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0039613680.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0039777320.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0039940960.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0040104600.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0040268240.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0040431880.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0040595520.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0040759160.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0040922800.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0041086440.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0041250080.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0041413720.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0041577360.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0041741000.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0041904640.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0042068280.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0042231920.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0042395560.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0042559200.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0042722840.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0042886480.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0043050120.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0043213760.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0043377400.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0043541040.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0043704680.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0043868320.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0044031960.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0044195600.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0044359240.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0044522880.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0044686520.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0044850160.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0045013800.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0045177440.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0045341080.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0045504720.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0045668360.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0045832000.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0045995640.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0046159280.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0046322920.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0046486560.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0046650200.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0046813840.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0046977480.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0047141120.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0047304760.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0047468400.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0047632040.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0047795680.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0047959320.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0048122960.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0048286600.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0048450240.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0048613880.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0048777520.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0048941160.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0049104800.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0049268440.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0049432080.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0049595720.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0049759360.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0049923000.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0050086640.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0050250280.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0050413920.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0050577560.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0050741200.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0050904840.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0051068480.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0051232120.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0051395760.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0051559400.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0051723040.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0051886680.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0052050320.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0052213960.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0052377600.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0052541240.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0052704880.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0052868520.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0053032160.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0053195800.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0053359440.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0053523080.TRC
+  Hash join one ptn Resc: 206   Deg: 1
+  Hash join   Resc: 719   Resp: 719
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0053686720.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0053850360.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0054014000.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0054177640.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0054341280.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0054504920.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0054668560.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0054832200.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0054995840.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0055159480.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0055323120.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0055486760.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0055650400.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0055814040.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0055977680.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0056141320.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0056304960.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0056468600.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0056632240.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0056795880.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0056959520.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0057123160.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0057286800.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0057450440.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0057614080.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0057777720.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0057941360.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0058105000.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0058268640.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0058432280.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0058595920.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0058759560.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0058923200.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0059086840.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0059250480.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0059414120.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0059577760.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0059741400.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0059905040.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0060068680.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0060232320.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0060395960.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0060559600.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0060723240.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0060886880.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0061050520.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0061214160.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0061377800.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0061541440.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0061705080.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0061868720.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0062032360.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0062196000.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0062359640.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0062523280.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0062686920.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0062850560.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0063014200.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0063177840.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0063341480.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0063505120.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0063668760.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0063832400.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0063996040.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0064159680.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0064323320.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0064486960.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0064650600.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0064814240.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0064977880.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0065141520.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0065305160.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0065468800.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0065632440.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0065796080.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0065959720.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0066123360.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0066287000.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0066450640.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0066614280.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0066777920.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0066941560.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0067105200.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0067268840.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0067432480.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0067596120.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0067759760.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0067923400.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0068087040.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0068250680.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0068414320.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0068577960.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0068741600.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0068905240.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0069068880.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0069232520.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0069396160.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0069559800.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0069723440.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0069887080.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0070050720.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0070214360.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0070378000.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0070541640.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0070705280.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0070868920.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0071032560.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0071196200.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0071359840.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0071523480.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0071687120.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0071850760.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0072014400.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0072178040.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0072341680.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0072505320.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0072668960.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0072832600.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0072996240.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0073159880.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0073323520.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0073487160.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0073650800.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0073814440.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0073978080.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0074141720.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0074305360.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0074469000.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0074632640.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0074796280.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0074959920.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0075123560.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0075287200.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0075450840.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0075614480.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0075778120.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0075941760.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0076105400.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0076269040.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0076432680.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0076596320.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0076759960.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0076923600.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0077087240.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0077250880.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0077414520.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0077578160.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0077741800.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0077905440.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0078069080.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0078232720.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0078396360.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0078560000.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0078723640.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0078887280.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0079050920.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0079214560.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0079378200.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0079541840.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0079705480.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0079869120.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0080032760.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0080196400.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0080360040.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0080523680.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0080687320.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0080850960.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0081014600.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0081178240.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0081341880.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0081505520.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0081669160.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0081832800.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0081996440.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0082160080.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0082323720.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0082487360.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0082651000.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0082814640.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0082978280.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0083141920.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0083305560.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0083469200.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0083632840.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0083796480.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
+
+---------- C:\ORACLE\ADMIN\D920\UDUMP\PAT_CPU_H\D920_ORA_2604_PAT_CPU_0083960120.TRC
+  Hash join one ptn Resc: 101   Deg: 1
+  Hash join   Resc: 614   Resp: 614
