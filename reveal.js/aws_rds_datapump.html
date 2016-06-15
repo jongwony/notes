@@ -161,9 +161,14 @@ DPUSER> create table test as select * from all_objects;
 DECLARE
 n1 NUMBER;
 BEGIN
-n1 := DBMS_DATAPUMP.open(operation=>'EXPORT', job_mode=>'SCHEMA', job_name=>null);
-DBMS_DATAPUMP.add_file(handle=>n1, filename=>'test.dmp', directory=>'DATA_PUMP_DIR', filetype=>dbms_datapump.ku$_file_type_dump_file);
-DBMS_DATAPUMP.add_file(handle=>n1, filename=>'test.log', directory=>'DATA_PUMP_DIR', filetype=>dbms_datapump.ku$_file_type_log_file);
+n1 := DBMS_DATAPUMP.open(operation=>'EXPORT',
+job_mode=>'SCHEMA', job_name=>null);
+DBMS_DATAPUMP.add_file(handle=>n1, filename=>'test.dmp',
+directory=>'DATA_PUMP_DIR',
+filetype=>dbms_datapump.ku$_file_type_dump_file);
+DBMS_DATAPUMP.add_file(handle=>n1, filename=>'test.log',
+directory=>'DATA_PUMP_DIR',
+filetype=>dbms_datapump.ku$_file_type_log_file);
 DBMS_DATAPUMP.metadata_filter(n1, 'SCHEMA_EXPR', 'IN (''DPUSER'')');
 DBMS_DATAPUMP.start_job(n1);
 END;
@@ -187,7 +192,9 @@ RDS> grant read, write on directory data_pump_dir to LINKDP;
 						```sql
 -- 원본 Database에서 Database Link 생성
 DPUSER> create database link to_rds connect to LINKDP identified by linkdp
-  2	using '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=<dns or ip address of remote db>)(PORT=<listener port>))(CONNECT_DATA=(SID=<remoteSID>)))';
+  2	using '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)
+  3 (HOST=<dns or ip address of remote db>)(PORT=<listener port>))
+  4 (CONNECT_DATA=(SID=<remoteSID>)))';
 						```
 					</script>
 				</section>
@@ -234,7 +241,8 @@ RDS> alter tablespace DPTS resize 200M;
 
 						```
 # 덤프파일이 있는 운영체제에서 실행
-impdp jongwon@mydb dumpfile=test.dmp directory=DATA_PUMP_DIR full=y [remap_tablespace=source_tablespace:target_tablespace]
+impdp jongwon@mydb dumpfile=test.dmp directory=DATA_PUMP_DIR \
+	full=y [remap_tablespace=source_tablespace:target_tablespace]
 						```
 						```sql
 -- 테스트 테이블 확인
