@@ -193,8 +193,8 @@ RDS> grant read, write on directory data_pump_dir to LINKDP;
 -- 원본 Database에서 Database Link 생성
 DPUSER> create database link to_rds connect to LINKDP identified by linkdp
   2	using '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)
-  3 (HOST=<dns or ip address of remote db>)(PORT=<listener port>))
-  4 (CONNECT_DATA=(SID=<remoteSID>)))';
+  3	(HOST=<dns or ip address of remote db>)(PORT=<listener port>))
+  4	(CONNECT_DATA=(SID=<remoteSID>)))';
 						```
 					</script>
 				</section>
