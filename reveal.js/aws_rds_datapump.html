@@ -258,7 +258,8 @@ RDS> select count(*) from dpuser.test;
 						```sql
 -- RDSADMIN.rds_file_util.listdir은 11.2.0.3.v1 이상에서만 사용할 수 있습니다.
 -- Directory 내의 파일 확인
-RDS> select * from table(RDSADMIN.rds_file_util.listdir('DATA_PUMP_DIR')) order by mtime;
+RDS> select * from table(RDSADMIN.rds_file_util.listdir('DATA_PUMP_DIR'))
+  2	order by mtime;
 						```
 						```sql
 -- 더 이상 필요하지 않은 파일 삭제
