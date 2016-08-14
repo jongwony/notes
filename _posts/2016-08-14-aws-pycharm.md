@@ -92,3 +92,17 @@ Mapping 탭으로 이동하여 동기화할 프로젝트 경로를 지정합니�
 Tools > Deployment > Sync with Deployed to 항목에서 <br>
 SFTP를 이용하여 EC2의 /home/ubuntu/pycharm 경로로 업로드 할 수 있습니다.
 </div>
+
+#### Auto Completion
+
+IDE를 쓰는 이유라고도 할 수 있는 자동완성 기능은
+
+File > Settings > Editor > General > Code Completion에서 설정할 수 있습니다.
+
+이 설정으로 본인의 PC에 Python이 설치가 되지 않아도 원격으로 Interpreter를 설정했기 때문에
+
+EC2에 설치된 라이브러리를 자동으로 다운로드하여 인식하게 됩니다.
+
+만약 정상적으로 작동이 되지 않는다면 아래 링크를 참조하시기 바랍니다.
+
+[Auto Completion](//confluence.jetbrains.com/display/PYH/Code+completion)
