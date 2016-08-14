@@ -76,8 +76,6 @@ Configure > Setting > Deployment의 Connection 탭으로 이동합니다.
 
 ![](/image/aws/deploy.png)
 
-![](/image/aws/sftp.png)
-
 SFTP 연결을 새로 만듭니다.
 
 호스트란에 EC2로 접속하는 Public DNS 주소를 입력합니다.
