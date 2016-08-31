@@ -5,7 +5,9 @@ title: EC2에 Pycharm IDE 동기화
 
 이전 포스트에서 EC2에 OpenCV와 Tensorflow를 설치하였습니다.
 
-언제까지 vim 에디터만 사용할 수는 없으므로
+Pycharm 패키지를 그냥 EC2에 설치하여 X window를 이용하여 작업하는 방법도 있지만
+
+EC2 프리티어를 이용하였기 때문에 1GB의 RAM으로는 한계가 있습니다.
 
 Windows 환경에서 SFTP 원격 연결된 Pycharm IDE를 이용하여 코딩을 할 수 있고
 
