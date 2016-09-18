@@ -373,13 +373,10 @@ hr {
 
   /* highlight */
 
-	code {
-		padding: 5px 20px;
+	.highlight-rouge code {
     border-radius: 6px;
     background-color: #272822;
     color: #FFF;
-    line-height: 1;
-  	margin: 1em;
 		font: 14px/1.8em Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
 		font-size: 0.9rem;
 		letter-spacing: 1px;
