@@ -373,7 +373,7 @@ hr {
 
   /* highlight */
 
-	.highlight-rouge code {
+	.highlighter-rouge code {
     border-radius: 6px;
     background-color: #272822;
     color: #FFF;
