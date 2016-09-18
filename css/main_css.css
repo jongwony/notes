@@ -373,20 +373,17 @@ hr {
 
   /* highlight */
 
-  .highlight {
-    padding: 5px 20px;
+	code {
+		padding: 5px 20px;
     border-radius: 6px;
     background-color: #272822;
     color: #FFF;
     line-height: 1;
   	margin: 1em;
-  }
-
-  .highlight code {
 		font: 14px/1.8em Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
-    font-size: 0.9rem;
+		font-size: 0.9rem;
 		letter-spacing: 1px;
-  }
+	}
 
   .highlight .c {
     color: #c2b680;
