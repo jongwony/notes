@@ -1,55 +1,24 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<html lang="en">
 
-        <!--css-->
-        <link rel="stylesheet" href="//lastone9182.github.io/css/main_css.css" />
-        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-        <!--google search console-->
-        <meta name="google-site-verification" content="P05i4NRe3aHJ_M5xuL4HHe23x8r_SscGm0GjSVxkMsg" />
+  {% include head.html %}
 
-        <!--naver search console -->
-        <meta name="naver-site-verification" content="f25bd55a2996753f1c81ba9c5c8c4510f6612ee6"/>
+  <body id="post-template">
 
-        <!--normalize-->
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    {% include cat_header.html %}
+    {% include cat_nav.html %}
 
-        <!--animation-->
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.css">
+    <div class="mystyle">
 
-    </head>
-    <body>
+      {{ content }}
 
-      {% include navigation.html %}
+    </div>
 
-      <div class="mystyle">
+    {% include footer.html %}
+    {% include scripts.html %}
 
-        {{ content }}
+  </body>
 
-      </div>
-
-      {% include footer.html %}
-
-
-        <!--highlighterjs-->
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js" type="text/javascript"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
-
-        <!--google Analytics-->
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-72660444-1', 'auto');
-  ga('send', 'pageview');
-
-        </script>
-
-    </body>
 </html>

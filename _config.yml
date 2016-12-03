@@ -1,20 +1,10 @@
 title: Jongwon
+email: lastone9182@gmail.compressed
+github_username: lastone9182
+
+theme: minima
 
 markdown: kramdown
-
-### after May 1st 2016 "redcarpet" markdown engine is not supported
-#markdown: redcarpet
-#redcarpet:
-#  extensions: [
-#    "tables",
-#    "footnotes",
-#    "underline",
-#    "autolink",
-#    "strikethrough",
-#    "space_after_headers",
-#    "with_toc_data",
-#    "fenced_code_blocks"
-#  ]
 
 collections:
   - my_database
@@ -25,21 +15,21 @@ defaults:
   -
     scope:
       path: ""
+      type: "posts"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
       type: my_database
     values:
-      layout: post
+      layout: "post"
   -
     scope:
       path: ""
       type: my_codingthematrix
     values:
-      layout: post
-  -
-    scope:
-      path: ""
-      type: my_profile
-    values:
-      layout: post
+      layout: "post"
 
 
 collections:
@@ -47,14 +37,8 @@ collections:
     output: true
   my_codingthematrix:
     output: true
-  my_profile:
-    output: true
 
 
 sass:
  sass_dir: _sass
  style: compressed
-
-
-paginate: 5
-paginate_path: "/page:num/"
