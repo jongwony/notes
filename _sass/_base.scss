@@ -167,6 +167,7 @@ aside {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
+                text-shadow: 1px 1px 2px black, 0 0 12px #FAF5E1, 0 0 2px darkblue;
             }
             hr {
                 margin: 30px auto;
@@ -207,6 +208,7 @@ aside {
     position: relative;
     width: 100%;
     min-height: auto;
+    margin-bottom: 60px;
     @include background-cover;
     background-position: center;
     background-image: url('../image/header.jpg');
@@ -223,6 +225,7 @@ aside {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
+                text-shadow: 1px 1px 2px black, 0 0 12px #FAF5E1, 0 0 2px darkblue;
             }
             hr {
                 margin: 30px auto;

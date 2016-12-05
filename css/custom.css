@@ -7,15 +7,75 @@ html{
 	box-sizing: border-box;
 }
 
-body{
-	/*background-image: url("//lastone9182.github.io/image/lemonberry_main.png");
-	background-position: right bottom;
-	background-attachment: fixed;*/
-	line-height: 30px;
+/* Every post, on every page, gets this style on its <article> tag */
+.post {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto 80px auto;
+    padding-bottom: 60px;
+    border-bottom: #EBF2F6 1px solid;
+    word-break: break-word;
+    hyphens: auto;
 }
 
 
-.mystyle img {
+.post section{
+  padding: 0;
+}
+.post:hover {
+  transition: 0.5s;
+  background-color: #F2F2F2;
+}
+.post:after {
+    display: block;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border: #E7EEF2 1px solid;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -5px;
+    background: #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    box-shadow: #fff 0 0 0 5px;
+}
+.post-title {
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 3px;
+    font-size:25px;
+    a {
+        text-decoration: none;
+    }
+}
+.post-excerpt p {
+    margin: 16px 0 0 0;
+    font-size: 0.9em;
+    line-height: 1.6em;
+    color: #888;
+}
+.post-meta {
+    display: inline-block;
+    margin: 0 0 5px 0;
+    font-size: 15px;
+    color: #9EABB3;
+}
+.post-meta a {
+    color: #9EABB3;
+    text-decoration: none;
+}
+.post-meta a:hover {
+    text-decoration: underline;
+}
+
+
+.post img {
 	border-radius: 15px;
 	width: 95%;
 	height: auto;
@@ -48,15 +108,6 @@ iframe {
 	float: right;
 }
 
-.mystyle {
-	clear: both;
-	display: block;
-	border-radius: 30px;
-	width: 95%;
-	margin: auto;
-	padding: 1.2em 0;
-}
-
 .rfloat {
 	float: right;
 }
@@ -69,68 +120,15 @@ iframe {
 	margin: 1.2em ;
 }
 
-/* nav 항목이 늘어날때마다 수정 */
-@media screen and (min-width: 480px) {
-
-	iframe {
-		width: 480px;
-		height: 360px;
-	}
-
-	.title {
-		float: left;
-		padding: 0 20px;
-	}
-
-	.mystyle {
-		min-width: 480px;
-		width: 80%;
-	}
-
-}
-
-.mystyle h2 {
-  margin: 1.2em;
-}
-
-.mystyle hr {
-  display: block;
-  opacity: 0.8;
-  margin: 3.2em 1em;
-  padding: 0;
-}
-
-.mystyle p {
-	padding: 1em 2em;
-	margin: 0;
-}
-
-.mystyle li {
-	padding: 1em;
-	margin: 0;
-}
-
-
-.mystyle ul {
-	padding: 0;
-	list-style-position: inside;
-}
-
-
-.mystyle p:hover {
-	transition: 0.5s;
-	background-color: #F2F2F2;
-}
-
-.mystyle #animlist {
-	/*padding: 0 40px;*/
+#animlist {
+  padding 0 20px;
   list-style-type: none;
 	position: relative;
 	transition: 0.5s;
 }
 
 
-.mystyle #animlist::before {
+#animlist::before {
 	 /*content: '≫';*/
 	position: absolute;
 	opacity: 0;
@@ -139,14 +137,14 @@ iframe {
 }
 
 
-.mystyle #animlist:hover {
+#animlist:hover {
 	background-color: #F2F2F2;
 	padding-left: 3em;
 	transition: 0.5s;
 }
 
 
-.mystyle #animlist:hover::before {
+#animlist:hover::before {
 	opacity: 1;
 	left: 2em;
 }
