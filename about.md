@@ -3,19 +3,21 @@ title: About Me
 layout: page
 ---
 
+<img style="margin-top:3.2em; max-width:180px; max-height:240px;" src="/image/Jongwon.jpg" alt="" />
+
 Your **PLACE** is where your **DREAMS** are.
 
 - - -
 
 ## Jongwon
 
-[GitHub](//github.com/lastone9182) \| <a href="mailto:lastone9182@gmail.com">lastone9182@gmail.com</a>
+[Contact](/#contact) 
 
 - - -
 
 ## With...
 
-[Girl Friend](//www.instagram.com/uj31587/)<span class='animated infinite tada' style="color:red; cursor:none;"> 💕 </span>
+[Girl Friend](//www.instagram.com/uj31587/) 💕 
 
 - - -
 
