@@ -17,35 +17,7 @@ title: Posts
 </article>
 {% endfor %}
 
-<hr>
-<hr>
-<hr>
-
-<ul class="post-list">
-  {% for post in site.posts %}
-    <li id="animlist">
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-      <h4>
-        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-      </h4>
-    </li>
-  {% endfor %}
-</ul>
-
-<!--ul class="post-list">
-  {% for post in paginator.posts %}
-    <li id="animlist">
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-      <h4>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h4>
-    </li>
-  {% endfor %}
-</ul>
-
-< Pagination links >
+<!-- Pagination links >
 <div class="pagination">
 
   {% if paginator.previous_page %}
