@@ -1,6 +1,7 @@
 ---
 title: 가상디스크에 운영체제 설치
 layout: post
+tags: ['windows','os','vhd']
 ---
 
 

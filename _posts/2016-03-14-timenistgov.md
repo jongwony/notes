@@ -1,6 +1,7 @@
 ---
 layout: post
 title: rdate time sync
+tags: ['rdate']
 ---
 
 해외로 원격접속을 할 일이 있거나

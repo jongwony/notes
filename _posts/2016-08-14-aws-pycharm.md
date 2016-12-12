@@ -1,6 +1,7 @@
 ---
 layout: post
 title: EC2에 Pycharm IDE 동기화
+tags: ['aws','pycharm']
 ---
 
 이전 포스트에서 EC2에 OpenCV와 Tensorflow를 설치하였습니다.

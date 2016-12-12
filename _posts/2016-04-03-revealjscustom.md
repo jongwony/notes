@@ -1,6 +1,7 @@
 ---
 title: Reveal.js Customize
 layout: post
+tags: ['reveal.js','customize']
 ---
 
 제 프레젠테이션 자료는 대부분 자바스크립트인 Reveal.js를 사용하였습니다.

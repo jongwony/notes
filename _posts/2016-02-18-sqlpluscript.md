@@ -1,6 +1,7 @@
 ---
 title: SQL*Plus 콘솔 환경설정
 layout: post
+tags: ['oracle','sql','customize']
 ---
 
 Oracle 데이터베이스를 이용할 때 주로 SQL Developer를 많이 씁니다.

@@ -16,7 +16,19 @@ title: Posts
       <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
     </section>
   </div>
+
+  {% if post.tags.size > 0 %}
+  <div class="post-tags">
+    {% for tag in post.tags %}
+      <img src="https://img.shields.io/badge/Tag-{{ tag | capitalize }}-orange.svg" />
+    {% endfor %}
+  </div>
+  {% endif %} 
 </article>
+
+
+
+
 {% endfor %}
 
 <!-- Pagination links >

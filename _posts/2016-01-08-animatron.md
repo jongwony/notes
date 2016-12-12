@@ -1,6 +1,7 @@
 ---
 title: 애니메이션을 웹으로!
 layout: post
+tags: ['html','customize']
 ---
 
 <iframe src="//www.youtube.com/embed/8SoKASkCuuw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>

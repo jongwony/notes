@@ -2,6 +2,10 @@
     <div class="header-content">
         <div class="header-content-inner">
             <h2 class="animated rubberBand">{{ page.title }}</h2>
+            {% if page.date %}
+        	<hr style="width:10%">
+        	<p>{{ page.date | date: "%b %-d, %Y" }}</p>
+        	{% endif %}
         </div>
     </div>
 </header>
