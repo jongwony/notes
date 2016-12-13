@@ -1,11 +1,11 @@
 <header class="category">
     <div class="header-content">
         <div class="header-content-inner">
-            <h2 class="animated rubberBand">{{ page.title }}</h2>
-            {% if page.date %}
-        	<hr style="width:10%">
+        	{% if page.date %}
         	<p>{{ page.date | date: "%b %-d, %Y" }}</p>
+        	<hr style="width:10%">
         	{% endif %}
+            <h2 class="animated rubberBand">{{ page.title }}</h2>
         </div>
     </div>
 </header>
