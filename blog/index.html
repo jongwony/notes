@@ -22,8 +22,16 @@ title: Posts
     {% for tag in post.tags %}
       <img src="https://img.shields.io/badge/Tag-{{ tag | capitalize }}-orange.svg" />
     {% endfor %}
+
+    {% if post.progress.size > 0 %}
+      <img src="https://img.shields.io/badge/In%20Progress-{{ post.progress }}%-green.svg" />
+    {% endif %}
   </div>
   {% endif %} 
+
+
+
+
 </article>
 
 

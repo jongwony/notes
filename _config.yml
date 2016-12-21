@@ -2,8 +2,13 @@ title: Jongwon
 email: lastone9182@gmail.com
 github_username: lastone9182
 
-theme: minima
 
+# New variable
+progress: true
+
+
+
+theme: minima
 markdown: kramdown
 highlighter: rouge
 kramdown:
