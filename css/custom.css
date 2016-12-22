@@ -246,6 +246,10 @@ footer {
 	letter-spacing: 1px;
 }
 
+.warn a {
+  font-weight: 600; 
+}
+
 
 /* Highlighter Rouge */
 
