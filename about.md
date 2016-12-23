@@ -29,22 +29,34 @@ Mathematics & Computer Science \| *KONKUK UNIVERSITY*
 
 ## Interest
 
-**Oracle Database** \| **Machine Learning**
+**Oracle Database** \| **Machine Learning** \| **Category Theory** \| **Python**
  \| [Numberphile](//www.youtube.com/channel/UCoxcjq-8xIDTYp3uz647V5A)
- \| [Computerphile](//www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA) |  <small id="blast">strawberry blast
+ \| [Computerphile](//www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA) \|  <small id="blast">strawberry blast
  <img class="blast-content" width="199px" height="190px" src="/image/Strawberry_Citrus_Fruit_Blast.jpg" /></small>
 
 - - -
 
 ## Skills
 
-Linear Algebra, Machine Learning
+Linear Algebra, Set Theory, Category Theory, Machine Learning
 
-Oracle Admin, Nginx - PHP - Oracle Infrastructure
+TensorFlow, OpenCV
 
-Unity 3D(C#), Objective-C, Python, Perl, PL/SQL, Java
+OCP 11g
 
-PHP, jQuery, CSS, HTML
+Nginx - PHP - Oracle, Nginx - Flask - uWSGI on Amazon Web Services
+
+**Python**, C, Java, PL/SQL, Unity 3D(C#), Perl
+
+HTML5, Javascript, jQuery, CSS, Bootstrap
+
+- - -
+
+## Project
+
+Real-Time Artillery games on Unity Engine   (Network Programming)
+
+Face detection Web pages on Amazon Web Services    (Graduation Project)
 
 - - -
 
