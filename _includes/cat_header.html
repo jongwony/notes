@@ -1,0 +1,10 @@
+<header class="category">
+    <div class="header-content">
+        <div class="header-content-inner">
+        	{% if page.date %}
+        	<p style="margin-bottom:1.2em">{{ page.date | date: "%b %-d, %Y" }}</p>
+        	{% endif %}
+            <h2 class="animated rubberBand">{{ page.title }}</h2>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h2>비전공자가 바라본</h2>
+					<img src="image/dockerlogo.png" alt="docker_logo" />
+					<p>
+						<small>Created by <a href="//lastone9182.github.io/">Jongwon</a></small>
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Docker?</h2>
+						<p>
+							2013년 3월 출시된 <strong style="color:cyan;">오픈소스 컨테이너</strong>
+						</p>
+					</section>
+					<section>
+						<img src="image/large_cop.png" alt="" />
+						<p>
+							Google cloud Platform, AWS, Microsoft Azure등의
+						</p>
+						<p>
+							<strong style="color:cyan;">클라우드 서비스</strong>에서 공식 지원
+						</p>
+					</section>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Container란</h2>
+						<p>1982년에 이미 나온 리눅스 커널의 기술 중 하나로 <br>대표적인 것이 Docker</p>
+						<p>Unix(Solaris, HPX) 운영체제에도 포함되어 있음</p>
+					</section>
+					<section>
+						<p>그동안 Virtualization, Partitioning 기술로 <br>빛을 보지 못하다가</p>
+						<p>
+							2013년 구글의 Docker 프로젝트가 <br>Container 기술을 이용하면서 각광을 받기 시작
+						</p>
+						<p>
+							실제로 Google의 모든 서버 시스템은 <br>컨테이너 형태로 운영하고 있다
+						</p>
+					</section>
+					<section>
+						<p>런타임(실행 환경)방식에 의존하는 애플리케이션들이
+							 <br>하나의 <strong style="color:cyan">패키지</strong> 형태로 묶여있는 것</p>
+						<p>
+							운영체제에서는 하나의 커다란 프로세스로 보일 뿐
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>비슷하지만 다르다!</h2>
+						<p><strong style="color:yellow">가상화</strong>와 <strong style="color:cyan">컨테이너</strong></p>
+					</section>
+					<section data-transition="fade">
+						<h2>추상화의 대상이 다름</h2>
+						<img src="image/cloud_service_1.png" alt="cloud_service_1" />
+					</section>
+					<section data-transition="none">
+						<h2>추상화의 대상이 다름</h2>
+						<img src="image/cloud_service_2.png" alt="virtualization" />
+					</section>
+					<section data-transition="none">
+						<h2>추상화의 대상이 다름</h2>
+						<img src="image/cloud_service_3.png" alt="container" />
+					</section>
+					<section>
+							<img width="430" height="400" src="image/virtualization.png" alt="" />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<img width="430" height="400" src="image/docker_container.png" alt="" />
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>컨테이너의 특징</h2>
+						<p>
+							하드웨어를 추상화하지 않기 때문에 <br>
+							<strong style="color:cyan">메모리 접근, 파일 시스템 접근, 네트워크 전송 속도</strong>가 <br>
+							가상화에 비해 빠름
+						</p>
+					</section>
+					<section>
+						<p>
+							<strong style="color:red">리눅스 커널</strong>만 있으면 <strong style="color:cyan">언제, 어디서든</strong> 실행
+						</p>
+						<small>커널 버전, HOST 배포판 <strong>관계없음!</strong></small><br>
+						<small>HOST에서 실행되면 Container에서도 실행됨!</small>
+					</section>
+					<section>
+						<h2>단점</h2>
+						<p>
+							보안상으로 취약점이 있음 <small>이미지의 신뢰성이 없음</small>
+						</p>
+						<p>
+							특정 OS만의 고유한 기능은 사용할 수 없음
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<p>Docker란 Container 기술을 쉽고 가볍게 사용하기 위한 <br>자동화 툴</p>
+					<p>
+						<strong style="color:cyan">이미지 생성</strong>과 <strong style="color:cyan">배포</strong>에 특화
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Docker 설치</h2>
+						<p>
+							<a href="//docs.docker.com/engine/installation/">각 OS별 설치</a>
+						</p>
+					</section>
+					<section>
+						<h2>Windows에도 설치가능!</h2>
+						<img src="image/docker_install_inWindows.png" alt="" />
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<p>
+							Oracle이 설치되어 있는 우분투의 이미지가 담긴 <br>컨테이너를 Windows에 설치된 Docker로 시연해 보겠습니다.
+						</p>
+						<small>이거 될까요?</small>
+					</section>
+					<section>
+						<p>
+							명령어는 docker --help로 알 수 있습니다.<br>
+							GitHub와 비슷합니다.
+						</p>
+						<pre><code class="hljs">docker search oracle</code></pre>
+						<img src="image/docker_search_oracle.png" alt="" />
+					</section>
+					<section>
+						<p>
+							Docker Repository에서 이미지 가져오기
+						</p>
+						<pre><code class="hljs">docker pull unameless/oracle-xe-11g</code></pre>
+						<img src="image/docker_oracle_download.png" alt="" />
+					</section>
+					<section>
+						<p>
+							가져온 이미지 확인
+						</p>
+						<pre><code class="hljs">docker images</code></pre>
+						<img src="image/docker_images.png" alt="" />
+					</section>
+					<section>
+						<p>
+							컨테이너 생성
+						</p>
+						<small>docker run --help로 run 명령어에 관한 옵션을 볼 수 있습니다.</small>
+						<pre><code class="hljs">docker run -i -t --name oracle -p 49160:22 -p 49161:1521 wnameless/oracle-xe-11g /bin/bash</code></pre>
+						<img src="image/docker_run_oracle.png" alt="" />
+						<small><a href="//github.com/wnameless/docker-oracle-xe-11g">wnameless/oracle-xe-11g</a> 참조</small>
+					</section>
+					<section>
+						<p>
+							sqlplus를 실행하여 접속할 경우<br>
+							다음과 같은 오류가 납니다.
+						</p>
+						<pre><code>
+sqlplus
+Enter user-name: SYSTEM
+Enter password: oracle
+						</code></pre>
+						<img src="image/docker_oracle_error.png" alt="" />
+					</section>
+					<section>
+						<p>
+							Docker는 운영체제를 추상화합니다.
+						</p>
+						<p>
+							<a href="//en.wikipedia.org/wiki/MinGW">MINGW64</a>는 윈도우로 포팅한 <br>
+							GNU 소프트웨어 도구모음입니다.<br>
+							결국 커널은 윈도우라는 이야기입니다.
+						</p>
+					</section>
+					<section>
+						<p>
+							오라클을 실행하려면 <br>sysctl.conf에서 커널 수정작업을 해야합니다.
+						</p>
+						<p>
+							Docker 컨테이너 내에서 <br>호스트의 <strong style="color:cyan">공유메모리 설정</strong>을 할 수 없으므로 <br>오류가 나는 것입니다.
+						</p>
+						<small>결론은 리눅스에서</small>
+					</section>
+				</section>
+
+				<section>
+					<h2>Reference</h2>
+					<p>
+						<a href="//www.slideshare.net/pyrasis/docker-fordummies-44424016">Docker for dummies</a>
+					</p>
+					<p>
+						<a href="//docs.docker.com/">Docker docs</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+
+	</body>
+</html>

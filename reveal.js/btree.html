@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Animation -->
+		<!-- style>
+		a.button {
+			webkit-animation-duration: 3s;
+			webkit-animation-delay: 2s;
+			webkit-animation-iteration-count: infinite;
+		}
+		</style -->
+		<!-- script>
+		$(function(){
+			var animationName = 'animated shake';
+			var animationend = 'webketAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+			$('a.button').on('click',function() {
+				$('input[name=firstName]').addClass(animationName).one(animationend,
+				fundtion() {
+					$(this).removeClass(animationName);
+				});
+			});
+		});
+		</script -->
+		<link rel="stylesheet" href="css/animate.min.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1 class="animated rubberBand">Oracle B-Tree</h1>
+					<h4>Data structure</h4>
+					<small>Created by <a href="#">Jongwon</a></small>
+				</section>
+
+				<section>
+					<h1>intro...</h1>
+					<ul>
+						<li>Performance</li>
+						<li>Data Structure</li>
+							<li>Oracle B-Tree Structure</li>
+							<li>Oracle B-Tree Operation</li>
+							<li>Reverse Key Index</li>
+							<li>Index Key Compression</li>
+					</ul>
+					<aside class="notes">
+						<small><ul>
+							<li>Access 시간 줄이기</li>
+							<li>Access 횟수 줄이기</li>
+						</ul></small>
+						<small><ul>
+							<li>Doubly linked list</li>
+							<li>Balanced Tree</li>
+						</ul></small>
+					</aside>
+				</section>
+
+					<section>
+						<h1>Performance?</h1>
+						<img style="width:70%" src="image/btree/speed.jpg" alt="" />
+						<aside class="notes">
+							<small>성능이 좋다 = 빠르다 </small><br>
+							<small>단순히 빠른것인가</small><br>
+							<small>일단 속도의 개념부터 살펴보기로</small>
+						</aside>
+					</section>
+					<section>
+						<h2>Memory Systems</h2>
+						<img style="width:70%" src="image/btree/memoryhierarchy.png" alt="" />
+						<aside class="notes">
+							<small>위로 갈수록 저장공간이 커지고</small><br>
+							<small>아래로 갈수록 속도가 빨라진다</small><br>
+							<small>여기서 External Memory는 CD DVD TAPE 등의 Storage 개념</small><br>
+							<small>일처리는 CPU가 거의다함(DMA)</small>
+						</aside>
+					</section>
+
+					<section>
+						<span style="font-size:100px">C</span><small style="padding-top:80px">entral</small>
+						<span style="font-size:100px">P</span><small style="padding-top:80px">rocessing</small>
+						<span style="font-size:100px; color:cyan">U</span><small style="padding-top:80px; color:cyan">nit</small>
+						<br>
+						<span style="font-size:100px">I</span><small style="padding-top:80px">nput </small>
+						<span style="font-size:100px"> &nbsp; / O</span><small style="padding-top:80px">utput</small>
+						<aside class="notes">
+							<small>다른건 다 저장(메모리)하는 공간인데 CPU는 단위 임을강조</small><br>
+							<small>속도의 차이만 있을뿐 나머지는 저장 공간</small><br>
+							<small>실제로 CPU가 저장장치를 읽고 쓰기만 함(I/O)</small><br>
+							<small>더 자세한 내용은 운영체제를 참조</small>
+						</aside>
+					</section>
+
+					<section>
+						<h2>문제를 푸는 상황과 비교해 봅시다.</h2>
+						<img style="width:128px;margin-right:3em;" src="image/btree/cpu.png" alt="" />
+						<img style="width:128px;margin-right:3em;" src="image/btree/ram.png" alt="" />
+						<img style="width:128px;"  src="image/btree/storage.jpg" alt="" />
+						<br/>
+						<img class="fragment" style="width:128px;" src="image/btree/brain.png" alt="" />
+						<img class="fragment" style="width:128px;margin-right:3em;margin-left:3em" src="image/btree/note.png" alt="" />
+						<img class="fragment" style="width:128px;" src="image/btree/book.png" alt="" />
+						<aside class="notes">
+							<small>수학식을 계산할 때의 상황에 대입</small><br>
+							<small>간단한 계산 - 사람의 머리 - CPU</small><br>
+							<small>복잡한 계산 - 필기된 종이 - Memory</small><br>
+							<small>복잡한 공식 - 책을 찾아봄 - Storage</small><br>
+							<small style="color:red">자연스럽게 테이블 액세스 시간이 오래 걸림을 언급</small>
+						</aside>
+					</section>
+
+				<section>
+					<h1>ACCESS TIME?</h1>
+					Internal Memory의 Access Time만 해도<br>
+					<span class="fragment">Cache Memory의 <strong style="color:yellow">10배 ~ 100배</strong></span><br>
+					<span class="fragment">Disk는... Internal Memory의 <strong style="color:hotpink">100,000배 ~ 1,000,000배</strong></span>
+					<aside class="notes">
+						<small>0.01초와 0.0001초의 차이는 와닿지 않는다.</small>
+					</aside>
+				</section>
+
+					<section>
+						<h1>Caching</h1>
+						데이터가 커서 메모리에 모두 올릴 수가 없다.<br>
+						그럼 자주 쓰는 것만 올려보자.
+						<aside class="notes">
+							<small>다시 성능문제로 돌아와서...</small><br>
+							<small>cpu 메모리 빠르지만 저장 공간이 부족</small><br>
+							<small>자주 안쓰는걸 올릴 때는 어쩔 수 없이 시간을 감수하더라도.</small><br>
+							<small>이 캐싱에서 중요한 개념이 locality-of-reference</small>
+						</aside>
+					</section>
+
+					<section>
+						<h1>LOCALITY</h1>
+						<table>
+							<tr>
+								<td style="text-align:center">
+									<img width="500px" height="150px" src="image/btree/locality_temporal.jpg" alt="" /><br>
+									Temporal Locality
+								</td>
+								<td style="text-align:center">
+									<img width="500px" height="150px" src="image/btree/locality_spatial.jpg" alt="" /><br>
+									Spatial Locality
+								</td>
+							</tr>
+						</table>
+						<aside class="notes">
+							<small>이것이 분포도와 관련이 있다.</small><br>
+							<small>시간:어떤 메모리 영역을 Access하면 잠시 후에 같은 영역을 Access할 가능성이 높다.<br>
+							공간:어떤 메모리 영역을 Access하면 그 근처에 있는 영역이 Access될 가능성이 높다.</small><br>
+							<small>시간지역성을 이용한 것이 가상메모리</small><br>
+							<small>공간지역성을 이용한 것이 <strong style="color:red">단위</strong> Block</small><br>
+							<small>나아가 multi? 근처의 데이터를 한꺼번에 읽음</small><br>
+							<small>운영체제에서 페이지라고도 불림</small>
+						</aside>
+					</section>
+
+					<section>
+						메모리는 한정된 공간이라서<br>
+						안쓰던 영역이 메모리에 올라오는 경우가 있기 마련<br><br>
+						<h2>그 영역은 자주 쓰일까?</h2>
+						<strong class="fragment" style="color:cyan">Scheduling</strong>
+						<aside class="notes">
+							<small>스케줄링에 관련해서는 논외이므로 소개만 함</small>
+						</aside>
+					</section>
+
+				<section>
+					<h1>Performance?</h1>
+					<img style="width:70%" src="image/btree/ramborghini.jpg" alt="" />
+					<aside class="notes">
+						<small>속도의 향상 만이 성능의 향상은 아니다.</small><br>
+						<small>성능이 좋은 자동차란 작은소리, 속도, 연비 등을 갖춤</small>
+					</aside>
+				</section>
+				<section>
+					Access time 뿐만 아니라<br><br>
+					<h2>Access 횟수를 줄여보자.</h2>
+					<h4 class="fragment" style="color:cyan">Data Structure</h4>
+					<aside class="notes">
+						<small>여태 access시간을 줄이기 위해서 빠른 장치에 접근하기 위해
+						자주 사용하는 부분을 빠른 장치에 저장하는 방법이 있었다.</small><br>
+						<small>저장된 데이터를 구조화함으로써 성능을 향상(효율성)</small><br>
+						<small>엔진을 재구성하는 개념</small>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Access를 어떻게 하는가</h2>
+					<img style="width:70%" src="image/btree/subway.jpg" alt="" />
+					<aside class="notes">
+						<small>액세스횟수를 줄이기위해 자료구조를 바꾸려면 어떤방식으로 액세스하는지 알아야한다.</small><br>
+						<small>처리는 CPU가 하는데 어떻게?</small><br>
+						<small>강의실에서 앉아있는 사람들 중 특정사람을 찾는건 쉽지만</small><br>
+						<small>지하철에서 수많은 사람들 중 특정사람을 찾는건 어렵다.</small><br>
+						<small>역의위치는 정해져있음(헤더)</small><br>
+						<small>2번 출구로 들어가서 어디?</small>
+					</aside>
+				</section>
+				<section>
+					<h1>ADDRESS</h1>
+					<img src="image/btree/entnum.jpg" alt="" /><br>
+					<img class="fragment" style="width:128px;" src="image/btree/brain.png" alt="" />
+					<img class="fragment" style="width:128px;margin-left:3em" src="image/btree/note.png" alt="" />
+					<aside class="notes">
+						<small>그래서 주소의 개념이 나타남</small><br>
+						<small>주소를 기억하거나 적어놓으면 빨리 찾아가는 것과 동일</small>
+					</aside>
+				</section>
+
+			<section>
+				<h2>Big-o-notation</h2>
+				<img src="image/btree/bigonotation.png" alt="" /><br>
+				<strong style="color:cyan">특정 시점</strong> 이후에는 이 <strong style="color:cyan">선</strong>을 넘을 수 없다
+				<aside class="notes">
+					<small>얼마나 빠른가</small><br>
+					<small>자료구조엔 스택과 큐, <strong>트리</strong> 등이 있다.</small><br>
+					<small>자료구조를 분석하기 위해서 어떤것이 빠른가 하는 개념 도입 필요</small><br>
+					<small>직접 그리면서 설명</small><br>
+					<small>어떤 시점 이후 이 선 함수보다 빠를(또는 I/O가 적을) 순 없다는 뜻</small><br>
+					<small>big o notation에서 log타임은 밑이 2</small><br>
+					<small>y축이 알고리즘 복잡도라했는데 시간적인 요소라고 봐도 되고 I/O로 봐도 됨</small>
+				</aside>
+			</section>
+
+			<section>
+				<h2>doubly linked list</h2>
+				<img style="width:70%" src="image/btree/dlinkedlist.png" alt="" /><br>
+			 	이전 또는 다음 블록의 주소를 한 <strong style="color:cyan">노드</strong>에 함께 기록
+				\[ O(n) \]
+				<aside class="notes">
+					<small>일반적인 자료구조의 Node 단위를 Oracle에서 leaf block 단위로 보면 된다.</small><br>
+					<small>header영역에 다음 또는 이전 주소를 넣어서 논리적인 탐색이 가능하게됨</small><br>
+					<small>새로운 행이 들어 올 때는 가리키는 곳만 바꾸어 주면됨</small><br>
+					<small>본래(doubley 아닌경우) next밖에 없음 PL/SQL 커서 개념</small>
+				</aside>
+			</section>
+
+			<section>
+				<h2>balanced tree</h2>
+				<img style="width:70%" src="image/btree/tree.png" alt="" /><br>
+				leaf로 가는 <strong style="font-size:60px;">DEPTH</strong>가 거의 동일하다.
+				\[ O(log \   n) \]
+				<aside class="notes">
+					<small>범용적인 자료구조에 해당</small><br>
+					<small>정확히 2 depth 이상 차이가 나지 않음</small><br>
+					<small>기하급수적으로 데이터가 커진다면 앞의 그래프와 같은 차이가 생김</small>
+				</aside>
+			</section>
+
+			<section>
+				<h2>Oracle b-tree structure</h2>
+				<img style="width:60%;" src="image/index/btree.gif" alt="" /><br>
+				Scan을 위한 양방향 Linked list 구조의 leaf 노드
+				<aside class="notes">
+					<small>버스를 타고 지하철 역(세그먼트)로 가면 항상 같은 장소(root)에 내린다</small><br>
+					<small>지하철 역의 몇번 출구(branch)와</small><br>
+					<small>지하철 승강장 번호(leaf)를 통해 친구를 찾는다(scan)</small><br>
+					<small>1번출구로 들어가서 1-1승강장에서 처음부터 친구를 찾는다고 생각하면 물론 운좋게 빨리 찾을 수는 있겠지만 그때 뿐 성능관점에서 현저히 차이가 난다.</small>
+					<small>쉽게 얘기하면 테이블의 로우가 어느위치에 있든 동일한 처리 방법과 속도로 접근이 가능하다.</small>
+				</aside>
+			</section>
+
+			<section>
+				<h2>B-Tree Operation</h2>
+				<ul>
+					<li>Selection</li>
+					<li>Index Block Creation</li>
+					<li>Index Block Split(Data Insert)</li>
+					<li>Data Delete</li>
+					<li>Data Update</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Selection</h2>
+				<img src="image/index/btree.gif" style="width:40%" alt="" /><br>
+				<small><ol>
+					<li>Root 블록을 찾는다.</li>
+					<li class="fragment">주어진 값 이상의 최소값을 찾아 해당 블록을 찾는다.</li>
+					<li class="fragment">Leaf 블록을 찾을 때 까지 반복한다.</li>
+					<li class="fragment">KEY가 존재하면 ROWID를 이용해 테이블을 Access한다.</li>
+				</ol></small>
+
+				<aside class="notes">
+					<small>앞에서 설명한 지하철 예시를 강조</small><br>
+
+				</aside>
+			</section>
+
+				<section>
+					<h2>Index Block Creation</h2>
+					<img src="image/btree/indexcreation.gif" alt="" />
+					<small><ol>
+						<li>테이블을 Access 하여 정렬을 수행하여 Leaf 블록에 기록한다.</li>
+						<li class="fragment">Leaf블록이 차면 Branch블록을 만들어 블록 헤더에 주소를 기록하고, 새로 Leaf블록을 할당한다.</li>
+						<li class="fragment">위 작업을 반복하여 Branch블록도 차면 새로운 Branch블록을 할당한다.</li>
+						<li class="fragment">이 때 새로운 Root블록도 만든다. 이 작업을 반복한다.</li>
+					</ol></small>
+					<aside class="notes">
+						<small style="color:red">슬라이드 분할</small>
+						<small>leaf블록밖에 없을 때는 자신이 branch역할도 겸한다.(linked list)</small><br>
+						<small>하나의 인덱스 블록에 많은 인덱스 로우가 저장될 수록 leaf블록 수가 감소</small><br>
+						<small>블록 증가 속도 감소, depth감소 => I/O감소</small>
+					</aside>
+				</section>
+				<section>
+					<h2>pctfree</h2>
+					<img src="image/btree/pctfree.gif" alt="" /><br>
+					미래의 UPDATE를 위한 가용공간
+					<aside class="notes">
+						<small>블록이 빽빽히 들어찬게 아니다</small>
+						<small>위에서 블록이 차면 새로운블록을 만든다고 얘기한것은 정확히 이야기하면 PCTFREE에 도달한것이다.</small>
+
+					</aside>
+				</section>
+
+				<section>
+					<h2>Index Block Split</h2>
+					<img src="image/btree/split.png" alt="" /><br>
+					분할한 양쪽을 $ 2 \over 3 $ 만큼씩 채우도록 하면서 <br>
+					양쪽을 모두 새로 편성한다.
+					<aside class="notes">
+						<small>어차피 인덱스 생성시 새로운 블록을 생성시는 꽉찬 블록이므로 분할해야함</small><br>
+						<small></small>
+					</aside>
+				</section>
+
+			<section>
+				<h2>Data Delete</h2>
+				테이블의 row는 제거되나 <br>
+				index의 row는 삭제된 <strong style="color:yellow">표시</strong>만 추가된다.<br>
+				그 자리에 새로운 index row가 추가되지 않는다면<br><br>
+				<span class="fragment">저장공간의 낭비, 스캔할 블록 증가.</span>
+			</section>
+			<section>
+				<h2>Data Update</h2>
+				Index row는 정렬되어 저장된다.<br><br>
+				<span class="fragment">Update 작업은 Delete 후 Insert 작업이 발생한다.</span>
+
+			</section>
+			<section>
+				<h4>dml문이 많이 수행되는 테이블은 <br>Index를 <span style="color:cyan">정기적으로 재생성</span>할 필요가있다.</h4>
+				<img src="image/indexrecreate.png" alt="" />
+			</section>
+
+				<section>
+					<h2>Reverse Key Index</h2>
+					<img src="image/btree/revindex.png" alt="" /> <br>
+					실제로 byte를 역순으로 처리한다.
+					<pre>
+						<code class="hljs sql">SELECT dump(1211101,16) FROM dual;
+	-- Typ=2 Len=5: c4,2,16,c,2
+	-- Reversed : 2,c,16,2,c4</code>
+					</pre>
+					<aside class="notes">
+						<small>descending index관련해서는 실습쪽으로 미룸</small>
+						<small>실제로는 내부적으로 바이트 단위로 reverse된다.</small><br>
+						<small>중요한 것은 이들이 멀리 떨어진다는 것이다.</small><br>
+						<small>클러스터링 팩터도 안좋아지는데 왜 쓰는것일까</small>
+					</aside>
+				</section>
+				<section>
+					<h3>왜 쓰는 것일까?</h3>
+					<img src="image/btree/revindexrac.gif" alt="" /><br>
+					<strong style="color:cyan">RAC</strong>환경에서의 Contention을 줄이기 위해 사용
+					<aside class="notes">
+						<small>싱글 환경에서도 경합을 줄이는데 유용하다. butter busy waits 경감</small>
+						<br><small>세션에서도 해당됨</small>
+					</aside>
+				</section>
+
+			<section>
+				<h2>Index Key Compression</h2>
+				여러개의 컬럼을 KEY값으로 하는 Index의 <br>
+				<strong style="color:cyan">중복을 제거</strong>해서 압축한다.<br><br>
+				KEY를 prefix(중복부분)와 suffix(고유부분)로 분해
+				<aside class="notes">
+					<small>복합 컬럼의 앞부분: prefix</small><br>
+					<small>suffix는 같은 접두사 내에서 고유값을 가진다</small>
+				</aside>
+			</section>
+			<section>
+				<h2>Index key compression</h2>
+				<ul>
+					<li>Index의 공간이 줄어든다.</li>
+					<li>I/O 시간이 줄어든다.</li>
+					<li>버퍼캐시의 효율이 향상된다.</li>
+				</ul>
+				<hr>
+				<ul>
+					<li>Contention이 발생할 수 있다.</li>
+					<li>CPU 사용량이 증가한다</li>
+				</ul>
+				<br><br>
+				<h4 class="fragment">현재 상황을 고려하여 Index를 압축한다</h4>
+				<aside class="notes">
+					<small>현재 상황이 CPU작업이 많은지, I/O작업이 많은지</small>
+				</aside>
+			</section>
+
+			<section>
+				<h2>HIGHLIGHT</h2>
+				<small><ul>
+										<li>Performance</li>
+										<li><a href="#/14">Data Structure</a></li>
+											<li><a href="#/17">Oracle B-Tree Structure</a></li>
+											<li><a href="#/18">Oracle B-Tree Operation</a></li>
+											<li><a href="#/27">Reverse Key Index</a></li>
+											<li><a href="#/29">Index Key Compression</a></li>
+				</ul></small>
+				<hr>
+				<h2>REFERENCE</h2>
+				<small><ul>
+					<li>Thomas Kyte. 『 Expert Oracle Database 』 Jpub</li>
+					<li>이화식. 『 새로 쓴, 대용량 데이터 베이스 솔루션 』 엔코아컨설팅</li>
+				</ul></small>
+
+
+			</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="plugin/sketch-js/sketch.js"></script>
+		<script src="plugin/sketch-js/dazzleSketch.js"></script>
+		<script src="plugin/search/search.js"></script>
+
+		<script>
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				math: {
+			         mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+			         config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+			  },
+				dependencies: [
+					// Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+
+					// Interpret Markdown in <section> elements
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+					// Syntax highlight for <code> elements
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+					// Zoom in and out with Alt+click
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+
+					// Speaker notes
+					{ src: 'plugin/notes/notes.js', async: true },
+
+					// MathJax
+        	{ src: 'plugin/math/math.js', async: true }
+				]
+			});
+		</script>
+
+	</body>
+</html>

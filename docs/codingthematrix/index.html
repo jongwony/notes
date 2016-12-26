@@ -1,0 +1,12 @@
+---
+layout: default
+title: Coding the Matrix
+---
+
+{% for post in site.my_codingthematrix %}
+
+<p id="animlist">
+<a href="{{ post.url }}">{{ post.title }}</a>
+</p>
+
+{% endfor %}
