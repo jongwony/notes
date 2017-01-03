@@ -40,6 +40,18 @@ body {
   margin-top: 3em;
   margin-bottom: 1.2em;
 }
+.dropdown-toggle{
+	cursor: pointer;
+}
+.dropdown-menu {
+	opacity: 0;
+	display: block;
+}
+.open > .dropdown-menu {
+	opacity: 1;
+	-webkit-transition: all 0.5s, 0.3s;
+	transition: all 0.5s, 0.3s;
+}
 
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
