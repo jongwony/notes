@@ -6,7 +6,9 @@ layout: default
 {% if page.tags.size > 0 %}
 <div class="post-tags">
 	{% for tag in page.tags %}
-		<img src="https://img.shields.io/badge/Tag-{{ tag | capitalize }}-orange.svg" />
+	<a id="tag" href="/blog#{{ tag }}">
+		<img src="https://img.shields.io/badge/Tag-{{ tag | capitalize }}-orange.svg" alt="{{ tag }}" />
+	</a>
 	{% endfor %}
 
 	{% if page.progress %}

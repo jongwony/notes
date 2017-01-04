@@ -13,3 +13,6 @@ $('.post-content>a>h2').each(function(){
     link = link.toLowerCase();
     return $("<a href='#" + link + "'>" + text + "</a><br>").appendTo('#index-table');
 });
+
+// liquid parsing
+//$('#keyword').attr('class', window.location.href);

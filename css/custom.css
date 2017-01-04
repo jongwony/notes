@@ -26,6 +26,10 @@ body {
   font-family: "나눔 고딕","Nanum Gothic","맑은 고딕","Malgun Gothic","Apple Gothic","돋움",Dotum,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 
+#tag {
+	text-decoration: none;
+}
+
 #index-table {
 	line-height: 2.4em;
 	margin-top: 4.8em;
