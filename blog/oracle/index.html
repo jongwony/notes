@@ -3,7 +3,8 @@ layout: default
 title: Posts
 ---
 
-{% for post in site.posts %}
+{% for post in site.tags.oracle %}
+
 <article class="post">
   <div class="post-set">
     <header class="post_header" id="animlist">
@@ -16,5 +17,21 @@ title: Posts
       <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
     </section>
   </div>
+
+  {% if post.tags.size > 0 %}
+  <div class="post-tags">
+    {% for tag in post.tags %}
+      <a id="tag" href="/blog#{{ tag }}">
+          <img src="//img.shields.io/badge/Tag-{{ tag | capitalize }}-orange.svg" alt="{{ tag }}" />
+      </a>
+    {% endfor %}
+
+    {% if post.progress.size > 0 %}
+      <img src="//img.shields.io/badge/In%20Progress-{{ post.progress }}%-green.svg" />
+    {% endif %}
+  </div>
+  {% endif %}
+
 </article>
+
 {% endfor %}
