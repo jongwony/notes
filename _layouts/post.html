@@ -3,20 +3,22 @@ layout: default
 ---
 
 <article class="post">
+
 {% if page.tags.size > 0 %}
 <div class="post-tags">
 	{% for tag in page.tags %}
 	<a id="tag" href="/blog#{{ tag }}">
-		<img src="https://img.shields.io/badge/Tag-{{ tag | capitalize }}-orange.svg" alt="{{ tag }}" />
+		<img src="//img.shields.io/badge/Tag-{{ tag | capitalize }}-orange.svg" alt="{{ tag }}" />
 	</a>
 	{% endfor %}
 
 	{% if page.progress %}
-      	<img src="https://img.shields.io/badge/In%20Progress-{{ page.progress }}%-green.svg" />
+		<img src="//img.shields.io/badge/In%20Progress-{{ page.progress }}%-green.svg" />
     {% endif %}
 </div>
 <hr>
 {% endif %}
+
 <div class="post-content">
 
 	{{ content }}
