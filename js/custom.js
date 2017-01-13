@@ -1,5 +1,5 @@
 // new tab from 'a' link
-$('.post-content>a').attr('target','_blank');
+$('.post-content>p>a').attr('target','_blank');
 
 // make bookmark
 $('.post-content>h2').wrap('<a href="#index-table" style="text-decoration:none" ></a>');
