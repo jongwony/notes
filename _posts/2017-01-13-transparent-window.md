@@ -4,7 +4,7 @@ title: Windows 창 투명화 프로그램
 tags: ['windows', 'transparent', 'winapi', 'layerwindow']
 ---
 
-[Download](/file/layerwindowv1_2.zip) | [GitHub](//github.com/lastone9182/layerwindowtray)
+[Download](/file/layerwindowv1_2.zip) \| [GitHub](//github.com/lastone9182/layerwindowtray)
 
 Windows 10에서 현재 활성화 되지 않은 윈도우를 투명하게 하는 프로그램입니다.
 
@@ -104,10 +104,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 `EnumWindowsProc`에서 모든 `hWnd`를 차례로 호출하기 때문에 여기서 불필요한 창을 거르고
 `GetForegroundWindow`를 통해 현재 활성화된 창을 추출할 수 있게됩니다.
-
-## Tray icon
-
-## Mouse Hover
 
 ## Source Code
 
@@ -235,3 +231,5 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         return DefWindowProc(hWnd, message, wParam, lParam);
 }
 ```
+
+트레이 아이콘을 추가하여 백그라운드 프로세스로 실행할 수 있고 마우스 좌표를 얻어 창 영역으로 들어가게 되었을 때의 창 투명도를 변환을 추가하였습니다.
