@@ -1,5 +1,4 @@
 ---
-# Jekyll reads the file
 ---
 
 html{
@@ -18,8 +17,8 @@ html{
 }
 /* chrome scroll */
 ::-webkit-scrollbar {width: 8px; height: 8px; border: 3px solid #fff; }
-::-webkit-scrollbar-track {background: #efefef; -webkit-border-radius: 10px; border-radius:10px; -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.2)}
-::-webkit-scrollbar-thumb {height: 50px; width: 50px; background: rgba(0,0,0,.2); -webkit-border-radius: 8px; border-radius: 8px; -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.1)}
+::-webkit-scrollbar-track {background: #efefef; -webkit-border-radius: 10px; border-radius:10px;}
+::-webkit-scrollbar-thumb {height: 50px; width: 50px; background: rgba(0,0,0,.2); -webkit-border-radius: 8px; border-radius: 8px;}
 
 
 body {
@@ -66,7 +65,6 @@ body {
     padding-bottom: 60px;
     border-bottom: #EBF2F6 1px solid;
     word-break: break-word;
-    hyphens: auto;
 }
 .post section{
   padding: 0;
@@ -143,8 +141,9 @@ body {
   margin-bottom: 1.2em;
 }
 .post-content p {
-  margin: 2em 0;
-  font-size:16px;
+  margin-top: 2em;
+  margin-bottom: 0;
+  font-size: 16px;
 }
 .post-content hr {
   margin-top: 5em;
@@ -192,7 +191,6 @@ footer {
 }
 
 #animlist {
-  padding 0 20px;
   list-style-type: none;
 	position: relative;
 	transition: 0.5s;
@@ -209,7 +207,7 @@ footer {
 
 
 #animlist:hover {
-	padding-left: 2em;
+	padding-left: 1.2em;
 	transition: 0.5s;
 }
 
