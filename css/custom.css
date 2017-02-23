@@ -279,6 +279,33 @@ footer {
   font-weight: 600;
 }
 
+.footnotes {
+  font-size: 12px;
+}
+
+.footnotes p {
+  font-size: 12px;
+}
+
+/* Markdown table default */
+
+table {
+  width: 100%;
+  margin-top: 2em;
+}
+
+th {
+  background-color: #efe0e0;
+  padding: 15px;
+}
+
+td {
+  padding: 15px;
+}
+
+tr {
+  border-bottom: 1px solid #dddddd;
+}
 
 /* Highlighter Rouge */
 
@@ -286,6 +313,19 @@ footer {
   white-space: nowrap;
   overflow-x: auto;
 }
+
+.highlight th {
+  padding: 0;
+}
+
+.highlight td {
+  padding: 0;
+}
+
+.highlight tr {
+  border: 0;
+}
+
 code, pre {
   border: 1px solid #ccc;
   font-family: Menlo,Monaco,Consolas,"Courier New";
