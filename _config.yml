@@ -7,8 +7,6 @@ github_username: lastone9182
 progress: true
 
 
-
-theme: minima
 markdown: kramdown
 highlighter: rouge
 kramdown:
