@@ -7,7 +7,7 @@ $('.post-content>h2').wrap('<a href="#index-table" style="text-decoration:none" 
 // append index
 $('.post-content>a>h2').each(function(){
     var text = $(this).text();
-    var link = text.replace(/[\.,'’/]|[0-9]/g, '');
+    var link = text.replace(/[\.,'’/]/g, '');
     link = link.trim(link);
     link = link.replace(/ /g, '-');
     link = link.toLowerCase();
