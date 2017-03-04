@@ -50,13 +50,10 @@ example("points")
 
 #### Python
 
-Python이 데이터 분석 분야에서 주목 받는 이유는 여러가지가 있지만 pandas 라이브러리의 역할이 큰 것 같습니다.
-
-Python에서 데이터 분석을 위해 데이터 구조로 pandas, 그래픽으로 matplotlib 기반인 seaborn을 많이 사용합니다.
+Python이 데이터 분석 분야에서 주목 받는 이유는 여러가지가 있지만 pandas 라이브러리의 역할이 큰 것 같습니다. 데이터 분석을 위해 데이터 구조로 pandas, 그래픽으로 matplotlib 기반인 seaborn을 많이 사용합니다.
 
 pandas는 데이터 구조에 가까운 라이브러리이며 1차원 데이터를 다루는데 효과적인 `Series`와 2차원 데이터를 다루는데 효과적인 `DataFrame`이 있습니다.
-
-출력을 해보면 R과 비슷한 데이터 구조가 되는 것을 알 수 있습니다.
+실제로 출력을 해보면 R과 비슷한 데이터 구조가 되는 것을 알 수 있습니다.
 
 그래픽으로는 seaborn의 plotting이 R의 ggplot과 비슷한 편입니다.
 
