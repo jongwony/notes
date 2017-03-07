@@ -25,6 +25,21 @@ body {
   font-family: "나눔 고딕","Nanum Gothic","맑은 고딕","Malgun Gothic","Apple Gothic","돋움",Dotum,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 
+ul {
+  list-style-image: url('sqorange.gif');
+  margin-top: 1.2em;
+  line-height: 1.8em;
+}
+
+ol {
+  margin-top: 1.2em;
+  line-height: 1.8em;
+}
+
+ul li, ol li {
+  padding-left: 0.6em;
+}
+
 #tag {
 	text-decoration: none;
 }
@@ -141,9 +156,10 @@ body {
   margin-bottom: 1.2em;
 }
 .post-content p {
-  margin-top: 2em;
+  margin-top: 1.8em;
   margin-bottom: 0;
   font-size: 16px;
+  line-height: 1.8em;
 }
 .post-content hr {
   margin-top: 5em;
