@@ -1,6 +1,6 @@
 // new tab from 'a' link
 $('.post-content a').each(function(){
-    var text = $(this).text();
+    var text = $(this).attr('href');
     var first = text.charAt(0);
     if(first != '#'){
         $(this).attr('target', '_blank');
