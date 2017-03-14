@@ -14,7 +14,17 @@ HTTP/2를 통해 Python 콘솔로 구글 번역 페이지를 우회하는 프로
 
 ![battery_usage](/image/battery_usage.png)
 
-최근 HTTP/2 표준이 어마어마한 속도를 자랑하고 있다기에 *requests* 라이브러리에 추가해 보았습니다. [관련 블로그 포스트](//www.popit.kr/%EB%82%98%EB%A7%8C-%EB%AA%A8%EB%A5%B4%EA%B3%A0-%EC%9E%88%EB%8D%98-http2/)
+최근 HTTP/2 표준이 어마어마한 속도를 자랑하고 있다기에 ~~*requests* 라이브러리에~~ 추가해 보았습니다. [관련 블로그 포스트](//www.popit.kr/%EB%82%98%EB%A7%8C-%EB%AA%A8%EB%A5%B4%EA%B3%A0-%EC%9E%88%EB%8D%98-http2/)
+
+## Bug report
+
+Python *requests* 라이브러리와 *hyper*를 결합하는 방법이 *hyper* 라이브러리 페이지에 소개되어 있었습니다.
+하지만 이렇게 사용할 경우 [`close()`가 호출이 안되는 현상](//github.com/Lukasa/hyper/issues/306)이 발생하였습니다.
+
+그렇다고 연결을 계속 유지하자니 [연결이 자동으로 끊기는](//github.com/Lukasa/hyper/issues/291) 현상이 발생합니다.
+
+내용을 읽어보면 아직 HTTP/2의 Python 구현이 완벽하게 되지 않은 것으로 보입니다.
+기본적인 구현으로 해결할 수 있는 문제라 *request* 라이브러리를 사용하지 않고 순수 *hyper* 라이브러리만 사용하게 되었습니다.
 
 ## Requirements
 
@@ -23,7 +33,6 @@ HTTP/2를 통해 Python 콘솔로 구글 번역 페이지를 우회하는 프로
 ```
 hyper==0.7.0
 beautifulsoup4==4.5.3
-requests==2.13.0
 ```
 
 #### Virtualenv install
@@ -36,7 +45,6 @@ virtualenv _hypertrans
 
 (Windows) `.\_hypertrans\Scripts\activate`
 
-pip install requests
 pip install hyper
 pip install beautifulsoup4
 
