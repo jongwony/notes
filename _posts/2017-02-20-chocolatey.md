@@ -81,6 +81,8 @@ choco install visualstudiocode
 
 이 편집기는 PowerShell 터미널을 지원하므로 이제 `jekyll serve`를 편집기에서 실행할 수 있습니다.
 
+터미널에서 실행하는 명령어는 `code`입니다.
+
 ![vscode](/image/vscode.png)
 
-기타 다양한 패키지 역시 설치할 수 있습니다. 자세한 내용은 [GitHub](//github.com/chocolatey/choco)를 참조하시기 바랍니다.
+기타 다양한 패키지 및 확장 프로그램 역시 설치할 수 있습니다. 자세한 내용은 [GitHub](//github.com/chocolatey/choco)를 참조하시기 바랍니다.
