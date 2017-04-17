@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Visualization
+title: Data Visualization with Flask
 tags: ['python', 'pandas', 'flask', 'd3.js']
 ---
 
@@ -11,7 +11,7 @@ tags: ['python', 'pandas', 'flask', 'd3.js']
 
 그림으로 나타내면 다음과 같습니다.
 
-![workflow](/image/visualization/dataworkflow.gif)  
+![workflow](/image/visualization/dataworkflow.gif)
 ###### Image: [https://www.promptcloud.com/next-generation-of-data-mining/](//www.promptcloud.com/next-generation-of-data-mining/)
 
 우선 데이터를 추출하여 데이터베이스에 저장합니다.
@@ -264,15 +264,77 @@ var arcs = d3.pie()
 
 #### Pandas Dataframe
 
-- reverse index
+*Pandas* 패키지의 Dataframe 데이터 구조를 통해 Python에서 2차원 데이터를 효과적으로 처리할 수 있습니다.
 
-- generator sorting
+프로젝트에서 Pandas를 이용하여 다음 세가지를 주로 처리하였습니다.
+
+- Datetime object in Dataframe  
+2차원 데이터 구조 Dataframe 내부에서 날짜를 계산할 수 있게 Datetime 객체로 변환하여 각 행에 추가하였습니다.
+
+- Reverse index  
+다음과 같은 코드를 통해 최신 행 순서로 이루어진 Dataframe을 반대로 재정렬 할 수 있습니다.
+```python
+# loop reverse index in dataframe
+for index, element in evt_today.iloc[::-1].iterrows():
+    pass
+```
+###### Reverse index order
+`iterrows()`는 Generator를 반환하므로 이를 통해 순서를 보장할 수 있습니다.
+
+- Query  
+*Pandas* 패키지의 Dataframe 데이터 구조는 연산자 오버로딩 및 배열 내부에서 비교 연산자로 쉽게 데이터를 쿼리할 수 있습니다. 예를 들어  
+```python
+evt_today = evt_today[evt_today['TimeWritten'] > today]
+```
+###### Today query
+위와 같이 오늘 날짜 이후로 이벤트가 발생한 데이터를 쉽게 쿼리할 수 있습니다.
 
 #### SVG
 
+*D3*는 차트나 맵 라이브러리가 아닙니다. SVG, HTML 또는 Canvas 자체도 아닙니다. 이를 통해 차트나 맵을 만들어 나가는 것입니다.
+SVG, Canvas 같은 새로운 추상화 계층은 아니지만 이를 이용하여 원하는 그림을 Javascript로 그리게 해줍니다. 마치 jQuery가 Javascript를 사용하는 것과 비슷하달까요.
+
+그러므로 *D3*를 제대로 이해하기 위해서는 SVG, Canvas 등의 기초적인 원리를 알아야 합니다. 예를 들어 다음과 같은 SVG 코드는
+
+<svg height="100" width="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+</svg>
+###### Red-circle_Black-stroke.svg
+
+```html
+<svg height="100" width="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+</svg>
+```
+
+*D3*에서 다음과 같이 나타낼 수 있습니다.
+
+```javascript
+var svg = d3.select('body')
+    .append('svg')
+    .attr({
+        width: 100,
+        height: 100,
+    });
+
+svg.append('circle')
+    .attr({
+        'cx': 50,
+        'cy': 50,
+        'r': 40,
+        'stroke': 'black',
+        'stroke-width': 3,
+        'fill': 'red'
+    });
+```
+
 #### D3 Selection
 
+*D3*에서는 Selection 요소를 `d3.select()`와 `d3.selectAll()` 두가지로 나누며 전자는 일치하는 첫 요소만 선택하고, 후자는 일치하는 모든 요소를 document 순서로 선택합니다.
 
+*D3*는 데이터의 구조와 HTML의 DOM Selector를 잇는 다리 역할을 하며 데이터 조인은 Data Enter Exit으로 나누어 데이터를 DOM 요소에 맞게 바인딩 시킬 수 있습니다.
+
+[How Selections Work](//bost.ocks.org/mike/selection/)([한글](//hanmomhanda.github.io/Docs/d3/How-Selections-Work.html))에 아주 자세하게 원리에 대해 설명이 되어있습니다. 참고하시기 바랍니다.
 
 #### D3 Gallery
 
@@ -283,26 +345,20 @@ var arcs = d3.pie()
 ## Tie up
 
 이렇게 데이터를 처리하는 과정을 배워보면서 프로세스를 익혀볼 수 있었습니다.
-학습량이 많이 요구되지만, 기본적인 내용을 다시 알게 되면서 앞으로 복잡한 데이터 분석 및 시각화도 충분히 해낼 수 있다고 생각합니다.
+
+이 프로젝트는 아직 끝나지 않았고 배터리 사용량과 함께 그려보고 싶은 것이 많습니다.
+그만큼 학습량이 많이 요구되지만, 기본적인 내용을 다시 알게 되면서 앞으로 복잡한 데이터 분석 및 시각화도 충분히 해낼 수 있다고 생각합니다.
 
 ## Reference
 
 - [about_Execution_Policies](//technet.microsoft.com/ko-KR/library/hh847748.aspx)
-
 - [D3.js 배우는 방법](//mobicon.tistory.com/275)
-
 - [D3 Gallery](//github.com/d3/d3/wiki/Gallery)
-
+- [How Selections Work](//bost.ocks.org/mike/selection/)
 - [Flask quick start](//flask.pocoo.org/docs/0.12/quickstart/)
-
 - [Flask templates](//flask.pocoo.org/docs/0.12/templating/)
-
 - [Pandas dataframe](//pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)
-
 - [Pandas dataframe query](//pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.query.html)
-
 - [Jinja2 Template Documentation](//jinja.pocoo.org/docs/2.9/templates/)
-
 - Python Cookbook - By David Beazley and Brian K. Jones
-
 - D3 Tips and Tricks - Malcolm Maclean
