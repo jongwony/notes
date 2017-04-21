@@ -47,3 +47,43 @@ plink -ssh -i [puttygen으로 keypair pem -> ppk 변환] ubuntu@[AWS Instance Pu
 이 경우에는 기존의 레거시 콘솔 설정을 사용하고 있기 떄문입니다. 아래와 같이 체크 해제를 해 주시면 정상적으로 동작합니다.
 
 ![legacy check 해제](/image/aws/legacy.png)
+
+<div class='warn'>
+<code>SIGINT</code> 인터럽트를 전달했지만 AWS 접속을 끊습니다.
+</div>
+
+PowerShell 인터럽트가 먼저 처리되어 종료되는 것 같습니다. 저의 경우는 `stty`를 통해 키맵을 변경하였습니다. 예를 들어 Ubuntu에서
+
+```
+stty intr ^W
+```
+###### .profile(SIGINT를 Ctrl + W로 변경)
+
+`stty -a`를 통해 모든 옵션을 확인할 수 있으며 다른 충돌 사항도 변경할 수 있습니다.
+
+<div class='warn'>
+vim에서 동작이 안되는 키가 있습니다.
+</div>
+
+vim에서의 키 매핑을 `map` 명령으로 할 수 있습니다.
+
+예를 들어 `insert` 모드에서의 키맵은
+
+```
+imap `` <Esc>
+```
+###### ` 두번 입력으로 ESC 역할 변경
+
+```
+:nmap - Display normal mode maps
+:imap - Display insert mode maps
+:vmap - Display visual and select mode maps
+:smap - Display select mode maps
+:xmap - Display visual mode maps
+:cmap - Display command-line mode maps
+:omap - Display operator pending mode maps
+```
+
+위와 같이 다양한 모드에서의 키 변경을 할 수 있습니다.
+
+더 자세한 정보는 [Mapping keys in Vim](//vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1)) 튜토리얼을 탐고하시기 바랍니다.
