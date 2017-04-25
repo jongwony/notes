@@ -28,6 +28,8 @@ choco install putty
 터미널에서 `plink` 키워드로 실행할 수 있습니다.  
 (개인적으로 이런 터미널 스타트 명령어쯤은 chocolatey 설치 페이지에 같이 소개했으면 하는 바람이...)
 
+추가로 `pscp`, `psftp` 명령을 실행할 수도 있습니다.
+
 ```
 plink --help
 ```
@@ -86,4 +88,4 @@ imap `` <Esc>
 
 위와 같이 다양한 모드에서의 키 변경을 할 수 있습니다.
 
-더 자세한 정보는 [Mapping keys in Vim](//vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1)) 튜토리얼을 탐고하시기 바랍니다.
+더 자세한 정보는 [Mapping keys in Vim](//vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1)) 튜토리얼을 참고하시기 바랍니다.
