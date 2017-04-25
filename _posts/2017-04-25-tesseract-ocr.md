@@ -150,7 +150,7 @@ sudo ldconfig
 git clone https://github.com/tesseract-ocr/langdata.git
 ```
 
-우분투 버전 및 Laptonica 버전에 따라 오류가 발생할 수 있습니다.
+Ubuntu 버전 및 Laptonica 버전에 따라 오류가 발생할 수 있습니다.
 
 `./configure`에서 오류가 발생할 경우 [설치 문서](//github.com/tesseract-ocr/tesseract/wiki/Compiling#compilation)를 참고하시기 바랍니다.
 
@@ -176,6 +176,37 @@ sudo make training-install
 ```
 sudo apt install tesseract-ocr-eng tesseract-ocr-kor
 sudo -H pip install pytesseract
+```
+
+## Version Check
+
+클론한 레퍼지토리 및 설치된 버전을 확인하는 방법입니다.
+
+#### OpenCV
+
+```python
+# Python OpenCV
+import cv2
+cv2.__version__
+```
+
+#### Tesseract
+
+```
+# Tesseract
+tesseract --version
+
+# Tesseract repo
+cd ~/tesseract
+git log
+```
+
+#### Leptonica
+
+```
+# Leptonica repo
+cd ~/leptonica
+git describe
 ```
 
 ## Hello World
