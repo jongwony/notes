@@ -36,6 +36,9 @@ virtualenv _tf --python=C:\\Python35\\python.exe
 pip install --upgrade tensorflow
 ```
 
+이는 CPU-Only 설치이며 GPU가 있다면 `pip install --upgrade tensorflow-gpu`  
+그전에!! CUDA 및 NVIDIA toolkit이 설치 되어 있어야 합니다.
+
 `numpy`, `werkzeug`, `protobuf`는 자동 설치됩니다.
 
 #### Success
@@ -51,4 +54,4 @@ Python 3.5.2
 '1.12.1'
 ```
 
-또는 `pip freeze`로 확인
+또는 `pip freeze`로 확인합니다.
