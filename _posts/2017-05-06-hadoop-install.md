@@ -221,7 +221,7 @@ DataNode가 2개이므로 블록을 2개로 복제하도록 하고 secondary nam
                 <name>dfs.permissions</name>
                 <value>false</value>
         </property>
-                <property>
+        <property>
                 <name>dfs.datanode.data.dir</name>
                 <value>/home/hadoop/hadoop-2.7.3/hdfs/data</value>
         </property>
