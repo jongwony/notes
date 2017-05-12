@@ -286,7 +286,7 @@ bin/hdfs dfs -cat /user/hadoop/output/part-r-00000
 
 <div class='warn'>
 -put 옵션만 동작하지 않습니다 could only be replicated to 0 nodes, instead of 1.
-</div
+</div>
 
 보통 데몬 구동 중 잘못 포맷을 하거나 해서 발생하는 DataNode 문제입니다. 포맷 뿐 아니라 `/tmp/hadoop-user` 디렉터리를 제거하면 정상적으로 동작합니다. 
 
