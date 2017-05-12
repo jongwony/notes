@@ -290,7 +290,7 @@ bin/hdfs dfs -cat /user/hadoop/output/part-r-00000
 
 보통 데몬 구동 중 잘못 포맷을 하거나 해서 발생하는 DataNode 문제입니다. 포맷 뿐 아니라 `/tmp/hadoop-user` 디렉터리를 제거하면 정상적으로 동작합니다. 
 
--[http://stackoverflow.com/questions/27147096/hadoop-put-command-throws-could-only-be-replicated-to-0-nodes-instead-of-1](//stackoverflow.com/questions/27147096/hadoop-put-command-throws-could-only-be-replicated-to-0-nodes-instead-of-1)
+- [http://stackoverflow.com/questions/27147096/hadoop-put-command-throws-could-only-be-replicated-to-0-nodes-instead-of-1](//stackoverflow.com/questions/27147096/hadoop-put-command-throws-could-only-be-replicated-to-0-nodes-instead-of-1)
 
 - [http://stackoverflow.com/questions/11889261/datanode-process-not-running-in-hadoop](//stackoverflow.com/questions/11889261/datanode-process-not-running-in-hadoop)
 
