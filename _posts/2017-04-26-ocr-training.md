@@ -304,6 +304,7 @@ print(pytesseract.image_to_string(Image.open('result.png'), lang='mylang'))
 
 ## Project
 
-이 포스트는 프로토타입이며 현재 node.js로 구현이 되어 있습니다.
+이 포스트에서 트레이닝을 제외한 부분은 프로토타입이며 현재 node.js로 구현이 되어 있습니다.  
+트레이닝 데이터는 `custom.traineddata` 파일입니다.
 
 - [GitHub](//github.com/RestrictedZone/telegramBot)
