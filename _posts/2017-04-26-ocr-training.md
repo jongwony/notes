@@ -301,3 +301,9 @@ print(pytesseract.image_to_string(Image.open('result.png'), lang='mylang'))
 사실 사소한 부분을 제외하고는 매뉴얼과 같습니다. 가장 어려운 것은 처음 접할 때 프로세스를 이해하는 것이며 GUI로 교정하는 것이 힘들 뿐 과정 자체에서의 어려운 점은 없습니다.
 
 학습이 안된 순수한 머신은 갓난 아기와 비슷하다고 생각합니다. 아이도 경험에 따라 성장이 달라지는 것처럼 이를 어떻게 학습시키느냐에 따라 성능 및 결과도 달라질 것입니다.
+
+## Project
+
+이 포스트는 프로토타입이며 현재 node.js로 구현이 되어 있습니다.
+
+- [GitHub](//github.com/RestrictedZone/telegramBot)
