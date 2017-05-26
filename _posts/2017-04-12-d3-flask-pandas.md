@@ -4,6 +4,8 @@ title: Data Visualization with Flask
 tags: ['python', 'pandas', 'flask', 'd3.js']
 ---
 
+<a class="gitribbon" href="//github.com/lastone9182/laptop-rhythm"></a>
+
 데이터가 끊임없이 변화하고 방대해지면서 데이터를 잘 분석하고, 표현하는 것이 중요해지고 있습니다.
 
 데이터를 분석하는 이유는 가치를 창출하는 등 여러가지 이유가 있지만 특히 **의사소통을 위해서**라고 생각합니다.  

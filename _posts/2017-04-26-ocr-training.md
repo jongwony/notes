@@ -4,6 +4,8 @@ title: OCR 한글 학습
 tags: ['ocr', 'tesseract', 'python', 'opencv', '한글']
 ---
 
+<a class="gitribbon" href="//github.com/RestrictedZone/telegramBot"></a>
+
 [Tesseract, OpenCV 설치](/2017/04/25/tesseract-ocr.html)
 
 Tesseract-OCR을 사용했지만 특히 한글의 인식율이 기대에 미치지 않아 크게 실망하고 다른 엔진을 찾아다닐 수 있습니다.

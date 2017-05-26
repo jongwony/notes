@@ -4,7 +4,9 @@ title: Windows 창 투명화 프로그램
 tags: ['windows', 'transparent', 'winapi', 'layerwindow']
 ---
 
-[Download](/file/layerwindowv1_2.zip) \| [GitHub](//github.com/lastone9182/layerwindowtray)
+<a class="gitribbon" href="//github.com/lastone9182/layerwindowtray"></a>
+
+[Download](/file/layerwindowv1_2.zip)
 
 Windows 10에서 현재 활성화 되지 않은 윈도우를 투명하게 하는 프로그램입니다.
 
@@ -72,7 +74,7 @@ SPY++ 에서 창에 대한 정보를 얻을 수 있다고 했습니다.
 저는 활성화 된 창과 그렇지 않은 창만 구별하기 위해 위 함수는 필요가 없었습니다.
 좀 더 정교한 프로그램을 만들기 위해 필요한 함수 같습니다.
 
-그래서 현재 활성화 된 창을 얻기 위해 [GetForegroundWindow](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633505.aspx)
+그래서 현재 활성화 된 창을 얻기 위해 [GetForegroundWindow](//msdn.microsoft.com/en-us/library/windows/desktop/ms633505.aspx)
 함수를 사용했습니다. 이는 단순히 현재 활성화된 `hWnd`만을 반환하게 됩니다.
 
 ## EnumWindows

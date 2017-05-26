@@ -4,6 +4,8 @@ title: Python 콘솔에서 Google 번역
 tags: ['python', 'console', 'translate', 'http2', 'project']
 ---
 
+<a class="gitribbon" href="//github.com/lastone9182/hypertrans"></a>
+
 [Google Translate](//translate.google.com) + HTTP/2
 
 HTTP/2를 통해 Python 콘솔로 구글 번역 페이지를 우회하는 프로그램입니다.
@@ -36,8 +38,6 @@ beautifulsoup4==4.5.3
 ```
 
 #### Virtualenv install
-
-[GitHub](//github.com/lastone9182/hypertrans)
 
 ```
 pip install virtualenv
