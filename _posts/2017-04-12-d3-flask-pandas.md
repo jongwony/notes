@@ -4,7 +4,7 @@ title: Data Visualization with Flask
 tags: ['python', 'pandas', 'flask', 'd3.js']
 ---
 
-<a class="gitribbon" href="//github.com/lastone9182/laptop-rhythm"></a>
+<a class="gitribbon" href="//github.com/lastone9182/laptop_rhythm"></a>
 
 데이터가 끊임없이 변화하고 방대해지면서 데이터를 잘 분석하고, 표현하는 것이 중요해지고 있습니다.
 
