@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SQLite Bug
-tags: [‘sqlite’]
+tags: ['sqlite']
 ---
 
 
