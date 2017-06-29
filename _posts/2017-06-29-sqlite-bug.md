@@ -1,4 +1,9 @@
-## SQLite bug
+- - - -
+layout: post
+title: SQLite Bug
+tags: [‘sqlite’]
+- - - -
+
 
 SQLite에서  `INTEGER` 와 `PRIMARY KEY`를 혼합한 컬럼을 구성하게 되면 해당 컬럼에 데이터를 `INSERT`할 경우 제멋대로 값이 바뀌는 현상이 나타납니다.
 
