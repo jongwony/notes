@@ -19,40 +19,40 @@ tags: ['encoding', 'web']
 
 Internet Explorer는 문자 인코딩의 MIME을 제공하지 않으므로 Description을 이용해 찾아야 합니다. 다음은 일반적인 것들입니다.
 
-| IE description | MIME name |
-| :---- | :---- |
-Windows |
-Arabic (Windows) |	Windows-1256
-Baltic (Windows) |	Windows-1257
-Central European| (Windows)	Windows-1250
-Cyrillic (Windows) |	Windows-1251
-Greek (Windows) |	Windows-1253
-Hebrew (Windows) |	Windows-1255
-Thai (Windows) |	TIS-620
-Turkish (Windows) |	Windows-1254
-Vietnamese (Windows) |	Windows-1258
-Western European (Windows) |	Windows-1252
-ISO |
-Arabic (ISO) |	ISO-8859-6
-Baltic (ISO) |	ISO-8859-4
-Central European (ISO) |	ISO-8859-2
-Cyrillic (ISO) |	ISO-8859-5
-Estonian (ISO) |	ISO-8859-13
-Greek (ISO) |	ISO-8859-7
-Hebrew (ISO-Logical) |	ISO-8859-8-l
-Hebrew (ISO-Visual) |	ISO-8859-8
-Latin 9 (ISO) |	ISO-8859-15
-Turkish (ISO) |	ISO-8859-9
-Western European (ISO) |	ISO-8859-1
-Other |
-Chinese Simplified (GB18030) |	GB18030
-Chinese Simplified (GB2312) |	GB2312
-Chinese Simplified (HZ) |	HZ
-Chinese Traditional (Big5) |	Big5
-Japanese (Shift-JIS) |	Shift_JIS
-Japanese (EUC) |	EUC-JP
-Korean |	EUC-KR
-Unicode (UTF-8) |	UTF-8
+| IE description               | MIME name              |
+|:-----------------------------|:-----------------------|
+| Windows                      |                        |
+| Arabic (Windows)             | Windows-1256           |
+| Baltic (Windows)             | Windows-1257           |
+| Central European             | (Windows)	Windows-1250 |
+| Cyrillic (Windows)           | Windows-1251           |
+| Greek (Windows)              | Windows-1253           |
+| Hebrew (Windows)             | Windows-1255           |
+| Thai (Windows)               | TIS-620                |
+| Turkish (Windows)            | Windows-1254           |
+| Vietnamese (Windows)         | Windows-1258           |
+| Western European (Windows)   | Windows-1252           |
+| ISO                          |                        |
+| Arabic (ISO)                 | ISO-8859-6             |
+| Baltic (ISO)                 | ISO-8859-4             |
+| Central European (ISO)       | ISO-8859-2             |
+| Cyrillic (ISO)               | ISO-8859-5             |
+| Estonian (ISO)               | ISO-8859-13            |
+| Greek (ISO)                  | ISO-8859-7             |
+| Hebrew (ISO-Logical)         | ISO-8859-8-l           |
+| Hebrew (ISO-Visual)          | ISO-8859-8             |
+| Latin 9 (ISO)                | ISO-8859-15            |
+| Turkish (ISO)                | ISO-8859-9             |
+| Western European (ISO)       | ISO-8859-1             |
+| Other                        |                        |
+| Chinese Simplified (GB18030) | GB18030                |
+| Chinese Simplified (GB2312)  | GB2312                 |
+| Chinese Simplified (HZ)      | HZ                     |
+| Chinese Traditional (Big5)   | Big5                   |
+| Japanese (Shift-JIS)         | Shift_JIS              |
+| Japanese (EUC)               | EUC-JP                 |
+| Korean                       | EUC-KR                 |
+| Unicode (UTF-8)              | UTF-8                  |
 
 #### Embedded encoding
 
