@@ -46,6 +46,10 @@ GitHub가 알아서 CNAME 파일을 생성해 줌
 
 </div>
 
+호스트 이름이 정확하게 매치되는 경우 정상적인 결과는 아래와 같습니다.
+
+![cname](/image/aws/cname.png)
+
 
 ## Route 53 Hosting
 
