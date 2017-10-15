@@ -20,28 +20,28 @@ GitHub 페이지를 최근까지 방치하고 있다가 예전에 도메인을 �
 
 기존 명령어를 입력해보니 다음과 같이 순수 A 레코드로 이루어진 연결을 하고 있었습니다.
 
-![a_record](/Users/jongwon/github/public/personal/notes/image/aws/a_record.png)
+![a_record](/image/aws/a_record.png)
 
 GitHub Page 프로젝트 이름을 아이디로 설정하여 `<GitHub ID>.github.io`로 설정하는 방법이 있고 저의 경우 `notes`라는 프로젝트에서 CNAME으로 Redirect하는 방법이 있습니다.
 
-![github_pages](/Users/jongwon/github/public/personal/notes/image/aws/github_pages.png)
+![github_pages](/image/aws/github_pages.png)
 
 정리하자면
 
 <div class='center'>
 
-GitHub에서 `notes` 프로젝트 생성
-
+GitHub에서 notes 프로젝트 생성
+<br>
 ↓
-
-`lastone9182.github.io/notes`로 GitHub Page가 설정됨
-
+<br>
+lastone9182.github.io/notes로 GitHub Page가 설정됨
+<br>
 ↓
-
-Custom 주소를 `notes.jongwony.com`으로 설정
-
+<br>
+Custom 주소를 notes.jongwony.com으로 설정
+<br>
 ↓
-
+<br>
 GitHub가 알아서 CNAME 파일을 생성해 줌
 
 </div>
