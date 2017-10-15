@@ -9,6 +9,6 @@ tags: ['oracle','index','ppt']
 <div style="margin-bottom:5px; text-align:center;"> <strong> <a href="//www.slideshare.net/Jongwon_/oracle-index" title="Oracle Index" target="_blank">Oracle Index</a> </strong>
 
 <p>
-<a href="//lastone9182.github.io/reveal.js/oracleindex.html">PPT</a> | <a href="/file/index.pdf" download>PDF</a>
+<a href="//notes.jongwony.com/reveal.js/oracleindex.html">PPT</a> | <a href="/file/index.pdf" download>PDF</a>
 </p>
 </div>

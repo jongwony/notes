@@ -4,6 +4,9 @@ _site/
 # MS Word temp file
 ~*
 
+# Mac file system
+.DS_Store
+
 # Cache
 .sass-cache/.idea/
 .idea/

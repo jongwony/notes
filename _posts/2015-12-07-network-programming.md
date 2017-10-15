@@ -16,7 +16,7 @@ tags: ['project','report','ppt']
 <div style="margin-bottom:5px; text-align:center;"><p>Powered by <a href="//www.slideshare.net/Jongwon_/network-programming-report-56830712" title="Network programming report" target="_blank">SlideShare</a></p>
 
 <p>
-<a href="//lastone9182.github.io/reveal.js/network.html">PPT</a> |
+<a href="//notes.jongwony.com/reveal.js/network.html">PPT</a> |
 <a href="/file/Network_Programming_Report.pdf" download>PDF</a>
 </p>
 

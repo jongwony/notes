@@ -9,6 +9,6 @@ tags: ['oracle','optimizer','ppt']
 <div style="margin-bottom:5px; text-align:center;"> <strong> <a href="//www.slideshare.net/Jongwon_/oracle-optimizer-presentation" title="Oracle Optimizer presentation" target="_blank">Oracle Optimizer presentation</a> </strong>
 
 <p>
-<a href="//lastone9182.github.io/reveal.js/optimizer.html">PPT</a> | <a href="/file/optimizer_presentation.pdf" download>PDF</a>
+<a href="//notes.jongwony.com/reveal.js/optimizer.html">PPT</a> | <a href="/file/optimizer_presentation.pdf" download>PDF</a>
 </p>
 </div>
