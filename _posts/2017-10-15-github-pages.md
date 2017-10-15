@@ -4,7 +4,7 @@ title: AWS Route 53로 GitHub Page 도메인 설정
 tags: ['AWS', 'Route 53', 'Github Page']
 ---
 
-<div class='warning'>
+<div class='warn'>
 기존 도메인 주소가 있어야 합니다.
 </div>
 
